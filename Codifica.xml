@@ -57,29 +57,111 @@
       <!-- NOTE (dichiarazione sulle note) raggruppa tutte le note sul testo in aggiunta a quelle registrate nelle altre parti della descrizione bibliografica. -->
       <notesStmt>
           <noteGrp>
+
+            <!-- PERSONE -->
               <note xml:id="people">
-                  <listPerson>
-                      <person>
-                          <persName xml:id="AP">Alberto Pasini</persName>
-                      </person>
-                      <!-- <persName ref="#AP">Pasini</persName> -->
-                  </listPerson>
+                <listPerson>
+                    <person>
+                      <persName xml:id="AP">Alberto Pasini</persName> <!-- <persName ref="#AP">Pasini</persName> -->
+                    </person>
+
+                    <person>
+                      <persName xml:id="**">Nome Cognome</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="**">Nome Cognome</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="**">Nome Cognome</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="**">Nome Cognome</persName>
+                    </person>
+
+                </listPerson>
               </note>
+
+              <!-- LUOGHI FINITI -->
               <note xml:id="places">
-                  <listPlace>
-                      <place xml:id="B293">
-                          <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
-                          <region>Emilia-Romagna</region>
-                      </place>
-                  </listPlace>
+                <listPlace>
+                    <place xml:id="CDM">
+                      <settlement ref="https://it.wikipedia.org/wiki/Campo_di_Marte_(Parigi)">Campo di Marte</settlement>
+                      <country>Francia<country>
+                    </place>
+                    <place xml:id="BER">
+                        <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
+                        <region>Emilia-Romagna</region>
+                    </place>
+                    <place xml:id="GVE">
+                      <settlement ref="https://it.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II">Galleria Vittorio Emanuele</settlement>
+                      <region>Lombardia</region>
+                    </place>
+                    <place xml:id="IE">
+                      <settlement ref="https://it.wikipedia.org/wiki/Isola_d%27Elba">Elba</settlement>
+                      <region>Toscana</region>
+                    </place>
+                    <place xml:id="MA">
+                      <settlement ref="https://it.wikipedia.org/wiki/Monte_Amiata">Monte Amiata</settlement>
+                      <region>Toscana</region>
+                    </place>
+                    <place xml:id="NE">
+                      <settlement ref="https://it.wikipedia.org/wiki/Unione_europea">nazioni europee</settlement>
+                    </place>
+                    <place xml:id="IR">
+                      <settlement ref="https://it.wikipedia.org/wiki/Impero_romano">Impero Romano</settlement>
+                    </place>
+                    <place xml:id="GI">
+                      <settlement ref="https://it.wikipedia.org/wiki/Gerusalemme">Gerusalemme</settlement>
+                      <country>Israele<country>
+                    </place>
+                    <place xml:id="PCM">
+                      <settlement ref="https://it.wikipedia.org/wiki/Pirenei">Pirenei</settlement>
+                      <country>Francia, Andorra e Spagna<country>
+                    </place>
+                    <place xml:id="SP">
+                      <settlement ref="https://it.wikipedia.org/wiki/Staffarda">Staffarda</settlement>
+                      <region>Piemonte</region>
+                    </place>
+                    <place xml:id="RPB">
+                      <settlement ref="https://it.wikipedia.org/wiki/Trattato_di_Rijswijk">Ryswick</settlement>
+                      <country>Paesi Bassi<country>
+                    </place>
+                    <place xml:id="CF">
+                      <settlement ref="https://it.wikipedia.org/wiki/Cambrai">Cambrai</settlement>
+                      <country>Francia<country>
+                    </place>
+                    <place xml:id="TF">
+                      <settlement ref="https://it.wikipedia.org/wiki/Ticino_(fiume)">Ticino</settlement>
+                      <country>Italia e Svizzera<country>>
+                    </place>
+                    <place xml:id="VF">
+                      <settlement ref="https://it.wikipedia.org/wiki/Villafranca_di_Verona">Villa-franca</settlement>
+                      <region>Veneto</region>
+                    </place>
+                    <place xml:id="RdI">
+                      <settlement ref="https://it.wikipedia.org/wiki/Regno_d%27Italia_(1861-1946)">Regno d'Italia</settlement>
+                    </place>
+                    <place xml:id="MdN">
+                      <settlement ref="https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Napoli">Museo di Napoli</settlement>
+                      <region>Campania</region>
+                    </place>
+                </listPlace>
               </note>
+
+              <!-- ORGANIZZAZIONI -->
               <note xml:id="organizations">
                   <listOrg>
+
                       <org>
                           <orgName> </orgName>
                       </org>
+
                   </listOrg>
               </note>
+
           </noteGrp>
       </notesStmt>
    
@@ -367,7 +449,7 @@
             <lb n="182" />stere in Italia produttive quanto quelle delle località so-
             <lb n="183" />prannominate, e che possono scuoprirsene (scoprirsene) delle ricche come 
             <lb n="184" />quella di cinabro da pochi anni trovata e utimata in To-
-            <lb n="185" />scana presso il Monte Annata.
+            <lb n="185" />scana presso il Monte Amiata.
 
             <lb n="186" />E qui conviene veramente rimproverare al nostro paese 
             <lb n="187" />il cattivo indirizzo degli studi mineralogici teorici e pra-
