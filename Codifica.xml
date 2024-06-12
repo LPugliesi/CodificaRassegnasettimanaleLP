@@ -89,7 +89,7 @@
                 <listPlace>
                     <place xml:id="CDM">
                       <settlement ref="https://it.wikipedia.org/wiki/Campo_di_Marte_(Parigi)">Campo di Marte</settlement>
-                      <country>Francia<country>
+                      <country>Francia</country>
                     </place>
                     <place xml:id="BER">
                         <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
@@ -115,11 +115,11 @@
                     </place>
                     <place xml:id="GI">
                       <settlement ref="https://it.wikipedia.org/wiki/Gerusalemme">Gerusalemme</settlement>
-                      <country>Israele<country>
+                      <country>Israele</country>
                     </place>
                     <place xml:id="PCM">
                       <settlement ref="https://it.wikipedia.org/wiki/Pirenei">Pirenei</settlement>
-                      <country>Francia, Andorra e Spagna<country>
+                      <country>Francia, Andorra e Spagna</country>
                     </place>
                     <place xml:id="SP">
                       <settlement ref="https://it.wikipedia.org/wiki/Staffarda">Staffarda</settlement>
@@ -127,15 +127,15 @@
                     </place>
                     <place xml:id="RPB">
                       <settlement ref="https://it.wikipedia.org/wiki/Trattato_di_Rijswijk">Ryswick</settlement>
-                      <country>Paesi Bassi<country>
+                      <country>Paesi Bassi</country>
                     </place>
                     <place xml:id="CF">
                       <settlement ref="https://it.wikipedia.org/wiki/Cambrai">Cambrai</settlement>
-                      <country>Francia<country>
+                      <country>Francia</country>
                     </place>
                     <place xml:id="TF">
                       <settlement ref="https://it.wikipedia.org/wiki/Ticino_(fiume)">Ticino</settlement>
-                      <country>Italia e Svizzera<country>>
+                      <country>Italia e Svizzera</country>
                     </place>
                     <place xml:id="VF">
                       <settlement ref="https://it.wikipedia.org/wiki/Villafranca_di_Verona">Villa-franca</settlement>
@@ -151,14 +151,54 @@
                 </listPlace>
               </note>
 
-              <!-- ORGANIZZAZIONI -->
+              <!-- ORGANIZZAZIONI FINITI -->
               <note xml:id="organizations">
                   <listOrg>
-
-                      <org>
-                          <orgName> </orgName>
+                      <org xml:id="AdSdT">
+                        <orgName ref="https://www.accademiadellescienze.it/home" >Accademia delle Scienze di Torino</orgName>
                       </org>
-
+                      <org xml:id="SdIT">
+                        <orgName ref="https://www.polito.it/">Scuola degli Ingegneri</orgName>
+                      </org>
+                      <org xml:id="Crociati">
+                        <orgName ref="https://it.wikipedia.org/wiki/Crociato">Crociati</orgName>
+                      </org>
+                      <org xml:id="CdC">
+                        <orgName ref="https://it.wikipedia.org/wiki/Concilio_di_Costanza">Concilio di Costanza</orgName>
+                      </org>
+                      <org xml:id="Saraceni">
+                        <orgName ref="https://it.wikipedia.org/wiki/Saraceni">Saraceni</orgName>
+                      </org>
+                      <org xml:id="RR">
+                        <orgName ref="https://it.wikipedia.org/wiki/Repubblica_romana">Repubblica romana</orgName>
+                      </org>
+                      <org xml:id="Goti">
+                        <orgName ref="https://it.wikipedia.org/wiki/Goti">Goti</orgName>
+                      </org>
+                      <org xml:id="OGori">
+                        <orgName ref="https://it.wikipedia.org/wiki/Ostrogoti">Ostrogoti</orgName>
+                      </org>
+                      <org xml:id="Longo">
+                        <orgName ref="https://it.wikipedia.org/wiki/Longobardi">Longobardi</orgName>
+                      </org>
+                      <org xml:id="Guelfi">
+                        <orgName ref="https://it.wikipedia.org/wiki/Guelfi_e_ghibellini">Guelfi</orgName>
+                      </org>
+                      <org xml:id="Ghibel">
+                        <orgName ref="https://it.wikipedia.org/wiki/Guelfi_e_ghibellini">Ghibellini</orgName>
+                      </org>
+                      <org xml:id="Svevi">
+                        <orgName ref="https://it.wikipedia.org/wiki/Svevi">Svevi</orgName>
+                      </org>
+                      <org xml:id="RdS">
+                        <orgName ref="https://it.wikipedia.org/wiki/Casa_Savoia">Reali di Savoia</orgName>
+                      </org>
+                      <org xml:id="CdA">
+                        <orgName ref="https://it.wikipedia.org/wiki/Casa_d%27Asburgo">Casa d'Austria</orgName>
+                      </org>
+                      <org xml:id="SGdO">
+                        <orgName ref="https://www.treccani.it/enciclopedia/stati-generali_(Enciclopedia-Italiana)/">Stati generali di Orléans</orgName>
+                      </org>
                   </listOrg>
               </note>
 
@@ -324,7 +364,7 @@
             <lb n="78" />valiere Mancini altro pittore napoletano) stabilito a Parigi 
             <lb n="79" />da qualche anno, ci dimostra colle sue cinque tele un in-
             <lb n="80" />gegno pittorico brillante e un' abilità non comune. Fra tutte 
-            <lb n="81" />noi preferiamo quella intitolata Du pain perchè ci dimostra 
+            <lb n="81" />noi preferiamo quella intitolata Du pain <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> ci dimostra 
             <lb n="82" />più nettamente il talento di quest' artista pel quale (per il quale) non 
             <lb n="83" />v' ha altra preoccupazione che quella di rendere lo splen-
             <lb n="84" />dore del colore senza curarsi menomamente (minimamente) nè del soggetto 
@@ -476,10 +516,10 @@
             <lb n="207" />terminazione cristallografica. Mentre poi in quei medesimi 
             <lb n="208" />gabinetti il prof. Z. farà, o piuttosto farà fare dal suo as-
             <lb n="209" />sistente, l'analisi del vino del signor A., dell'olio del si-
-            <lb n="210" />gnor B., del concime del signor C. E non già perchè que-
+            <lb n="210" />gnor B., del concime del signor C. E non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> que-
             <lb n="211" />ste analisi si coordinino a un lavoro che potrà essere pub-
             <lb n="212" />blicato e letto, e che sarebbe certo anch' esso vantaggioso, 
-            <lb n="213" />ma perchè i signori A., B., C. sono amici del prof. Z. o gli 
+            <lb n="213" />ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> i signori A., B., C. sono amici del prof. Z. o gli 
             <lb n="214" />sono raccomandati dal prefetto X. o dal deputato Y.
 
             <lb n="215" />In una parola le autorità governative e municipali in 
@@ -599,9 +639,9 @@
             <lb n="321" />qualche nuova ipotesi appariva in uno dei molteplici rami
             <lb n="322" />in cui si divide la scienza generale, egli l'introduceva a
             <lb n="323" />forza in Mineralogia; teoria dinamica del calore, atomicità,
-            <lb n="324" />atavismo, darvinismo; non già perchè fatti ed esperienze
+            <lb n="324" />atavismo, darvinismo; non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> fatti ed esperienze
             <lb n="325" />ben controllate glie lo (glielo) consigliassero, ed in ciò è memora-
-            <lb n="326" />bile esempio il Darwin stesso; ma perchè egli si sentiva
+            <lb n="326" />bile esempio il Darwin stesso; ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> egli si sentiva
             <lb n="327" />libero di dar carriera ad una fervida fantasia in un campo
             <lb n="328" />ove vi è tanto ancora d'oscuro e d'indeterminato, e ove
             <lb n="329" />non si è trovata una definizione della materia efficacemente
@@ -677,13 +717,13 @@
             <lb n="388" />pendio, che in 160 paginette, 20 delle quali sono di tavole
             <lb n="389" />cronologiche, condensa tutta quanta la storia d'Italia, dai
             <lb n="390" />primi abitatori della penisola fino ai nostri ultimissimi
-            <lb n="391" />giorni? Alle scuole primarie no, perchè le osservazioni e
+            <lb n="391" />giorni? Alle scuole primarie no, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> le osservazioni e
             <lb n="392" />i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto
             <lb n="393" />il libro in complesso, non si adattano punto nè all'indole,
             <lb n="394" />nè alla capacità intellettuale dei fanciulli; alle secondarie
-            <lb n="395" />nemmeno, perchè è troppo scarso di fatti; non può giovare
-            <lb n="396" />ai maestri, perchè troppo elementare, nè in generale a nes-
-            <lb n="397" />suna sorta di lettori, perchè quelli che sanno la storia non
+            <lb n="395" />nemmeno, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> è troppo scarso di fatti; non può giovare
+            <lb n="396" />ai maestri, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> troppo elementare, nè in generale a nes-
+            <lb n="397" />suna sorta di lettori, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> quelli che sanno la storia non
             <lb n="398" />leggono siffatti compendi, e d'altronde non avrebbero da
             <lb n="399" />imparar nulla da questo, e quelli che non la sanno non lo
             <lb n="400" />possono intendere.
@@ -776,7 +816,7 @@
             <lb n="483" />Filiberto. Al contrario egli giudica che la causa italiana fu
             <lb n="484" />sostenuta dai papi (pag. 81). Nè citiamo altro per non di-
             <lb n="485" />stenderci troppo. Del rimanente le opinioni di Cesare Cantù
-            <lb n="486" />sono note abbastanza, perchè noi non ci sentiamo la voglia di
+            <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di
             <lb n="487" />ribatterle qui. È nota la sua fanatica ammirazione per il
             <lb n="488" />Medio evo, e l'acrimonia con cui parla nei molti suoi li-
             <lb n="489" />bri delle rivoluzioni moderne. Non è quindi da maravigliare (meravigliarsi)
@@ -791,7 +831,7 @@
             <lb n="498" />gerando dall'altro gli errori e le colpe dei patriotti. Rap-
             <lb n="499" />presenta il Borbone, il Duca di Modena, Gregorio XVI
             <lb n="500" />come principi non ad altro intesi che al pubblico bene, che
-            <lb n="501" />non poterono sempre fare, perchè impediti dalle scapestre-
+            <lb n="501" />non poterono sempre fare, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> impediti dalle scapestre-
             <lb n="502" />rie e dall'empietà dei rivoluzionari. Cavour seppe cogliere le
             <lb n="503" />occasioni, «usar degli uomini come istromenti (strumenti), sprezzare (disprezzare) le
             <lb n="504" />plebi, comprare gli arruffoni» (p. 124), nè del grande uomo
@@ -889,6 +929,8 @@
     <sic>perchè</sic>
     <corr>perché</corr>
   </choice>
+
+<choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice>
 
   <gap>
   ca<unclear xml:id="art_1-u_1" reason="background_noise"><c>n</c></unclear>e
