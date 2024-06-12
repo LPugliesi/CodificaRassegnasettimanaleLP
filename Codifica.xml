@@ -56,95 +56,95 @@
 
       <!-- NOTE (dichiarazione sulle note) raggruppa tutte le note sul testo in aggiunta a quelle registrate nelle altre parti della descrizione bibliografica. -->
       <notesStmt>
-        <noteGrp>
-          <note xml:id="RefPar">
-            <listPerson>
-              <person>
-                <persName xml:id="AP">Alberto Pasini</persName>
-              </person>
-              <!-- <persName ref="#AP">Pasini</persName> -->
-              
-          </listPerson>
-          <listPlace>
-            <place xml:id="B293">
-              <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
-              <region>Emilia-Romagna</region>
-            </place>
-          </listPlace>
-
-          <listOrg>
-            <org>
-              <orgName> </orgName>
-            </org>
-          </listOrg>
-
-        </note>
-        <note xml:id="boh">
-        </note>
-
-       </noteGrp>
+          <noteGrp>
+              <note xml:id="people">
+                  <listPerson>
+                      <person>
+                          <persName xml:id="AP">Alberto Pasini</persName>
+                      </person>
+                      <!-- <persName ref="#AP">Pasini</persName> -->
+                  </listPerson>
+              </note>
+              <note xml:id="places">
+                  <listPlace>
+                      <place xml:id="B293">
+                          <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
+                          <region>Emilia-Romagna</region>
+                      </place>
+                  </listPlace>
+              </note>
+              <note xml:id="organizations">
+                  <listOrg>
+                      <org>
+                          <orgName> </orgName>
+                      </org>
+                  </listOrg>
+              </note>
+          </noteGrp>
       </notesStmt>
-    
+   
       <!-- SOURCE (descrizione della fonte) fornisce una descrizione relativa alla o alle fonti da cui è derivato o generato un documento elettronico. -->
       <sourceDesc>
           <biblStruct xml:lang="it">
-            <monogr>
-              <title level="j" type="main">La rassegna settimanale</title>
-              <title level="j" type="sub">di politica, scienze, lettere ed arti</title>
-              <imprint>
-                  <pubPlace>Roma</pubPlace>
-                  <publisher>Casa Editrice Barbèra</publisher>
-                  <date when="1878">1878</date>
-              </imprint>
-              <altIdentifier>
+              <monogr>
+                  <title level="j" type="main">La rassegna settimanale</title>
+                  <title level="j" type="sub">di politica, scienze, lettere ed arti</title>
+                  <imprint>
+                      <pubPlace>Roma</pubPlace>
+                      <publisher>Casa Editrice Barbèra</publisher>
+                      <date when="1878">1878</date>
+                  </imprint>
+              </monogr>
+          </biblStruct>
+          <msDesc>
+              <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>Roma</settlement>
                   <repository>
-                      La Rassegna Settimanale.
+                      Rassegna Settimanale
                   </repository>
-                  <idno type="URI">https://rassegnasettimanale.animi.it/rassegna/fascicolo-40-volume-2-1878-semestre-2-trimestre-2/</idno>
-              </altIdentifier>
+              </msIdentifier>
               <physDesc>
                   <objectDesc>
-                      <supportDesc>
+                      <supportDesc material="paper" source="https://rassegnasettimanale.animi.it/rassegna/fascicolo-40-volume-2-1878-semestre-2-trimestre-2/">
                           <support>Fogli di <material>carta</material></support>
                           <condition>
-                              <p>Pagine interamente integre, qualche piccola macchia di inchiostro sul testo e sui bordi, il testo è facilemente leggibile.</p>
+                              <p>Pagine interamente integre, qualche piccola macchia di inchiostro sul testo e sui bordi, il testo è facilmente leggibile.</p>
                           </condition>
                       </supportDesc>
                       <layoutDesc>
-                          <layout>Le pagine hanno una media di 135 (circa 67 a colonna più una di intestazione) righe ciascuna, con in alto a sinistra la data, al centro la scritta "La Rassegna Settimanale." e di lato a destra in numero della pagina".(metti pattern di layout pagine alt z)</layout>
+                          <layout>Le pagine sono divise in due colonne con in media 67 righe ciascuna, per un totale di circa 135 righe per pagina. Nelle pagine di numero pari (che non siano la pagina di copertina) la numerazione si presenta al lato sinistro della pagina mentre le informazioni sul volume e sul fascicolo sono sulla destra. Nelle pagine di numerazione dispari, invece, troviamo la data al lato sinistro e il numero di pagina al lato destro. In ogni pagina, al centro, troviamo sempre la scritta "LA RASSEGNA SETTIMANALE.".</layout>
                       </layoutDesc>
                   </objectDesc>
               </physDesc>
-            </monogr>
-          </biblStruct>
+          </msDesc>
       </sourceDesc>
     </fileDesc>
 
     <!-- ENCODING (descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
-    <encodingDesc>
-      <projectDesc>
-        <p>Codifica di 4 sezioni della rivista: Corrispondeza artistica da Parigi, La mineralogia in Italia, Bibliografia e Notizie.</p> 
-        <!-- inserire <title> per i titoli e ref pagina -->
-      </projectDesc>
-    </encodingDesc>
+      <encodingDesc>
+        <projectDesc>
+          <p>Codifica di 4 sezioni della rivista: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
+        </projectDesc>
+      </encodingDesc>
 
     <!-- PROFILE (descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione -->
-    <profileDesc>
-      <langUsage>
-        <language ident="it">Italiano</language>
-      </langUsage>
-      <textDesc n="newspaper">
-        <channel mode="w">rivista settimanale</channel>
-        <constitution type="single"/>
-        <derivation type="original"/>
-        <domain type="art"/>
-        <factuality type="fiction"/>
-        <interaction type="none"/>
-        <preparedness type="prepared"/>
-        <purpose type="entertain" degree="high"/>
-        <purpose type="inform" degree="medium"/>
-      </textDesc>
-    </profileDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="it">Italiano</language>
+        </langUsage>
+        <textDesc n="newspaper">
+          <channel mode="w">rivista settimanale</channel>
+          <constitution type="single"/>
+          <derivation type="original"/>
+          <domain type="art"/>
+          <factuality type="fiction"/>
+          <interaction type="none"/>
+          <preparedness type="prepared"/>
+          <purpose type="entertain" degree="high"/>
+          <purpose type="inform" degree="medium"/>
+        </textDesc>
+      </profileDesc>
   </teiHeader>
 
 <!-- FACSSIMILE -->
@@ -152,7 +152,7 @@
 <text xml:lang="it">
 
   <group>
-      <text xml:id="CorParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
+      <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
         <body>
           <ab>
             <lb n="1" />CORRISPONDENZA ARTISTICA DA PARIGI. 
