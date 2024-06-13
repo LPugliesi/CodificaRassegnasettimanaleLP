@@ -13,7 +13,7 @@
         <author>
           <addName>***</addName> e <addName>***</addName>
         </author>
-        <funder><persName xml:id="LF">Leopoldo Franchetti</persName> e <persName xml:id="SS">Sidney Sonnino</persName></funder>
+        <funder><persName xml:id="P_LF">Leopoldo Franchetti</persName> e <persName xml:id="P_SS">Sidney Sonnino</persName></funder>
       </titleStmt>
 
       <!-- EDITION -->
@@ -63,110 +63,96 @@
                 <listPerson>
                   <!-- PERSONE DI REFERENZE DA PARIGI -->
                     <person>
-                      <persName xml:id="AP" ref="https://it.wikipedia.org/wiki/Alberto_Pasini">Alberto Pasini</persName> 
+                      <persName xml:id="P_AP" ref="https://it.wikipedia.org/wiki/Alberto_Pasini">Alberto Pasini</persName> 
                     </person>
                     <person>
-                      <persName xml:id="GDN" ref="https://it.wikipedia.org/wiki/Giuseppe_De_Nittis">Giuseppe De Nittis</persName>
+                      <persName xml:id="P_GDN" ref="https://it.wikipedia.org/wiki/Giuseppe_De_Nittis">Giuseppe De Nittis</persName>
                     </person>
                     <person>
-                      <persName xml:id="ST" ref="https://it.wikipedia.org/wiki/Serafino_De_Tivoli">Serafino Tivoli</persName>
+                      <persName xml:id="P_ST" ref="https://it.wikipedia.org/wiki/Serafino_De_Tivoli">Serafino Tivoli</persName>
                     </person>
                     <person>
-                      <persName xml:id="AM" ref="https://it.wikipedia.org/wiki/Antonio_Mancini_(pittore)">Antonio Mancini</persName>
+                      <persName xml:id="P_AM" ref="https://it.wikipedia.org/wiki/Antonio_Mancini_(pittore)">Antonio Mancini</persName>
                     </person>
                     <person>
-                      <persName xml:id="FR" ref="https://it.wikipedia.org/wiki/Federico_Rossano">Federico Rossano</persName>
+                      <persName xml:id="P_FR" ref="https://it.wikipedia.org/wiki/Federico_Rossano">Federico Rossano</persName>
                     </person>
                     <person>
-                      <persName xml:id="FPM" ref="https://it.wikipedia.org/wiki/Francesco_Paolo_Michetti">Francesco Paolo Michetti</persName>
+                      <persName xml:id="P_FPM" ref="https://it.wikipedia.org/wiki/Francesco_Paolo_Michetti">Francesco Paolo Michetti</persName>
                     </person>
                     <person>
-                      <persName xml:id="CAD" ref="https://it.wikipedia.org/wiki/Cesare_Augusto_Detti">Cesare Augusto Detti</persName>
+                      <persName xml:id="P_CAD" ref="https://it.wikipedia.org/wiki/Cesare_Augusto_Detti">Cesare Augusto Detti</persName>
                     </person>
                     <person>
-                      <persName xml:id="PJ" ref="https://it.wikipedia.org/wiki/Pio_Joris">Pio Joris</persName>
+                      <persName xml:id="P_PJ" ref="https://it.wikipedia.org/wiki/Pio_Joris">Pio Joris</persName>
                     </person>
                     <person>
-                      <persName xml:id="AV" ref="https://it.wikipedia.org/wiki/Achille_Vertunni">Achille Vertunni</persName>
+                      <persName xml:id="P_AV" ref="https://it.wikipedia.org/wiki/Achille_Vertunni">Achille Vertunni</persName>
                     </person>
                     <person>
-                      <persName xml:id="MFM" ref="https://it.wikipedia.org/wiki/Mari%C3%A0_Fortuny_i_Marsal">Marià Fortuny i Marsal</persName>
+                      <persName xml:id="P_MFM" ref="https://it.wikipedia.org/wiki/Mari%C3%A0_Fortuny_i_Marsal">Marià Fortuny i Marsal</persName>
                     </person>
                     <person>
-                      <persName xml:id="GDI">Gerolamo e Domenico Induno</persName>
+                      <persName xml:id="P_GDI">Gerolamo e Domenico Induno</persName>
                     </person>
                     <person>
-                      <persName xml:id="EP" ref="https://it.wikipedia.org/wiki/Eleuterio_Pagliano">Eleuterio Pagliano</persName>
+                      <persName xml:id="P_EP" ref="https://it.wikipedia.org/wiki/Eleuterio_Pagliano">Eleuterio Pagliano</persName>
                     </person>
                     <person>
-                      <persName xml:id="MdS" ref="https://it.wikipedia.org/wiki/Madame_de_Sta%C3%ABl">Madame de Staël</persName>
+                      <persName xml:id="P_MdS" ref="https://it.wikipedia.org/wiki/Madame_de_Sta%C3%ABl">Madame de Staël</persName>
                     </person>
                     <person>
-                      <persName xml:id="GdB" ref="https://it.wikipedia.org/wiki/Giuseppina_di_Beauharnais">Giuseppina di Beauharnais</persName>
+                      <persName xml:id="P_GdB" ref="https://it.wikipedia.org/wiki/Giuseppina_di_Beauharnais">Giuseppina di Beauharnais</persName>
                     </person>
                     <person>
-                      <persName xml:id="C">C.</persName>
+                      <persName xml:id="P_C">C.</persName>
                     </person>
 
                     <!-- PERSONE DA MINERALOGIA -->
                     <person>
-                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/giovanni-struver_(Enciclopedia-Italiana)/">Giovanni Struever</persName>
+                      <persName xml:id="P_GS" ref="https://www.treccani.it/enciclopedia/giovanni-struver_(Enciclopedia-Italiana)/">Giovanni Struever</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Giovanni_D%27Achiardi">Giovanni D'Achiardi</persName>
+                      <persName xml:id="P_GdA" ref="https://it.wikipedia.org/wiki/Giovanni_D%27Achiardi">Giovanni D'Achiardi</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://www.minerbook.it/mineralogisti-storici/guglielmo-jervis/">Guglielmo Jervis</persName>
+                      <persName xml:id="P_GJ" ref="https://www.minerbook.it/mineralogisti-storici/guglielmo-jervis/">Guglielmo Jervis</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Arcangelo_Scacchi">Arcangelo Scacchi</persName>
+                      <persName xml:id="P_AS" ref="https://it.wikipedia.org/wiki/Arcangelo_Scacchi">Arcangelo Scacchi</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Quintino_Sella">Quintino Sella</persName>
+                      <persName xml:id="P_QS" ref="https://it.wikipedia.org/wiki/Quintino_Sella">Quintino Sella</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/giuseppe-grattarola/">Giuseppe Grattaròla</persName>
+                      <persName xml:id="P_GG" ref="https://www.treccani.it/enciclopedia/giuseppe-grattarola/">Giuseppe Grattaròla</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/ruggero-panebianco_(Dizionario-Biografico)/">Ruggero Panebianco</persName>
+                      <persName xml:id="P_RP" ref="https://www.treccani.it/enciclopedia/ruggero-panebianco_(Dizionario-Biografico)/">Ruggero Panebianco</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Giorgio_Spezia#:~:text=Giorgio%20Spezia%20(Piedimulera%2C%208%20giugno,(noto%20come%20metodo%20Spezia).">Giorgio Spezia</persName>
+                      <persName xml:id="P_GS1" ref="https://it.wikipedia.org/wiki/Giorgio_Spezia#:~:text=Giorgio%20Spezia%20(Piedimulera%2C%208%20giugno,(noto%20come%20metodo%20Spezia).">Giorgio Spezia</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Gustavo_Uzielli">Gustavo Uzielli</persName>
+                      <persName xml:id="P_GU" ref="https://it.wikipedia.org/wiki/Gustavo_Uzielli">Gustavo Uzielli</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Luigi_Bombicci">Luigi Bombicci</persName>
+                      <persName xml:id="P_LB" ref="https://it.wikipedia.org/wiki/Luigi_Bombicci">Luigi Bombicci</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/James_Dwight_Dana">James Dwight Dana</persName>
+                      <persName xml:id="P_JDD" ref="https://it.wikipedia.org/wiki/James_Dwight_Dana">James Dwight Dana</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Henry_James_Brooke">Henry James Brooke</persName>
+                      <persName xml:id="P_HJB" ref="https://it.wikipedia.org/wiki/Henry_James_Brooke">Henry James Brooke</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/William_Hallowes_Miller">William Hallowes Miller</persName>
+                      <persName xml:id="P_WHM" ref="https://it.wikipedia.org/wiki/William_Hallowes_Miller">William Hallowes Miller</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Paul_Heinrich_von_Groth">Paul Heinrich von Groth</persName>
+                      <persName xml:id="P_PHVG" ref="https://it.wikipedia.org/wiki/Paul_Heinrich_von_Groth">Paul Heinrich von Groth</persName>
                     </person>
-
                     <person>
-                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Georg_Amadeus_Carl_Friedrich_Naumann">Georg Amadeus Carl Friedrich Naumann</persName>
+                      <persName xml:id="P_GACFN" ref="https://it.wikipedia.org/wiki/Georg_Amadeus_Carl_Friedrich_Naumann">Georg Amadeus Carl Friedrich Naumann</persName>
                     </person>
 
                     <person>
@@ -205,31 +191,31 @@
 
                     <!-- PERSONE DA NOTIZIE -->
                     <person>
-                      <persName xml:id="UR">Ulysse Robert</persName>
+                      <persName xml:id="P_UR">Ulysse Robert</persName>
                     </person>
                     <person>
-                      <persName xml:id="HGR" ref="https://en.wikipedia.org/wiki/Henry_George_Raverty">Henry George Raverty</persName>
+                      <persName xml:id="P_HGR" ref="https://en.wikipedia.org/wiki/Henry_George_Raverty">Henry George Raverty</persName>
                     </person>
                     <person>
-                      <persName xml:id="GBC" ref="https://it.wikipedia.org/wiki/Giovanni_Battista_Cavalcaselle">Giovanni Battista Cavalcaselle</persName>
+                      <persName xml:id="P_GBC" ref="https://it.wikipedia.org/wiki/Giovanni_Battista_Cavalcaselle">Giovanni Battista Cavalcaselle</persName>
                     </person>
                     <person>
-                      <persName xml:id="PB" ref="https://it.wikipedia.org/wiki/Pietro_Bembo">Pietro Bembo</persName>
+                      <persName xml:id="P_PB" ref="https://it.wikipedia.org/wiki/Pietro_Bembo">Pietro Bembo</persName>
                     </person>
                     <person>
-                      <persName xml:id="TV" ref="https://it.wikipedia.org/wiki/Tiziano_Vecellio">Tiziano Vecellio</persName>
+                      <persName xml:id="P_TV" ref="https://it.wikipedia.org/wiki/Tiziano_Vecellio">Tiziano Vecellio</persName>
                     </person>
                     <person>
-                      <persName xml:id="EdFdR" ref="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_de_Fontaine_de_Resbecq">Eugène de Fontaine de Resbecq</persName>
+                      <persName xml:id="P_EdFdR" ref="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_de_Fontaine_de_Resbecq">Eugène de Fontaine de Resbecq</persName>
                     </person>
                     <person>
-                      <persName ref="#LF" ref="https://it.wikipedia.org/wiki/Leopoldo_Franchetti">Leopoldo Franchetti</persName>
+                      <persName ref="#P_LF">Leopoldo Franchetti</persName> <!-- ref="https://it.wikipedia.org/wiki/Leopoldo_Franchetti" -->
                     </person>
                     <person>
-                      <persName ref="#SS" ref="https://it.wikipedia.org/wiki/Sidney_Sonnino">Sidney Sonnino</persName>
+                      <persName ref="#P_SS">Sidney Sonnino</persName> <!-- ref="https://it.wikipedia.org/wiki/Sidney_Sonnino" -->
                     </person>
                     <person>
-                      <persName xml:id="AG">Angiolo Gherardini</persName>
+                      <persName xml:id="P_AG">Angiolo Gherardini</persName>
                     </person>
                 </listPerson>
               </note>
@@ -237,64 +223,64 @@
               <!-- LUOGHI FINITI -->
               <note xml:id="places">
                 <listPlace>
-                    <place xml:id="CDM">
+                    <place xml:id="S_CDM">
                       <settlement ref="https://it.wikipedia.org/wiki/Campo_di_Marte_(Parigi)">Campo di Marte</settlement>
                       <country>Francia</country>
                     </place>
-                    <place xml:id="BER">
+                    <place xml:id="S_BER">
                         <settlement ref="https://it.wikipedia.org/wiki/Busseto">Busseto</settlement>
                         <region>Emilia-Romagna</region>
                     </place>
-                    <place xml:id="GVE">
+                    <place xml:id="S_GVE">
                       <settlement ref="https://it.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II">Galleria Vittorio Emanuele</settlement>
                       <region>Lombardia</region>
                     </place>
-                    <place xml:id="IE">
+                    <place xml:id="S_IE">
                       <settlement ref="https://it.wikipedia.org/wiki/Isola_d%27Elba">Elba</settlement>
                       <region>Toscana</region>
                     </place>
-                    <place xml:id="MA">
+                    <place xml:id="S_MA">
                       <settlement ref="https://it.wikipedia.org/wiki/Monte_Amiata">Monte Amiata</settlement>
                       <region>Toscana</region>
                     </place>
-                    <place xml:id="NE">
+                    <place xml:id="S_NE">
                       <settlement ref="https://it.wikipedia.org/wiki/Unione_europea">nazioni europee</settlement>
                     </place>
-                    <place xml:id="IR">
+                    <place xml:id="S_IR">
                       <settlement ref="https://it.wikipedia.org/wiki/Impero_romano">Impero Romano</settlement>
                     </place>
-                    <place xml:id="GI">
+                    <place xml:id="S_GI">
                       <settlement ref="https://it.wikipedia.org/wiki/Gerusalemme">Gerusalemme</settlement>
                       <country>Israele</country>
                     </place>
-                    <place xml:id="PCM">
+                    <place xml:id="S_PCM">
                       <settlement ref="https://it.wikipedia.org/wiki/Pirenei">Pirenei</settlement>
                       <country>Francia, Andorra e Spagna</country>
                     </place>
-                    <place xml:id="SP">
+                    <place xml:id="S_SP">
                       <settlement ref="https://it.wikipedia.org/wiki/Staffarda">Staffarda</settlement>
                       <region>Piemonte</region>
                     </place>
-                    <place xml:id="RPB">
+                    <place xml:id="S_RPB">
                       <settlement ref="https://it.wikipedia.org/wiki/Trattato_di_Rijswijk">Ryswick</settlement>
                       <country>Paesi Bassi</country>
                     </place>
-                    <place xml:id="CF">
+                    <place xml:id="S_CF">
                       <settlement ref="https://it.wikipedia.org/wiki/Cambrai">Cambrai</settlement>
                       <country>Francia</country>
                     </place>
-                    <place xml:id="TF">
+                    <place xml:id="S_TF">
                       <settlement ref="https://it.wikipedia.org/wiki/Ticino_(fiume)">Ticino</settlement>
                       <country>Italia e Svizzera</country>
                     </place>
-                    <place xml:id="VF">
+                    <place xml:id="S_VF">
                       <settlement ref="https://it.wikipedia.org/wiki/Villafranca_di_Verona">Villa-franca</settlement>
                       <region>Veneto</region>
                     </place>
-                    <place xml:id="RdI">
+                    <place xml:id="S_RdI">
                       <settlement ref="https://it.wikipedia.org/wiki/Regno_d%27Italia_(1861-1946)">Regno d'Italia</settlement>
                     </place>
-                    <place xml:id="MdN">
+                    <place xml:id="S_MdN">
                       <settlement ref="https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Napoli">Museo di Napoli</settlement>
                       <region>Campania</region>
                     </place>
@@ -304,49 +290,49 @@
               <!-- ORGANIZZAZIONI FINITI -->
               <note xml:id="organizations">
                   <listOrg>
-                      <org xml:id="AdSdT">
+                      <org xml:id="O_AdSdT">
                         <orgName ref="https://www.accademiadellescienze.it/home" >Accademia delle Scienze di Torino</orgName>
                       </org>
-                      <org xml:id="SdIT">
+                      <org xml:id="O_SdIT">
                         <orgName ref="https://www.polito.it/">Scuola degli Ingegneri</orgName>
                       </org>
-                      <org xml:id="Crociati">
+                      <org xml:id="O_Crociati">
                         <orgName ref="https://it.wikipedia.org/wiki/Crociato">Crociati</orgName>
                       </org>
-                      <org xml:id="CdC">
+                      <org xml:id="O_CdC">
                         <orgName ref="https://it.wikipedia.org/wiki/Concilio_di_Costanza">Concilio di Costanza</orgName>
                       </org>
-                      <org xml:id="Saraceni">
+                      <org xml:id="O_Saraceni">
                         <orgName ref="https://it.wikipedia.org/wiki/Saraceni">Saraceni</orgName>
                       </org>
-                      <org xml:id="RR">
+                      <org xml:id="O_RR">
                         <orgName ref="https://it.wikipedia.org/wiki/Repubblica_romana">Repubblica romana</orgName>
                       </org>
-                      <org xml:id="Goti">
+                      <org xml:id="O_Goti">
                         <orgName ref="https://it.wikipedia.org/wiki/Goti">Goti</orgName>
                       </org>
-                      <org xml:id="OGori">
+                      <org xml:id="O_OGori">
                         <orgName ref="https://it.wikipedia.org/wiki/Ostrogoti">Ostrogoti</orgName>
                       </org>
-                      <org xml:id="Longo">
+                      <org xml:id="O_Longo">
                         <orgName ref="https://it.wikipedia.org/wiki/Longobardi">Longobardi</orgName>
                       </org>
-                      <org xml:id="Guelfi">
+                      <org xml:id="O_Guelfi">
                         <orgName ref="https://it.wikipedia.org/wiki/Guelfi_e_ghibellini">Guelfi</orgName>
                       </org>
-                      <org xml:id="Ghibel">
+                      <org xml:id="O_Ghibel">
                         <orgName ref="https://it.wikipedia.org/wiki/Guelfi_e_ghibellini">Ghibellini</orgName>
                       </org>
-                      <org xml:id="Svevi">
+                      <org xml:id="O_Svevi">
                         <orgName ref="https://it.wikipedia.org/wiki/Svevi">Svevi</orgName>
                       </org>
-                      <org xml:id="RdS">
+                      <org xml:id="O_RdS">
                         <orgName ref="https://it.wikipedia.org/wiki/Casa_Savoia">Reali di Savoia</orgName>
                       </org>
-                      <org xml:id="CdA">
+                      <org xml:id="O_CdA">
                         <orgName ref="https://it.wikipedia.org/wiki/Casa_d%27Asburgo">Casa d'Austria</orgName>
                       </org>
-                      <org xml:id="SGdO">
+                      <org xml:id="O_SGdO">
                         <orgName ref="https://www.treccani.it/enciclopedia/stati-generali_(Enciclopedia-Italiana)/">Stati generali di Orléans</orgName>
                       </org>
                   </listOrg>
