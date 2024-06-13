@@ -13,7 +13,7 @@
         <author>
           <addName>***</addName> e <addName>***</addName>
         </author>
-        <funder><persName>Leopoldo Franchetti</persName> e Sidney Sonnino</funder>
+        <funder><persName xml:id="LF">Leopoldo Franchetti</persName> e <persName xml:id="SS">Sidney Sonnino</persName></funder>
       </titleStmt>
 
       <!-- EDITION -->
@@ -61,26 +61,176 @@
             <!-- PERSONE -->
               <note xml:id="people">
                 <listPerson>
+                  <!-- PERSONE DI REFERENZE DA PARIGI -->
                     <person>
-                      <persName xml:id="AP">Alberto Pasini</persName> <!-- <persName ref="#AP">Pasini</persName> -->
+                      <persName xml:id="AP" ref="https://it.wikipedia.org/wiki/Alberto_Pasini">Alberto Pasini</persName> 
+                    </person>
+                    <person>
+                      <persName xml:id="GDN" ref="https://it.wikipedia.org/wiki/Giuseppe_De_Nittis">Giuseppe De Nittis</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="ST" ref="https://it.wikipedia.org/wiki/Serafino_De_Tivoli">Serafino Tivoli</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="AM" ref="https://it.wikipedia.org/wiki/Antonio_Mancini_(pittore)">Antonio Mancini</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="FR" ref="https://it.wikipedia.org/wiki/Federico_Rossano">Federico Rossano</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="FPM" ref="https://it.wikipedia.org/wiki/Francesco_Paolo_Michetti">Francesco Paolo Michetti</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="CAD" ref="https://it.wikipedia.org/wiki/Cesare_Augusto_Detti">Cesare Augusto Detti</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="PJ" ref="https://it.wikipedia.org/wiki/Pio_Joris">Pio Joris</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="AV" ref="https://it.wikipedia.org/wiki/Achille_Vertunni">Achille Vertunni</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="MFM" ref="https://it.wikipedia.org/wiki/Mari%C3%A0_Fortuny_i_Marsal">Marià Fortuny i Marsal</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="GDI">Gerolamo e Domenico Induno</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="EP" ref="https://it.wikipedia.org/wiki/Eleuterio_Pagliano">Eleuterio Pagliano</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="MdS" ref="https://it.wikipedia.org/wiki/Madame_de_Sta%C3%ABl">Madame de Staël</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="GdB" ref="https://it.wikipedia.org/wiki/Giuseppina_di_Beauharnais">Giuseppina di Beauharnais</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="C">C.</persName>
+                    </person>
+
+                    <!-- PERSONE DA MINERALOGIA -->
+                    <person>
+                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/giovanni-struver_(Enciclopedia-Italiana)/">Giovanni Struever</persName>
                     </person>
 
                     <person>
-                      <persName xml:id="**">Nome Cognome</persName>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Giovanni_D%27Achiardi">Giovanni D'Achiardi</persName>
                     </person>
 
                     <person>
-                      <persName xml:id="**">Nome Cognome</persName>
+                      <persName xml:id="" ref="https://www.minerbook.it/mineralogisti-storici/guglielmo-jervis/">Guglielmo Jervis</persName>
                     </person>
 
                     <person>
-                      <persName xml:id="**">Nome Cognome</persName>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Arcangelo_Scacchi">Arcangelo Scacchi</persName>
                     </person>
 
                     <person>
-                      <persName xml:id="**">Nome Cognome</persName>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Quintino_Sella">Quintino Sella</persName>
                     </person>
 
+                    <person>
+                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/giuseppe-grattarola/">Giuseppe Grattaròla</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://www.treccani.it/enciclopedia/ruggero-panebianco_(Dizionario-Biografico)/">Ruggero Panebianco</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Giorgio_Spezia#:~:text=Giorgio%20Spezia%20(Piedimulera%2C%208%20giugno,(noto%20come%20metodo%20Spezia).">Giorgio Spezia</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Gustavo_Uzielli">Gustavo Uzielli</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Luigi_Bombicci">Luigi Bombicci</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/James_Dwight_Dana">James Dwight Dana</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Henry_James_Brooke">Henry James Brooke</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/William_Hallowes_Miller">William Hallowes Miller</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Paul_Heinrich_von_Groth">Paul Heinrich von Groth</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref="https://it.wikipedia.org/wiki/Georg_Amadeus_Carl_Friedrich_Naumann">Georg Amadeus Carl Friedrich Naumann</persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id="" ref=""></persName>
+                    </person>
+
+
+                    <!-- PERSONE DA BIBLIOGRAFIA -->
+                    <person>
+                      <persName xml:id=""></persName>
+                    </person>
+
+                    <person>
+                      <persName xml:id=""></persName>
+                    </person>
+
+                    <!-- PERSONE DA NOTIZIE -->
+                    <person>
+                      <persName xml:id="UR">Ulysse Robert</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="HGR" ref="https://en.wikipedia.org/wiki/Henry_George_Raverty">Henry George Raverty</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="GBC" ref="https://it.wikipedia.org/wiki/Giovanni_Battista_Cavalcaselle">Giovanni Battista Cavalcaselle</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="PB" ref="https://it.wikipedia.org/wiki/Pietro_Bembo">Pietro Bembo</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="TV" ref="https://it.wikipedia.org/wiki/Tiziano_Vecellio">Tiziano Vecellio</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="EdFdR" ref="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_de_Fontaine_de_Resbecq">Eugène de Fontaine de Resbecq</persName>
+                    </person>
+                    <person>
+                      <persName ref="#LF" ref="https://it.wikipedia.org/wiki/Leopoldo_Franchetti">Leopoldo Franchetti</persName>
+                    </person>
+                    <person>
+                      <persName ref="#SS" ref="https://it.wikipedia.org/wiki/Sidney_Sonnino">Sidney Sonnino</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="AG">Angiolo Gherardini</persName>
+                    </person>
                 </listPerson>
               </note>
 
@@ -367,8 +517,8 @@
             <lb n="81" />noi preferiamo quella intitolata Du pain <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> ci dimostra 
             <lb n="82" />più nettamente il talento di quest' artista pel quale (per il quale) non 
             <lb n="83" />v' ha altra preoccupazione che quella di rendere lo splen-
-            <lb n="84" />dore del colore senza curarsi menomamente (minimamente) nè del soggetto 
-            <lb n="85" />nè della logica d'un quadro. Rispettando sempre le inten-
+            <lb n="84" />dore del colore senza curarsi menomamente (minimamente) <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del soggetto 
+            <lb n="85" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> della logica d'un quadro. Rispettando sempre le inten-
             <lb n="86" />zioni d' un artista purché esse arrivino ad una buona con-
             <lb n="87" />clusione, non possiamo a meno di lodare il Mancini per 
             <lb n="88" />queste sue opere che fanno onore alla nostra Esposizione 
@@ -383,7 +533,7 @@
             <lb n="96" />mente il nostro paese.
 
             <lb n="97" />Dietro a questi viene una sequela di artisti da confec-
-            <lb n="98" />tions, ai quali non si possono negare certe attitudini nè un 
+            <lb n="98" />tions, ai quali non si possono negare certe attitudini <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> un 
             <lb n="99" />certo buon gusto, ma che hanno ridotto l' arte ad una ma-
             <lb n="100" />nifattura. 
 
@@ -421,7 +571,7 @@
             <lb n="127" />Domenico ci rappresenta la cerimonia del collocamento 
             <lb n="128" />della prima pietra della Galleria Vittorio Emanuele e ci fa 
             <lb n="129" />riconoscere tutte le fisionomie delle persone dipinte da 
-            <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza nè 
+            <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> 
             <lb n="131" />fulgore di luce che possa impedire al diligente pennello di 
             <lb n="132" />questo artista di ritrarre un personaggio, sia pur la sua 
             <lb n="133" />testa grande come una capocchia di spillo, ed un buon uomo 
@@ -555,7 +705,7 @@
             <lb n="244" />influenza sul progresso di questi studi non solo in Italia ma 
             <lb n="245" />anche fuori.* La descrizione dei minerali dà al Sella argo-
             <lb n="246" />mento di teoremi geometrici e di ipotesi, mostrando così 
-            <lb n="247" />come la scienza applicata non deve rifuggire dalla pura, nè 
+            <lb n="247" />come la scienza applicata non deve rifuggire dalla pura, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> 
             <lb n="248" />quella dimenticare che da questa discende il suo florido ed 
             <lb n="249" />efficace sviluppo.
 
@@ -672,7 +822,7 @@
             <lb n="352" />Può veramente credere il professor Bombicci essere ani-
             <lb n="353" />mato dallo spirito della scienza quando egli ne discorre con
             <lb n="354" />parole come queste?: «Per essa (la Scienza) come per ogni
-            <lb n="355" />entità infinita, non havvi (abbia) alto nè basso, indietro od avanti;
+            <lb n="355" />entità infinita, non havvi (abbia) alto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> basso, indietro od avanti;
             <lb n="356" />dovunque essa incontra il Vero, il Buono, il Bello, di cui il
             <lb n="357" />Falso, il Cattivo, il Brutto, non sono che le modalità ne-
             <lb n="358" />gativamente polarizzate. E tutto questo concorre egual-
@@ -719,10 +869,10 @@
             <lb n="390" />primi abitatori della penisola fino ai nostri ultimissimi
             <lb n="391" />giorni? Alle scuole primarie no, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> le osservazioni e
             <lb n="392" />i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto
-            <lb n="393" />il libro in complesso, non si adattano punto nè all'indole,
-            <lb n="394" />nè alla capacità intellettuale dei fanciulli; alle secondarie
+            <lb n="393" />il libro in complesso, non si adattano punto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> all'indole,
+            <lb n="394" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> alla capacità intellettuale dei fanciulli; alle secondarie
             <lb n="395" />nemmeno, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> è troppo scarso di fatti; non può giovare
-            <lb n="396" />ai maestri, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> troppo elementare, nè in generale a nes-
+            <lb n="396" />ai maestri, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> troppo elementare, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> in generale a nes-
             <lb n="397" />suna sorta di lettori, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> quelli che sanno la storia non
             <lb n="398" />leggono siffatti compendi, e d'altronde non avrebbero da
             <lb n="399" />imparar nulla da questo, e quelli che non la sanno non lo
@@ -747,7 +897,7 @@
 
             <lb n="417" />(* Processo di evoluzione, ec., p. 26.)
 
-            <lb n="418" />ma nel 1690, nè la pace di Ryswick nel 1698 (p. 90), nè
+            <lb n="418" />ma nel 1690, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> la pace di Ryswick nel 1698 (p. 90), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
             <lb n="419" />la guerra della successione polacca scoppiò nel 1719 (p. 92).
             <lb n="420" />Parecchie altre date per esser forse collocate male non rispon-
             <lb n="421" />dono esattamente ai fatti, a cui sembrano riferirsi, come là
@@ -762,7 +912,7 @@
             <lb n="430" />che sottrasse la Sicilia ai Saraceni, e pone la data 1089 (p. 45),
             <lb n="431" />quando il Guiscardo era già morto da qualche anno.
 
-            <lb n="432" />Nè solamente la cronologia è sbagliata spesso in questo
+            <lb n="432" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> solamente la cronologia è sbagliata spesso in questo
             <lb n="433" />compendietto, ma vi abbiamo notato errati non pochi fatti e
             <lb n="434" />giudizi che peccano per grande inesattezza. Per esempio:
             <lb n="435" />«La plebe romana giaceva senza diritti, senza possessi,
@@ -801,7 +951,7 @@
             <lb n="468" />alla pace di Barcellona anche quel che fu stipulato nei trat-
             <lb n="469" />tati di Cambrai e di Bologna (pag. 69). Dice che l'Ariosto
             <lb n="470" />ebbe mirabile istinto dell'arte, con poca fantasia, e che «non
-            <lb n="471" />conobbe nè moralità, nè patriottismo, nè dignità, celiando per
+            <lb n="471" />conobbe <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> moralità, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> patriottismo, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> dignità, celiando per
             <lb n="472" />celiare» (pag. 78), le quali ultime due parole sono del Som-
             <lb n="473" />mario del Balbo. I Reali di Savoia non sono nelle grazie del
             <lb n="474" />signor Cantù, e della loro politica, che, quantunque interes-
@@ -814,7 +964,7 @@
             <lb n="481" />Enrico IV, la Reggenza e il Richelieu, avessero avuto bi-
             <lb n="482" />sogno a riaccendersi che le rattizzasse il figliuolo di Emanuel
             <lb n="483" />Filiberto. Al contrario egli giudica che la causa italiana fu
-            <lb n="484" />sostenuta dai papi (pag. 81). Nè citiamo altro per non di-
+            <lb n="484" />sostenuta dai papi (pag. 81). <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> citiamo altro per non di-
             <lb n="485" />stenderci troppo. Del rimanente le opinioni di Cesare Cantù
             <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di
             <lb n="487" />ribatterle qui. È nota la sua fanatica ammirazione per il
@@ -824,7 +974,7 @@
             <lb n="491" />cortesi, diremo che sentono troppo del sistematico. Ma dove
             <lb n="492" />l'A. sfoga più il suo mal animo per tutto ciò che sa di mo-
             <lb n="493" />derno rinnovamento politico è nell'età contemporanea. Con
-            <lb n="494" />un'arte nè punto critica, nè punto evangelica, e di cui ha
+            <lb n="494" />un'arte <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto critica, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto evangelica, e di cui ha
             <lb n="495" />dato un saggio più ampio nella sua Cronistoria dell'indipen-
             <lb n="496" />denza italiana, mette da un lato tutto quel po' di bene che può
             <lb n="497" />dirsi dei cessati governi, tacendone il molto male, ed esa-
@@ -834,7 +984,7 @@
             <lb n="501" />non poterono sempre fare, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> impediti dalle scapestre-
             <lb n="502" />rie e dall'empietà dei rivoluzionari. Cavour seppe cogliere le
             <lb n="503" />occasioni, «usar degli uomini come istromenti (strumenti), sprezzare (disprezzare) le
-            <lb n="504" />plebi, comprare gli arruffoni» (p. 124), nè del grande uomo
+            <lb n="504" />plebi, comprare gli arruffoni» (p. 124), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del grande uomo
             <lb n="505" />di Stato ci sa dir altro. Mette i liberali in un fascio coi bri-
             <lb n="506" />ganti a scalzare il Napoletano (p. 124), e forzando la nota,
             <lb n="507" />dice che i veri despoti d'Italia tra il 48 e il 59 non furono
@@ -885,25 +1035,33 @@
             <lb n="545" />— Il maggiore Raverty pubblicherà fra breve un Dizionario Inglese-
             <lb n="546" />Afgano.
 
-            <lb n="547" />(linea nel mezzo)
+            <!-- linea nel mezzo -->
 
-            <lb n="548" />— Il Cavalcaselle ha scoperto nel deposito del Museo di Napoli il
-            <lb n="549" />ritratto del cardinale Bembo fatto da Tiziano.
+            <lb n="547" />— Il Cavalcaselle ha scoperto nel deposito del Museo di Napoli il
+            <lb n="548" />ritratto del cardinale Bembo fatto da Tiziano.
 
-            <lb n="550" />(linea nel mezzo)
+            <!-- linea nel mezzo -->
 
-            <lb n="551" />— In un volume del signor Fontaine do Resbecq, intitolato: His-
-            <lb n="552" />toire de l'enseignement primaire avant 1789 dans les communes qui ont
-            <lb n="553" />formé le département du Nord, fra altri documenti n' è riportato uno
-            <lb n="554" />compilato dagli Stati generali di Orléans nel 1560, col quale la no-
-            <lb n="555" />biltà del paese domandava « che fosse levata una contribuzione per
-            <lb n="556" />stipendiare ragionevolmente dei pedagoghi e letterati, in tutte le città
-            <lb n="557" />e villaggi, per l'istruzione della gioventù povera del paese di pianura,
-            <lb n="558" />e sieno tenuti i padri e madri sotto pena di ammenda a mandare i detti
-            <lb n="559" />fanciulli a scuola, ed a ciò fare sieno costretti dai signori giudici ord-
-            <lb n="560" />inari.» Altri documenti curiosi, riferiti dal signor de Resbecq, mostrano
-            <lb n="561" />che l' idea dell' istruzione obbligatoria non data da oggi.
-            <lb n="562" />(Revue politique et littéraire.)
+            <lb n="549" />— In un volume del signor Fontaine do Resbecq, intitolato: His-
+            <lb n="550" />toire de l'enseignement primaire avant 1789 dans les communes qui ont
+            <lb n="551" />formé le département du Nord, fra altri documenti n' è riportato uno
+            <lb n="552" />compilato dagli Stati generali di Orléans nel 1560, col quale la no-
+            <lb n="553" />biltà del paese domandava « che fosse levata una contribuzione per
+            <lb n="554" />stipendiare ragionevolmente dei pedagoghi e letterati, in tutte le città
+            <lb n="555" />e villaggi, per l'istruzione della gioventù povera del paese di pianura,
+            <lb n="556" />e sieno tenuti i padri e madri sotto pena di ammenda a mandare i detti
+            <lb n="557" />fanciulli a scuola, ed a ciò fare sieno costretti dai signori giudici ord-
+            <lb n="558" />inari.» Altri documenti curiosi, riferiti dal signor de Resbecq, mostrano
+            <lb n="559" />che l' idea dell' istruzione obbligatoria non data da oggi.
+            <lb n="560" />(Revue politique et littéraire.)
+
+            <lb n="561" />Leopoldo Franchetti
+            <lb n="562" />Sidney Sonnino
+            <lb n="563" />Proprietari Direttori. <!--(unclear covered)-->
+            <!-- linea nel mezzo -->
+            <lb n="564" />Angiolo Gherardini, Gerente Responsabile.
+            <!-- linea nel mezzo -->
+            <lb n="565" />FIRENZE, 1878. — Tipografia Barbèra.
           </ab>
         </body>
       </text>
@@ -931,11 +1089,35 @@
   </choice>
 
 <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice>
+<choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
+<choice><sic>poichè</sic><corr resp="#LP">perché</corr></choice>
 
   <gap>
   ca<unclear xml:id="art_1-u_1" reason="background_noise"><c>n</c></unclear>e
 -->
 
-<!-- comando Xerces
+
+
+ <!-- 
+quando un nome di persona è evidenziato di giallo nel documento word bisogna fare come nel esempio:
+  <persName ref="#AP">Pasini</persName> 
+ovvero mettere i tag <persName> con al interno la sua referenza in questo caso "#AP"
+per vedere come si chima la referenza guardare il glossario
+ricordare sempre # e non modificare mai il testo mettere solo i tag prima e dopo la parola
+se uno stesso nome è ripetuto nel testo ricordarsi di dare replace se è possibile
+
+quando una organizzazione è evidenziata di bordeoux nel documento word bisogna fare come nel esempio:
+  <orgName ref="#AdST">Accademia delle Scienze di Torino</orgName>
+il procendimento è lo stesso come quello delle persone
+
+per i luoghi usare questo tag
+<settlement ref="#CDM">Campo di Marte</settlement>
+
+per le date usare semplicemente (non serve nessun ref)
+<date>1999</date>
+
+ -->
+
+ <!-- comando Xerces
   java -cp .\tools\Xerces-J-bin.2.12.1\xerces-2_12_1\* dom.Counter -v .\Codifica.xml
  -->
