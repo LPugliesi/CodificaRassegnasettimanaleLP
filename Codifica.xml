@@ -154,51 +154,76 @@
                     <person>
                       <persName xml:id="P_GACFN" ref="https://it.wikipedia.org/wiki/Georg_Amadeus_Carl_Friedrich_Naumann">Georg Amadeus Carl Friedrich Naumann</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_ALC" ref="https://www.treccani.it/enciclopedia/augustin-louis-cauchy/">Augustin-Louis Cauchy</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_AMA" ref="https://it.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re">André-Marie Ampère</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_JCM" ref="https://it.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_CD" ref="https://it.wikipedia.org/wiki/Charles_Darwin">Charles Darwin</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_L">Leucippo</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_NT" ref="https://it.wikipedia.org/wiki/Niccol%C3%B2_Tommaseo">Niccolò Tommaseo</persName>
                     </person>
-
-                    <person>
-                      <persName xml:id="P_AS" ref="https://it.wikipedia.org/wiki/Arcangelo_Scacchi">Arcangelo Scacchi</persName>
-                    </person>
-
                     <person>
                       <persName xml:id="P_S">Senarmont</persName>
                     </person>
-
                     <person>
                       <persName xml:id="P_HKL">H. K. L.</persName>
                     </person>
 
-
                     <!-- PERSONE DA BIBLIOGRAFIA -->
                     <person>
-                      <persName xml:id=""></persName>
+                      <persName xml:id="P_CC" ref="https://it.wikipedia.org/wiki/Cesare_Cant%C3%B9">Cesare Cantù</persName>
                     </person>
-
                     <person>
-                      <persName xml:id=""></persName>
+                      <persName xml:id="P_UH" ref="https://it.wikipedia.org/wiki/Ulrico_Hoepli">Ulrico Hoepli</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_A">A.</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_AdI" ref="https://it.wikipedia.org/wiki/Arduino_d%27Ivrea">Arduino d'Ivrea</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_AdL" ref="https://it.wikipedia.org/wiki/Sigismondo_di_Lussemburgo">Sigismondo di Lussemburgo</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_AVIII" ref="https://it.wikipedia.org/wiki/Amedeo_VIII_di_Savoia">Amedeo VIII di Savoia</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_CIM" ref="https://it.wikipedia.org/wiki/Cosimo_I_de%27_Medici">Cosimo I de' Medici</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_As" ref="https://it.wikipedia.org/wiki/Astolfo_(re)">Astolfo</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_BdF" ref="https://it.wikipedia.org/wiki/Berengario_del_Friuli">Berengario del Friuli</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_RiG" ref="https://it.wikipedia.org/wiki/Roberto_il_Guiscardo">Roberto il Guiscardo</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_Po" ref="https://it.wikipedia.org/wiki/Polibio">Polibio</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_Bl" ref="https://it.wikipedia.org/wiki/Belisario">Belisario</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_GDB" ref="https://it.wikipedia.org/wiki/Giano_Della_Bella">Giano Della Bella</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_CB" ref="https://it.wikipedia.org/wiki/Cesare_Balbo">Cesare Balbo</persName>
+                    </person>
+                    <person>
+                      <persName xml:id="P_FG" ref="https://it.wikipedia.org/wiki/Ferenc_Gyulay">Ferenc Gyulay</persName>
                     </person>
 
                     <!-- PERSONE DA NOTIZIE -->
@@ -232,7 +257,7 @@
                 </listPerson>
               </note>
 
-              <!-- LUOGHI FINITI -->
+              <!-- LUOGHI -->
               <note xml:id="places">
                 <listPlace>
                     <place xml:id="S_CDM">
@@ -299,7 +324,7 @@
                 </listPlace>
               </note>
 
-              <!-- ORGANIZZAZIONI FINITI -->
+              <!-- ORGANIZZAZIONI -->
               <note xml:id="organizations">
                   <listOrg>
                       <org xml:id="O_AdSdT">
