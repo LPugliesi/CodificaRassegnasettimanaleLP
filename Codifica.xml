@@ -447,7 +447,7 @@
 <text xml:lang="it">
 
   <group>
-      <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
+      <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI prova -->
         <body>
           <ab>
             <lb n="1" />CORRISPONDENZA ARTISTICA DA PARIGI. 
@@ -1069,12 +1069,12 @@
             <lb n="550" />toire de l'enseignement primaire avant 1789 dans les communes qui ont
             <lb n="551" />formé le département du Nord, fra altri documenti n' è riportato uno
             <lb n="552" />compilato dagli Stati generali di Orléans nel <date>1560</date>, col quale la no-
-            <lb n="553" />biltà del paese domandava « che fosse levata una contribuzione per
+            <lb n="553" />biltà del paese domandava <quote>«che fosse levata una contribuzione per
             <lb n="554" />stipendiare ragionevolmente dei pedagoghi e letterati, in tutte le città
             <lb n="555" />e villaggi, per l'istruzione della gioventù povera del paese di pianura,
             <lb n="556" />e sieno tenuti i padri e madri sotto pena di ammenda a mandare i detti
             <lb n="557" />fanciulli a scuola, ed a ciò fare sieno costretti dai signori giudici ord-
-            <lb n="558" />inari.» Altri documenti curiosi, riferiti dal signor de Resbecq, mostrano
+            <lb n="558" />inari.»</quote> Altri documenti curiosi, riferiti dal signor de Resbecq, mostrano
             <lb n="559" />che l' idea dell' istruzione obbligatoria non data da oggi.<!-- riga fatta! -->
             <lb n="560" />(Revue politique et littéraire.)
 
@@ -1154,8 +1154,12 @@ per le date usare semplicemente (non serve nessun ref) (TEORICAMENTE LE HO FATTE
  •	temi e/o motivi
  •	testo in lingua straniera
  •	citazioni
+ <quote> </quote>
  •	organizzazioni
+ <orgName ref=""> </orgName>
  •	epithet
+<persName ref=""> <addName type="epithet"></addName> </persName>
+
  -->
 
  <!-- comando Xerces
