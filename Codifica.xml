@@ -66,6 +66,9 @@
                       <persName xml:id="P_AP" ref="https://it.wikipedia.org/wiki/Alberto_Pasini">Alberto Pasini</persName> 
                     </person>
                     <person>
+                      <persName xml:id="P_EF" ref="https://it.wikipedia.org/wiki/Eug%C3%A8ne_Fromentin">Eugène Fromentini</persName> 
+                    </person>
+                    <person>
                       <persName xml:id="P_GDN" ref="https://it.wikipedia.org/wiki/Giuseppe_De_Nittis">Giuseppe De Nittis</persName>
                     </person>
                     <person>
@@ -573,7 +576,7 @@
             <lb n="41" />L' abilità, questa dea suprema che dirige oggi quasi<!-- riga fatta! -->
             <lb n="42" />interamente la mano dell'artista e totalmente l'occhio del <!-- riga fatta! -->
             <lb n="43" />negoziante, ha toccato colla sua verga fatata anche l'inge-<!-- riga fatta! -->
-            <lb n="44" />gno del <persName ref="#P_AP">Pasini</persName>, il quale passando attraverso Fromentin è <!--Da aggiustare Fromentin-->
+            <lb n="44" />gno del <persName ref="#P_AP">Pasini</persName>, il quale passando attraverso <persName ref="#P_EF">Fromentin</persName> è <!-- riga fatta! -->
             <lb n="45" /><choice><sic>riescito</sic><corr resp="#LP">riuscito</corr></choice> a fabbricare una pittura piena di illusioni e di ma-<!-- riga fatta! -->
             <lb n="46" />lizia, pittura che manifesta un ingegno non comune, una <!-- riga fatta! -->
             <lb n="47" />grazia quasi insuperabile, una riproduzione tenace dello <!-- riga fatta! -->
@@ -636,22 +639,22 @@
             <lb n="99" />certo buon gusto, ma che hanno ridotto l' arte ad una ma-<!-- riga fatta! -->
             <lb n="100" />nifattura. <!-- riga fatta! -->
 
-            <lb n="101" />Vorremmo parlare del <persName ref="#P_FPM">Michetti</persName>, forte e strano ingegno 
+            <lb n="101" />Vorremmo parlare del <persName ref="#P_FPM">Michetti</persName>, forte e strano ingegno <!-- riga fatta! -->
             <lb n="102" />pittorico, seduttore abilissimo d' artisti ed amatori, ma non <!-- riga fatta! -->
             <lb n="103" />vogliamo neppure questa volta entrar nel campo del primo <!-- riga fatta! -->
             <lb n="104" />vostro corrispondente.<!-- riga fatta! -->
 
-            <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName> ec.(etc), s'arra-
+            <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">etc</corr></choice>, s'arra- <!-- riga fatta! -->
             <lb n="106" />battano da anni ed anni per ottenere sempre il medesimo<!-- riga fatta! -->
             <lb n="107" />successo facendo presso a poco il medesimo quadro. Questi <!-- riga fatta! -->
-            <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per
+            <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per<!-- riga fatta! -->
             <lb n="109" />qualche tempo la fortuna suprema di far credere al volgo<!-- riga fatta! -->
             <lb n="110" />ignorante che l' arte loro era la sola arte italiana e il detto<!-- riga fatta! -->
             <lb n="111" />volgo guidato da questo tipo non ha mai voluto ricono-<!-- riga fatta! -->
             <lb n="112" />scere chi faceva altrimenti.<!-- riga fatta! -->
 
             <lb n="113" />Speriamo che l' attuale Esposizione benché non dimostri <!-- riga fatta! -->
-            <lb n="114" />che molto parcamente (moderatamente) quanto si fa o si tenta da noi in 
+            <lb n="114" />che molto <choice><sic>parcamente</sic><corr resp="#LP">moderatamente</corr></choice> quanto si fa o si tenta da noi in <!-- riga fatta! -->
             <lb n="115" />fatto d' arte italiana ai nostri giorni, servirà pure a disin-<!-- riga fatta! -->
             <lb n="116" />gannare per sempre i creduli che si sono lasciati infinoc-<!-- riga fatta! -->
             <lb n="117" />chiare così facilmente.<!-- riga fatta! -->
@@ -661,44 +664,44 @@
             <lb n="120" />casa nostra secondo le tradizioni, le scuole, il temperamento <!-- riga fatta! -->
             <lb n="121" />che distinguono gli artisti delle varie province d'<settlement>Italia</settlement>.<!-- riga fatta! -->
 
-            <lb n="122" />E per primo parleremo dei due fratelli <persName ref="#P_GDI">Induno</persName>, vecchi 
+            <lb n="122" />E per primo parleremo dei due fratelli <persName ref="#P_GDI">Induno</persName>, vecchi <!-- riga fatta! -->
             <lb n="123" />rappresentanti dell' arte nostra così detta di genere, arti-<!-- riga fatta! -->
             <lb n="124" />sti quarantottini di prima forza. Chi vuol vedere della pit-<!-- riga fatta! -->
             <lb n="125" />tura di genere del passato si rechi ad ammirare le tele dei <!-- riga fatta! -->
-            <lb n="126" />due fratelli <persName ref="#P_GDI">Induno</persName>. (fai glossario con nomi dei fratelli)
+            <lb n="126" />due fratelli <persName ref="#P_GDI">Induno</persName>. <!-- riga fatta! -->
 
-            <lb n="127" /><persName ref="#P_GDI">Domenico</persName> ci rappresenta la cerimonia del collocamento 
-            <lb n="128" />della prima pietra della <settlement ref="#S_GVE">Galleria Vittorio Emanuele</settlement> e ci fa 
+            <lb n="127" /><persName ref="#P_GDI">Domenico</persName> ci rappresenta la cerimonia del collocamento <!-- riga fatta! -->
+            <lb n="128" />della prima pietra della <settlement ref="#S_GVE">Galleria Vittorio Emanuele</settlement> e ci fa <!-- riga fatta! -->
             <lb n="129" />riconoscere tutte le fisionomie delle persone dipinte da <!-- riga fatta! -->
-            <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> 
+            <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> <!-- riga fatta! -->
             <lb n="131" />fulgore di luce che possa impedire al diligente pennello di <!-- riga fatta! -->
             <lb n="132" />questo artista di ritrarre un personaggio, sia pur la sua <!-- riga fatta! -->
             <lb n="133" />testa grande come una capocchia di spillo, ed un buon uomo <!-- riga fatta! -->
             <lb n="134" />aveva ragione di dire di lui, che, se avesse voluto, avrebbe <!-- riga fatta! -->
             <lb n="135" />saputo fare gli occhi alle pulci.<!-- riga fatta! -->
 
-            <lb n="136" />Il fratello <persName>Girolamo</persName> con un brio più disinvolto ha pre-
-            <lb n="137" />sentate (presentate) varie piccole tele molto bene accomodate e più 
-            <lb n="138" />specialmente una intitolata Un amateur d'antiquités, nella 
+            <lb n="136" />Il fratello <persName>Girolamo</persName> con un brio più disinvolto ha <!-- riga fatta! -->
+            <lb n="137" /><choice><sic>presentate</sic><corr resp="#LP">presentato</corr></choice> varie piccole tele molto bene accomodate e più <!-- riga fatta! -->
+            <lb n="138" />specialmente una intitolata <bibl>Un amateur d'antiquités</bibl>, nella <!-- riga fatta! -->
             <lb n="139" />quale si ritrova un certo buonumore meneghino d' antica <!-- riga fatta! -->
             <lb n="140" />data che la rende piacevole, sebbene la pittura appartenga <!-- riga fatta! -->
             <lb n="141" />ad una maniera che ora non ha più alcun significato.<!-- riga fatta! -->
 
             <lb n="142" />Carica di zafferano e di risotto è l'opera capitale del <!-- riga fatta! -->
-            <lb n="143" />professore <persName ref="#P_EP">Eleuterio Pagliano</persName>. <persName>Napoleone</persName> il Grande annun-
-            <lb n="144" />zia commosso all' imperatrice <persName ref="#P_GdB">Giuseppina</persName> la risoluzione 
-            <lb n="145" />presa di abbandonarla, e l'abito di <persName>Madama</persName> ed il fazzo-
+            <lb n="143" />professore <persName ref="#P_EP">Eleuterio Pagliano</persName>. <persName>Napoleone <addName type="epithet">il Grande</addName> </persName> annun-<!-- riga fatta! -->
+            <lb n="144" />zia commosso all' imperatrice <persName ref="#P_GdB">Giuseppina</persName> la risoluzione <!-- riga fatta! -->
+            <lb n="145" />presa di abbandonarla, e l'abito di <persName>Madama</persName> ed il fazzo-<!-- riga fatta! -->
             <lb n="146" />letto col quale si asciuga gli occhi non che le carni stesse <!-- riga fatta! -->
             <lb n="147" />si fondono intenerite a tanto annunzio. Anche il crudele <!-- riga fatta! -->
             <lb n="148" />marito deve partecipare in gran parte dell' emozione della <!-- riga fatta! -->
             <lb n="149" />moglie giacché tutta la sua persona risente i medesimi <!-- riga fatta! -->
             <lb n="150" />effetti. <!-- riga fatta! -->
 
-            <lb n="151" />Un altro quadro dello stesso autore, intitolato La revue 
-            <lb n="152" />de Vhéritage, è molto superiore al sopraccitato (sopracitato), e mentre 
+            <lb n="151" />Un altro quadro dello stesso autore, intitolato <bibl>La revue</bibl><!-- riga fatta! -->
+            <lb n="152" /><bibl>de Vhéritage</bibl>, è molto superiore al <choice><sic>sopraccitato</sic><corr resp="#LP">sopracitato</corr></choice>, e mentre <!-- riga fatta! -->
             <lb n="153" />l'intonazione generale e la ricerca dei caratteri è ben so-<!-- riga fatta! -->
             <lb n="154" />stenuta, son degne di nota due figure dell' indietro ed una<!-- riga fatta! -->
-            <lb n="155" /> parete assai bene dipinta. <persName ref="#P_C">C.</persName>
+            <lb n="155" /> parete assai bene dipinta. <persName ref="#P_C">C.</persName><!-- riga fatta! -->
           </ab>
         </body>
       </text>
