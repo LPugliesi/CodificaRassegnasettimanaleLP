@@ -1168,77 +1168,50 @@
   </text>
 </TEI>
 
-<!-- 
-  <add> aggiunta </add>
-  <del> cancellatura </del>
-
-  <subst>
-    <del> cancellatura </del>
-    <add> aggiunta </add>
-  </subst>
-
-  <choice xml:id="art_1-ch_1">
-    /* caso 1 */
-    <abbr>A.</abbr>
-    <expan>Autore</expan>
-
-    /* caso 2 */
-    <sic>perchè</sic>
-    <corr>perché</corr>
-  </choice>
-
-<choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice>
-<choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
-<choice><sic>poichè</sic><corr resp="#LP">perché</corr></choice>
-<choice><sic> </sic><corr resp="#LP"> </corr></choice>
-
-  <gap>
-  ca<unclear xml:id="art_1-u_1" reason="background_noise"><c>n</c></unclear>e
--->
-
-
-
- <!-- 
-quando un nome di persona è evidenziato di giallo nel documento word bisogna fare come nel esempio:
-  <persName ref="#AP">Pasini</persName> 
-ovvero mettere i tag <persName> con al interno la sua referenza in questo caso "#AP"
-per vedere come si chima la referenza guardare il glossario
-ricordare sempre # e non modificare mai il testo mettere solo i tag prima e dopo la parola
-se uno stesso nome è ripetuto nel testo ricordarsi di dare replace se è possibile
-
-quando una organizzazione è evidenziata di bordeoux nel documento word bisogna fare come nel esempio:
-  <orgName ref="#AdST">Accademia delle Scienze di Torino</orgName>
-il procendimento è lo stesso come quello delle persone
-
-per i luoghi usare questo tag
-<settlement ref="#CDM">Campo di Marte</settlement>
-
-per le date usare semplicemente (non serve nessun ref) (TEORICAMENTE LE HO FATTE MA SAREBBE BENE RIVISIONARE)
-<date>1999</date>
-
- -->
 
 <!-- 
- •	persone reali
- •	persone immaginarie e/o personaggi
- •	opere
- •	luoghi
- •	luoghi naturali
- •	casa editrice/rivista
- •	date (FATTE?)
- •	Verbum
- •	temi e/o motivi
- •	testo in lingua straniera
- •	citazioni
- <quote> </quote>
- •	organizzazioni
- <orgName ref=""> </orgName>
- •	epithet
+•	persone reali
+<persName></persName>
+
+•	persone immaginarie e/o personaggi
+<persName type="imaginary"></persName>
+
+•	opere
+<bibl> <bibl>
+
+•	luoghi
+<settlement></settlement>
+
+•	luoghi naturali
+<settlement type="natural"></settlement>
+
+•	casa editrice/rivista
+<publisher> </publisher>
+
+•	date
+<date></date>
+
+•	Verbum
+<emph> </emph> (emphasized)
+
+•	temi e/o motivi
+
+•	correnti letterarie
+<term></term>
+
+•	testo in lingua straniera
+<foreign xml:lang="fr"> </foreign>
+
+•	citazioni
+<quote> </quote>
+
+•	organizzazioni
+<orgName> </orgName>
+
+•	epithet
 <persName ref=""> <addName type="epithet"></addName> </persName>
-
  -->
 
  <!-- comando Xerces
   java -cp .\tools\Xerces-J-bin.2.12.1\xerces-2_12_1\* dom.Counter -v .\Codifica.xml
  -->
- 
