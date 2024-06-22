@@ -443,9 +443,85 @@
   </teiHeader>
 
 <!-- FACSSIMILE -->
+  <facsimile>
+    <surface xml:id="Pag.1">
+      <graphic url='Pag.1.png' width='1533.33334px' height='2255.33334px' />
+      <zone ulx="785" uly="1594" lrx="1460" lry="2092" />
+    </surface>
+    <surface xml:id="Pag.2">
+      <graphic url='Pag.2.png' width='1534.33334px' height='2256.33334px' />
+      <zone ulx="113" uly="186" lrx="777" lry="575" />
+      <zone ulx="109" uly="579" lrx="775" lry="719" />
+      <zone ulx="112" uly="724" lrx="777" lry="836" />
+      <zone ulx="113" uly="840" lrx="772" lry="1295" />
+      <zone ulx="112" uly="1302" lrx="776" lry="1375" />
+      <zone ulx="115" uly="1388" lrx="773" lry="1588" />
+      <zone ulx="116" uly="1594" lrx="776" lry="1875" />
+      <zone ulx="113" uly="1879" lrx="776" lry="2102" />
+      <zone ulx="801" uly="184" lrx="1467" lry="348" />
+      <zone ulx="803" uly="354" lrx="1465" lry="522" />
+      <zone ulx="804" uly="528" lrx="1465" lry="638" />
+      <zone ulx="804" uly="644" lrx="1465" lry="751" />
+      <zone ulx="804" uly="755" lrx="1465" lry="976" />
+      <zone ulx="803" uly="984" lrx="1464" lry="1123" />
+      <zone ulx="805" uly="1128" lrx="1463" lry="1239" />
+      <zone ulx="807" uly="1243" lrx="1467" lry="1386" />
+      <zone ulx="808" uly="1391" lrx="1464" lry="1644" />
+      <zone ulx="804" uly="1651" lrx="1463" lry="1814" />
+      <zone ulx="801" uly="1819" lrx="1463" lry="2080" />
+      <zone ulx="800" uly="2084" lrx="1465" lry="2108" />
+    </surface>
+    <surface xml:id="Pag.3">
+      <graphic url='Pag.3.png' width='1545.33334px' height='2272.33334px' />
+      <zone ulx="96" uly="166" lrx="765" lry="300" />
+      <zone ulx="91" uly="304" lrx="763" lry="520" />
+      <zone ulx="93" uly="524" lrx="764" lry="664" />
+      <zone ulx="93" uly="668" lrx="759" lry="892" />
+      <zone ulx="95" uly="899" lrx="759" lry="1184" />
+      <zone ulx="93" uly="1188" lrx="755" lry="1672" />
+      <zone ulx="89" uly="1678" lrx="751" lry="2015" />
+      <zone ulx="85" uly="2019" lrx="755" lry="2106" />
+      <zone ulx="784" uly="182" lrx="1451" lry="382" />
+      <zone ulx="783" uly="386" lrx="1444" lry="1100" />
+      <zone ulx="781" uly="1106" lrx="1441" lry="1415" />
+      <zone ulx="780" uly="1420" lrx="1437" lry="1790" />
+      <zone ulx="777" uly="1796" lrx="1437" lry="1844" />
+      <zone ulx="775" uly="1851" lrx="1440" lry="1964" />
+      <zone ulx="775" uly="1975" lrx="1445" lry="2112" />
+    </surface>
+    <surface xml:id="Pag.4">
+      <graphic url='Pag.4.png' width='1534.33334px' height='2258.33334px' />
+      <zone ulx="107" uly="186" lrx="775" lry="1035" />
+      <zone ulx="108" uly="1039" lrx="776" lry="1188" />
+      <zone ulx="111" uly="1191" lrx="783" lry="2052" />
+      <zone ulx="111" uly="2071" lrx="787" lry="2116" />
+      <zone ulx="789" uly="186" lrx="1467" lry="668" />
+      <zone ulx="799" uly="678" lrx="1469" lry="994" />
+      <zone ulx="797" uly="1016" lrx="1471" lry="1158" />
+      <zone ulx="797" uly="1164" lrx="1471" lry="1647" />
+      <zone ulx="800" uly="1655" lrx="1473" lry="2080" />
+      <zone ulx="808" uly="2095" lrx="1180" lry="2112" />
+    </surface>
+    <surface xml:id="Pag.5">
+      <graphic url='Pag.5.png' width='1546.33334px' height='2262.33334px' />
+      <zone ulx="88" uly="167" lrx="759" lry="591" />
+      <zone ulx="88" uly="595" lrx="765" lry="2083" />
+      <zone ulx="781" uly="171" lrx="1455" lry="1715" />
+    </surface>
+    <surface xml:id="Pag.6">
+      <graphic url='Pag.6.png' width='1546.33334px' height='2260.33334px' />
+      <zone ulx="797" uly="1322" lrx="1469" lry="1362" />
+      <zone ulx="799" uly="1370" lrx="1469" lry="1470" />
+      <zone ulx="800" uly="1475" lrx="1469" lry="1519" />
+      <zone ulx="801" uly="1524" lrx="1471" lry="1570" />
+      <zone ulx="800" uly="1595" lrx="1475" lry="1643" />
+      <zone ulx="797" uly="1670" lrx="1475" lry="1978" />
+      <zone ulx="799" uly="1986" lrx="1473" lry="2112" />
+    </surface>    
+  </facsimile>
 
+<!-- TESTO CODIFICATO   -->
 <text xml:lang="it">
-
   <group>
       <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
         <body>
