@@ -10,31 +10,35 @@
         <html>
             <head>
                 <title>Progetto di Codifica di Testi</title>
-                <link rel="stylesheet"
-                    href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+                <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
                 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-                <script src="script.js"></script>
-                <link href="style.css" rel="stylesheet" type="text/css" />
+                <script src="./src/script.js"></script>
+                <link href="./src/style.css" rel="stylesheet" type="text/css" />
             </head>
             <body>
                 <header>
-                    <nav class="menu">
-                        <ul class="menu1">
-                            <li><a href="#p1">Pagina 1</a></li>
-                            <li><a href="#p2">Pagina 2</a></li>
-                            <li><a href="#p3">Pagina 3</a></li>
-                            <li><a href="#p4">Pagina 4</a></li>
-                            <li><a href="#p5">Pagina 5</a></li>
-                            <li><a href="#p6">Pagina 6</a></li>
-                        </ul>
+                    <nav>
+                        <div class="navbar">
+                        <a href="#">Codifica di Testi</a>
+                        <a href="#">Home</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Pagine
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">Pagina 1</a>
+                            <a href="#">Pagina 2</a>
+                            <a href="#">Pagina 3</a>
+                            <a href="#">Pagina 4</a>
+                            <a href="#">Pagina 5</a>
+                            <a href="#">Pagina 6</a>
+                            </div>
+                        </div>
+                        </div>
                     </nav>
-                    <div class="tit">
-                        <h1>
-                            <xsl:value-of select="//tei:title[@xml:lang='it']" />
-                        </h1>
-                    </div>
                 </header>
+
                 <div>
                     <div id="info">
                         <h2>Descrizione</h2>
@@ -62,6 +66,7 @@
                             </ul>
                         </div>
                 </div>
+
 
                 <div class="codifica">
                 <div id="box1">
@@ -147,6 +152,7 @@
         </body>
     </html>
 </xsl:template>
+</xsl:stylesheet>
 
 <!-- 
 java -jar "./tools/SaxonHE10-3J/saxon-he-10.3.jar" -s:codifica.xml -xsl:codifica.xsl -o:progetto.html 
