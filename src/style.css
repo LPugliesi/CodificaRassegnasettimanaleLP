@@ -1,2 +1,44 @@
 /* import font */
-@import url('https://fonts.google.com/share?selection.family=Chivo+Mono:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: "Chivo Mono", monospace;
+}
+
+
+.tit{
+    margin-top: 5%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu {
+    background-color: #eee;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #396AB7;
+    font-family: "Chivo Mono", monospace;
+    width: 100%;
+    position: fixed;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #f77bee;
+}
