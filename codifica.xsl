@@ -111,5 +111,8 @@
             </footer>
         </html>
     </xsl:template>
+</xsl:stylesheet>
 
-    <!-- Templates -->
+<!-- 
+java -jar "./tools/SaxonHE10-3J/saxon-he-10.3.jar" -s:codifica.xml -xsl:codifica.xsl -o:progetto.html 
+-->
