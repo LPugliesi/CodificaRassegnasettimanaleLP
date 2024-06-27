@@ -1216,5 +1216,5 @@
  -->
 
  <!-- comando Xerces
-  java -cp .\tools\Xerces-J-bin.2.12.1\xerces-2_12_1\* dom.Counter -v .\Codifica.xml
+  java -cp .\tools\Xerces-J-bin.2.12.1\xerces-2_12_1\* dom.Counter -v .\codifica.xml
  -->
