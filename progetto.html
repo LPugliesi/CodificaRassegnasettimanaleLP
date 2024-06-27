@@ -1,53 +1,638 @@
-<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="src/style.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><script type="text/javascript" src="src/script.js"></script><title>Progetto di Codifica di Testixx</title>
-   </head>
-   <body>
-      <div class="header"><img src="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/03/logo_rassegna_new.jpg" alt="La Rassegna Settimanale Logo"></div>
-      <div class="heading">
-         <h1>La rassegna settimanale di politica, scienze, lettere ed arti</h1><span><img src="https://upload.wikimedia.org/wikipedia/it/e/e2/Stemma_unipi.svg" alt="Logo Università di Pisa" style="width:80px"></span><h3></h3>
-      </div>
-      <div class="container">
-         <p style="color: black;">Informazioni sul Progetto</p>
-         <div class="btns-container"><button class="desc" id="btn-descBibl">Descrizione bibliografica</button><button class="desc" id="btn-descCod">Descrizione della codifica</button></div>
-      </div>
-      <div class="container" id="descBibl">
-         <div class="bgTabella">
-            <div class="containerTabella">La rassegna settimanaledi politica, scienze, lettere ed arti
-               *** e ***
-               Leopoldo Franchetti e Sidney Sonnino Edizione Digitale -  Luglio 2024  Professore:  Angelo Mario Del Grosso  Codifica a cura di:  Lavinia Pugliesi 
-               Pagine 237, 238, 239, 240, 241 e 244 
-                Università di Pisa  Pisa  Opera ad accesso libero  2024 La rassegna settimanale di politica, scienze, lettere ed arti Codifica a cura di:  Lavinia Pugliesi 214
-               Alberto PasiniEugène FromentiniGiuseppe De NittisSerafino TivoliAntonio ManciniFederico RossanoFrancesco Paolo MichettiCesare Augusto DettiPio JorisAchille VertunniMarià Fortuny i MarsalGerolamo e Domenico IndunoEleuterio PaglianoMadame de StaëlGiuseppina di BeauharnaisC.Giovanni StrueverGiovanni D'AchiardiGuglielmo JervisArcangelo ScacchiQuintino SellaGiuseppe GrattaròlaRuggero PanebiancoGiorgio SpeziaGustavo UzielliLuigi BombicciJames Dwight DanaHenry James BrookeWilliam Hallowes MillerPaul Heinrich von GrothGeorg Amadeus Carl Friedrich NaumannAugustin-Louis CauchyAndré-Marie AmpèreJames Clerk MaxwellCharles DarwinLeucippoNiccolò TommaseoSenarmontH. K. L.Cesare CantùUlrico HoepliA.Arduino d'IvreaSigismondo di LussemburgoAmedeo VIII di SavoiaCosimo I de' MediciAstolfoBerengario del FriuliRoberto il GuiscardoPolibioBelisarioGiano Della BellaCesare BalboFerenc GyulayUlysse RobertHenry George RavertyGiovanni Battista CavalcasellePietro BemboTiziano VecellioEugène de Fontaine de ResbecqLeopoldo FranchettiSidney SonninoAngiolo Gherardini
-               
-               Campo di MarteFranciaBussetoEmilia-RomagnaGalleria Vittorio EmanueleLombardiaElbaToscanaMonte AmiataToscananazioni europeeImpero RomanoGerusalemmeIsraelePireneiFrancia, Andorra e SpagnaStaffardaPiemonteRyswickPaesi BassiCambraiFranciaTicinoItalia e SvizzeraVilla-francaVenetoRegno d'ItaliaMuseo di NapoliCampania
-               
-               Accademia delle Scienze di TorinoScuola degli IngegneriCrociatiConcilio di CostanzaSaraceniRepubblica romanaGotiOstrogotiLongobardiGuelfiGhibelliniSveviReali di SavoiaCasa d'AustriaStati generali di Orléans
-               La rassegna settimanaledi politica, scienze, lettere ed artiRomaCasa Editrice Barbèra1878ItaliaRoma
-               Rassegna Settimanale
-               Fogli di carta
-               Pagine interamente integre, qualche piccola macchia di inchiostro sul testo e sui
-               bordi, il testo è facilmente leggibile.
-               Le pagine sono divise in due colonne con in media 67 righe ciascuna, per un totale
-               di circa 135 righe per pagina. Nelle pagine di numero pari (che non siano la pagina
-               di copertina) la numerazione si presenta al lato sinistro della pagina mentre le informazioni
-               sul volume e sul fascicolo sono sulla destra. Nelle pagine di numerazione dispari,
-               invece, troviamo la data al lato sinistro e il numero di pagina al lato destro. In
-               ogni pagina, al centro, troviamo sempre la scritta "LA RASSEGNA SETTIMANALE.".</div>
-         </div>
-      </div>
-      <div class="container" id="descCod">
-         <div class="bgTabella">
-            <div class="containerTabella">Codifica di 4 sezioni della rivista: Corrispondeza artistica da Parigi, La mineralogia in Italia, Bibliografia e Notizie.</div>
-         </div>
-      </div>
-   </body>
-   <footer>
-      <p><span>&nbsp;
-            </span><span></span>&nbsp;e&nbsp; 
-         <span></span></p>
-      <p>Repository <a target="_blank" href="https://github.com/LPugliesi/CodificaRassegnasettimanaleLP">GitHub</a></p>
-   </footer>
-</html>
+La rassegna settimanaledi politica, scienze, lettere ed arti
+*** e ***
+Leopoldo Franchetti e Sidney Sonnino Edizione Digitale -  Luglio 2024  Professore:  Angelo Mario Del Grosso  Codifica a cura di:  Lavinia Pugliesi 
+Pagine 237, 238, 239, 240, 241 e 244 
+ Università di Pisa  Pisa  Opera ad accesso libero  2024 La rassegna settimanale di politica, scienze, lettere ed arti Codifica a cura di:  Lavinia Pugliesi 214
+Alberto PasiniEugène FromentiniGiuseppe De NittisSerafino TivoliAntonio ManciniFederico RossanoFrancesco Paolo MichettiCesare Augusto DettiPio JorisAchille VertunniMarià Fortuny i MarsalGerolamo e Domenico IndunoEleuterio PaglianoMadame de StaëlGiuseppina di BeauharnaisC.Giovanni StrueverGiovanni D'AchiardiGuglielmo JervisArcangelo ScacchiQuintino SellaGiuseppe GrattaròlaRuggero PanebiancoGiorgio SpeziaGustavo UzielliLuigi BombicciJames Dwight DanaHenry James BrookeWilliam Hallowes MillerPaul Heinrich von GrothGeorg Amadeus Carl Friedrich NaumannAugustin-Louis CauchyAndré-Marie AmpèreJames Clerk MaxwellCharles DarwinLeucippoNiccolò TommaseoSenarmontH. K. L.Cesare CantùUlrico HoepliA.Arduino d'IvreaSigismondo di LussemburgoAmedeo VIII di SavoiaCosimo I de' MediciAstolfoBerengario del FriuliRoberto il GuiscardoPolibioBelisarioGiano Della BellaCesare BalboFerenc GyulayUlysse RobertHenry George RavertyGiovanni Battista CavalcasellePietro BemboTiziano VecellioEugène de Fontaine de ResbecqLeopoldo FranchettiSidney SonninoAngiolo Gherardini
+
+Campo di MarteFranciaBussetoEmilia-RomagnaGalleria Vittorio EmanueleLombardiaElbaToscanaMonte AmiataToscananazioni europeeImpero RomanoGerusalemmeIsraelePireneiFrancia, Andorra e SpagnaStaffardaPiemonteRyswickPaesi BassiCambraiFranciaTicinoItalia e SvizzeraVilla-francaVenetoRegno d'ItaliaMuseo di NapoliCampania
+
+Accademia delle Scienze di TorinoScuola degli IngegneriCrociatiConcilio di CostanzaSaraceniRepubblica romanaGotiOstrogotiLongobardiGuelfiGhibelliniSveviReali di SavoiaCasa d'AustriaStati generali di Orléans
+La rassegna settimanaledi politica, scienze, lettere ed artiRomaCasa Editrice Barbèra1878ItaliaRoma
+Rassegna Settimanale
+Fogli di carta
+Pagine interamente integre, qualche piccola macchia di inchiostro sul testo e sui
+bordi, il testo è facilmente leggibile.
+Le pagine sono divise in due colonne con in media 67 righe ciascuna, per un totale
+di circa 135 righe per pagina. Nelle pagine di numero pari (che non siano la pagina
+di copertina) la numerazione si presenta al lato sinistro della pagina mentre le informazioni
+sul volume e sul fascicolo sono sulla destra. Nelle pagine di numerazione dispari,
+invece, troviamo la data al lato sinistro e il numero di pagina al lato destro. In
+ogni pagina, al centro, troviamo sempre la scritta "LA RASSEGNA SETTIMANALE.".Codifica di 4 sezioni della rivista: Corrispondeza artistica da Parigi, La mineralogia in Italia, Bibliografia e Notizie.Italianorivista settimanale
+CORRISPONDENZA ARTISTICA DA PARIGI. 
+La pittura italiana si può considerare da più e diversi 
+punti di vista, sia che si voglia determinare il carattere 
+spiccatissimo che diversifica ciaschedunaciascuna delle differenti re-
+gioni, sia che si voglia dividere fra arte della madre patria 
+ed arte delle colonie, sia che le si vogliano adattare le 
+distinzioni comuni a tutte le arti di questo mondo, secondo
+le due grandi correnti del passato e dell'avvenire che si
+contendono il tempo presente, l'una in nome della tradi-
+zione, l'altra in nome della ricerca del nuovo. Dovendo
+in queste pagine fare non un trattato ma uno schizzo dello
+stato della nostra esposizione di pittura, procureremo di
+toccare tutti questi aspetti sotto i quali essa si presenta.
+Del resto, sia per l'effetto dell'elasticità del nostro carattere
+o per deficienza di vita propriamente nazionale, nessun' arte
+al giorno d'oggi è tanto cosmopolita quanto la nostra.
+
+Un tempo l' arte italiana era rappresentata all' estero
+principalmente da quei nostri compatriotticompatrioti che partono da
+piccini con un' arpa in bandoliera, un violino sotto il brac-
+cio o dei gessi sul capo, e vanno ramingando nelle vie delle
+principali città d'Europa e d'America. Ora, facilitate le comu-
+nicazioni dai negozianti di quadri, sono anche artisti grandi
+e grossi che armatisi della cassetta e del porta-studi, ven-
+gono ad empire i mercati artistici di Londra e di Parigi,
+delle loro tele, della loro pretensione e del loro appetito.
+Fra questi, pochi superano la mediocrità e sviluppano un
+vero talento. Acclimatati e graditi, diventano allora l' or-
+namento non solo della nostra sezione al Campo di Marte,
+ma pur anco di molte case aristocratiche ; altri si adattano
+ad aspettare la voga che li sollevi, come fa la marea alle
+navi che sono in secco.
+
+Fra i primi ad aprire la marcia dell' emigrazione arti-
+stica vi fu il signor professore Pasini di Busseto, a cui sap-
+piamo essere stato conferito quest' anno il premio d' onore,
+ sebbene la cosa non sia stata ancora comunicata ufficial-
+mente al pubblico.
+
+Non conosciamo i lavori del Pasini prima della sua ve-
+nuta in Francia, ma ora e da vari anni può considerarsi
+come un pittore francese, imperocchéperciò che la sua arte risente
+completamente dell' ambiente della città nella quale dimora.
+
+L' abilità, questa dea suprema che dirige oggi quasi
+interamente la mano dell'artista e totalmente l'occhio del 
+negoziante, ha toccato colla sua verga fatata anche l'inge-
+gno del Pasini, il quale passando attraverso Fromentin è 
+riescitoriuscito a fabbricare una pittura piena di illusioni e di ma-
+lizia, pittura che manifesta un ingegno non comune, una 
+grazia quasi insuperabile, una riproduzione tenace dello 
+stesso sentimento e della stessa visione sopra un numero 
+indefinito di tele, una pittura che tiene a un nulla ma che 
+non è volgare, falsa ed attraente come una donna. Dio mi 
+perdoni, e perdonatemi voi pure, cortesi lettori, se dopo 
+tutta questa lunga definizione non sono riescitoriuscito a definirvi 
+nettamente l' arte del signor Pasini, e dirvi con precisione 
+a quale categoria essa appartenga. Forse, collocando uno 
+di questi quadri nel boudoir d' una signora qualunque, po- 
+trei dirvi se è precisamente nel posto che gli si conviene. 
+Dopo di lui, eminentissimo fra i nostri compatriotticompatrioti
+della colonia parigina, viene il De Nittis, che con altret-
+tante tele gli ha disputata la palma.
+
+Del De Nittis non ripeteremo gli elogi meritati che  
+sono già stati fatti nella Rassegna dall' altro vostro corr-
+ispondente ; aggiungeremo solo che a parer nostro questi è 
+molto più robusto artista e potente impressionista del Pa-
+sini, e che perciò fummo dolorosamente sorpresi ch' egli 
+sia stato posposto a lui nella decisione del giurì che gli ha 
+assegnato la medaglia d' oro e non il premio d' onore.
+
+Castiglione, Cortazzo, Rossi, emigrati di terza linea, con 
+differenti capacità ma con intenzioni eguali, non cercano 
+tanto il pel nell' uovopelo nel uovo come i due soprannominati, ma si 
+contentanoaccontentano di fare quello che piace ai più. Ora poiché noi 
+non apparteniamo a questo numero, così non essendo punto 
+commossi dai prodotti del loro ingegno, ci asterremo dal 
+parlarne. Il signor Serafino Tivoli ha esposto un buon 
+paesaggio intitolato : Les bords de la Scine. Auguriamo 
+a quest' artista d'ingegno una fortuna adeguata ai suoi 
+meriti.
+
+Il Mancini di Napoli (da non confondersi col signor
+cavaliere  Mancini altro pittore napoletano) stabilito a Parigi 
+da qualche anno, ci dimostra colle sue cinque tele un in-
+gegno pittorico brillante e un' abilità non comune. Fra tutte 
+noi preferiamo quella intitolata Du pain perchèperché ci dimostra 
+più nettamente il talento di quest' artista pel qualeper il quale non 
+v' ha altra preoccupazione che quella di rendere lo splen-
+dore del colore senza curarsimenomamenteminimamentenèné del soggetto 
+nèné della logica d'un quadro. Rispettando sempre le inten-
+zioni d' un artista purché esse arrivino ad una buona con-
+clusione, non possiamo a meno di lodare il Mancini per 
+queste sue opere che fanno onore alla nostra Esposizione 
+e per altre molte che abbiamo già vedute dai vari nego-
+zianti di Parigi. 
+
+E Federico Rossano il quale ha esposto molto modesta-
+mente quattro quadretti di paese accanto alle splendide 
+tele del suo allievo De Nittis, chiude la piccola falange de-
+gli emigrati onesti e capaci che studiano seriamente, che 
+cercano di far dell' arte anzitutto e che onorano grande-
+mente il nostro paese.
+
+Dietro a questi viene una sequela di artisti da confec-
+tions, ai quali non si possono negare certe attitudini nèné un 
+certo buon gusto, ma che hanno ridotto l' arte ad una ma-
+nifattura. 
+
+Vorremmo parlare del Michetti, forte e strano ingegno 
+pittorico, seduttore abilissimo d' artisti ed amatori, ma non 
+vogliamo neppure questa volta entrar nel campo del primo 
+vostro corrispondente.
+
+Detti, Marchetti, Joris, Iacovacci, Vertunni ec.etc, s'arra- 
+battano da anni ed anni per ottenere sempre il medesimo
+successo facendo presso a poco il medesimo quadro. Questi 
+romani derivati dallo spagnuolo Fortuny hanno avuto per
+qualche tempo la fortuna suprema di far credere al volgo
+ignorante che l' arte loro era la sola arte italiana e il detto
+volgo guidato da questo tipo non ha mai voluto ricono-
+scere chi faceva altrimenti.
+
+Speriamo che l' attuale Esposizione benché non dimostri 
+che molto parcamentemoderatamente quanto si fa o si tenta da noi in 
+fatto d' arte italiana ai nostri giorni, servirà pure a disin-
+gannare per sempre i creduli che si sono lasciati infinoc-
+chiare così facilmente.
+
+Ed ora arriviamo al gruppo degl' indigeni schietti, buoni 
+o cattivi, e vediamo un poco il bene ed il male che si fa in 
+casa nostra secondo le tradizioni, le scuole, il temperamento 
+che distinguono gli artisti delle varie province d'Italia.
+
+E per primo parleremo dei due fratelli Induno, vecchi 
+rappresentanti dell' arte nostra così detta di genere, arti-
+sti quarantottini di prima forza. Chi vuol vedere della pit-
+tura di genere del passato si rechi ad ammirare le tele dei 
+due fratelli Induno. 
+
+Domenico ci rappresenta la cerimonia del collocamento 
+della prima pietra della Galleria Vittorio Emanuele e ci fa 
+riconoscere tutte le fisionomie delle persone dipinte da 
+quelle del primo piano fino all' ultimo. Non v' è distanza nèné 
+fulgore di luce che possa impedire al diligente pennello di 
+questo artista di ritrarre un personaggio, sia pur la sua 
+testa grande come una capocchia di spillo, ed un buon uomo 
+aveva ragione di dire di lui, che, se avesse voluto, avrebbe 
+saputo fare gli occhi alle pulci.
+
+Il fratello Girolamo con un brio più disinvolto ha 
+presentatepresentato varie piccole tele molto bene accomodate e più 
+specialmente una intitolata Un amateur d'antiquités, nella 
+quale si ritrova un certo buonumore meneghino d' antica 
+data che la rende piacevole, sebbene la pittura appartenga 
+ad una maniera che ora non ha più alcun significato.
+
+Carica di zafferano e di risotto è l'opera capitale del 
+professore Eleuterio Pagliano. Napoleone il Grande  annun-
+zia commosso all' imperatrice Giuseppina la risoluzione 
+presa di abbandonarla, e l'abito di Madama ed il fazzo-
+letto col quale si asciuga gli occhi non che le carni stesse 
+si fondono intenerite a tanto annunzio. Anche il crudele 
+marito deve partecipare in gran parte dell' emozione della 
+moglie giacché tutta la sua persona risente i medesimi 
+effetti. 
+
+Un altro quadro dello stesso autore, intitolato La revue
+de Vhéritage, è molto superiore al sopraccitatosopracitato, e mentre 
+l'intonazione generale e la ricerca dei caratteri è ben so-
+stenuta, son degne di nota due figure dell' indietro ed una
+ parete assai bene dipinta. C.
+
+LA MINERALOGIA IN Italia.
+E cosa ripetuta da molti che l'Italia è povera ; altri in-
+vece sostengono che è ricchissima. Finalmente vi è chi la 
+stima povera per l'inerzia dei suoi abitanti. Tutte queste 
+affermazioni che corrono nei discorsi e su pei (per) libri ci sem-
+brano inesatte come le sentenze troppo assolute ; e vaghe per 
+le diverse definizioni che si possono dare alla ricchezza.
+
+Così se noi la fondiamo sopra la produzione agricola, e 
+paragoniamo, per esempio, l'Italia alla Francia, troviamo 
+in quella limitate regioni di una produttività che non ha 
+riscontro nella seconda. Ma il rapporto fra terre produt-
+tive e non produttive è maggiore in Francia che in Italia.
+
+Anche in fatto di miniere si può dire che in generale 
+siamo poveri, benché alcune delle nostre siano ricchissime. 
+Così se paragoniamo l'Italia all' Inghilterra, al contrario 
+di quanto si osserva in questa, troviamo fra noi, se si eccet-
+tua l'Elba per il ferro, la Sicilia per lo zolfo, la Toscana 
+per il borace e i marmi, la Sardegna per il piombo ec. (etc), 
+miniere numerosissime, ma di piccola estensione, e quindi 
+di rendita passeggera, nulla, o negativa.
+
+Se però la poca ricchezza di molte miniere italiane deve 
+ricercarsi in questa loro piccola estensione, dovuta a cause 
+generali geologiche che hanno reso variabilissime, a brevi 
+distanze, le condizioni stratigrafiche del nostro suolo, e 
+nella debolezza finanziaria delle Società o individui utima-
+tori, non è men vero però che altre miniere possono esi-
+stere in Italia produttive quanto quelle delle località so-
+prannominate, e che possono scuoprirsene (scoprirsene) delle ricche come 
+quella di cinabro da pochi anni trovata e utimata in To-
+scana presso il Monte Amiata.
+
+E qui conviene veramente rimproverare al nostro paese 
+il cattivo indirizzo degli studi mineralogici teorici e pra-
+tici. Riguardo a questi ultimi, per esempio, mentre tutti i 
+principali paesi di Europa, hanno opere sufficentemente (sufficientemente) 
+buone che ne fanno conoscere la ricchezza mineraria, in 
+Italia, tolti alcuni scritti speciali (raramente eccellenti 
+come quelli dello Struever sui minerali del Lazio e compi-
+lati bene come quelli del di Achiardi sui minerali della To-
+scana) non vi è quasi che il libro del Jervis, in cui il difetto 
+sostanziale si è quello di essere compilato, non invero, per
+colpa dell' autore, con materiali insufficenti (insufficienti) o non bastante-
+mente (sufficientemente) esatti. Prima di fare un' opera complessiva come quella 
+tentata dal Jervis, e che è solo ora un utile scartafaccio, è 
+necessario che si moltiplichino i lavori speciali, che si siano 
+eseguite le analisi chimiche e le descrizioni dei minerali 
+per ogni singola regione, compiendo questi studi ove sono 
+mezzi adatti, cioè nei gabinetti di chimica e di mineralogia.
+
+Invece questo è un campo ove si ama oziare; ovvero se 
+vien fatto di trovare un nuovo minerale si stamperanno dieci 
+pagine per descrivere i maravigliosi cristallini e i colori sma-
+glianti, invece di fare una buona analisi e una esatta de
+terminazione cristallografica. Mentre poi in quei medesimi 
+gabinetti il prof. Z. farà, o piuttosto farà fare dal suo as-
+sistente, l'analisi del vino del signor A., dell'olio del si-
+gnor B., del concime del signor C. E non già perchèperché que-
+ste analisi si coordinino a un lavoro che potrà essere pub-
+blicato e letto, e che sarebbe certo anch' esso vantaggioso, 
+ma perchèperché i signori A., B., C. sono amici del prof. Z. o gli 
+sono raccomandati dal prefetto X. o dal deputato Y.
+
+In una parola le autorità governative e municipali in 
+generale stimano che i gabinetti da loro in qualche modo 
+dipendenti siano istituiti dallo Stato per loro proprio uso 
+e consumo, e per quello dei loro amici e conoscenti. Ma qui 
+davvero non vi è artifizio che basti. Non si provvede al 
+progresso delle scienze con la massima: «Aiutami che io ti 
+aiuto » o « Lodami che io ti lodo. » Si richiede amore puro 
+e ricerca modesta e leale della verità. Altrimenti si cade 
+in quell' americanismo di cui un illustre scienziato tedesco 
+deplora gli effetti nel suo paese.
+
+Noi fin qui abbiamo inteso parlare dell' indirizzo generale 
+degli studi mineralogici in Italia, e lo crediamo tale ben-
+ché due scienziati, lo Scacchi ed il Sella, rappresentino una 
+efficace reazione contro quest' ozio e questo falso indiriz-
+zo. Lo Scacchi però, malgrado osservazioni numerosissime 
+ed acute non ha avuta immediata azione su tale stato di 
+cose; poiché egli, rimanendo nella sfera elevata della scienza 
+pura, chimico distinto e mineralogista di prim' ordine, non 
+si è curato di fare allievi. Il Sella è veramento (veramente) quello che ha 
+richiamato a nuova vita in Italia lo studio della minera-
+logia, sostituendo a vane parole, osservazioni e accurate 
+misure ; e fondando quella scienza sopra cognizioni chimi-
+che, fisiche e matematiche, ha contribuito a riavvicinare 
+l'Italia, per questi studi, al livello raggiunto dalle altre 
+nazioni europee. Le tracce del suo insegnamento rimangono 
+nelle memorie inserite principalmente negli Atti dell' Acca-
+demia delle Scienze di Torino e nelle Lezioni di Cristallo-
+grafia fatte per la Scuola degli Ingegneri in quella città ; i 
+nuovi metodi che sono esposti in questi scritti hanno avuto 
+influenza sul progresso di questi studi non solo in Italia ma 
+anche fuori.* La descrizione dei minerali dà al Sella argo-
+mento di teoremi geometrici e di ipotesi, mostrando così 
+come la scienza applicata non deve rifuggire dalla pura, nèné 
+quella dimenticare che da questa discende il suo florido ed 
+efficace sviluppo.
+
+L'opera del Sella è ora continuata dallo Struever ed 
+alla loro scuola appartengono il Grattarola, il Panebianco, 
+lo Spezia, l'Uzielli e qualche altro ; tenue schiera invero, 
+se si pensa alla vastità del campo inesplorato che presenta 
+l'Italia, e se si pensa al danno che può venire alla scienza 
+e anche alla prosperità del paese quando il numero dei 
+cultori di quella nelle sue varie parti non sia bastante (bastate)
+a render possibile fra gli studiosi una reciproca verifica-
+zione delle ricerche, atta a far scuoprire (scoprire) gli errori in cui 
+ciascuno può cadere, e a fermare chi sia per inoltrarsi in 
+una falsa via.
+
+A scuola diversa appartiene il professor Bombicci. E ci 
+sia qui lecito esprimere il nostro dispiacere dell' influenza 
+esercitata da quel professore, dotto collezionista ed appas-
+sionato insegnante ; ma i di cui metodi fallaci e superficiali 
+sparsi in tutte le scuole tecniche, liceali, ed universitarie 
+d'Italia esercitano a nostro avviso, azione nocevolissima e 
+che pur troppo (purtroppo) sarà duratura. ** Tale profonda credenza 
+scusi presso il lettore la nostra vivacità che non potrà cal-
+marsi finché un nuovo manuale inspirato allo spirito scien-
+tifico moderno, non possa mettersi fra le mani dei nostri 
+giovani, sia esso originale o traduzione di qualche buon li-
+bro straniero come sarebbero i trattati del Dana, del Brooke 
+e Miller, del Groth, del Naumann e altri esimi scienziati. 
+Peraltro, affine di non essere accusati di critica velata 
+dobbiamo schiarire maggiormente il nostro pensiero.
+
+La Mineralogia teorica è scienza che malgrado i grandi 
+progressi che ha fatti, è assai imperfetta in causa delle no-
+stre incomplete cognizioni intorno a molti dei fenomeni 
+propri della materia e più particolarmente dei cristalli. La
+
+* Così il Miller ampliò, come egli stesso indica, dopo la pubblicazione 
+di alcune memorie del Sella, il suo Treatise o f Cristallography i cui me-
+todi tendono ogni giorno più a prevalere fra i mineralogisti. 
+** Bombicci, Corso generale di mineralogia. Bologna 1875, tre vol.
+ in 8° gr.
+
+mineralogia, intesa nel suo senso il più generale, implica 
+le scienze matematiche meccaniche, fisiche e chimiche, infine 
+tutte quelle che si riferiscono al regno inorganico. Essa stu-
+dia prima d'ogni altra cosa le forme poliedriche delle sostan-
+ze cristalline, cioè della materia armonicamente formata, 
+quindi le sue forme irregolari cioè, in una parola, la materia 
+in tutte le sue manifestazioni. Ma, ammesso anche che di 
+questa sia dato conoscere la natura assoluta, fa d'uopo 
+convenire (necessario) che nessuna delle ipotesi enunciate fin qui può 
+essere accettata concordemente dalle diverse scienze; quindi 
+non possiamo riconoscere nessuna delle fatte ipotesi come 
+la più probabile possibile; così per esempio non può darsi 
+una definizione fisico-chimica che abbracci l'individuo cri-
+stallografico e chimico, cioè la forma e la ponderosità della 
+materia; eppure queste devono essere connesse intimamente 
+fra di loro. Non mancarono in proposito ipotesi di eminenti 
+ingegni come il Cauchy, l'Ampère, il Maxwell e cento altri 
+fisici; ma tutte vennero poco alla volta abbandonate come 
+definizioni assolutamente generali della materia, a misura che 
+nuove esperienze le contraddicevano. Basti citare il Dana 
+autore del fondamentale e più esteso trattato di Mineralogia 
+che si abbia; nell' ultima edizione egli ha tolto quanto trova-
+vasi nelle prime sull'ipotetica costituzione della materia; 
+così invece di voler forzare l' analisi di qualunque corpo a 
+inquadrarsi in una formula chimica, ha dato, ove era neces-
+sario, solo i dati quantitativi di varie discrepanti analisi. 
+In ciò si mostrava animato da quel medesimo spirito scien-
+tifico che faceva dire così originalmente a Leonardo da : 
+«Chi si promette dalla sperienza quel che non è in lei, si 
+discosta dalla ragione.»
+
+Ma pur troppo (purtroppo) è erronea tendenza di molti insegnanti,
+ed in ciò eccede il Bombicci, l'introdurre a base di un
+metodo didattico, teorie non accettate universalmente, er-
+rore tanto più grande e nocivo quanto più queste teorie
+sono arbitrarie e non comprovate dalle esperienze.
+
+È questa, pur troppo, la via seguita dal Bombicci; quando
+qualche nuova ipotesi appariva in uno dei molteplici rami
+in cui si divide la scienza generale, egli l'introduceva a
+forza in Mineralogia; teoria dinamica del calore, atomicità,
+atavismo, darvinismo; non già perchèperché fatti ed esperienze
+ben controllate glie lo (glielo) consigliassero, ed in ciò è memora-
+bile esempio il Darwin stesso; ma perchèperché egli si sentiva
+libero di dar carriera ad una fervida fantasia in un campo
+ove vi è tanto ancora d'oscuro e d'indeterminato, e ove
+non si è trovata una definizione della materia efficacemente
+nuova, considerandola in tutta la generalità delle sue ma-
+nifestazioni, da Leucippo e dall'immaginosa scuola eleatica
+in poi. Nel vagare alla ventura in questo vasto campo,
+quante frasi altisonanti non si possono fare echeggiare nelle
+aule universitarie infette ancora delle arcadiche voci dei no-
+stri più recenti antenati! Come si possono riscuotere facili
+applausi dalla nostra gioventù, disposta piuttosto a spa-
+ziare in vuote tautologie e a sfogliare il dizionario del
+Tommasèo, piuttosto che tener l'occhio fisso e affaticato so-
+pra il goniometro e il microscopio? E come ciascuno, non
+dando importanza all'esattezza dei calcoli e delle defini-
+zioni, si lascia sedurre volentieri dalla speranza di poter
+un giorno, imitando il maestro, possedere quel ganglio ner-
+voso di cui così discorre il professor Bombicci: «Infine
+come i fenomeni luminosi non rivelano splendidamente le
+loro leggi che nelle masse limpide e pure, e strutturalmente
+regolari di certi privilegiati cristalli, così il fenomeno del-
+l'intelligenza non perverrebbe al fulgido balenio del genio
+scientifico, letterario, artistico, che in talune privilegiate
+strutture del più perfetto tra ogni ganglio nervoso.*»
+
+* Processo di evoluzione della specie minerale. Discorso inaugurale per
+l'anno scolastico 1877-78. Bologna, 1878, p. 25.
+
+Può veramente credere il professor Bombicci essere ani-
+mato dallo spirito della scienza quando egli ne discorre con
+parole come queste?: «Per essa (la Scienza) come per ogni
+entità infinita, non havvi (abbia) alto nèné basso, indietro od avanti;
+dovunque essa incontra il Vero, il Buono, il Bello, di cui il
+Falso, il Cattivo, il Brutto, non sono che le modalità ne-
+gativamente polarizzate. E tutto questo concorre egual-
+mente alla grande storia dell'umano pensiero. Per la scienza
+libera, i cui obiettivi, come pei raggi della luce e per le
+onde sonore, sono in ogni azimuto, Geova e Satana rappresen-
+tano figuratamente i due massimi concetti sintetici delle
+forze vive di segno contrario, il + e il – (il più e il meno); i due poli, a di-
+verso segno di un circuito universale, attivi appunto per-
+chè antagonisti; necessarie e supreme ragioni dei fenomeni,
+vale a dire delle trasformazioni; simboli convenzionali del
+dinamismo vero e universo, del Cosmos che ne consegue.
+L'elemento corporeo dell'umanità li subisce. *»
+
+Con questo linguaggio che nessun filosofo e nessun (nessuno)
+scienziato può giudicare accettabile, il Bombicci ha rinnuo-
+vato (rinnovato) in Mineralogia i metodi eleatici, e si è fatto iniziatore
+di una scuola estranea all'indirizzo scientifico moderno.
+Due altre scuole invece sono animate da questo ultimo spi-
+rito in Italia:
+1° Il professor Arcangelo Scacchi;
+2° La scuola dei Senarmont, dei Miller e di numerosis-
+simi tedeschi, della quale Quintino Sella è stato fra noi
+l'iniziatore e il propagatore, e da cui speriamo il risorgi-
+mento degli studi mineralogici in Italia. H.K.L.
+
+BIBLIOGRAFIA. (A. metti come abbreviazione di autore)
+STORIA.
+Cesare Cantù. Manuale di Storia Italiana. — Milano, Ulrico
+Hoepli, 1879.
+L'editore Hoepli accogliendo questo Manuale di Storia
+italiana nella sua collezione di libri didattici ha inteso per
+certo di pubblicare un libro scolastico; ma a quali scuole
+e a qual genere di lettori può confarsi questo nuovo com-
+pendio, che in 160 paginette, 20 delle quali sono di tavole
+cronologiche, condensa tutta quanta la storia d'Italia, dai
+primi abitatori della penisola fino ai nostri ultimissimi
+giorni? Alle scuole primarie no, perchèperché le osservazioni e
+i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto
+il libro in complesso, non si adattano punto nèné all'indole,
+nèné alla capacità intellettuale dei fanciulli; alle secondarie
+nemmeno, perchèperché è troppo scarso di fatti; non può giovare
+ai maestri, perchèperché troppo elementare, nèné in generale a nes-
+suna sorta di lettori, perchèperché quelli che sanno la storia non
+leggono siffatti compendi, e d'altronde non avrebbero da
+imparar nulla da questo, e quelli che non la sanno non lo
+possono intendere.
+
+Ma prescindendo da tutto ciò, fosse almeno scevro d'er-
+rori e di quali e quanti errori! Abbondano gli sbagli di cro-
+nologia, e poiché il libro è stampato in generale con bastante
+correttezza, non li possiamo attribuir tutti allo stampatore.
+Ne citiamo alcuni: Dice che Costantino riunì l'Impero nel 306
+(p. 23); fa eletto Arduino re d'Italia nel 1004 (p. 37) e fu
+nel 1002; presa Gerusalemme dai Crociati nel 1096 (p. 39) e
+morto Enrico VI nel 1198 (p. 46), mentre morì l'anno avanti;
+dice che l'imperator Sigismondo ottenne si convocasse il
+Concilio di Costanza nel 1418 (p. 56) mentre fu convocato
+nel 1414, e che Amedeo VIII si lasciò nominar papa nei 1451
+(p. 57), quando il secondo scisma era già finito da due anni.
+Il 1451 è stato invece l'anno della morte di lui. Cosimo I dei
+Medici ottenne il titolo di granduca nel 1569 non nel 1560
+(p. 70). La pace dei Pirenei non fu conclusa nel 1652 (p. 86)
+ma nel 1659; la battaglia di Staffarda non avvenne nel 1691
+
+(* Processo di evoluzione, ec., p. 26.)
+
+ma nel 1690, nèné la pace di Ryswick nel 1698 (p. 90), nèné
+la guerra della successione polacca scoppiò nel 1719 (p. 92).
+Parecchie altre date per esser forse collocate male non rispon-
+dono esattamente ai fatti, a cui sembrano riferirsi, come là
+dove, per esempio, non accennando che ad una sola delle
+discese di Pipino il Breve in Italia, assegna ad essa l'an-
+no 754, mentre in quel luogo (p. 35) sarebbe stato più ragio-
+nevole indicar l'anno della seconda discesa e della disfatta
+definitiva d'Astolfo. Così a pag. 36 non si sa se colla
+data 888 voglia ricordare l'elezione di Berengario a re
+d'Italia o la sua incoronazione imperiale, che fu nel 916 e
+secondo altri nel 915. Accennando a Roberto Guiscardo dice
+che sottrasse la Sicilia ai Saraceni, e pone la data 1089 (p. 45),
+quando il Guiscardo era già morto da qualche anno.
+
+nèné solamente la cronologia è sbagliata spesso in questo
+compendietto, ma vi abbiamo notato errati non pochi fatti e
+giudizi che peccano per grande inesattezza. Per esempio:
+«La plebe romana giaceva senza diritti, senza possessi,
+sema famiglia » (pag. 12). Citando a caso Polibio, e legando
+insieme notizie diverse sulle forze militari dei vari popoli
+italici, l'A. dà alla Repubblica romana, al tempo delle
+guerre puniche, un esercito di 700,000 fanti e di 70,000
+cavalli (pag. 16). Accenna in modo alla caduta dei Goti, che
+par che fosse Belisario il loro vincitore e distruttore ultimo
+(pag. 34). Non rammentando che l'Italia fu unita sotto
+Odoacre e sotto gli Ostrogoti, dice che i Longobardi fu- 
+rono i primi che idearono l'Italia una (pag. 34), e di essi
+ripete le solite accuse, ormai rigettate dai migliori critici,
+e che gli Italiani sotto il dominio longobardo « erano stati
+tenuti poco meno che da schiavi » (pag. 36). Non è vero
+che nei primi secoli i pontefici fossero eletti dai vescovi,
+questi dai preti e i preti dalle plebi (pag. 27). Anzi le ele-
+zioni ecclesiastiche non si fecero mai così. Che i servi della
+gleba stessero meglio sotto gli ecclesiastici non lo impu-
+gneremo, ma che questi fossero « meno avidi di guadagno »
+(pag. 39), le ricchezze accumulate dal clero nei più bui
+secoli del medio evo lo mostrano. Dei Guelfi e dei Ghibel-
+lini dà il solito giudizio dei neoguelfi, pei quali (per i quali) furono i
+soli Guelfi a volere l'indipendenza e per essa la libertà
+(pag. 42). Anticipa a Federico II il disegno di abbattere i
+Comuni italiani, vivente, anzi regnante-Ottone IV, quando
+lo Svevo era ancora giovanetto e favorito da Innocenzo III
+(pag. 46), e la Lega lombarda, rinnovatasi nel 1226, pare,
+dal modo come la ricorda, che fosse fatta quando ancora vi-
+veva Ottone, il quale morì nel 1218. Afferma che nella guerra
+tra i Papi e gli Svevi, la Chiesa non adoperò che i frati, le
+prediche e le scomuniche (pag. 47). Fa Giano della Bella
+signore di Firenze alla pari del duca D'Atene (pag. 49);
+Dante diventar ghibellino per dispetto (pag. 52); e fa Carlo
+VIII re di Francia della casa d'Angiò (pag. 66). Attribuisce
+alla pace di Barcellona anche quel che fu stipulato nei trat-
+tati di Cambrai e di Bologna (pag. 69). Dice che l'Ariosto
+ebbe mirabile istinto dell'arte, con poca fantasia, e che «non
+conobbe nèné moralità, nèné patriottismo, nèné dignità, celiando per
+celiare» (pag. 78), le quali ultime due parole sono del Som-
+mario del Balbo. I Reali di Savoia non sono nelle grazie del
+signor Cantù, e della loro politica, che, quantunque interes-
+sata, riuscì in sostanza di tanto profitto all'Italia, e fu la
+sola vigorosa durante i secoli delle nostre vergogne, non
+sa dir altro che «consistette nel muoversi sempre» (pag. 82),
+e asserisce che Carlo Emanuele I, «col voler liberare l'Ita-
+lia dagli stranieri, ve li trasse a devastarla» (pag. 85),
+come se le rivalità tra la Casa d'Austria e la Francia sotto
+Enrico IV, la Reggenza e il Richelieu, avessero avuto bi-
+sogno a riaccendersi che le rattizzasse il figliuolo di Emanuel
+Filiberto. Al contrario egli giudica che la causa italiana fu 
+sostenuta dai papi (pag. 81). nèné citiamo altro per non di-
+stenderci troppo. Del rimanente le opinioni di Cesare Cantù
+sono note abbastanza, perchèperché noi non ci sentiamo la voglia di
+ribatterle qui. È nota la sua fanatica ammirazione per il
+Medio evo, e l'acrimonia con cui parla nei molti suoi li-
+bri delle rivoluzioni moderne. Non è quindi da maravigliare (meravigliarsi)
+se anche in questo dà spesso in giudizi, che, per essergli
+cortesi, diremo che sentono troppo del sistematico. Ma dove
+l'A. sfoga più il suo mal animo per tutto ciò che sa di mo-
+derno rinnovamento politico è nell'età contemporanea. Con
+un'arte nèné punto critica, nèné punto evangelica, e di cui ha
+dato un saggio più ampio nella sua Cronistoria dell'indipen-
+denza italiana, mette da un lato tutto quel po' di bene che può
+dirsi dei cessati governi, tacendone il molto male, ed esa-
+gerando dall'altro gli errori e le colpe dei patriotti. Rap-
+presenta il Borbone, il Duca di Modena, Gregorio XVI
+come principi non ad altro intesi che al pubblico bene, che
+non poterono sempre fare, perchèperché impediti dalle scapestre-
+rie e dall'empietà dei rivoluzionari. Cavour seppe cogliere le
+occasioni, «usar degli uomini come istromenti (strumenti), sprezzare (disprezzare)
+le
+plebi, comprare gli arruffoni» (p. 124), nèné del grande uomo
+di Stato ci sa dir altro. Mette i liberali in un fascio coi bri-
+ganti a scalzare il Napoletano (p. 124), e forzando la nota,
+dice che i veri despoti d'Italia tra il 48 e il 59 non furono
+i nostri oppressori, ma i fuorusciti (fuoriusciti) e la stampa clandestina
+(p. 125). Il ricordo della dichiarazione di guerra all'Austria
+nel 59 fa scrivere all'A. queste parole, che avrebbe potuto det-
+tare un ufficiale dello stato maggiore del generale Giulay:
+«L'Austria dovette premunirsi, e il Piemonte gridò all'Eu-
+ropa d'essere minacciato; armò la guardia nazionale: facea (faceva)
+che i giovani coscritti di Lombardia fuggissero in Piemonte,
+sempre parlando di pace, e protestando di non fare che difen-
+dersi. L'Austria non potè reggervi, e intimata guerra, passò
+il Ticino. Avrebbe dovuto farlo assai prima, e allora difilarsi
+sopra Torino e Genova» (p. 126-27). Cavour, dopo Villa-
+franca, rinunziò al portafoglio, «ma subito tornò a cospi-
+rare» (p. 127). La Toscana, il Parmigiano, il Modenese, si
+dichiararono parte integrale (integrante) del Regno d'Italia cogli imman-
+cabili plebisciti (p. 128) e l'Emilia si annesse al Regno colle
+solite formule. Eppure, dopo tutto questo, e più altro an-
+cora che per brevità tralasciamo, noi vogliamo essere
+col signor Cantù più giusti di quel che egli non sia coi
+morti e coi vivi. Nelle ultime pagine del suo libro ci si
+sente l'uomo che non condanna poi tanto questa Italia
+quale è venuta fuori dalle cospirazioni, dal senno e dal co-
+raggio degli uomini e dai plebisciti. E benché per lui «sieno (siano)
+frasi la sovranità nazionale, il suffragio universale, la libera
+Chiesa, la democrazia scientifica, ed altre panacee da caf-
+fè» (p. 137), conchiude (conclude) col riconoscere che poichè «questo
+governo è fatto da noi elettori, sta in noi il migliorarlo,
+non con sovvertimenti e scioperi e triennali avvicendamenti
+di ministri, ma col far ciascuno il nostro dovere» (p. 138).
+Sante parole, ma troppo poche, per fare di questo manuale
+un libro giusto e vero.
+
+NOTIZIE.
+— Il secondo volume dell'opera anonima Diplomatic Sketches by an
+Outsider, che sarà pubblicato nell' ottobre, tratterà la « Questione Da-
+nese. » Il terzo e il quarto volume, che seguiranno fra breve, si occu-
+peranno degli affari della Grecia e dell'Italia.
+— Ulysse Robert (alla Biblioteca Nazionale di Parigi) prepara una 
+bibliografia di tutti i cataloghi di manoscritti che sono stati pubblicati.
+— Il maggiore Raverty pubblicherà fra breve un Dizionario Inglese-
+Afgano.
+
+
+
+— Il Cavalcaselle ha scoperto nel deposito del Museo di Napoli il
+ritratto del cardinale Bembo fatto da Tiziano.
+
+
+
+— In un volume del signor Fontaine do Resbecq, intitolato: His-
+toire de l'enseignement primaire avant 1789 dans les communes qui ont
+formé le département du Nord, fra altri documenti n' è riportato uno
+compilato dagli Stati generali di Orléans nel 1560, col quale la no-
+biltà del paese domandava «che fosse levata una contribuzione per
+stipendiare ragionevolmente dei pedagoghi e letterati, in tutte le città
+e villaggi, per l'istruzione della gioventù povera del paese di pianura,
+e sieno tenuti i padri e madri sotto pena di ammenda a mandare i detti
+fanciulli a scuola, ed a ciò fare sieno costretti dai signori giudici ord-
+inari.» Altri documenti curiosi, riferiti dal signor de Resbecq, mostrano
+che l' idea dell' istruzione obbligatoria non data da oggi.
+(Revue politique et littéraire.)
+
+Leopoldo Franchetti
+Sidney Sonnino
+Proprietari Direttori.  
+
+Angiolo Gherardini, Gerente Responsabile.
+
+FIRENZE, 1878. — Tipografia Barbèra.
