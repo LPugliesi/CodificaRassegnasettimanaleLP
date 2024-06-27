@@ -25,9 +25,8 @@
                             <li><a href="#p2">Pagina 2</a></li>
                             <li><a href="#p3">Pagina 3</a></li>
                             <li><a href="#p4">Pagina 4</a></li>
-                            <li><a href="#p5">Pagina 18</a></li>
-                            <li><a href="#p6">Pagina 19</a></li>
-                            <li><a href="#p7">Pagina 20</a></li>
+                            <li><a href="#p5">Pagina 5</a></li>
+                            <li><a href="#p6">Pagina 6</a></li>
                         </ul>
                     </nav>
                     <div class="tit">
@@ -119,7 +118,7 @@
                 </div>
                 <div id="box5">
                     <article id="p5">
-                        <h2>Pagina 18</h2>
+                        <h2>Pagina 5</h2>
                         <div class="flexbox">
                             <div class="img">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img5']" />
@@ -132,7 +131,7 @@
                 </div>
                 <div id="box6">
                 <article id="p6">
-                    <h2>Pagina 19</h2>
+                    <h2>Pagina 6</h2>
                     <div class="flexbox">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='img6']" />
@@ -142,19 +141,6 @@
                         </div>
                     </div>
                 </article>
-                </div>
-                <div id="box7">
-                    <article id="p7">
-                        <h2>Pagina 20</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img7']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '7']" />
-                            </div>
-                        </div>
-                    </article>
                 </div>
                 </div>
             </div>
