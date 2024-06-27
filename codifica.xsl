@@ -63,37 +63,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="container"><h3>Evidenzia</h3></div>
-
-                <div class="menu">
-
-                    <!-- Bottoni -->
-                    <div class="btns-highlight">
-                        <button class="highlight yellow" id="person">Persone</button>
-                        <button class="highlight rose" id="character">Personaggi</button>
-                        <button class="highlight mint" id="bibl">Opere</button>
-                        <button class="highlight powder" id="place">Luoghi</button>
-                        <button class="highlight purple" id="publisher">Casa editrice</button>
-                        <button class="highlight coral" id="date">Date</button>
-                        <button class="highlight crimson" id="verbum">Verbum</button>
-                        <button class="highlight orange" id="literary">Correnti letterarie</button>
-                        <button class="highlight lilac" id="foreign">Lingua straniera</button>
-                        <button class="highlight jade" id="cit">Citazioni</button>
-                        <button class="highlight blue" id="org">Organizzazioni</button>
-                        <button class="highlight applegreen" id="religion">Religioni</button>
-                    </div>
-
-                    <div class="btns-show" style="width:600px;">
-                        <button class="show lemon" id="expan">Espansioni</button>
-                        <button class="show marine" id="reg">Regolarizzazioni</button>
-                        <button class="show vanilla" id="ex">Aggiunte</button>
-                        <button class="show sand" id="corr">Correzioni</button>
-                    </div>
-                </div>
-
-                <!-- Testo -->
-
             </body>
 
             <footer>
