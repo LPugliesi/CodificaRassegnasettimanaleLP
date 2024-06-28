@@ -20,18 +20,18 @@ body {
 }
 
 .tit{
-  position: static;
   font-family: "Chivo Mono", monospace;
-  margin-top: 5%;
+  margin-top: 10%;
   font-size: 15px;
   text-align: center;
 }
 
 .section{
   font-family: "Chivo Mono", monospace;
-  margin-top: 15%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
   font-size: 13px;
   text-align: left;
 }
@@ -134,4 +134,54 @@ body {
 /* Colore barra se usata */
 ::-webkit-scrollbar-thumb:hover {
   background: #414b15; 
+}
+
+footer {
+  text-align: left;
+  font-family: "Chivo Mono", monospace;
+  padding: 50px;
+  background-color: #000000;
+  color: #e0f77a;
+}
+
+
+  #about h2 {
+
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 18px;
+  text-align: left;
+  }
+
+  #about h1 {
+
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+    text-align: center;
+    }
+
+
+  #about p {
+
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 12px;
+    text-align: left;
+    }  
+
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .box {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
 }

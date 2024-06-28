@@ -36,31 +36,48 @@
                                     <a href="#">Pagina 6</a>
                                 </div>
                             </div>
-                            <a href="#">About</a>
+                            <a href="#about">About</a>
                         </div>
                     </nav>
 
-                    <div class="tit">
-                        <h1>
-                            <xsl:apply-templates select="//tei:title[@xml:id='title']"/>
-                        </h1>
-                    </div>
                 </header>
 
-            <div class="section">        
-                <div>
-                    <h2>Descrizione della Fonte:</h2>
-                    <xsl:apply-templates select="//tei:imprint"/>
+                    <div class="tit">
+                        <h1><xsl:apply-templates select="//tei:title[@xml:id='title']"/></h1>
+                    </div>
+
+
+                <div class="section">        
+                    <div>
+                        <h2>Descrizione della Fonte:</h2>
+                        <xsl:apply-templates select="//tei:imprint"/>
+                    </div>
+                    <div>
+                        <h2>Descrizione del Manoscritto:</h2>
+                        <xsl:apply-templates select="//tei:objectDesc"/>
+                    </div>
                 </div>
-                <div>
-                    <h2>Informazioni sulla Pubblicazione</h2>
-                    <xsl:apply-templates select="//tei:publicationStmt"/>
-                </div>
-                <div>
-                    <h2>Descrizione del Manoscritto:</h2>
-                    <xsl:apply-templates select="//tei:objectDesc"/>
-                </div>
-            </div>
+
+
+                    <div id="about">
+                        <footer>
+                        <h1>INFORMAZIONI RIGUARDO IL PROGETTO:</h1>
+                        
+                        <div class="container">
+                            <div class="box">
+                                <h2>Informazioni dell'Edizione:</h2>
+                                <xsl:apply-templates select="//tei:editionStmt"/>
+                            </div>
+                            <div class="box">
+                                <h2>Informazioni sulla Pubblicazione:</h2>
+                                <xsl:apply-templates select="//tei:publicationStmt"/>
+                            </div>
+                        </div>
+                        
+                        </footer>
+                    </div>
+
+
             </body>
         </html>
     </xsl:template> 
@@ -102,6 +119,26 @@
     </xsl:template>
 
 
+
+ <!-- edizione e about    -->
+ <xsl:template match="tei:editionStmt">
+        <div>
+            <p><strong>Edizione:</strong> <xsl:apply-templates select="tei:edition"/></p>
+            <xsl:apply-templates select="tei:respStmt"/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:edition">
+        <span><xsl:value-of select="."/></span>
+    </xsl:template>
+
+    <xsl:template match="tei:respStmt">
+        <div>
+            <p><strong><xsl:value-of select="tei:resp"/> </strong>
+               <xsl:value-of select="tei:name"/>
+            </p>
+        </div>
+    </xsl:template>
 
 
 </xsl:stylesheet>
