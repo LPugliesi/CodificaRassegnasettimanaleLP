@@ -1,9 +1,6 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1, h2, h3, h4 {
-    font-family: "Chivo Mono", monospace;
-}
 
 html {
 	height: 100%;
@@ -19,14 +16,23 @@ header {
 
 body {
 	height: 100%;
-    background-color: #e0f77a;
+  background-color: #e0f77a;
 }
 
 .tit{
+  font-family: "Chivo Mono", monospace;
   margin-top: 5%;
   font-size: 15px;
   text-align: center;
 }
+
+.section{
+  font-family: "Chivo Mono", monospace;
+  margin-top: 10%;
+  font-size: 18px;
+  text-align: left;
+}
+
 
 /* contenitore Navbar */
 .navbar {

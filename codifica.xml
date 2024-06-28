@@ -8,11 +8,8 @@
 
       <!-- TITLE -->
       <titleStmt>
-        <title level="j" type="main">La rassegna settimanale</title>
-        <title level="j" type="sub" >di politica, scienze, lettere ed arti</title>
-        <author>
-          <addName>***</addName> e <addName>***</addName>
-        </author>
+        <title level="j" type="main"> La rassegna settimanale</title>
+        <title level="j" type="sub"> di politica, scienze, lettere ed arti</title>
         <funder><persName xml:id="P_LF">Leopoldo Franchetti</persName> e <persName xml:id="P_SS">Sidney Sonnino</persName></funder>
       </titleStmt>
 
@@ -45,7 +42,7 @@
 
       <!-- SERIE (dichiarazione sulla serie) raggruppa le informazioni circa la serie alla quale eventualmente la pubblicazione appartiene. -->
       <seriesStmt>
-        <title>La rassegna settimanale di politica, scienze, lettere ed arti</title>
+        <title xml:id="title">La rassegna settimanale di politica, scienze, lettere ed arti</title>
         <respStmt>
           <resp> Codifica a cura di: </resp>
           <name ref="#LP"> Lavinia Pugliesi </name>

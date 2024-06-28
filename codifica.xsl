@@ -42,26 +42,63 @@
 
                     <div class="tit">
                         <h1>
-                            <xsl:apply-templates select="//title[@level='j' and @type='main']"/>
-                            <xsl:apply-templates select="//title[@level='j' and @type='sub']"/>
+                            <xsl:apply-templates select="//tei:title[@xml:id='title']"/>
                         </h1>
                     </div>
-
                 </header>
+                    
+                <div class="section">
+                    <h2>Descrizione della Sorgente</h2>
+                    <xsl:apply-templates select="tei:sourceDesc/biblStruct/monogr/imprint"/>
+                </div>
+                <div class="section">
+                    <h2>Descrizione del Manoscritto</h2>
+                    <xsl:apply-templates select="tei:sourceDesc/msDesc/msIdentifier"/>
+                    <xsl:apply-templates select="tei:sourceDesc/msDesc/physDesc/objectDesc"/>
+                </div>
             </body>
         </html>
-    </xsl:template>
+    </xsl:template> 
 
     <!-- Template per titolo -->
-    <xsl:template match="title[@level='j' and @type='main']">
-        <h1><xsl:value-of select="."/></h1>
+    <xsl:template match="title[@xml:id='title']">
+        <xsl:value-of select="."/>
     </xsl:template>
 
-    <xsl:template match="title[@level='j' and @type='sub']">
-        <h2><xsl:value-of select="."/></h2>
+
+
+    <xsl:template match="tei:imprint">
+        <div>
+            <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="pubPlace"/></p>
+            <p><strong>Editore:</strong> <xsl:value-of select="publisher"/></p>
+            <p><strong>Data:</strong> <xsl:value-of select="date"/></p>
+        </div>
     </xsl:template>
 
-               
+    <xsl:template match="tei:msIdentifier">
+        <div>
+            <p><strong>Paese:</strong> <xsl:value-of select="country"/></p>
+            <p><strong>Città:</strong> <xsl:value-of select="settlement"/></p>
+            <p><strong>Repository:</strong> <xsl:value-of select="repository"/></p>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:supportDesc">
+        <div>
+            <p><strong>Materiale:</strong> <xsl:value-of select="@material"/></p>
+            <p><strong>Fonte:</strong> <xsl:value-of select="@source"/></p>
+            <p><strong>Supporto:</strong> <xsl:value-of select="support"/></p>
+            <p><strong>Condizioni:</strong> <xsl:value-of select="condition/p"/></p>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:layout">
+        <div>
+            <p><strong>Layout:</strong> <xsl:value-of select="."/></p>
+        </div>
+    </xsl:template>
+
+
 
 
 </xsl:stylesheet>
