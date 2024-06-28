@@ -21,7 +21,7 @@
                 <header>
                     <nav>
                         <div class="navbar">
-                            <a href="#" class="nameproject">Codifica di Testi</a>
+                            <a class="nameproject">Codifica di Testi</a>
                             <a href="#">Home</a>
                             <div class="dropdown">
                                 <button class="dropbtn">Pagine
@@ -42,21 +42,26 @@
 
                     <div class="tit">
                         <h1>
-                            <xsl:value-of select="//tei:title[@xml:lang='it']" />
+                            <xsl:apply-templates select="//title[@level='j' and @type='main']"/>
+                            <xsl:apply-templates select="//title[@level='j' and @type='sub']"/>
                         </h1>
                     </div>
-                    
+
                 </header>
             </body>
         </html>
     </xsl:template>
 
-<!-- Template per titolo -->
-<xsl:template match="tei:title">
-    <i class="title"><xsl:value-of select="." /></i>
-</xsl:template>
+    <!-- Template per titolo -->
+    <xsl:template match="title[@level='j' and @type='main']">
+        <h1><xsl:value-of select="."/></h1>
+    </xsl:template>
 
+    <xsl:template match="title[@level='j' and @type='sub']">
+        <h2><xsl:value-of select="."/></h2>
+    </xsl:template>
 
+               
 
 
 </xsl:stylesheet>
