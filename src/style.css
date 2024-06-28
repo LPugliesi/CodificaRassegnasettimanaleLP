@@ -1,41 +1,39 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 html {
-	height: 100%;
+    height: 100%;
 }
 
 header {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 body {
-	height: 100%;
-  background-color: #e0f77a;
+    height: 100%;
+    background-color: #e0f77a;
 }
 
-.tit{
-  font-family: "Chivo Mono", monospace;
-  margin-top: 10%;
-  font-size: 15px;
-  text-align: center;
+.title {
+    font-family: "Chivo Mono", monospace;
+    margin-top: 10%;
+    font-size: 15px;
+    text-align: center;
 }
 
-.section{
-  font-family: "Chivo Mono", monospace;
-  margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  font-size: 13px;
-  text-align: left;
+.section {
+    font-family: "Chivo Mono", monospace;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 13px;
+    text-align: left;
 }
-
 
 /* contenitore Navbar */
 .navbar {
@@ -43,143 +41,137 @@ body {
     background-color: #333;
     margin: 0;
     font-family: "Chivo Mono", monospace;
-  }
-  
-  /* Links dentro la navbar */
-  .navbar a {
+}
+
+/* Links dentro la navbar */
+.navbar a {
     float: left;
     font-size: 16px;
     color: #e0f77a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* parola codifica di testi in nero */
-  .navbar a.nameproject{
+}
+
+/* parola codifica di testi in nero */
+.navbar a.nameproject {
     background-color: #000000;
-  }
+}
 
-
-  /* contenitore del dropdown*/
-  .dropdown {
+/* contenitore del dropdown */
+.dropdown {
     float: left;
     overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
     color: #e0f77a;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
+    font-family: inherit;
+    margin: 0;
+}
+
+/* background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(0, 0, 0);
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
+}
+
+/* Dropdown content (nascosto di default) */
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #e9f9a1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links dentro il dropdown */
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+}
+
+/* background grigio quando sei hover */
+.dropdown-content a:hover {
     background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
-
-  /* Scroll bar */
+/* Scroll bar */
 
 /* larghezza */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 /* Barra base */
 ::-webkit-scrollbar-track {
-  background: #e0f77a; 
+    background: #e0f77a;
 }
- 
+
 /* Barra di scorrimento */
 ::-webkit-scrollbar-thumb {
-  background: #998931; 
+    background: #998931;
 }
 
 /* Colore barra se usata */
 ::-webkit-scrollbar-thumb:hover {
-  background: #414b15; 
+    background: #414b15;
 }
+
+/* Footer e About */
 
 footer {
-  text-align: left;
-  font-family: "Chivo Mono", monospace;
-  padding: 50px;
-  background-color: #000000;
-  color: #e0f77a;
+    text-align: left;
+    font-family: "Chivo Mono", monospace;
+    padding: 50px;
+    background-color: #000000;
+    color: #e0f77a;
 }
 
+#about h2 {
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 18px;
+    text-align: left;
+}
 
-  #about h2 {
-
-  margin-top: 1%;
-  margin-right: 2%;
-  margin-left: 2%;
-  font-size: 18px;
-  text-align: left;
-  }
-
-  #about h1 {
-
+#about h1 {
     margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
     font-size: 20px;
     text-align: center;
-    }
+}
 
-
-  #about p {
-
+#about p {
     margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
     font-size: 12px;
     text-align: left;
-    }  
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
-    .container {
-      display: flex;
-      justify-content: space-between;
-  }
-
-  .box {
+.box {
     width: 45%;
     padding: 10px;
     border: 1px solid #000;

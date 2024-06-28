@@ -40,7 +40,7 @@
                         </div>
                     </nav>
                 </header>
-                <div class="tit">
+                <div class="title">
                     <h1><xsl:apply-templates select="//tei:title[@xml:id='title']"/></h1>
                 </div>
                 <div class="section">        
@@ -69,6 +69,7 @@
                                 <xsl:apply-templates select="//tei:publicationStmt"/>
                             </div>
                         </div>
+                        <p style="text-align:center">Repository <a href="https://github.com/LPugliesi/CodificaRassegnasettimanaleLP">GitHub</a></p>
                     </footer>
                 </div>
             </body>
