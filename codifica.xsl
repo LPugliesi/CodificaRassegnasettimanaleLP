@@ -66,7 +66,7 @@
     </xsl:template>
 
 
-
+    <!-- Template descrizione doc -->
     <xsl:template match="tei:imprint">
         <div>
             <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="pubPlace"/></p>
@@ -83,16 +83,16 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:supportDesc">
+    <xsl:template match="tei:objectDesc/supportDesc">
         <div>
             <p><strong>Materiale:</strong> <xsl:value-of select="@material"/></p>
             <p><strong>Fonte:</strong> <xsl:value-of select="@source"/></p>
             <p><strong>Supporto:</strong> <xsl:value-of select="support"/></p>
-            <p><strong>Condizioni:</strong> <xsl:value-of select="condition/p"/></p>
+            <p><strong>Condizioni:</strong> <xsl:value-of select="condition"/></p>
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:layout">
+    <xsl:template match="tei:layoutDesc/layout">
         <div>
             <p><strong>Layout:</strong> <xsl:value-of select="."/></p>
         </div>
