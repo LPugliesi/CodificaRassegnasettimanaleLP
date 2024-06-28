@@ -39,14 +39,10 @@
                             <a href="#about">About</a>
                         </div>
                     </nav>
-
                 </header>
-
-                    <div class="tit">
-                        <h1><xsl:apply-templates select="//tei:title[@xml:id='title']"/></h1>
-                    </div>
-
-
+                <div class="tit">
+                    <h1><xsl:apply-templates select="//tei:title[@xml:id='title']"/></h1>
+                </div>
                 <div class="section">        
                     <div>
                         <h2>Descrizione della Fonte:</h2>
@@ -57,38 +53,34 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
-
-
-                    <div id="about">
-                        <footer>
+                <div id="about">
+                    <footer>
                         <h1>INFORMAZIONI RIGUARDO IL PROGETTO:</h1>
-                        
                         <div class="container">
                             <div class="box">
                                 <h2>Informazioni dell'Edizione:</h2>
                                 <xsl:apply-templates select="//tei:editionStmt"/>
                             </div>
                             <div class="box">
+                                <img src="https://apre.it/wp-content/uploads/2021/01/logo_uni-pisa.png" alt="Logo Università di Pisa" style="width:300px; float: center;"/>
+                            </div>
+                            <div class="box">
                                 <h2>Informazioni sulla Pubblicazione:</h2>
                                 <xsl:apply-templates select="//tei:publicationStmt"/>
                             </div>
                         </div>
-                        
-                        </footer>
-                    </div>
-
-
+                    </footer>
+                </div>
             </body>
         </html>
-    </xsl:template> 
+    </xsl:template>
 
     <!-- Template per titolo -->
     <xsl:template match="title[@xml:id='title']">
         <xsl:value-of select="."/>
     </xsl:template>
 
-
-    <!-- Template descrizione doc -->
+    <!-- Template descrizione documento e fonte -->
     <xsl:template match="tei:imprint">
         <div>
             <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="tei:pubPlace"/></p>
@@ -118,10 +110,8 @@
         </div>
     </xsl:template>
 
-
-
- <!-- edizione e about    -->
- <xsl:template match="tei:editionStmt">
+    <!-- Template per il footer con edizione e pubblicazione -->
+    <xsl:template match="tei:editionStmt">
         <div>
             <p><strong>Edizione:</strong> <xsl:apply-templates select="tei:edition"/></p>
             <xsl:apply-templates select="tei:respStmt"/>
@@ -140,8 +130,8 @@
         </div>
     </xsl:template>
 
-
 </xsl:stylesheet>
+
 
 
 <!-- 
