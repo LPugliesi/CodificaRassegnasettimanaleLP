@@ -20,6 +20,7 @@ body {
 }
 
 .tit{
+  position: static;
   font-family: "Chivo Mono", monospace;
   margin-top: 5%;
   font-size: 15px;
@@ -28,8 +29,10 @@ body {
 
 .section{
   font-family: "Chivo Mono", monospace;
-  margin-top: 10%;
-  font-size: 18px;
+  margin-top: 15%;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 13px;
   text-align: left;
 }
 

@@ -46,16 +46,21 @@
                         </h1>
                     </div>
                 </header>
-                    
-                <div class="section">
-                    <h2>Descrizione della Sorgente</h2>
-                    <xsl:apply-templates select="tei:sourceDesc/biblStruct/monogr/imprint"/>
+
+            <div class="section">        
+                <div>
+                    <h2>Descrizione della Fonte:</h2>
+                    <xsl:apply-templates select="//tei:imprint"/>
                 </div>
-                <div class="section">
-                    <h2>Descrizione del Manoscritto</h2>
-                    <xsl:apply-templates select="tei:sourceDesc/msDesc/msIdentifier"/>
-                    <xsl:apply-templates select="tei:sourceDesc/msDesc/physDesc/objectDesc"/>
+                <div>
+                    <h2>Informazioni sulla Pubblicazione</h2>
+                    <xsl:apply-templates select="//tei:publicationStmt"/>
                 </div>
+                <div>
+                    <h2>Descrizione del Manoscritto:</h2>
+                    <xsl:apply-templates select="//tei:objectDesc"/>
+                </div>
+            </div>
             </body>
         </html>
     </xsl:template> 
@@ -69,30 +74,28 @@
     <!-- Template descrizione doc -->
     <xsl:template match="tei:imprint">
         <div>
-            <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="pubPlace"/></p>
-            <p><strong>Editore:</strong> <xsl:value-of select="publisher"/></p>
-            <p><strong>Data:</strong> <xsl:value-of select="date"/></p>
+            <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="tei:pubPlace"/></p>
+            <p><strong>Editore:</strong> <xsl:value-of select="tei:publisher"/></p>
+            <p><strong>Data:</strong> <xsl:value-of select="tei:date"/></p>
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:msIdentifier">
+    <xsl:template match="tei:publicationStmt">
         <div>
-            <p><strong>Paese:</strong> <xsl:value-of select="country"/></p>
-            <p><strong>Città:</strong> <xsl:value-of select="settlement"/></p>
-            <p><strong>Repository:</strong> <xsl:value-of select="repository"/></p>
+            <p><strong>Pubblicato da:</strong> <xsl:value-of select="tei:publisher"/></p>
+            <p><strong>Luogo e data di Pubblicazione:</strong> <xsl:value-of select="tei:pubPlace"/>,<xsl:value-of select="tei:date"/></p>
+            <p><strong>Disponibilità:</strong> <xsl:apply-templates select="tei:availability"/></p>
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:objectDesc/supportDesc">
+    <xsl:template match="tei:objectDesc/tei:supportDesc">
         <div>
-            <p><strong>Materiale:</strong> <xsl:value-of select="@material"/></p>
-            <p><strong>Fonte:</strong> <xsl:value-of select="@source"/></p>
-            <p><strong>Supporto:</strong> <xsl:value-of select="support"/></p>
-            <p><strong>Condizioni:</strong> <xsl:value-of select="condition"/></p>
+            <p><strong>Supporto:</strong> <xsl:value-of select="tei:support"/></p>
+            <p><strong>Condizioni:</strong> <xsl:value-of select="tei:condition"/></p>
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:layoutDesc/layout">
+    <xsl:template match="tei:layoutDesc/tei:layout">
         <div>
             <p><strong>Layout:</strong> <xsl:value-of select="."/></p>
         </div>

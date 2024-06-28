@@ -33,11 +33,11 @@
       <!-- PUBBLICATION -->
       <publicationStmt>
         <publisher> Università di Pisa </publisher>
-          <pubPlace> Pisa </pubPlace>
+          <pubPlace>Pisa</pubPlace>
           <availability status="free">
             <p> Opera ad accesso libero </p>
           </availability>
-          <date when="2024"> 2024 </date>
+          <date when="2024"> 2024</date>
       </publicationStmt>
 
       <!-- SERIE (dichiarazione sulla serie) raggruppa le informazioni circa la serie alla quale eventualmente la pubblicazione appartiene. -->
