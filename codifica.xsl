@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsl:stylesheet
     version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.w3.org/1999/xhtml">
+    
     <xsl:output method="html" encoding="UTF-8" />
 
     <xsl:template match="/">
@@ -20,139 +21,46 @@
                 <header>
                     <nav>
                         <div class="navbar">
-                        <a href="#">Codifica di Testi</a>
-                        <a href="#">Home</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">Pagine
-                            <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                            <a href="#">Pagina 1</a>
-                            <a href="#">Pagina 2</a>
-                            <a href="#">Pagina 3</a>
-                            <a href="#">Pagina 4</a>
-                            <a href="#">Pagina 5</a>
-                            <a href="#">Pagina 6</a>
+                            <a href="#" class="nameproject">Codifica di Testi</a>
+                            <a href="#">Home</a>
+                            <div class="dropdown">
+                                <button class="dropbtn">Pagine
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Pagina 1</a>
+                                    <a href="#">Pagina 2</a>
+                                    <a href="#">Pagina 3</a>
+                                    <a href="#">Pagina 4</a>
+                                    <a href="#">Pagina 5</a>
+                                    <a href="#">Pagina 6</a>
+                                </div>
                             </div>
-                        </div>
+                            <a href="#">About</a>
                         </div>
                     </nav>
-                </header>
 
-                <div>
-                    <div id="info">
-                        <h2>Descrizione</h2>
-                        <div class="desc">
-                            <div class="text_desc">
-                                <div>
-                                    <xsl:apply-templates select="//tei:origin"/>
-                                </div>
-                                <div>
-                                    <xsl:apply-templates select="//tei:acquisition" />
-                                </div>
-                                <div>
-                                    <xsl:apply-templates select="//tei:objectDesc" />
-                                </div>
-                            </div>
-                        </div> 
-                        <div id="fenomeni">
-                            <h2>Fenomeni notevoli rilevati</h2>
-                            <ul class='bottoni_fenomeni'>
-                                <button type="button" id="persone">Persone Reali</button>
-                                <button type="button" id="date">Date</button>
-                                <button type="button" id="citazioni">Citazioni</button>
-                                <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
-                                <button type="button" id="luoghi">Luoghi</button>
-                            </ul>
-                        </div>
-                </div>
-
-
-                <div class="codifica">
-                <div id="box1">
-                    <article id="p1">
-                        <h2>Pagina 1</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img1']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '1']" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="box2">
-                    <article id="p2">
-                        <h2>Pagina 2</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img2']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '2']" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="box3">
-                    <article id="p3">
-                        <h2>Pagina 3</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img3']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '3']" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="box4">
-                    <article id="p4">
-                        <h2>Pagina 4</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img4']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '4']" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="box5">
-                    <article id="p5">
-                        <h2>Pagina 5</h2>
-                        <div class="flexbox">
-                            <div class="img">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img5']" />
-                            </div>
-                            <div class="text">
-                                <xsl:apply-templates select="//tei:body/tei:div[@n = '5']" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="box6">
-                <article id="p6">
-                    <h2>Pagina 6</h2>
-                    <div class="flexbox">
-                        <div class="img">
-                            <xsl:apply-templates select="//tei:surface[@xml:id='img6']" />
-                        </div>
-                        <div class="text">
-                            <xsl:apply-templates select="//tei:body/tei:div[@n = '6']" />
-                        </div>
+                    <div class="tit">
+                        <h1>
+                            <xsl:value-of select="//tei:title[@xml:lang='it']" />
+                        </h1>
                     </div>
-                </article>
-                </div>
-                </div>
-            </div>
-        </body>
-    </html>
+                    
+                </header>
+            </body>
+        </html>
+    </xsl:template>
+
+<!-- Template per titolo -->
+<xsl:template match="tei:title">
+    <i class="title"><xsl:value-of select="." /></i>
 </xsl:template>
+
+
+
+
 </xsl:stylesheet>
+
 
 <!-- 
 java -jar "./tools/SaxonHE10-3J/saxon-he-10.3.jar" -s:codifica.xml -xsl:codifica.xsl -o:progetto.html 
