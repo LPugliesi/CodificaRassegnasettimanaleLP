@@ -3,10 +3,8 @@
     version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.w3.org/1999/xhtml">
-    
-    <xsl:output method="html" encoding="UTF-8" />
-
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xsl:output method="html" encoding="UTF-8"/>
     <xsl:template match="/">
         <html>
             <head>
@@ -41,7 +39,7 @@
                     </nav>
                 </header>
                 <div class="title">
-                    <h1><xsl:apply-templates select="//tei:title[@xml:id='title']"/></h1>
+                    <h1><xsl:value-of select="//tei:title[@xml:id='title']"/></h1>
                 </div>
                 <div class="section">        
                     <div>
@@ -53,6 +51,20 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
+                    <div id="img1">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img1']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:text[@xml:id='img1']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:text[@xml:id='img1']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
                 <div id="about">
                     <footer>
                         <h1>INFORMAZIONI RIGUARDO IL PROGETTO:</h1>
@@ -76,14 +88,16 @@
         </html>
     </xsl:template>
 
-    <!-- Template per titolo -->
-    <xsl:template match="title[@xml:id='title']">
-        <xsl:value-of select="."/>
+    <!-- Template per divisione delle righe come nel manoscritto -->
+    <xsl:template match="tei:lb">
+        <br />
     </xsl:template>
+
 
     <!-- Template descrizione documento e fonte -->
     <xsl:template match="tei:imprint">
         <div>
+            <p><strong>Titolo:</strong><xsl:value-of select="//tei:title[@xml:id='title']"/></p>
             <p><strong>Luogo di Pubblicazione:</strong> <xsl:value-of select="tei:pubPlace"/></p>
             <p><strong>Editore:</strong> <xsl:value-of select="tei:publisher"/></p>
             <p><strong>Data:</strong> <xsl:value-of select="tei:date"/></p>
@@ -130,6 +144,32 @@
             </p>
         </div>
     </xsl:template>
+
+        <!-- Template immagini -->
+            <xsl:template match="tei:surface">
+                <xsl:element name="img">
+                    <xsl:attribute name="src"><xsl:value-of select="current()[@xml:id]//tei:graphic/@url"/></xsl:attribute>
+                    <xsl:attribute name="usemap">#<xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+                </xsl:element>
+                <xsl:element name="map">
+                    <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+                    <xsl:apply-templates select="./tei:zone" />
+                </xsl:element>
+            </xsl:template>
+
+        <!-- Template zone immagini -->
+            <xsl:template match="tei:zone">
+                <xsl:for-each select="current()">
+                    <xsl:element name="area">
+                        <xsl:attribute name="coords"><xsl:value-of select="current()/@ulx" />,<xsl:value-of select="current()/@uly" />,<xsl:value-of select="current()/@lrx" />,<xsl:value-of select="current()/@lry" /></xsl:attribute>
+                        <xsl:attribute name="style">cursor: help</xsl:attribute>
+                        <xsl:attribute name="title"><xsl:value-of select="current()/@corresp" /></xsl:attribute>
+                        <xsl:attribute name="shape">rect</xsl:attribute>
+                    </xsl:element>
+                </xsl:for-each>
+            </xsl:template>
+
+
 
 </xsl:stylesheet>
 

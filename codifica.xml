@@ -445,11 +445,11 @@
 <!-- FACSSIMILE -->
   <facsimile>
     <surface xml:id="img1">
-      <graphic url='img1.png' width='1533.33334px' height='2255.33334px' />
+      <graphic url='pages/img1.png' width='1533.33334px' height='2255.33334px' />
       <zone ulx="785" uly="1594" lrx="1460" lry="2092" />
     </surface>
     <surface xml:id="img2">
-      <graphic url='img2.png' width='1534.33334px' height='2256.33334px' />
+      <graphic url='pages/img2.png' width='1534.33334px' height='2256.33334px' />
       <zone ulx="113" uly="186" lrx="777" lry="575" />
       <zone ulx="109" uly="579" lrx="775" lry="719" />
       <zone ulx="112" uly="724" lrx="777" lry="836" />
@@ -472,7 +472,7 @@
       <zone ulx="800" uly="2084" lrx="1465" lry="2108" />
     </surface>
     <surface xml:id="img3">
-      <graphic url='img3.png' width='1545.33334px' height='2272.33334px' />
+      <graphic url='pages/img3.png' width='1545.33334px' height='2272.33334px' />
       <zone ulx="96" uly="166" lrx="765" lry="300" />
       <zone ulx="91" uly="304" lrx="763" lry="520" />
       <zone ulx="93" uly="524" lrx="764" lry="664" />
@@ -490,7 +490,7 @@
       <zone ulx="775" uly="1975" lrx="1445" lry="2112" />
     </surface>
     <surface xml:id="img4">
-      <graphic url='img4.png' width='1534.33334px' height='2258.33334px' />
+      <graphic url='pages/img4.png' width='1534.33334px' height='2258.33334px' />
       <zone ulx="107" uly="186" lrx="775" lry="1035" />
       <zone ulx="108" uly="1039" lrx="776" lry="1188" />
       <zone ulx="111" uly="1191" lrx="783" lry="2052" />
@@ -503,13 +503,13 @@
       <zone ulx="808" uly="2095" lrx="1180" lry="2112" />
     </surface>
     <surface xml:id="img5">
-      <graphic url='img5.png' width='1546.33334px' height='2262.33334px' />
+      <graphic url='pages/img5.png' width='1546.33334px' height='2262.33334px' />
       <zone ulx="88" uly="167" lrx="759" lry="591" />
       <zone ulx="88" uly="595" lrx="765" lry="2083" />
       <zone ulx="781" uly="171" lrx="1455" lry="1715" />
     </surface>
     <surface xml:id="img6">
-      <graphic url='img6.png' width='1546.33334px' height='2260.33334px' />
+      <graphic url='pages/img6.png' width='1546.33334px' height='2260.33334px' />
       <zone ulx="797" uly="1322" lrx="1469" lry="1362" />
       <zone ulx="799" uly="1370" lrx="1469" lry="1470" />
       <zone ulx="800" uly="1475" lrx="1469" lry="1519" />
