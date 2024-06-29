@@ -31,7 +31,7 @@ body {
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-size: 13px;
     text-align: left;
 }
@@ -213,14 +213,16 @@ footer {
 
 #fenomeni {
     text-align: center;
-    background-color:#396AB7;
-    margin: 2%;
+    background-color:#333;
+    margin: 5%;
     padding: 1%;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
-.fenomeni h2{
-    color: white;
+#fenomeni h2{
+    color: #e0f77a;
+    font-size: 20px;
+    font-family: "Chivo Mono", monospace;
 }
 
 .bottoni_fenomeni {

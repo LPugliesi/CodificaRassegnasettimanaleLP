@@ -51,7 +51,7 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
-                
+
                         <div id="fenomeni">
                             <h2>Fenomeni notevoli rilevati</h2>
                             <ul class='bottoni_fenomeni'>
