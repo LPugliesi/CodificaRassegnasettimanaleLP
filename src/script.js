@@ -14,3 +14,27 @@
 /**/      alert("gestoreRidimensiona " + e);
 /**/   }
 /**/}
+
+$(document).ready(function () { 
+
+    $("#persone").click(function () {
+      $("persName").addClass("highlight_p");
+    });
+  
+    $("#date").click(function () {
+      $("date").addClass("highlight_d");
+    });
+  
+    $("#luoghi").click(function () {
+      $("placeName","pubPlace").addClass("highlight_l");
+    });
+
+      $("#citazioni").click(function () {
+        $("quote").addClass("highlight_c");
+      });
+
+      $("#organizzazioni").click(function () {
+
+        $("orgName").addClass("highlight_o");
+      });     
+  });

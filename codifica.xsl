@@ -51,6 +51,19 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
+                
+                        <div id="fenomeni">
+                            <h2>Fenomeni notevoli rilevati</h2>
+                            <ul class='bottoni_fenomeni'>
+                                <button type="button" id="persone">Persone Reali</button>
+                                <button type="button" id="date">Date</button>
+                                <button type="button" id="citazioni">Citazioni</button>
+                                <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
+                                <button type="button" id="luoghi">Luoghi</button>
+                            </ul>
+                        </div>
+
+
                 <div class="text">
                     <h2 id="Pag1">Pagina 1:</h2>
                     <div id="img1">
@@ -58,9 +71,9 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtextA">
                             </div>
-                            <div class="box">
+                            <div class="boxtext">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img1B']" />
                             </div>
                             <hr/>
@@ -72,10 +85,10 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img2A']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtext">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img2B']" />
                             </div>
                             <hr/>
@@ -87,11 +100,11 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A1']" />
+                            <div class="boxtextA">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A1']" /><hr />
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img3A2']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtext">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img3B']" />
                             </div>
                             <hr/>
@@ -103,11 +116,11 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img4A']" />
                             </div>
-                            <div class="box">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B1']" />
+                            <div class="boxtext">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B1']" /><hr />
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img4B2']" />
                             </div>
                             <hr/>
@@ -119,10 +132,10 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img5A']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtext">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img5B']" />
                             </div>
                             <hr/>
@@ -134,15 +147,15 @@
                             <div class="box">
                                 <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
-                            <div class="box">
+                            <div class="boxtextA">
                             </div>
-                            <div class="box">
+                            <div class="boxtext">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img6B']" />
                             </div>
                             <hr/>
                         </div>
                     </div>
-                </div>    
+                </div><br />
                 <div id="about">
                     <footer>
                         <h1>INFORMAZIONI RIGUARDO IL PROGETTO:</h1>
