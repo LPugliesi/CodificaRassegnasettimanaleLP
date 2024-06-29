@@ -35,6 +35,20 @@ body {
     text-align: left;
 }
 
+.text h2{
+    font-family: "Chivo Mono", monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text {
+    font-family: "Chivo Mono", monospace;
+    margin-left: 2%;
+    font-size: 10px;
+    text-align: left;
+}
+
+
 /* contenitore Navbar */
 .navbar {
     overflow: hidden;

@@ -14,12 +14,3 @@
 /**/      alert("gestoreRidimensiona " + e);
 /**/   }
 /**/}
-
-//funzione per cambio di cursore al passaggio sull'area cliccabile
-/**/function gestoreCursore() {
-/**/   try {
-/**/     this.style.cursor = "pointer";
-/**/   } catch (e) {
-/**/     alert("gestoreCursore " + e);
-/**/   }
-/**/}

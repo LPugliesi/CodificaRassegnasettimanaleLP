@@ -26,12 +26,12 @@
                                     <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
-                                    <a href="#">Pagina 1</a>
-                                    <a href="#">Pagina 2</a>
-                                    <a href="#">Pagina 3</a>
-                                    <a href="#">Pagina 4</a>
-                                    <a href="#">Pagina 5</a>
-                                    <a href="#">Pagina 6</a>
+                                    <a href="#Pag1">Pagina 1</a>
+                                    <a href="#Pag2">Pagina 2</a>
+                                    <a href="#Pag3">Pagina 3</a>
+                                    <a href="#Pag4">Pagina 4</a>
+                                    <a href="#Pag5">Pagina 5</a>
+                                    <a href="#Pag6">Pagina 6</a>
                                 </div>
                             </div>
                             <a href="#about">About</a>
@@ -51,20 +51,98 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
+                <div class="text">
+                    <h2 id="Pag1">Pagina 1:</h2>
                     <div id="img1">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img1']" />
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
                             </div>
                             <div class="box">
-                                <xsl:apply-templates select="//tei:text[@xml:id='img1']" />
                             </div>
                             <div class="box">
-                                <xsl:apply-templates select="//tei:text[@xml:id='img1']" />
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img1B']" />
                             </div>
                             <hr/>
                         </div>
                     </div>
+                    <h2 id="Pag2">Pagina 2:</h2>
+                    <div id="img2">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img2A']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img2B']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                    <h2 id="Pag3">Pagina 3:</h2>
+                    <div id="img3">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A1']" />
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A2']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img3B']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                    <h2 id="Pag4">Pagina 4:</h2>
+                    <div id="img4">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img4A']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B1']" />
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B2']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                    <h2 id="Pag5">Pagina 5:</h2>
+                    <div id="img5">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img5A']" />
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img5B']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                    <h2 id="Pag6">Pagina 6:</h2>
+                    <div id="img6">
+                        <div class="container">
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                            </div>
+                            <div class="box">
+                            </div>
+                            <div class="box">
+                                <xsl:apply-templates select="//tei:ab[@xml:id='img6B']" />
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>    
                 <div id="about">
                     <footer>
                         <h1>INFORMAZIONI RIGUARDO IL PROGETTO:</h1>

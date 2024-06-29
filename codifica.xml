@@ -525,7 +525,7 @@
   <group>
       <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
         <body>
-          <ab>
+          <ab xml:id="img1B">
             <lb n="1" />CORRISPONDENZA ARTISTICA DA <settlement>PARIGI</settlement>. <!-- riga fatta! -->
             <lb n="2" />La pittura italiana si può considerare da più e diversi <!-- riga fatta! -->
             <lb n="3" />punti di vista, sia che si voglia determinare il carattere <!-- riga fatta! -->
@@ -542,8 +542,9 @@
             <lb n="14" />Del resto, sia per l'effetto dell'elasticità del nostro carattere<!-- riga fatta! -->
             <lb n="15" />o per deficienza di vita propriamente nazionale, nessun' arte<!-- riga fatta! -->
             <lb n="16" />al giorno d'oggi è tanto cosmopolita quanto la nostra.<!-- riga fatta! -->
-
             <lb n="17" />Un tempo l' arte italiana era rappresentata all' estero<!-- riga fatta! -->
+          </ab>
+          <ab xml:id="img2A">
             <lb n="18" />principalmente da quei nostri <choice><sic>compatriotti</sic><corr resp="#LP">compatrioti</corr></choice> che partono da<!-- riga fatta! -->
             <lb n="19" />piccini con un' arpa in bandoliera, un violino sotto il brac-
             <lb n="20" />cio o dei gessi sul capo, e vanno ramingando nelle vie delle
@@ -617,6 +618,8 @@
             <lb n="82" />più nettamente il talento di quest' artista <choice><sic>pel quale</sic><corr resp="#LP">per il quale</corr></choice> non <!-- riga fatta! -->
             <lb n="83" />v' ha altra preoccupazione che quella di rendere lo splen-
             <lb n="84" />dore del colore senza curarsi<choice><sic>menomamente</sic><corr resp="#LP">minimamente</corr></choice><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del soggetto 
+          </ab>
+          <ab xml:id="img2B">
             <lb n="85" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> della logica d'un quadro. Rispettando sempre le inten-
             <lb n="86" />zioni d' un artista purché esse arrivino ad una buona con-<!-- riga fatta! -->
             <lb n="87" />clusione, non possiamo a meno di lodare <persName ref="#P_AM">il Mancini</persName> per <!-- riga fatta! -->
@@ -695,6 +698,8 @@
             <lb n="150" />effetti. <!-- riga fatta! -->
 
             <lb n="151" />Un altro quadro dello stesso autore, intitolato <bibl>La revue</bibl><!-- riga fatta! -->
+          </ab>
+          <ab xml:id="img3A1">
             <lb n="152" /><bibl>de Vhéritage</bibl>, è molto superiore al <choice><sic>sopraccitato</sic><corr resp="#LP">sopracitato</corr></choice>, e mentre <!-- riga fatta! -->
             <lb n="153" />l'intonazione generale e la ricerca dei caratteri è ben so-<!-- riga fatta! -->
             <lb n="154" />stenuta, son degne di nota due figure dell' indietro ed una<!-- riga fatta! -->
@@ -705,8 +710,8 @@
 
       <text xml:id="Mineralogia"> <!-- LA MINERALOGIA IN ITALIA -->
         <body>
-          <ab>
-            <lb n="156" />LA MINERALOGIA IN <settlement>Italia</settlement>.
+          <ab xml:id="img3A2">
+            <lb n="156" />LA MINERALOGIA IN <settlement>ITALIA</settlement>.
             <lb n="157" />E cosa ripetuta da molti che l'<settlement>Italia</settlement> è povera ; altri in-
             <lb n="158" />vece sostengono che è ricchissima. Finalmente vi è chi la 
             <lb n="159" />stima povera per l'inerzia dei suoi abitanti. Tutte queste 
@@ -774,6 +779,8 @@
             <lb n="215" />In una parola le autorità governative e municipali in <!-- riga fatta! -->
             <lb n="216" />generale stimano che i gabinetti da loro in qualche modo <!-- riga fatta! -->
             <lb n="217" />dipendenti siano istituiti dallo Stato per loro proprio uso <!-- riga fatta! -->
+          </ab> 
+          <ab xml:id="img3B"> 
             <lb n="218" />e consumo, e per quello dei loro amici e conoscenti. Ma qui <!-- riga fatta! -->
             <lb n="219" />davvero non vi è artifizio che basti. Non si provvede al <!-- riga fatta! -->
             <lb n="220" />progresso delle scienze con la massima: «Aiutami che io ti <!-- riga fatta! -->
@@ -846,7 +853,8 @@
             <lb n="282" />todi tendono ogni giorno più a prevalere fra i mineralogisti. <!-- riga fatta! -->
             <lb n="283" />** <persName ref="#P_LB">Bombicci</persName>, Corso generale di mineralogia. <settlement>Bologna</settlement> 1875, tre vol.
             <lb n="284" /> in 8° gr.<!-- riga fatta! -->
-
+          </ab>
+          <ab xml:id="img4A">
             <lb n="285" />mineralogia, intesa nel suo senso il più generale, implica <!-- riga fatta! -->
             <lb n="286" />le scienze matematiche meccaniche, fisiche e chimiche, infine <!-- riga fatta! -->
             <lb n="287" />tutte quelle che si riferiscono al regno inorganico. Essa stu-<!-- riga fatta! -->
@@ -917,7 +925,8 @@
 
             <lb n="350" />* Processo di evoluzione della specie minerale. Discorso inaugurale per<!-- riga fatta! -->
             <lb n="351" />l'anno scolastico <date>1877-78</date>. <settlement>Bologna</settlement>, <date>1878</date>, p. 25.
-
+          </ab>
+          <ab xml:id="img4B1">
             <lb n="352" />Può veramente credere il professor <persName ref="#P_LB">Bombicci</persName> essere ani-
             <lb n="353" />mato dallo spirito della scienza quando egli ne discorre con<!-- riga fatta! -->
             <lb n="354" />parole come queste?: «Per essa (la Scienza) come per ogni
@@ -954,7 +963,7 @@
 
       <text xml:id="Bibliografia"> <!-- BIBLIOGRAFIA -->
         <body>
-          <ab>
+          <ab xml:id="img4B2">
             <lb n="380" />BIBLIOGRAFIA. (A. metti come abbreviazione di autore)<!-- riga fatta! -->
             <lb n="381" />STORIA.<!-- riga fatta! -->
             <lb n="382" /><persName ref="#P_CC">Cesare Cantù</persName>. Manuale di Storia Italiana. — <settlement>Milano</settlement>, <persName ref="#P_UH">Ulrico</persName>
@@ -995,7 +1004,8 @@
             <lb n="416" />ma nel <date>1659</date>; la battaglia di <settlement ref="#S_SP">Staffarda</settlement> non avvenne nel <date>1691</date>
 
             <lb n="417" />(* Processo di evoluzione, ec., p. 26.)
-
+          </ab>
+          <ab xml:id="img5A">
             <lb n="418" />ma nel <date>1690</date>, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> la pace di <settlement ref="#S_RPB">Ryswick</settlement> nel <date>1698</date> (p. 90), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
             <lb n="419" />la guerra della successione polacca scoppiò nel <date>1719</date> (p. 92).
             <lb n="420" />Parecchie altre date per esser forse collocate male non rispon-<!-- riga fatta! -->
@@ -1063,6 +1073,8 @@
             <lb n="481" /><persName>Enrico IV</persName>, la Reggenza e il Richelieu, avessero avuto bi-
             <lb n="482" />sogno a riaccendersi che le rattizzasse il figliuolo di <persName>Emanuel</persName>
             <lb n="483" /><persName>Filiberto</persName>. Al contrario egli giudica che la causa italiana fu <!-- Emanuel filiberto va a capo -->
+          </ab>
+          <ab xml:id="img5B"> 
             <lb n="484" />sostenuta dai papi (pag. 81). <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> citiamo altro per non di-<!-- riga fatta! -->
             <lb n="485" />stenderci troppo. Del rimanente le opinioni di <persName ref="#P_CC">Cesare Cantù</persName>
             <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di<!-- riga fatta! -->
@@ -1123,7 +1135,7 @@
 
       <text xml:id="Notizie"> <!-- NOTIZIE -->
         <body>
-          <ab>
+          <ab xml:id="img6B">
             <lb n="538" />NOTIZIE.<!-- riga fatta! -->
             <lb n="539" />— Il secondo volume dell'opera anonima Diplomatic Sketches by an
             <lb n="540" />Outsider, che sarà pubblicato nell' <date>ottobre</date>, tratterà la « Questione Da-
