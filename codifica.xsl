@@ -56,10 +56,15 @@
                             <h2>Fenomeni notevoli rilevati</h2>
                             <ul class='bottoni_fenomeni'>
                                 <button type="button" id="persone">Persone Reali</button>
-                                <button type="button" id="date">Date</button>
-                                <button type="button" id="citazioni">Citazioni</button>
-                                <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
+                                <button type="button" id="epithet">Epithet</button>
                                 <button type="button" id="luoghi">Luoghi</button>
+                                <button type="button" id="date">Date</button>
+                                <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
+                                <button type="button" id="citazioni">Citazioni</button>
+                                <button type="button" id="opere">Opere</button>
+                                <button type="button" id="casaeditrice">Casa Editrice</button>
+                                <button type="button" id="correntiletterarie">Correnti Letterarie</button>
+                                <button type="button" id="verbum">Verbum</button>
                             </ul>
                         </div>
 
@@ -260,6 +265,12 @@
                 </xsl:for-each>
             </xsl:template>
 
+<!--template nomi di persone-->
+<xsl:template match="tei:persName">
+        <persname>
+            <xsl:apply-templates />
+        </persname>
+    </xsl:template>
 
 
 </xsl:stylesheet>

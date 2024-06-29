@@ -45,7 +45,7 @@ body {
 .text {
     font-family: "Noto Serif", serif;
     margin-left: 2%;
-    font-size: 12px;
+    font-size: 11px;
     text-align: left;
 }
 
@@ -53,15 +53,19 @@ body {
 .boxtextA {
     width: 45%;
     padding: 10px;
-    background-color: #ededed;
+    background-color: #ffffff;
     border-right: 1px solid #000;
     box-sizing: border-box;
+    height: 708px;
+    overflow-y: scroll;
 }
 .boxtext {
     width: 45%;
     padding: 10px;
-    background-color: #ededed;
+    background-color: #ffffff;
     box-sizing: border-box;
+    height: 708px;
+    overflow-y: scroll;
 }
 
 /* contenitore Navbar */
@@ -204,7 +208,6 @@ footer {
 
 .box {
     width: 45%;
-    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -214,8 +217,10 @@ footer {
 #fenomeni {
     text-align: center;
     background-color:#333;
-    margin: 5%;
+    margin: 7%;
     padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 15px;
 }
 
@@ -239,4 +244,88 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 10px;
+}
+
+#persone {
+    background-color: #dafc33; 
+}
+
+.highlight_p {
+    background-color: #dafc33; 
+}
+
+#epithet {
+    background-color: #5eb786;
+}
+
+.highlight_ep{
+    background-color:  #5eb786; 
+}
+
+#luoghi {
+    background-color: #fe8cd0; 
+}
+
+.highlight_l {
+    background-color: #fe8cd0; 
+}
+
+#date {
+    background-color: #38ff38; 
+}
+
+.highlight_d{
+    background-color: #38ff38;
+}
+
+#organizzazioni {
+    background-color:  #ff2a2a;
+}
+
+.highlight_o{
+    background-color: #ff2a2a; 
+}
+
+#citazioni {
+    background-color: #ffbf2a;
+}
+
+.highlight_c{
+    background-color:  #ffbf2a 
+}
+
+#opere {
+    background-color: #94941d;
+}
+
+.highlight_op{
+    background-color:  #94941d;
+}
+
+#casaeditrice {
+    background-color:  #a3a1a2;
+}
+
+.highlight_ce{
+    background-color: #a3a1a2;
+}
+
+#correntiletterarie {
+    background-color:  #57fff7;
+}
+
+.highlight_cl{
+    background-color: #57fff7;
+}
+
+#verbum {
+    background-color: #842323;
+}
+
+.highlight_vr{
+    background-color:  #842323;
+}
+
+.bottoni_fenomeni button:hover {
+    opacity: 0.8;
 }
