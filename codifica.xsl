@@ -53,7 +53,6 @@
                 </div>
 
                         <div id="fenomeni">
-                            <h2>Fenomeni notevoli rilevati</h2>
                             <ul class='bottoni_fenomeni'>
                                 <button type="button" id="persone">Persone Reali</button>
                                 <button type="button" id="epithet">Epithet</button>
@@ -66,6 +65,7 @@
                                 <button type="button" id="correntiletterarie">Correnti Letterarie</button>
                                 <button type="button" id="verbum">Verbum</button>
                                 <button type="button" id="foreign">Lingue Straniere</button>
+                                <button type="button" id="correzioni">Correzioni</button>
                             </ul>
                         </div>
 

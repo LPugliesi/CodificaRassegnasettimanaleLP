@@ -334,6 +334,14 @@ footer {
     background-color:  #2e2384;
 }
 
+#correzioni {
+    background-color: #ffffff;
+}
+
+.highlight_co{
+    background-color:  #ffffff;
+}
+
 .bottoni_fenomeni button:hover {
     opacity: 0.8;
 }
