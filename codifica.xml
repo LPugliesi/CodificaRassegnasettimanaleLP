@@ -530,12 +530,12 @@
             <lb n="2" />La pittura italiana si può considerare da più e diversi <!-- riga fatta! -->
             <lb n="3" />punti di vista, sia che si voglia determinare il carattere <!-- riga fatta! -->
             <lb n="4" />spiccatissimo che diversifica <choice><sic>ciascheduna</sic><corr resp="#LP">ciascuna</corr></choice> delle differenti re-<!-- riga fatta! -->
-            <lb n="5" />gioni, sia che si voglia dividere fra arte della madre patria <!-- riga fatta! -->
+            <lb n="5" break="no"/>gioni, sia che si voglia dividere fra arte della madre patria <!-- riga fatta! -->
             <lb n="6" />ed arte delle colonie, sia che le si vogliano adattare le <!-- riga fatta! -->
             <lb n="7" />distinzioni comuni a tutte le arti di questo mondo, secondo<!-- riga fatta! -->
             <lb n="8" />le due grandi correnti del passato e dell'avvenire che si<!-- riga fatta! -->
             <lb n="9" />contendono il tempo presente, l'una in nome della tradi-<!-- riga fatta! -->
-            <lb n="10" />zione, l'altra in nome della ricerca del nuovo. Dovendo<!-- riga fatta! -->
+            <lb n="10" break="no"/>zione, l'altra in nome della ricerca del nuovo. Dovendo<!-- riga fatta! -->
             <lb n="11" />in queste pagine fare non un trattato ma uno schizzo dello<!-- riga fatta! -->
             <lb n="12" />stato della nostra esposizione di pittura, procureremo di<!-- riga fatta! -->
             <lb n="13" />toccare tutti questi aspetti sotto i quali essa si presenta.<!-- riga fatta! -->
@@ -547,36 +547,36 @@
           <ab xml:id="img2A">
             <lb n="18" />principalmente da quei nostri <choice><sic>compatriotti</sic><corr resp="#LP">compatrioti</corr></choice> che partono da<!-- riga fatta! -->
             <lb n="19" />piccini con un' arpa in bandoliera, un violino sotto il brac-
-            <lb n="20" />cio o dei gessi sul capo, e vanno ramingando nelle vie delle
+            <lb n="20" break="no"/>cio o dei gessi sul capo, e vanno ramingando nelle vie delle
             <lb n="21" />principali città d'<settlement>Europa</settlement> e d'<settlement>America</settlement>. Ora, facilitate le comu-<!-- riga fatta! -->
-            <lb n="22" />nicazioni dai negozianti di quadri, sono anche artisti grandi<!-- riga fatta! -->
+            <lb n="22" break="no"/>nicazioni dai negozianti di quadri, sono anche artisti grandi<!-- riga fatta! -->
             <lb n="23" />e grossi che armatisi della cassetta e del porta-studi, ven-<!-- riga fatta! -->
-            <lb n="24" />gono ad empire i mercati artistici di <settlement>Londra</settlement> e di <settlement>Parigi</settlement>,<!-- riga fatta! -->
+            <lb n="24" break="no"/>gono ad empire i mercati artistici di <settlement>Londra</settlement> e di <settlement>Parigi</settlement>,<!-- riga fatta! -->
             <lb n="25" />delle loro tele, della loro pretensione e del loro appetito.<!-- riga fatta! -->
             <lb n="26" />Fra questi, pochi superano la mediocrità e sviluppano un<!-- riga fatta! -->
             <lb n="27" />vero talento. Acclimatati e graditi, diventano allora l' or-<!-- riga fatta! -->
-            <lb n="28" />namento non solo della nostra sezione al <settlement ref="#S_CDM">Campo di Marte</settlement>,<!-- riga fatta! -->
+            <lb n="28" break="no"/>namento non solo della nostra sezione al <settlement ref="#S_CDM">Campo di Marte</settlement>,<!-- riga fatta! -->
             <lb n="29" />ma pur anco di molte case aristocratiche ; altri si adattano<!-- riga fatta! -->
             <lb n="30" />ad aspettare la voga che li sollevi, come fa la marea alle<!-- riga fatta! -->
             <lb n="31" />navi che sono in secco.<!-- riga fatta! -->
 
             <lb n="32" />Fra i primi ad aprire la marcia dell' emigrazione arti-<!-- riga fatta! -->
-            <lb n="33" />stica vi fu il signor professore <persName ref="#P_AP">Pasini</persName> di <settlement ref="#S_BER">Busseto</settlement>, a cui sap-<!-- riga fatta! -->
-            <lb n="34" />piamo essere stato conferito quest' anno il premio d' onore,<!-- riga fatta! -->
+            <lb n="33" break="no"/>stica vi fu il signor professore <persName ref="#P_AP">Pasini</persName> di <settlement ref="#S_BER">Busseto</settlement>, a cui sap-<!-- riga fatta! -->
+            <lb n="34" break="no"/>piamo essere stato conferito quest' anno il premio d' onore,<!-- riga fatta! -->
             <lb n="35" /> sebbene la cosa non sia stata ancora comunicata ufficial-<!-- riga fatta! -->
-            <lb n="36" />mente al pubblico.<!-- riga fatta! -->
+            <lb n="36" break="no"/>mente al pubblico.<!-- riga fatta! -->
 
             <lb n="37" />Non conosciamo i lavori del <persName ref="#P_AP">Pasini</persName> prima della sua ve-<!-- riga fatta! -->
-            <lb n="38" />nuta in <settlement>Francia</settlement>, ma ora e da vari anni può considerarsi<!-- riga fatta! -->
+            <lb n="38" break="no"/>nuta in <settlement>Francia</settlement>, ma ora e da vari anni può considerarsi<!-- riga fatta! -->
             <lb n="39" />come un pittore francese, <choice><sic>imperocché</sic><corr resp="#LP">perciò che</corr></choice> la sua arte risente<!-- riga fatta! -->
             <lb n="40" />completamente dell' ambiente della città nella quale dimora.
 
             <lb n="41" />L' abilità, questa dea suprema che dirige oggi quasi<!-- riga fatta! -->
             <lb n="42" />interamente la mano dell'artista e totalmente l'occhio del <!-- riga fatta! -->
             <lb n="43" />negoziante, ha toccato colla sua verga fatata anche l'inge-<!-- riga fatta! -->
-            <lb n="44" />gno del <persName ref="#P_AP">Pasini</persName>, il quale passando attraverso <persName ref="#P_EF">Fromentin</persName> è <!-- riga fatta! -->
+            <lb n="44" break="no"/>gno del <persName ref="#P_AP">Pasini</persName>, il quale passando attraverso <persName ref="#P_EF">Fromentin</persName> è <!-- riga fatta! -->
             <lb n="45" /><choice><sic>riescito</sic><corr resp="#LP">riuscito</corr></choice> a fabbricare una pittura piena di illusioni e di ma-<!-- riga fatta! -->
-            <lb n="46" />lizia, pittura che manifesta un ingegno non comune, una <!-- riga fatta! -->
+            <lb n="46" break="no"/>lizia, pittura che manifesta un ingegno non comune, una <!-- riga fatta! -->
             <lb n="47" />grazia quasi insuperabile, una riproduzione tenace dello <!-- riga fatta! -->
             <lb n="48" />stesso sentimento e della stessa visione sopra un numero <!-- riga fatta! -->
             <lb n="49" />indefinito di tele, una pittura che tiene a un nulla ma che <!-- riga fatta! -->
@@ -586,10 +586,10 @@
             <lb n="53" />nettamente l' arte del signor <persName ref="#P_AP">Pasini</persName>, e dirvi con precisione <!-- riga fatta! -->
             <lb n="54" />a quale categoria essa appartenga. Forse, collocando uno <!-- riga fatta! -->
             <lb n="55" />di questi quadri nel <foreign xml:lang="fr">boudoir</foreign> d' una signora qualunque, po- <!-- riga fatta! -->
-            <lb n="56" />trei dirvi se è precisamente nel posto che gli si conviene. <!-- riga fatta! -->
+            <lb n="56" break="no"/>trei dirvi se è precisamente nel posto che gli si conviene. <!-- riga fatta! -->
             <lb n="57" />Dopo di lui, eminentissimo fra i nostri <choice><sic>compatriotti</sic><corr resp="#LP">compatrioti</corr></choice><!-- riga fatta! -->
             <lb n="58" />della colonia parigina, viene il <persName ref="#P_GDN">De Nittis</persName>, che con altret-
-            <lb n="59" />tante tele gli ha disputata la palma.<!-- riga fatta! -->
+            <lb n="59" break="no"/>tante tele gli ha disputata la palma.<!-- riga fatta! -->
 
             <lb n="60" />Del <persName ref="#P_GDN">De Nittis</persName> non ripeteremo gli elogi meritati che <!-- riga fatta! --> 
             <lb n="61" />sono già stati fatti nella <bibl><publisher>Rassegna</publisher></bibl> dall' altro vostro corr-<!-- riga fatta! -->
@@ -1055,8 +1055,8 @@
             <lb n="463" />tra i Papi e gli <orgName ref="#O_Svevi">Svevi</orgName>, la <orgName>Chiesa</orgName> non adoperò che i frati, le
             <lb n="464" />prediche e le scomuniche (pag. 47). Fa <persName ref="#P_GDB">Giano della Bella</persName>
             <lb n="465" />signore di <settlement>Firenze</settlement> alla pari del duca D'<settlement>Atene</settlement> (pag. 49);
-            <lb n="466" /><persName>Dante</persName> diventar ghibellino per dispetto (pag. 52); e fa <persName>Carlo</persName>
-            <lb n="467" /><persName>VIII</persName> re di <settlement>Francia</settlement> della casa d'Angiò (pag. 66). Attribuisce
+            <lb n="466" /><persName>Dante</persName> diventar ghibellino per dispetto (pag. 52); e fa <persName>Carlo
+            <lb n="467" />VIII</persName> re di <settlement>Francia</settlement> della casa d'Angiò (pag. 66). Attribuisce
             <lb n="468" />alla pace di <settlement>Barcellona</settlement> anche quel che fu stipulato nei trat-
             <lb n="469" />tati di <settlement ref="#S_CF">Cambrai</settlement> e di <settlement>Bologna</settlement> (pag. 69). Dice che l'<persName>Ariosto</persName>
             <lb n="470" />ebbe mirabile istinto dell'arte, con poca fantasia, e che «non
@@ -1136,43 +1136,37 @@
       <text xml:id="Notizie"> <!-- NOTIZIE -->
         <body>
           <ab xml:id="img6B">
-            <lb n="538" />NOTIZIE.<!-- riga fatta! -->
-            <lb n="539" />— Il secondo volume dell'opera anonima Diplomatic Sketches by an
-            <lb n="540" />Outsider, che sarà pubblicato nell' <date>ottobre</date>, tratterà la « Questione Da-
-            <lb n="541" />nese. » Il terzo e il quarto volume, che seguiranno fra breve, si occu-
-            <lb n="542" />peranno degli affari della <settlement>Grecia</settlement> e dell'<settlement>Italia</settlement>.
-            <lb n="543" />— <persName ref="#P_UR">Ulysse Robert</persName> (alla Biblioteca Nazionale di Parigi) prepara una <!--Da aggiustare-->
-            <lb n="544" />bibliografia di tutti i cataloghi di manoscritti che sono stati pubblicati.<!-- riga fatta! -->
-            <lb n="545" />— Il maggiore <persName ref="#P_HGR">Raverty</persName> pubblicherà fra breve un Dizionario Inglese-
-            <lb n="546" />Afgano.
-
-            <!-- linea nel mezzo -->
+            <lb n="538" />NOTIZIE.
+            <lb n="539" />— Il secondo volume dell'opera anonima <bibl>Diplomatic Sketches by an
+            <lb n="540" />Outsider</bibl>, che sarà pubblicato nell' <date>ottobre</date>, tratterà la <bibl>« Questione Da-
+            <lb n="541" break="no"/>nese. »</bibl>Il terzo e il quarto volume, che seguiranno fra breve, si occu-
+            <lb n="542" break="no"/>peranno degli affari della <settlement>Grecia</settlement> e dell'<settlement>Italia</settlement>.
+            <lb n="543" />— <persName ref="#P_UR">Ulysse Robert</persName> (alla <settlement>Biblioteca Nazionale di Parigi</settlement>) prepara una
+            <lb n="544" />bibliografia di tutti i cataloghi di manoscritti che sono stati pubblicati.
+            <lb n="545" />— <persName ref="#P_HGR"><addName type="epithet">Il maggiore </addName>Raverty</persName> pubblicherà fra breve un <bibl>Dizionario Inglese-
+            <lb n="546" />Afgano.</bibl>
 
             <lb n="547" />— Il <persName ref="#P_GBC">Cavalcaselle</persName> ha scoperto nel deposito del <settlement ref="#S_MdN">Museo di Napoli</settlement> il
-            <lb n="548" />ritratto del cardinale <persName ref="#P_PB">Bembo</persName> fatto da <persName ref="#P_TV">Tiziano</persName>.
+            <lb n="548" />ritratto del <persName ref="#P_PB"><addName type="epithet">cardinale </addName> Bembo</persName> fatto da <persName ref="#P_TV">Tiziano</persName>.
 
-            <!-- linea nel mezzo -->
-
-            <lb n="549" />— In un volume del signor <persName ref="#P_EdFdR">Fontaine do Resbecq</persName>, intitolato: His-
-            <lb n="550" />toire de l'enseignement primaire avant 1789 dans les communes qui ont
-            <lb n="551" />formé le département du Nord, fra altri documenti n' è riportato uno
+            <lb n="549" />— In un volume del signor <persName ref="#P_EdFdR">Fontaine do Resbecq</persName>, intitolato: <bibl>His-
+            <lb n="550" break="no"/>toire de l'enseignement primaire avant 1789 dans les communes qui ont
+            <lb n="551" />formé le département du Nord</bibl>, fra altri documenti n' è riportato uno
             <lb n="552" />compilato dagli <orgName ref="#O_SGdO">Stati generali di Orléans</orgName> nel <date>1560</date>, col quale la no-
-            <lb n="553" />biltà del paese domandava <quote>«che fosse levata una contribuzione per
+            <lb n="553" break="no"/>biltà del paese domandava <quote>«che fosse levata una contribuzione per
             <lb n="554" />stipendiare ragionevolmente dei pedagoghi e letterati, in tutte le città
             <lb n="555" />e villaggi, per l'istruzione della gioventù povera del paese di pianura,
-            <lb n="556" />e sieno tenuti i padri e madri sotto pena di ammenda a mandare i detti
-            <lb n="557" />fanciulli a scuola, ed a ciò fare sieno costretti dai signori giudici ord-
-            <lb n="558" />inari.»</quote> Altri documenti curiosi, riferiti dal signor <persName ref="#P_EdFdR">de Resbecq</persName>, mostrano
-            <lb n="559" />che l' idea dell' istruzione obbligatoria non data da oggi.<!-- riga fatta! -->
-            <lb n="560" />(Revue politique et littéraire.)
+            <lb n="556" />e <choice><sic>sieno</sic><corr resp="#LP">siano</corr></choice> tenuti i padri e madri sotto pena di ammenda a mandare i detti
+            <lb n="557" />fanciulli a scuola, ed a ciò fare <choice><sic>sieno</sic><corr resp="#LP">siano</corr></choice>  costretti dai signori giudici ord-
+            <lb n="558" break="no"/>inari.»</quote> Altri documenti curiosi, riferiti dal signor <persName ref="#P_EdFdR">de Resbecq</persName>, mostrano
+            <lb n="559" />che l' idea dell' istruzione obbligatoria non data da oggi.
+            <lb n="560" /><bibl>(Revue politique et littéraire.)</bibl>
 
             <lb n="561" /><persName ref="#P_LF">Leopoldo Franchetti</persName>
             <lb n="562" /><persName ref="#P_SS">Sidney Sonnino</persName>
-            <lb n="563" />Proprietari Direttori. <!--(unclear covered)--> 
-            <!-- linea nel mezzo -->
+            <lb n="563" />Proprieta<unclear><c>r</c></unclear>i Direttori. 
             <lb n="564" /><persName ref="#P_AG">Angiolo Gherardini</persName>, Gerente Responsabile.
-            <!-- linea nel mezzo -->
-            <lb n="565" /><settlement>FIRENZE</settlement>, <date>1878</date>. — Tipografia Barbèra.
+            <lb n="565" /><settlement>FIRENZE</settlement>, <date>1878</date>. — <bibl><publisher>Tipografia Barbèra</publisher></bibl>.
           </ab>
         </body>
       </text>

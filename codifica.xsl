@@ -65,6 +65,7 @@
                                 <button type="button" id="casaeditrice">Casa Editrice</button>
                                 <button type="button" id="correntiletterarie">Correnti Letterarie</button>
                                 <button type="button" id="verbum">Verbum</button>
+                                <button type="button" id="foreign">Lingue Straniere</button>
                             </ul>
                         </div>
 
@@ -270,8 +271,67 @@
         <persname>
             <xsl:apply-templates />
         </persname>
-    </xsl:template>
+</xsl:template>
 
+<xsl:template match="tei:addName">
+        <addName>
+            <xsl:apply-templates />
+        </addName>
+</xsl:template>
+
+<xsl:template match="tei:settlement">
+        <settlement>
+            <xsl:apply-templates />
+        </settlement>
+</xsl:template>
+
+<xsl:template match="tei:date">
+        <date>
+            <xsl:apply-templates />
+        </date>
+</xsl:template>    
+
+<xsl:template match="tei:orgName">
+        <orgName>
+            <xsl:apply-templates />
+        </orgName>
+</xsl:template>
+
+<xsl:template match="tei:quote">
+        <quote>
+            <xsl:apply-templates />
+        </quote>
+</xsl:template>
+
+<xsl:template match="tei:bibl">
+        <bibl>
+            <xsl:apply-templates />
+        </bibl>
+</xsl:template>
+
+<xsl:template match="tei:publisher">
+        <publisher>
+            <xsl:apply-templates />
+        </publisher>
+</xsl:template>
+
+<xsl:template match="tei:term">
+        <term>
+            <xsl:apply-templates />
+        </term>
+</xsl:template>
+
+<xsl:template match="tei:emph">
+        <emph>
+            <xsl:apply-templates />
+        </emph>
+</xsl:template>
+
+<xsl:template match="tei:foreign">
+        <foreign>
+            <xsl:apply-templates />
+        </foreign>
+</xsl:template>
 
 </xsl:stylesheet>
 

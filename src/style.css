@@ -326,6 +326,14 @@ footer {
     background-color:  #842323;
 }
 
+#foreign {
+    background-color: #2e2384;
+}
+
+.highlight_f{
+    background-color:  #2e2384;
+}
+
 .bottoni_fenomeni button:hover {
     opacity: 0.8;
 }
