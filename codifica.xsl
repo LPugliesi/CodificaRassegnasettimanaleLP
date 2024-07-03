@@ -75,7 +75,7 @@
                     <div id="img1">
                         <div class="container">
                             <div class="box">
-                                <a href='\pages\img1.png'><xsl:apply-templates select="//tei:surface[@xml:id='img1']" /></a>
+                                <a href='./pages/img1.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr1']" /></a>
                             </div>
                             <div class="boxtextA">
                             </div>
@@ -89,7 +89,7 @@
                     <div id="img2">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='./pages/img2.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr2']" /></a>
                             </div>
                             <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img2A']" />
@@ -104,7 +104,7 @@
                     <div id="img3">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='./pages/img3.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr3']" /></a>
                             </div>
                             <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img3A1']" /><hr />
@@ -120,7 +120,7 @@
                     <div id="img4">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='./pages/img4.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr4']" /></a>
                             </div>
                             <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img4A']" />
@@ -136,7 +136,7 @@
                     <div id="img5">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='./pages/img5.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr5']" /></a>
                             </div>
                             <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img5A']" />
@@ -151,7 +151,7 @@
                     <div id="img6">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='./pages/img6.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr6']" /></a>
                             </div>
                             <div class="boxtextA">
                             </div>
