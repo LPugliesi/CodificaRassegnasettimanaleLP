@@ -512,7 +512,7 @@
     </surface>
     <surface xml:id="imgr6">
       <graphic url='pagesr/imgr6.png' width='482.666666px' height='705.666666px' />
-      <zone ulx="250" uly="412" lrx="462" lry="662" />
+      <zone ulx="250" uly="412" lrx="462" lry="662" corresp="#p6_1"/>
     </surface>
   </facsimile>
 
@@ -1131,7 +1131,8 @@
 
       <text xml:id="Notizie"> <!-- NOTIZIE -->
         <body>
-          <ab xml:id="img6B">
+        <div xml:id="img6B">
+          <ab xml:id="p6_1">
             <lb n="538" />NOTIZIE.
             <lb n="539" />— Il secondo volume dell'opera anonima <bibl>Diplomatic Sketches by an
             <lb n="540" />Outsider</bibl>, che sarà pubblicato nell' <date>ottobre</date>, tratterà la <bibl>« Questione Da-
@@ -1163,7 +1164,8 @@
             <lb n="563" />Proprieta<unclear><c>r</c></unclear>i Direttori. 
             <lb n="564" /><persName ref="#P_AG">Angiolo Gherardini</persName>, Gerente Responsabile.
             <lb n="565" /><settlement>FIRENZE</settlement>, <date>1878</date>. — <bibl><publisher>Tipografia Barbèra</publisher></bibl>.
-          </ab>
+            </ab>
+          </div>
         </body>
       </text>
     </group>

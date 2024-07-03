@@ -11,6 +11,7 @@
                 <title>Progetto di Codifica di Testi</title>
                 <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
                 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
                 <script src="./src/script.js"></script>
                 <link href="./src/style.css" rel="stylesheet" type="text/css" />
@@ -156,7 +157,7 @@
                             <div class="boxtextA">
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img6B']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img6B']" />
                             </div>
                             <hr/>
                         </div>
