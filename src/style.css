@@ -333,8 +333,8 @@ footer {
     background-color: #ffffff;
 }
 
-.highlight_co{
-    background-color:  #ffffff;
+.highlight_corr {
+    color: #ff0000
 }
 
 .bottoni_fenomeni button:hover {

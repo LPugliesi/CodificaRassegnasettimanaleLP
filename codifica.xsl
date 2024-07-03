@@ -266,7 +266,7 @@
                 </xsl:for-each>
             </xsl:template>
 
-<!--template nomi di persone-->
+<!--template per evidenziare -->
 <xsl:template match="tei:persName">
         <persname>
             <xsl:apply-templates />
@@ -332,6 +332,26 @@
             <xsl:apply-templates />
         </foreign>
 </xsl:template>
+
+
+            <xsl:template match="//tei:choice">
+                <xsl:for-each select="current()">
+                        <xsl:if test="tei:sic">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">correction zone</xsl:attribute>
+                            <xsl:attribute name="style">display: inline-block</xsl:attribute>
+                            <xsl:attribute name="id"><xsl:value-of select="[@xml:id]" /></xsl:attribute>
+                            <xsl:value-of select="tei:corr" />
+                        </xsl:element>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">thus</xsl:attribute>
+                            <xsl:attribute name="style">display: none; color: red</xsl:attribute>
+                            <xsl:value-of select="tei:sic" />
+                        </xsl:element>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:template>            
+
 
 </xsl:stylesheet>
 

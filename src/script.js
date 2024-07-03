@@ -44,4 +44,8 @@ $(document).ready(function () {
       $("foreign").addClass("highlight_f");
     });  
 
+    // $("#correzioni").click(function () {
+    //   $("sicc").addClass("highlight_corr");
+    // });
+
   });
