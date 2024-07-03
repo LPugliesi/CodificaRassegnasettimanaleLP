@@ -75,7 +75,7 @@
                     <div id="img1">
                         <div class="container">
                             <div class="box">
-                                <xsl:apply-templates select="//tei:surface[@xml:id='img']" />
+                                <a href='\pages\img1.png'><xsl:apply-templates select="//tei:surface[@xml:id='img1']" /></a>
                             </div>
                             <div class="boxtextA">
                             </div>

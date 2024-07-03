@@ -444,7 +444,7 @@
 
 <!-- FACSSIMILE -->
   <facsimile>
-    <surface xml:id="img1">
+    <surface xml:id="imgr1">
       <graphic url='pages/img1.png' width='1533.33334px' height='2255.33334px' />
       <zone ulx="785" uly="1594" lrx="1460" lry="2092" />
     </surface>
