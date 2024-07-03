@@ -61,6 +61,4 @@ $(document).ready(function () {
       $("foreign").addClass("highlight_f");
     });  
 
-
-
   });
