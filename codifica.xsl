@@ -81,7 +81,7 @@
                             <div class="boxtextA">
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img1B']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img1B']" />
                             </div>
                             <hr/>
                         </div>
@@ -93,10 +93,10 @@
                                 <a href='./pages/img2.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr2']" /></a>
                             </div>
                             <div class="boxtextA">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img2A']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img2A']" />
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img2B']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img2B']" />
                             </div>
                             <hr/>
                         </div>
@@ -108,7 +108,7 @@
                                 <a href='./pages/img3.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr3']" /></a>
                             </div>
                             <div class="boxtextA">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A1']" /><hr />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img3A1']" /><hr />
                                 <xsl:apply-templates select="//tei:ab[@xml:id='img3A2']" />
                             </div>
                             <div class="boxtext">

@@ -1,57 +1,114 @@
 $(document).ready(function () { 
-    $("#persone").click(function () {
-        if ($("persName").hasClass("highlight_p")) {
-            $("persName").removeClass("highlight_p");
-        } else {
-            $("persName").addClass("highlight_p");
-        }
-    });
-});
 
-$(document).ready(function () { 
 
+  // bottone persone
+  $("#persone").click(function () {
+    if ($("persName").hasClass("highlight_p")) {
+        $("persName").removeClass("highlight_p");
+    } else {
+        $("persName").addClass("highlight_p");
+    }
+  });
+
+  // bottone epithet
   $("#epithet").click(function () {
-    $("addName").addClass("highlight_ep");
+    if ($("addName").hasClass("highlight_ep")) {
+        $("addName").removeClass("highlight_ep");
+    } else {
+        $("addName").addClass("highlight_ep");
+    }
   });
 
+  // bottone luoghi
   $("#luoghi").click(function () {
-    $("settlement").addClass("highlight_l");
-  });    
+    if ($("settlement").hasClass("highlight_l")) {
+        $("settlement").removeClass("highlight_l");
+    } else {
+        $("settlement").addClass("highlight_l");
+    }
+  });
 
+  // bottone date
   $("#date").click(function () {
-    $("date").addClass("highlight_d");
+    if ($("date").hasClass("highlight_d")) {
+        $("date").removeClass("highlight_d");
+    } else {
+        $("date").addClass("highlight_d");
+    }
   });
 
+  // bottone organizzazioni
   $("#organizzazioni").click(function () {
-    $("orgName").addClass("highlight_o");
-  }); 
-
-  $("#citazioni").click(function () {
-    $("quote").addClass("highlight_c");
+    if ($("orgName").hasClass("highlight_o")) {
+        $("orgName").removeClass("highlight_o");
+    } else {
+        $("orgName").addClass("highlight_o");
+    }
   });
 
-  $("#opere").click(function () {
-    $("bibl").addClass("highlight_op");
-  }); 
-
-  $("#casaeditrice").click(function () {
-    $("publisher").addClass("highlight_ce");
-  }); 
-
-  $("#correntiletterarie").click(function () {
-    $("term").addClass("highlight_cl");
-  }); 
-
-  $("#verbum").click(function () {
-    $("emph").addClass("highlight_vr");
+  // bottone citazioni
+  $("#citazioni").click(function () {
+    if ($("quote").hasClass("highlight_c")) {
+        $("quote").removeClass("highlight_c");
+    } else {
+        $("quote").addClass("highlight_c");
+    }
   });   
+  
+  // bottone opere
+  $("#opere").click(function () {
+    if ($("bibl").hasClass("highlight_op")) {
+        $("bibl").removeClass("highlight_op");
+    } else {
+        $("bibl").addClass("highlight_op");
+    }
+  });
 
+  // bottone casa editrice
+  $("#casaeditrice").click(function () {
+    if ($("publisher").hasClass("highlight_ce")) {
+        $("publisher").removeClass("highlight_ce");
+    } else {
+        $("publisher").addClass("highlight_ce");
+    }
+  });   
+ 
+  // bottone correnti letterarie
+  $("#correntiletterarie").click(function () {
+    if ($("term").hasClass("highlight_cl")) {
+        $("term").removeClass("highlight_cl");
+    } else {
+        $("term").addClass("highlight_cl");
+    }
+  });
+
+  // bottone verbum
+  $("#verbum").click(function () {
+    if ($("emph").hasClass("highlight_vr")) {
+        $("emph").removeClass("highlight_vr");
+    } else {
+        $("emph").addClass("highlight_vr");
+    }
+  });
+
+  // bottone lingue straniere
   $("#foreign").click(function () {
-    $("foreign").addClass("highlight_f");
+    if ($("foreign").hasClass("highlight_f")) {
+        $("foreign").removeClass("highlight_f");
+    } else {
+        $("foreign").addClass("highlight_f");
+    }
   });  
 
-  // $("#correzioni").click(function () {
-  //   $("sicc").addClass("highlight_corr");
-  // });
+/* bottone correzioni
+$("#correzioni").click(function () {
+  if ($("corr").hasClass("highlight_corr")) {
+      $("corr").removeClass("highlight_corr");
+  } else {
+      $("corr").addClass("highlight_corr");
+  }
+});
+*/
+
 
 });
