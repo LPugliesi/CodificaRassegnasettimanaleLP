@@ -475,39 +475,39 @@
     <surface xml:id="imgr3">
       <graphic url='pagesr/imgr3.png' width='482.518518px' height='709.518518px' />
       <zone ulx="30" uly="52" lrx="240" lry="94" corresp="#Paragrafo21_Corrispondenza_artistica_da_Parigi"/>
-      <zone ulx="27" uly="98" lrx="238" lry="163" />
-      <zone ulx="29" uly="165" lrx="237" lry="208" />
-      <zone ulx="29" uly="210" lrx="239" lry="282" />
-      <zone ulx="27" uly="283" lrx="236" lry="371" />
-      <zone ulx="28" uly="373" lrx="235" lry="524" />
-      <zone ulx="27" uly="526" lrx="235" lry="630" />
-      <zone ulx="26" uly="632" lrx="236" lry="660" />
-      <zone ulx="242" uly="58" lrx="454" lry="118" />
-      <zone ulx="243" uly="119" lrx="452" lry="345" />
-      <zone ulx="243" uly="346" lrx="450" lry="443" />
-      <zone ulx="244" uly="445" lrx="450" lry="561" />
-      <zone ulx="242" uly="562" lrx="452" lry="615" />
-      <zone ulx="241" uly="615" lrx="452" lry="661" />
+      <zone ulx="27" uly="98" lrx="238" lry="163" corresp="#Paragrafo1_La_Mineralogia_in_Italia"/>
+      <zone ulx="29" uly="165" lrx="237" lry="208" corresp="#Paragrafo2_La_Mineralogia_in_Italia"/>
+      <zone ulx="29" uly="210" lrx="239" lry="282" corresp="#Paragrafo3_La_Mineralogia_in_Italia"/>
+      <zone ulx="27" uly="283" lrx="236" lry="371" corresp="#Paragrafo4_La_Mineralogia_in_Italia"/>
+      <zone ulx="28" uly="373" lrx="235" lry="524" corresp="#Paragrafo5_La_Mineralogia_in_Italia"/>
+      <zone ulx="27" uly="526" lrx="235" lry="630" corresp="#Paragrafo6_La_Mineralogia_in_Italia"/>
+      <zone ulx="26" uly="632" lrx="236" lry="660" corresp="#Paragrafo7_La_Mineralogia_in_Italia"/>
+      <zone ulx="242" uly="58" lrx="454" lry="118" corresp="#Paragrafo8_La_Mineralogia_in_Italia"/>
+      <zone ulx="243" uly="119" lrx="452" lry="345" corresp="#Paragrafo9_La_Mineralogia_in_Italia"/>
+      <zone ulx="243" uly="346" lrx="450" lry="443" corresp="#Paragrafo10_La_Mineralogia_in_Italia"/>
+      <zone ulx="244" uly="445" lrx="450" lry="561" corresp="#Paragrafo11_La_Mineralogia_in_Italia"/>
+      <zone ulx="242" uly="562" lrx="452" lry="615" corresp="#Paragrafo12_La_Mineralogia_in_Italia"/>
+      <zone ulx="241" uly="615" lrx="452" lry="661" corresp="#Paragrafo1_piè_di_pagina"/>
     </surface>
 
     <surface xml:id="imgr4">
       <graphic url='pagesr/imgr4.png' width='481.666666px' height='709.666666px' />
-      <zone ulx="35" uly="59" lrx="244" lry="327" />
-      <zone ulx="35" uly="329" lrx="244" lry="373" />
-      <zone ulx="35" uly="374" lrx="245" lry="647" />
-      <zone ulx="37" uly="650" lrx="247" lry="666" />
-      <zone ulx="249" uly="59" lrx="460" lry="213" />
-      <zone ulx="250" uly="216" lrx="460" lry="312" />
-      <zone ulx="249" uly="320" lrx="461" lry="518" />
-      <zone ulx="252" uly="520" lrx="464" lry="655" />
-      <zone ulx="251" uly="658" lrx="463" lry="664" />
+      <zone ulx="35" uly="59" lrx="244" lry="327" corresp="#Paragrafo13_La_Mineralogia_in_Italia"/>
+      <zone ulx="35" uly="329" lrx="244" lry="373" corresp="#Paragrafo14_La_Mineralogia_in_Italia"/>
+      <zone ulx="35" uly="374" lrx="245" lry="647" corresp="#Paragrafo15_La_Mineralogia_in_Italia"/>
+      <zone ulx="37" uly="650" lrx="247" lry="666" corresp="#Paragrafo2_piè_di_pagina"/>
+      <zone ulx="249" uly="59" lrx="460" lry="213" corresp="#Paragrafo16_La_Mineralogia_in_Italia"/>
+      <zone ulx="250" uly="216" lrx="460" lry="312" corresp="#Paragrafo17_La_Mineralogia_in_Italia"/>
+      <zone ulx="249" uly="320" lrx="461" lry="518" corresp="#Paragrafo1_Bibliografia"/>
+      <zone ulx="252" uly="520" lrx="464" lry="655" corresp="#Paragrafo2_Bibliografia"/>
+      <zone ulx="251" uly="658" lrx="463" lry="664" corresp="#Paragrafo3_piè_di_pagina"/>
     </surface>
 
     <surface xml:id="imgr5">
       <graphic url='pagesr/imgr5.png' width='482.666666px' height='706.666666px' />
-      <zone ulx="26" uly="51" lrx="236" lry="186" />
-      <zone ulx="27" uly="189" lrx="240" lry="653" />
-      <zone ulx="243" uly="52" lrx="454" lry="536" />
+      <zone ulx="26" uly="51" lrx="236" lry="186" corresp="#Paragrafo3_Bibliografia"/>
+      <zone ulx="27" uly="189" lrx="240" lry="653" corresp="#Paragrafo4_Bibliografia"/>
+      <zone ulx="243" uly="52" lrx="454" lry="536" corresp="#Paragrafo5_Bibliografia"/>
 
     </surface>
     <surface xml:id="imgr6">
@@ -629,84 +629,95 @@
             </ab>
           </div>
           <div xml:id="img2B">
-            <lb n="85" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> della logica d'un quadro. Rispettando sempre le inten-
-            <lb n="86" />zioni d' un artista purché esse arrivino ad una buona con-<!-- riga fatta! -->
-            <lb n="87" />clusione, non possiamo a meno di lodare <persName ref="#P_AM">il Mancini</persName> per <!-- riga fatta! -->
-            <lb n="88" />queste sue opere che fanno onore alla nostra Esposizione <!-- riga fatta! -->
-            <lb n="89" />e per altre molte che abbiamo già vedute dai vari nego-<!-- riga fatta! -->
-            <lb n="90" />zianti di <settlement>Parigi</settlement>. <!-- riga fatta! -->
-
-            <lb n="91" />E <persName ref="#P_FR">Federico Rossano</persName> il quale ha esposto molto modesta-<!-- riga fatta! -->
-            <lb n="92" />mente quattro quadretti di paese accanto alle splendide <!-- riga fatta! -->
-            <lb n="93" />tele del suo allievo <persName ref="#P_GDN">De Nittis</persName>, chiude la piccola falange de-<!-- riga fatta! -->
-            <lb n="94" />gli emigrati onesti e capaci che studiano seriamente, che <!-- riga fatta! -->
-            <lb n="95" />cercano di far dell' arte anzitutto e che onorano grande-<!-- riga fatta! -->
-            <lb n="96" />mente il nostro paese.<!-- riga fatta! -->
-
-            <lb n="97" />Dietro a questi viene una sequela di artisti da <foreign xml:lang="fr">confec-</foreign><!-- riga fatta! -->
-            <lb n="98" /><foreign xml:lang="fr">tions</foreign>, ai quali non si possono negare certe attitudini <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> un <!-- riga fatta! -->
-            <lb n="99" />certo buon gusto, ma che hanno ridotto l' arte ad una ma-<!-- riga fatta! -->
-            <lb n="100" />nifattura. <!-- riga fatta! -->
-
-            <lb n="101" />Vorremmo parlare del <persName ref="#P_FPM">Michetti</persName>, forte e strano ingegno <!-- riga fatta! -->
-            <lb n="102" />pittorico, seduttore abilissimo d' artisti ed amatori, ma non <!-- riga fatta! -->
-            <lb n="103" />vogliamo neppure questa volta entrar nel campo del primo <!-- riga fatta! -->
-            <lb n="104" />vostro corrispondente.<!-- riga fatta! -->
-
-            <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">etc</corr></choice>, s'arra- <!-- riga fatta! -->
-            <lb n="106" />battano da anni ed anni per ottenere sempre il medesimo<!-- riga fatta! -->
-            <lb n="107" />successo facendo presso a poco il medesimo quadro. Questi <!-- riga fatta! -->
-            <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per<!-- riga fatta! -->
-            <lb n="109" />qualche tempo la fortuna suprema di far credere al volgo<!-- riga fatta! -->
-            <lb n="110" />ignorante che l' arte loro era la sola arte italiana e il detto<!-- riga fatta! -->
-            <lb n="111" />volgo guidato da questo tipo non ha mai voluto ricono-<!-- riga fatta! -->
-            <lb n="112" />scere chi faceva altrimenti.<!-- riga fatta! -->
-
-            <lb n="113" />Speriamo che l' attuale Esposizione benché non dimostri <!-- riga fatta! -->
-            <lb n="114" />che molto <choice><sic>parcamente</sic><corr resp="#LP">moderatamente</corr></choice> quanto si fa o si tenta da noi in <!-- riga fatta! -->
-            <lb n="115" />fatto d' arte italiana ai nostri giorni, servirà pure a disin-<!-- riga fatta! -->
-            <lb n="116" />gannare per sempre i creduli che si sono lasciati infinoc-<!-- riga fatta! -->
-            <lb n="117" />chiare così facilmente.<!-- riga fatta! -->
-
-            <lb n="118" />Ed ora arriviamo al gruppo degl' indigeni schietti, buoni <!-- riga fatta! -->
-            <lb n="119" />o cattivi, e vediamo un poco il bene ed il male che si fa in <!-- riga fatta! -->
-            <lb n="120" />casa nostra secondo le tradizioni, le scuole, il temperamento <!-- riga fatta! -->
-            <lb n="121" />che distinguono gli artisti delle varie province d'<settlement>Italia</settlement>.<!-- riga fatta! -->
-
-            <lb n="122" />E per primo parleremo dei due fratelli <persName ref="#P_GDI">Induno</persName>, vecchi <!-- riga fatta! -->
-            <lb n="123" />rappresentanti dell' arte nostra così detta di genere, arti-<!-- riga fatta! -->
-            <lb n="124" />sti quarantottini di prima forza. Chi vuol vedere della pit-<!-- riga fatta! -->
-            <lb n="125" />tura di genere del passato si rechi ad ammirare le tele dei <!-- riga fatta! -->
-            <lb n="126" />due fratelli <persName ref="#P_GDI">Induno</persName>. <!-- riga fatta! -->
-
-            <lb n="127" /><persName ref="#P_GDI">Domenico</persName> ci rappresenta la cerimonia del collocamento <!-- riga fatta! -->
-            <lb n="128" />della prima pietra della <settlement ref="#S_GVE">Galleria Vittorio Emanuele</settlement> e ci fa <!-- riga fatta! -->
-            <lb n="129" />riconoscere tutte le fisionomie delle persone dipinte da <!-- riga fatta! -->
-            <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> <!-- riga fatta! -->
-            <lb n="131" />fulgore di luce che possa impedire al diligente pennello di <!-- riga fatta! -->
-            <lb n="132" />questo artista di ritrarre un personaggio, sia pur la sua <!-- riga fatta! -->
-            <lb n="133" />testa grande come una capocchia di spillo, ed un buon uomo <!-- riga fatta! -->
-            <lb n="134" />aveva ragione di dire di lui, che, se avesse voluto, avrebbe <!-- riga fatta! -->
-            <lb n="135" />saputo fare gli occhi alle pulci.<!-- riga fatta! -->
-
-            <lb n="136" />Il fratello <persName>Girolamo</persName> con un brio più disinvolto ha <!-- riga fatta! -->
-            <lb n="137" /><choice><sic>presentate</sic><corr resp="#LP">presentato</corr></choice> varie piccole tele molto bene accomodate e più <!-- riga fatta! -->
-            <lb n="138" />specialmente una intitolata <bibl>Un amateur d'antiquités</bibl>, nella <!-- riga fatta! -->
-            <lb n="139" />quale si ritrova un certo buonumore meneghino d' antica <!-- riga fatta! -->
-            <lb n="140" />data che la rende piacevole, sebbene la pittura appartenga <!-- riga fatta! -->
-            <lb n="141" />ad una maniera che ora non ha più alcun significato.<!-- riga fatta! -->
-
-            <lb n="142" />Carica di zafferano e di risotto è l'opera capitale del <!-- riga fatta! -->
-            <lb n="143" />professore <persName ref="#P_EP">Eleuterio Pagliano</persName>. <persName>Napoleone <addName type="epithet">il Grande</addName> </persName> annun-<!-- riga fatta! -->
-            <lb n="144" />zia commosso all' imperatrice <persName ref="#P_GdB">Giuseppina</persName> la risoluzione <!-- riga fatta! -->
-            <lb n="145" />presa di abbandonarla, e l'abito di <persName>Madama</persName> ed il fazzo-<!-- riga fatta! -->
-            <lb n="146" />letto col quale si asciuga gli occhi non che le carni stesse <!-- riga fatta! -->
-            <lb n="147" />si fondono intenerite a tanto annunzio. Anche il crudele <!-- riga fatta! -->
-            <lb n="148" />marito deve partecipare in gran parte dell' emozione della <!-- riga fatta! -->
-            <lb n="149" />moglie giacché tutta la sua persona risente i medesimi <!-- riga fatta! -->
-            <lb n="150" />effetti. <!-- riga fatta! -->
-
-            <lb n="151" />Un altro quadro dello stesso autore, intitolato <bibl>La revue</bibl><!-- riga fatta! -->
+            <ab xml:id="Paragrafo10_Corrispondenza_artistica_da_Parigi">
+              <lb n="85" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> della logica d'un quadro. Rispettando sempre le inten-
+              <lb n="86" />zioni d' un artista purché esse arrivino ad una buona con-<!-- riga fatta! -->
+              <lb n="87" />clusione, non possiamo a meno di lodare <persName ref="#P_AM">il Mancini</persName> per <!-- riga fatta! -->
+              <lb n="88" />queste sue opere che fanno onore alla nostra Esposizione <!-- riga fatta! -->
+              <lb n="89" />e per altre molte che abbiamo già vedute dai vari nego-<!-- riga fatta! -->
+              <lb n="90" />zianti di <settlement>Parigi</settlement>. <!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo11_Corrispondenza_artistica_da_Parigi">
+              <lb n="91" />E <persName ref="#P_FR">Federico Rossano</persName> il quale ha esposto molto modesta-<!-- riga fatta! -->
+              <lb n="92" />mente quattro quadretti di paese accanto alle splendide <!-- riga fatta! -->
+              <lb n="93" />tele del suo allievo <persName ref="#P_GDN">De Nittis</persName>, chiude la piccola falange de-<!-- riga fatta! -->
+              <lb n="94" />gli emigrati onesti e capaci che studiano seriamente, che <!-- riga fatta! -->
+              <lb n="95" />cercano di far dell' arte anzitutto e che onorano grande-<!-- riga fatta! -->
+              <lb n="96" />mente il nostro paese.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo12_Corrispondenza_artistica_da_Parigi">
+              <lb n="97" />Dietro a questi viene una sequela di artisti da <foreign xml:lang="fr">confec-</foreign><!-- riga fatta! -->
+              <lb n="98" /><foreign xml:lang="fr">tions</foreign>, ai quali non si possono negare certe attitudini <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> un <!-- riga fatta! -->
+              <lb n="99" />certo buon gusto, ma che hanno ridotto l' arte ad una ma-<!-- riga fatta! -->
+              <lb n="100" />nifattura. <!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo13_Corrispondenza_artistica_da_Parigi">
+              <lb n="101" />Vorremmo parlare del <persName ref="#P_FPM">Michetti</persName>, forte e strano ingegno <!-- riga fatta! -->
+              <lb n="102" />pittorico, seduttore abilissimo d' artisti ed amatori, ma non <!-- riga fatta! -->
+              <lb n="103" />vogliamo neppure questa volta entrar nel campo del primo <!-- riga fatta! -->
+              <lb n="104" />vostro corrispondente.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo14_Corrispondenza_artistica_da_Parigi">
+              <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">etc</corr></choice>, s'arra- <!-- riga fatta! -->
+              <lb n="106" />battano da anni ed anni per ottenere sempre il medesimo<!-- riga fatta! -->
+              <lb n="107" />successo facendo presso a poco il medesimo quadro. Questi <!-- riga fatta! -->
+              <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per<!-- riga fatta! -->
+              <lb n="109" />qualche tempo la fortuna suprema di far credere al volgo<!-- riga fatta! -->
+              <lb n="110" />ignorante che l' arte loro era la sola arte italiana e il detto<!-- riga fatta! -->
+              <lb n="111" />volgo guidato da questo tipo non ha mai voluto ricono-<!-- riga fatta! -->
+              <lb n="112" />scere chi faceva altrimenti.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo15_Corrispondenza_artistica_da_Parigi">
+              <lb n="113" />Speriamo che l' attuale Esposizione benché non dimostri <!-- riga fatta! -->
+              <lb n="114" />che molto <choice><sic>parcamente</sic><corr resp="#LP">moderatamente</corr></choice> quanto si fa o si tenta da noi in <!-- riga fatta! -->
+              <lb n="115" />fatto d' arte italiana ai nostri giorni, servirà pure a disin-<!-- riga fatta! -->
+              <lb n="116" />gannare per sempre i creduli che si sono lasciati infinoc-<!-- riga fatta! -->
+              <lb n="117" />chiare così facilmente.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo16_Corrispondenza_artistica_da_Parigi">
+              <lb n="118" />Ed ora arriviamo al gruppo degl' indigeni schietti, buoni <!-- riga fatta! -->
+              <lb n="119" />o cattivi, e vediamo un poco il bene ed il male che si fa in <!-- riga fatta! -->
+              <lb n="120" />casa nostra secondo le tradizioni, le scuole, il temperamento <!-- riga fatta! -->
+              <lb n="121" />che distinguono gli artisti delle varie province d'<settlement>Italia</settlement>.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo17_Corrispondenza_artistica_da_Parigi">
+              <lb n="122" />E per primo parleremo dei due fratelli <persName ref="#P_GDI">Induno</persName>, vecchi <!-- riga fatta! -->
+              <lb n="123" />rappresentanti dell' arte nostra così detta di genere, arti-<!-- riga fatta! -->
+              <lb n="124" />sti quarantottini di prima forza. Chi vuol vedere della pit-<!-- riga fatta! -->
+              <lb n="125" />tura di genere del passato si rechi ad ammirare le tele dei <!-- riga fatta! -->
+              <lb n="126" />due fratelli <persName ref="#P_GDI">Induno</persName>. <!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo18_Corrispondenza_artistica_da_Parigi">
+              <lb n="127" /><persName ref="#P_GDI">Domenico</persName> ci rappresenta la cerimonia del collocamento <!-- riga fatta! -->
+              <lb n="128" />della prima pietra della <settlement ref="#S_GVE">Galleria Vittorio Emanuele</settlement> e ci fa <!-- riga fatta! -->
+              <lb n="129" />riconoscere tutte le fisionomie delle persone dipinte da <!-- riga fatta! -->
+              <lb n="130" />quelle del primo piano fino all' ultimo. Non v' è distanza <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> <!-- riga fatta! -->
+              <lb n="131" />fulgore di luce che possa impedire al diligente pennello di <!-- riga fatta! -->
+              <lb n="132" />questo artista di ritrarre un personaggio, sia pur la sua <!-- riga fatta! -->
+              <lb n="133" />testa grande come una capocchia di spillo, ed un buon uomo <!-- riga fatta! -->
+              <lb n="134" />aveva ragione di dire di lui, che, se avesse voluto, avrebbe <!-- riga fatta! -->
+              <lb n="135" />saputo fare gli occhi alle pulci.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo19_Corrispondenza_artistica_da_Parigi">
+              <lb n="136" />Il fratello <persName>Girolamo</persName> con un brio più disinvolto ha <!-- riga fatta! -->
+              <lb n="137" /><choice><sic>presentate</sic><corr resp="#LP">presentato</corr></choice> varie piccole tele molto bene accomodate e più <!-- riga fatta! -->
+              <lb n="138" />specialmente una intitolata <bibl>Un amateur d'antiquités</bibl>, nella <!-- riga fatta! -->
+              <lb n="139" />quale si ritrova un certo buonumore meneghino d' antica <!-- riga fatta! -->
+              <lb n="140" />data che la rende piacevole, sebbene la pittura appartenga <!-- riga fatta! -->
+              <lb n="141" />ad una maniera che ora non ha più alcun significato.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo20_Corrispondenza_artistica_da_Parigi">
+              <lb n="142" />Carica di zafferano e di risotto è l'opera capitale del <!-- riga fatta! -->
+              <lb n="143" />professore <persName ref="#P_EP">Eleuterio Pagliano</persName>. <persName>Napoleone <addName type="epithet">il Grande</addName> </persName> annun-<!-- riga fatta! -->
+              <lb n="144" />zia commosso all' imperatrice <persName ref="#P_GdB">Giuseppina</persName> la risoluzione <!-- riga fatta! -->
+              <lb n="145" />presa di abbandonarla, e l'abito di <persName>Madama</persName> ed il fazzo-<!-- riga fatta! -->
+              <lb n="146" />letto col quale si asciuga gli occhi non che le carni stesse <!-- riga fatta! -->
+              <lb n="147" />si fondono intenerite a tanto annunzio. Anche il crudele <!-- riga fatta! -->
+              <lb n="148" />marito deve partecipare in gran parte dell' emozione della <!-- riga fatta! -->
+              <lb n="149" />moglie giacché tutta la sua persona risente i medesimi <!-- riga fatta! -->
+              <lb n="150" />effetti. <!-- riga fatta! -->
+              <lb n="151" />Un altro quadro dello stesso autore, intitolato <bibl>La revue</bibl><!-- riga fatta! -->
+            </ab>
           </div>
           <div xml:id="img3A1">
             <ab xml:id="Paragrafo21_Corrispondenza_artistica_da_Parigi">
@@ -721,302 +732,331 @@
 
       <text xml:id="Mineralogia"> <!-- LA MINERALOGIA IN ITALIA -->
         <body>
-          <ab xml:id="img3A2">
-            <lb n="156" />LA MINERALOGIA IN <settlement>ITALIA</settlement>.
-            <lb n="157" />E cosa ripetuta da molti che l'<settlement>Italia</settlement> è povera ; altri in-
-            <lb n="158" />vece sostengono che è ricchissima. Finalmente vi è chi la 
-            <lb n="159" />stima povera per l'inerzia dei suoi abitanti. Tutte queste 
-            <lb n="160" />affermazioni che corrono nei discorsi e su pei (per) libri ci sem-
-            <lb n="161" />brano inesatte come le sentenze troppo assolute ; e vaghe per <!-- riga fatta! -->
-            <lb n="162" />le diverse definizioni che si possono dare alla ricchezza.<!-- riga fatta! -->
-
-            <lb n="163" />Così se noi la fondiamo sopra la produzione agricola, e <!-- riga fatta! -->
-            <lb n="164" />paragoniamo, per esempio, l'<settlement>Italia</settlement> alla <settlement>Francia</settlement>, troviamo 
-            <lb n="165" />in quella limitate regioni di una produttività che non ha <!-- riga fatta! -->
-            <lb n="166" />riscontro nella seconda. Ma il rapporto fra terre produt-<!-- riga fatta! -->
-            <lb n="167" />tive e non produttive è maggiore in <settlement>Francia</settlement> che in <settlement>Italia</settlement>.
-
-            <lb n="168" />Anche in fatto di miniere si può dire che in generale <!-- riga fatta! -->
-            <lb n="169" />siamo poveri, benché alcune delle nostre siano ricchissime. <!-- riga fatta! -->
-            <lb n="170" />Così se paragoniamo l'<settlement>Italia</settlement> all' <settlement>Inghilterra</settlement>, al contrario 
-            <lb n="171" />di quanto si osserva in questa, troviamo fra noi, se si eccet-<!-- riga fatta! -->
-            <lb n="172" />tua l'<settlement ref="#S_IE">Elba</settlement> per il ferro, la <settlement>Sicilia</settlement> per lo zolfo, la <settlement>Toscana</settlement> 
-            <lb n="173" />per il borace e i marmi, la <settlement>Sardegna</settlement> per il piombo ec. (etc), 
-            <lb n="174" />miniere numerosissime, ma di piccola estensione, e quindi <!-- riga fatta! -->
-            <lb n="175" />di rendita passeggera, nulla, o negativa.<!-- riga fatta! -->
-
-            <lb n="176" />Se però la poca ricchezza di molte miniere italiane deve <!-- riga fatta! -->
-            <lb n="177" />ricercarsi in questa loro piccola estensione, dovuta a cause <!-- riga fatta! -->
-            <lb n="178" />generali geologiche che hanno reso variabilissime, a brevi <!-- riga fatta! -->
-            <lb n="179" />distanze, le condizioni stratigrafiche del nostro suolo, e <!-- riga fatta! -->
-            <lb n="180" />nella debolezza finanziaria delle Società o individui utima-
-            <lb n="181" />tori, non è men vero però che altre miniere possono esi-
-            <lb n="182" />stere in <settlement>Italia</settlement> produttive quanto quelle delle località so-
-            <lb n="183" />prannominate, e che possono scuoprirsene (scoprirsene) delle ricche come 
-            <lb n="184" />quella di cinabro da pochi anni trovata e utimata in <settlement>To</settlement>-
-            <lb n="185" /><settlement>scana</settlement> presso il <settlement ref="#S_MA">Monte Amiata</settlement>.
-
-            <lb n="186" />E qui conviene veramente rimproverare al nostro paese <!-- riga fatta! -->
-            <lb n="187" />il cattivo indirizzo degli studi mineralogici teorici e pra-<!-- riga fatta! -->
-            <lb n="188" />tici. Riguardo a questi ultimi, per esempio, mentre tutti i <!-- riga fatta! -->
-            <lb n="189" />principali paesi di <settlement>Europa</settlement>, hanno opere sufficentemente (sufficientemente) 
-            <lb n="190" />buone che ne fanno conoscere la ricchezza mineraria, in <!-- riga fatta! -->
-            <lb n="191" /><settlement>Italia</settlement>, tolti alcuni scritti speciali (raramente eccellenti 
-            <lb n="192" />come quelli dello <persName ref="#P_GS">Struever</persName> sui minerali del <settlement>Lazio</settlement> e compi-
-            <lb n="193" />lati bene come quelli del di <persName ref="#P_GdA">Achiardi</persName> sui minerali della <settlement>To</settlement>-
-            <lb n="194" /><settlement>scana</settlement>) non vi è quasi che il libro del <persName ref="#P_GJ">Jervis</persName>, in cui il difetto 
-            <lb n="195" />sostanziale si è quello di essere compilato, non invero, per<!-- riga fatta! -->
-            <lb n="196" />colpa dell' autore, con materiali insufficenti (insufficienti) o non bastante-
-            <lb n="197" />mente (sufficientemente) esatti. Prima di fare un' opera complessiva come quella 
-            <lb n="198" />tentata dal <persName ref="#P_GJ">Jervis</persName>, e che è solo ora un utile scartafaccio, è 
-            <lb n="199" />necessario che si moltiplichino i lavori speciali, che si siano <!-- riga fatta! -->
-            <lb n="200" />eseguite le analisi chimiche e le descrizioni dei minerali <!-- riga fatta! -->
-            <lb n="201" />per ogni singola regione, compiendo questi studi ove sono <!-- riga fatta! -->
-            <lb n="202" />mezzi adatti, cioè nei gabinetti di chimica e di mineralogia.<!-- riga fatta! -->
-
-            <lb n="203" />Invece questo è un campo ove si ama oziare; ovvero se 
-            <lb n="204" />vien fatto di trovare un nuovo minerale si stamperanno dieci 
-            <lb n="205" />pagine per descrivere i maravigliosi cristallini e i colori sma-
-            <lb n="206" />glianti, invece di fare una buona analisi e una esatta de
-            <lb n="207" />terminazione cristallografica. Mentre poi in quei medesimi 
-            <lb n="208" />gabinetti il prof. Z. farà, o piuttosto farà fare dal suo as-
-            <lb n="209" />sistente, l'analisi del vino del signor A., dell'olio del si-
-            <lb n="210" />gnor B., del concime del signor C. E non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> que-
-            <lb n="211" />ste analisi si coordinino a un lavoro che potrà essere pub-
-            <lb n="212" />blicato e letto, e che sarebbe certo anch' esso vantaggioso, 
-            <lb n="213" />ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> i signori A., B., C. sono amici del prof. Z. o gli 
-            <lb n="214" />sono raccomandati dal prefetto X. o dal deputato Y.
-
-            <lb n="215" />In una parola le autorità governative e municipali in <!-- riga fatta! -->
-            <lb n="216" />generale stimano che i gabinetti da loro in qualche modo <!-- riga fatta! -->
-            <lb n="217" />dipendenti siano istituiti dallo Stato per loro proprio uso <!-- riga fatta! -->
-          </ab> 
-          <ab xml:id="img3B"> 
-            <lb n="218" />e consumo, e per quello dei loro amici e conoscenti. Ma qui <!-- riga fatta! -->
-            <lb n="219" />davvero non vi è artifizio che basti. Non si provvede al <!-- riga fatta! -->
-            <lb n="220" />progresso delle scienze con la massima: «Aiutami che io ti <!-- riga fatta! -->
-            <lb n="221" />aiuto » o « Lodami che io ti lodo. » Si richiede amore puro <!-- riga fatta! -->
-            <lb n="222" />e ricerca modesta e leale della verità. Altrimenti si cade <!-- riga fatta! -->
-            <lb n="223" />in quell' americanismo di cui un illustre scienziato tedesco <!-- riga fatta! -->
-            <lb n="224" />deplora gli effetti nel suo paese.<!-- riga fatta! -->
-
-            <lb n="225" />Noi fin qui abbiamo inteso parlare dell' indirizzo generale <!-- riga fatta! -->
-            <lb n="226" />degli studi mineralogici in <settlement>Italia</settlement>, e lo crediamo tale ben-
-            <lb n="227" />ché due scienziati, lo <persName ref="#P_AS">Scacchi</persName> ed il <persName ref="#P_QS">Sella</persName>, rappresentino una 
-            <lb n="228" />efficace reazione contro quest' ozio e questo falso indiriz-<!-- riga fatta! -->
-            <lb n="229" />zo. Lo <persName ref="#P_AS">Scacchi</persName> però, malgrado osservazioni numerosissime 
-            <lb n="230" />ed acute non ha avuta immediata azione su tale stato di <!-- riga fatta! -->
-            <lb n="231" />cose; poiché egli, rimanendo nella sfera elevata della scienza <!-- riga fatta! -->
-            <lb n="232" />pura, chimico distinto e mineralogista di prim' ordine, non <!-- riga fatta! -->
-            <lb n="233" />si è curato di fare allievi. Il <persName ref="#P_QS">Sella</persName> è veramento (veramente) quello che ha 
-            <lb n="234" />richiamato a nuova vita in <settlement>Italia</settlement> lo studio della minera-
-            <lb n="235" />logia, sostituendo a vane parole, osservazioni e accurate <!-- riga fatta! -->
-            <lb n="236" />misure ; e fondando quella scienza sopra cognizioni chimi-<!-- riga fatta! -->
-            <lb n="237" />che, fisiche e matematiche, ha contribuito a riavvicinare <!-- riga fatta! -->
-            <lb n="238" />l'<settlement>Italia</settlement>, per questi studi, al livello raggiunto dalle altre 
-            <lb n="239" /><settlement ref="#S_NE">nazioni europee</settlement>. Le tracce del suo insegnamento rimangono 
-            <lb n="240" />nelle memorie inserite principalmente negli Atti dell' <orgName ref="#O_AdSdT">Acca</orgName>-
-            <lb n="241" /><orgName ref="#O_AdSdT">demia delle Scienze di Torino</orgName> e nelle Lezioni di Cristallo-
-            <lb n="242" />grafia fatte per la <orgName ref="#O_SdIT">Scuola degli Ingegneri</orgName> in quella città ; i 
-            <lb n="243" />nuovi metodi che sono esposti in questi scritti hanno avuto <!-- riga fatta! -->
-            <lb n="244" />influenza sul progresso di questi studi non solo in <settlement>Italia</settlement> ma 
-            <lb n="245" />anche fuori.* La descrizione dei minerali dà al <persName ref="#P_QS">Sella</persName> argo-
-            <lb n="246" />mento di teoremi geometrici e di ipotesi, mostrando così <!-- riga fatta! -->
-            <lb n="247" />come la scienza applicata non deve rifuggire dalla pura, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> 
-            <lb n="248" />quella dimenticare che da questa discende il suo florido ed <!-- riga fatta! -->
-            <lb n="249" />efficace sviluppo.<!-- riga fatta! -->
-
-            <lb n="250" />L'opera del <persName ref="#P_QS">Sella</persName> è ora continuata dallo <persName ref="#P_GS">Struever</persName> ed 
-            <lb n="251" />alla loro scuola appartengono il <persName ref="#P_GG">Grattarola</persName>, il <persName ref="#P_RP">Panebianco</persName>, 
-            <lb n="252" />lo <persName ref="#P_GS1">Spezia</persName>, l'<persName ref="#P_GU">Uzielli</persName> e qualche altro ; tenue schiera invero, 
-            <lb n="253" />se si pensa alla vastità del campo inesplorato che presenta <!-- riga fatta! -->
-            <lb n="254" />l'<settlement>Italia</settlement>, e se si pensa al danno che può venire alla scienza <!-- riga fatta! -->
-            <lb n="255" />e anche alla prosperità del paese quando il numero dei <!-- riga fatta! -->
-            <lb n="256" />cultori di quella nelle sue varie parti non sia bastante (bastate)
-            <lb n="257" />a render possibile fra gli studiosi una reciproca verifica-<!-- riga fatta! -->
-            <lb n="258" />zione delle ricerche, atta a far scuoprire (scoprire) gli errori in cui 
-            <lb n="259" />ciascuno può cadere, e a fermare chi sia per inoltrarsi in <!-- riga fatta! -->
-            <lb n="260" />una falsa via.<!-- riga fatta! -->
-
-            <lb n="261" />A scuola diversa appartiene il professor <persName ref="#P_LB">Bombicci</persName>. E ci 
-            <lb n="262" />sia qui lecito esprimere il nostro dispiacere dell' influenza <!-- riga fatta! -->
-            <lb n="263" />esercitata da quel professore, dotto collezionista ed appas-<!-- riga fatta! -->
-            <lb n="264" />sionato insegnante ; ma i di cui metodi fallaci e superficiali <!-- riga fatta! -->
-            <lb n="265" />sparsi in tutte le scuole tecniche, liceali, ed universitarie <!-- riga fatta! -->
-            <lb n="266" />d'<settlement>Italia</settlement> esercitano a nostro avviso, azione nocevolissima e 
-            <lb n="267" />che pur troppo (purtroppo) sarà duratura. ** Tale profonda credenza 
-            <lb n="268" />scusi presso il lettore la nostra vivacità che non potrà cal-<!-- riga fatta! -->
-            <lb n="269" />marsi finché un nuovo manuale inspirato allo spirito scien-<!-- riga fatta! -->
-            <lb n="270" />tifico moderno, non possa mettersi fra le mani dei nostri <!-- riga fatta! -->
-            <lb n="271" />giovani, sia esso originale o traduzione di qualche buon li-<!-- riga fatta! -->
-            <lb n="272" />bro straniero come sarebbero i trattati del <persName ref="#P_JDD">Dana</persName>, del <persName ref="#P_HJB">Brooke</persName> 
-            <lb n="273" />e <persName ref="#P_WHM">Miller</persName>, del <persName ref="#P_PHVG">Groth</persName>, del <persName ref="#P_GACFN">Naumann</persName> e altri esimi scienziati. 
-            <lb n="274" />Peraltro, affine di non essere accusati di critica velata <!-- riga fatta! -->
-            <lb n="275" />dobbiamo schiarire maggiormente il nostro pensiero.<!-- riga fatta! -->
-
-            <lb n="276" />La Mineralogia teorica è scienza che malgrado i grandi <!-- riga fatta! -->
-            <lb n="277" />progressi che ha fatti, è assai imperfetta in causa delle no-<!-- riga fatta! -->
-            <lb n="278" />stre incomplete cognizioni intorno a molti dei fenomeni <!-- riga fatta! -->
-            <lb n="279" />propri della materia e più particolarmente dei cristalli. La<!-- riga fatta! -->
-
-            <lb n="280" />* Così il <persName ref="#P_WHM">Miller</persName> ampliò, come egli stesso indica, dopo la pubblicazione 
-            <lb n="281" />di alcune memorie del <persName ref="#P_QS">Sella</persName>, il suo Treatise o f Cristallography i cui me-
-            <lb n="282" />todi tendono ogni giorno più a prevalere fra i mineralogisti. <!-- riga fatta! -->
-            <lb n="283" />** <persName ref="#P_LB">Bombicci</persName>, Corso generale di mineralogia. <settlement>Bologna</settlement> 1875, tre vol.
-            <lb n="284" /> in 8° gr.<!-- riga fatta! -->
-          </ab>
-          <ab xml:id="img4A">
-            <lb n="285" />mineralogia, intesa nel suo senso il più generale, implica <!-- riga fatta! -->
-            <lb n="286" />le scienze matematiche meccaniche, fisiche e chimiche, infine <!-- riga fatta! -->
-            <lb n="287" />tutte quelle che si riferiscono al regno inorganico. Essa stu-<!-- riga fatta! -->
-            <lb n="288" />dia prima d'ogni altra cosa le forme poliedriche delle sostan-<!-- riga fatta! -->
-            <lb n="289" />ze cristalline, cioè della materia armonicamente formata, <!-- riga fatta! -->
-            <lb n="290" />quindi le sue forme irregolari cioè, in una parola, la materia <!-- riga fatta! -->
-            <lb n="291" />in tutte le sue manifestazioni. Ma, ammesso anche che di <!-- riga fatta! -->
-            <lb n="292" />questa sia dato conoscere la natura assoluta, fa d'uopo 
-            <lb n="293" />convenire (necessario) che nessuna delle ipotesi enunciate fin qui può 
-            <lb n="294" />essere accettata concordemente dalle diverse scienze; quindi <!-- riga fatta! -->
-            <lb n="295" />non possiamo riconoscere nessuna delle fatte ipotesi come <!-- riga fatta! -->
-            <lb n="296" />la più probabile possibile; così per esempio non può darsi <!-- riga fatta! -->
-            <lb n="297" />una definizione fisico-chimica che abbracci l'individuo cri-<!-- riga fatta! -->
-            <lb n="298" />stallografico e chimico, cioè la forma e la ponderosità della <!-- riga fatta! -->
-            <lb n="299" />materia; eppure queste devono essere connesse intimamente <!-- riga fatta! -->
-            <lb n="300" />fra di loro. Non mancarono in proposito ipotesi di eminenti <!-- riga fatta! -->
-            <lb n="301" />ingegni come il <persName ref="#P_ALC">Cauchy</persName>, l'<persName ref="#P_AMA">Ampère</persName>, il <persName ref="#P_JCM">Maxwell</persName> e cento altri 
-            <lb n="302" />fisici; ma tutte vennero poco alla volta abbandonate come <!-- riga fatta! -->
-            <lb n="303" />definizioni assolutamente generali della materia, a misura che <!-- riga fatta! -->
-            <lb n="304" />nuove esperienze le contraddicevano. Basti citare il <persName ref="#P_JDD">Dana</persName> 
-            <lb n="305" />autore del fondamentale e più esteso trattato di Mineralogia <!-- riga fatta! -->
-            <lb n="306" />che si abbia; nell' ultima edizione egli ha tolto quanto trova-<!-- riga fatta! -->
-            <lb n="307" />vasi nelle prime sull'ipotetica costituzione della materia; <!-- riga fatta! -->
-            <lb n="308" />così invece di voler forzare l' analisi di qualunque corpo a <!-- riga fatta! -->
-            <lb n="309" />inquadrarsi in una formula chimica, ha dato, ove era neces-<!-- riga fatta! -->
-            <lb n="310" />sario, solo i dati quantitativi di varie discrepanti analisi. <!-- riga fatta! -->
-            <lb n="311" />In ciò si mostrava animato da quel medesimo spirito scien-<!-- riga fatta! -->
-            <lb n="312" />tifico che faceva dire così originalmente a <persName>Leonardo da </persName>: 
-            <lb n="313" />«Chi si promette dalla sperienza quel che non è in lei, si 
-            <lb n="314" />discosta dalla ragione.»
-
-            <lb n="315" />Ma pur troppo (purtroppo) è erronea tendenza di molti insegnanti,
-            <lb n="316" />ed in ciò eccede il <persName ref="#P_LB">Bombicci</persName>, l'introdurre a base di un
-            <lb n="317" />metodo didattico, teorie non accettate universalmente, er-<!-- riga fatta! -->
-            <lb n="318" />rore tanto più grande e nocivo quanto più queste teorie<!-- riga fatta! -->
-            <lb n="319" />sono arbitrarie e non comprovate dalle esperienze.<!-- riga fatta! -->
-
-            <lb n="320" />È questa, pur troppo, la via seguita dal <persName ref="#P_LB">Bombicci</persName>; quando
-            <lb n="321" />qualche nuova ipotesi appariva in uno dei molteplici rami<!-- riga fatta! -->
-            <lb n="322" />in cui si divide la scienza generale, egli l'introduceva a<!-- riga fatta! -->
-            <lb n="323" />forza in Mineralogia; teoria dinamica del calore, atomicità,<!-- riga fatta! -->
-            <lb n="324" />atavismo, darvinismo; non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> fatti ed esperienze
-            <lb n="325" />ben controllate glie lo (glielo) consigliassero, ed in ciò è memora-
-            <lb n="326" />bile esempio il <persName ref="#P_CD">Darwin</persName> stesso; ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> egli si sentiva
-            <lb n="327" />libero di dar carriera ad una fervida fantasia in un campo<!-- riga fatta! -->
-            <lb n="328" />ove vi è tanto ancora d'oscuro e d'indeterminato, e ove<!-- riga fatta! -->
-            <lb n="329" />non si è trovata una definizione della materia efficacemente<!-- riga fatta! -->
-            <lb n="330" />nuova, considerandola in tutta la generalità delle sue ma-<!-- riga fatta! -->
-            <lb n="331" />nifestazioni, da <persName ref="#P_L">Leucippo</persName> e dall'immaginosa scuola eleatica
-            <lb n="332" />in poi. Nel vagare alla ventura in questo vasto campo,<!-- riga fatta! -->
-            <lb n="333" />quante frasi altisonanti non si possono fare echeggiare nelle<!-- riga fatta! -->
-            <lb n="334" />aule universitarie infette ancora delle arcadiche voci dei no-<!-- riga fatta! -->
-            <lb n="335" />stri più recenti antenati! Come si possono riscuotere facili<!-- riga fatta! -->
-            <lb n="336" />applausi dalla nostra gioventù, disposta piuttosto a spa-<!-- riga fatta! -->
-            <lb n="337" />ziare in vuote tautologie e a sfogliare il dizionario del<!-- riga fatta! -->
-            <lb n="338" /><persName ref="#P_NT">Tommasèo</persName>, piuttosto che tener l'occhio fisso e affaticato so-
-            <lb n="339" />pra il goniometro e il microscopio? E come ciascuno, non<!-- riga fatta! -->
-            <lb n="340" />dando importanza all'esattezza dei calcoli e delle defini-<!-- riga fatta! -->
-            <lb n="341" />zioni, si lascia sedurre volentieri dalla speranza di poter<!-- riga fatta! -->
-            <lb n="342" />un giorno, imitando il maestro, possedere quel ganglio ner-<!-- riga fatta! -->
-            <lb n="343" />voso di cui così discorre il professor <persName ref="#P_LB">Bombicci</persName>: «Infine
-            <lb n="344" />come i fenomeni luminosi non rivelano splendidamente le
-            <lb n="345" />loro leggi che nelle masse limpide e pure, e strutturalmente
-            <lb n="346" />regolari di certi privilegiati cristalli, così il fenomeno del-
-            <lb n="347" />l'intelligenza non perverrebbe al fulgido balenio del genio
-            <lb n="348" />scientifico, letterario, artistico, che in talune privilegiate
-            <lb n="349" />strutture del più perfetto tra ogni ganglio nervoso.*»
-
-            <lb n="350" />* Processo di evoluzione della specie minerale. Discorso inaugurale per<!-- riga fatta! -->
-            <lb n="351" />l'anno scolastico <date>1877-78</date>. <settlement>Bologna</settlement>, <date>1878</date>, p. 25.
-          </ab>
-          <ab xml:id="img4B1">
-            <lb n="352" />Può veramente credere il professor <persName ref="#P_LB">Bombicci</persName> essere ani-
-            <lb n="353" />mato dallo spirito della scienza quando egli ne discorre con<!-- riga fatta! -->
-            <lb n="354" />parole come queste?: «Per essa (la Scienza) come per ogni
-            <lb n="355" />entità infinita, non havvi (abbia) alto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> basso, indietro od avanti;
-            <lb n="356" />dovunque essa incontra il Vero, il Buono, il Bello, di cui il
-            <lb n="357" />Falso, il Cattivo, il Brutto, non sono che le modalità ne-
-            <lb n="358" />gativamente polarizzate. E tutto questo concorre egual-
-            <lb n="359" />mente alla grande storia dell'umano pensiero. Per la scienza
-            <lb n="360" />libera, i cui obiettivi, come pei raggi della luce e per le
-            <lb n="361" />onde sonore, sono in ogni azimuto, Geova e Satana rappresen-
-            <lb n="362" />tano figuratamente i due massimi concetti sintetici delle
-            <lb n="363" />forze vive di segno contrario, il + e il – (il più e il meno); i due poli, a di-
-            <lb n="364" />verso segno di un circuito universale, attivi appunto per-
-            <lb n="365" />chè antagonisti; necessarie e supreme ragioni dei fenomeni,
-            <lb n="366" />vale a dire delle trasformazioni; simboli convenzionali del
-            <lb n="367" />dinamismo vero e universo, del Cosmos che ne consegue.
-            <lb n="368" />L'elemento corporeo dell'umanità li subisce. *»
-
-            <lb n="369" />Con questo linguaggio che nessun filosofo e nessun (nessuno)
-            <lb n="370" />scienziato può giudicare accettabile, il <persName ref="#P_LB">Bombicci</persName> ha rinnuo-
-            <lb n="371" />vato (rinnovato) in Mineralogia i metodi eleatici, e si è fatto iniziatore
-            <lb n="372" />di una scuola estranea all'indirizzo scientifico moderno.<!-- riga fatta! -->
-            <lb n="373" />Due altre scuole invece sono animate da questo ultimo spi-<!-- riga fatta! -->
-            <lb n="374" />rito in <settlement>Italia</settlement>:
-            <lb n="375" />1° Il professor <persName ref="#P_AS">Arcangelo Scacchi</persName>;
-            <lb n="376" />2° La scuola dei <persName ref="#P_S">Senarmont</persName>, dei <persName ref="#P_WHM">Miller</persName> e di numerosis-
-            <lb n="377" />simi tedeschi, della quale <persName ref="#P_QS">Quintino Sella</persName> è stato fra noi
-            <lb n="378" />l'iniziatore e il propagatore, e da cui speriamo il risorgi-<!-- riga fatta! -->
-            <lb n="379" />mento degli studi mineralogici in <settlement>Italia</settlement>. <persName ref="#P_HKL">H.K.L.</persName>
-          </ab>
+          <div xml:id="img3A2">
+            <ab xml:id="Paragrafo1_La_Mineralogia_in_Italia">
+              <lb n="156" />LA MINERALOGIA IN <settlement>ITALIA</settlement>.
+              <lb n="157" />E cosa ripetuta da molti che l'<settlement>Italia</settlement> è povera ; altri in-
+              <lb n="158" />vece sostengono che è ricchissima. Finalmente vi è chi la 
+              <lb n="159" />stima povera per l'inerzia dei suoi abitanti. Tutte queste 
+              <lb n="160" />affermazioni che corrono nei discorsi e su pei (per) libri ci sem-
+              <lb n="161" />brano inesatte come le sentenze troppo assolute ; e vaghe per <!-- riga fatta! -->
+              <lb n="162" />le diverse definizioni che si possono dare alla ricchezza.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo2_La_Mineralogia_in_Italia">
+              <lb n="163" />Così se noi la fondiamo sopra la produzione agricola, e <!-- riga fatta! -->
+              <lb n="164" />paragoniamo, per esempio, l'<settlement>Italia</settlement> alla <settlement>Francia</settlement>, troviamo 
+              <lb n="165" />in quella limitate regioni di una produttività che non ha <!-- riga fatta! -->
+              <lb n="166" />riscontro nella seconda. Ma il rapporto fra terre produt-<!-- riga fatta! -->
+              <lb n="167" />tive e non produttive è maggiore in <settlement>Francia</settlement> che in <settlement>Italia</settlement>.
+            </ab>
+            <ab xml:id="Paragrafo3_La_Mineralogia_in_Italia">
+              <lb n="168" />Anche in fatto di miniere si può dire che in generale <!-- riga fatta! -->
+              <lb n="169" />siamo poveri, benché alcune delle nostre siano ricchissime. <!-- riga fatta! -->
+              <lb n="170" />Così se paragoniamo l'<settlement>Italia</settlement> all' <settlement>Inghilterra</settlement>, al contrario 
+              <lb n="171" />di quanto si osserva in questa, troviamo fra noi, se si eccet-<!-- riga fatta! -->
+              <lb n="172" />tua l'<settlement ref="#S_IE">Elba</settlement> per il ferro, la <settlement>Sicilia</settlement> per lo zolfo, la <settlement>Toscana</settlement> 
+              <lb n="173" />per il borace e i marmi, la <settlement>Sardegna</settlement> per il piombo ec. (etc), 
+              <lb n="174" />miniere numerosissime, ma di piccola estensione, e quindi <!-- riga fatta! -->
+              <lb n="175" />di rendita passeggera, nulla, o negativa.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo4_La_Mineralogia_in_Italia">
+              <lb n="176" />Se però la poca ricchezza di molte miniere italiane deve <!-- riga fatta! -->
+              <lb n="177" />ricercarsi in questa loro piccola estensione, dovuta a cause <!-- riga fatta! -->
+              <lb n="178" />generali geologiche che hanno reso variabilissime, a brevi <!-- riga fatta! -->
+              <lb n="179" />distanze, le condizioni stratigrafiche del nostro suolo, e <!-- riga fatta! -->
+              <lb n="180" />nella debolezza finanziaria delle Società o individui utima-
+              <lb n="181" />tori, non è men vero però che altre miniere possono esi-
+              <lb n="182" />stere in <settlement>Italia</settlement> produttive quanto quelle delle località so-
+              <lb n="183" />prannominate, e che possono scuoprirsene (scoprirsene) delle ricche come 
+              <lb n="184" />quella di cinabro da pochi anni trovata e utimata in <settlement>To</settlement>-
+              <lb n="185" /><settlement>scana</settlement> presso il <settlement ref="#S_MA">Monte Amiata</settlement>.
+            </ab>
+            <ab xml:id="Paragrafo5_La_Mineralogia_in_Italia">
+              <lb n="186" />E qui conviene veramente rimproverare al nostro paese <!-- riga fatta! -->
+              <lb n="187" />il cattivo indirizzo degli studi mineralogici teorici e pra-<!-- riga fatta! -->
+              <lb n="188" />tici. Riguardo a questi ultimi, per esempio, mentre tutti i <!-- riga fatta! -->
+              <lb n="189" />principali paesi di <settlement>Europa</settlement>, hanno opere sufficentemente (sufficientemente) 
+              <lb n="190" />buone che ne fanno conoscere la ricchezza mineraria, in <!-- riga fatta! -->
+              <lb n="191" /><settlement>Italia</settlement>, tolti alcuni scritti speciali (raramente eccellenti 
+              <lb n="192" />come quelli dello <persName ref="#P_GS">Struever</persName> sui minerali del <settlement>Lazio</settlement> e compi-
+              <lb n="193" />lati bene come quelli del di <persName ref="#P_GdA">Achiardi</persName> sui minerali della <settlement>To</settlement>-
+              <lb n="194" /><settlement>scana</settlement>) non vi è quasi che il libro del <persName ref="#P_GJ">Jervis</persName>, in cui il difetto 
+              <lb n="195" />sostanziale si è quello di essere compilato, non invero, per<!-- riga fatta! -->
+              <lb n="196" />colpa dell' autore, con materiali insufficenti (insufficienti) o non bastante-
+              <lb n="197" />mente (sufficientemente) esatti. Prima di fare un' opera complessiva come quella 
+              <lb n="198" />tentata dal <persName ref="#P_GJ">Jervis</persName>, e che è solo ora un utile scartafaccio, è 
+              <lb n="199" />necessario che si moltiplichino i lavori speciali, che si siano <!-- riga fatta! -->
+              <lb n="200" />eseguite le analisi chimiche e le descrizioni dei minerali <!-- riga fatta! -->
+              <lb n="201" />per ogni singola regione, compiendo questi studi ove sono <!-- riga fatta! -->
+              <lb n="202" />mezzi adatti, cioè nei gabinetti di chimica e di mineralogia.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo6_La_Mineralogia_in_Italia">
+              <lb n="203" />Invece questo è un campo ove si ama oziare; ovvero se 
+              <lb n="204" />vien fatto di trovare un nuovo minerale si stamperanno dieci 
+              <lb n="205" />pagine per descrivere i maravigliosi cristallini e i colori sma-
+              <lb n="206" />glianti, invece di fare una buona analisi e una esatta de
+              <lb n="207" />terminazione cristallografica. Mentre poi in quei medesimi 
+              <lb n="208" />gabinetti il prof. Z. farà, o piuttosto farà fare dal suo as-
+              <lb n="209" />sistente, l'analisi del vino del signor A., dell'olio del si-
+              <lb n="210" />gnor B., del concime del signor C. E non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> que-
+              <lb n="211" />ste analisi si coordinino a un lavoro che potrà essere pub-
+              <lb n="212" />blicato e letto, e che sarebbe certo anch' esso vantaggioso, 
+              <lb n="213" />ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> i signori A., B., C. sono amici del prof. Z. o gli 
+              <lb n="214" />sono raccomandati dal prefetto X. o dal deputato Y.
+            </ab>
+            <ab xml:id="Paragrafo7_La_Mineralogia_in_Italia">
+              <lb n="215" />In una parola le autorità governative e municipali in <!-- riga fatta! -->
+              <lb n="216" />generale stimano che i gabinetti da loro in qualche modo <!-- riga fatta! -->
+              <lb n="217" />dipendenti siano istituiti dallo Stato per loro proprio uso <!-- riga fatta! -->
+            </ab>
+          </div> 
+          <div xml:id="img3B"> 
+            <ab xml:id="Paragrafo8_La_Mineralogia_in_Italia">
+              <lb n="218" />e consumo, e per quello dei loro amici e conoscenti. Ma qui <!-- riga fatta! -->
+              <lb n="219" />davvero non vi è artifizio che basti. Non si provvede al <!-- riga fatta! -->
+              <lb n="220" />progresso delle scienze con la massima: «Aiutami che io ti <!-- riga fatta! -->
+              <lb n="221" />aiuto » o « Lodami che io ti lodo. » Si richiede amore puro <!-- riga fatta! -->
+              <lb n="222" />e ricerca modesta e leale della verità. Altrimenti si cade <!-- riga fatta! -->
+              <lb n="223" />in quell' americanismo di cui un illustre scienziato tedesco <!-- riga fatta! -->
+              <lb n="224" />deplora gli effetti nel suo paese.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo9_La_Mineralogia_in_Italia">
+              <lb n="225" />Noi fin qui abbiamo inteso parlare dell' indirizzo generale <!-- riga fatta! -->
+              <lb n="226" />degli studi mineralogici in <settlement>Italia</settlement>, e lo crediamo tale ben-
+              <lb n="227" />ché due scienziati, lo <persName ref="#P_AS">Scacchi</persName> ed il <persName ref="#P_QS">Sella</persName>, rappresentino una 
+              <lb n="228" />efficace reazione contro quest' ozio e questo falso indiriz-<!-- riga fatta! -->
+              <lb n="229" />zo. Lo <persName ref="#P_AS">Scacchi</persName> però, malgrado osservazioni numerosissime 
+              <lb n="230" />ed acute non ha avuta immediata azione su tale stato di <!-- riga fatta! -->
+              <lb n="231" />cose; poiché egli, rimanendo nella sfera elevata della scienza <!-- riga fatta! -->
+              <lb n="232" />pura, chimico distinto e mineralogista di prim' ordine, non <!-- riga fatta! -->
+              <lb n="233" />si è curato di fare allievi. Il <persName ref="#P_QS">Sella</persName> è veramento (veramente) quello che ha 
+              <lb n="234" />richiamato a nuova vita in <settlement>Italia</settlement> lo studio della minera-
+              <lb n="235" />logia, sostituendo a vane parole, osservazioni e accurate <!-- riga fatta! -->
+              <lb n="236" />misure ; e fondando quella scienza sopra cognizioni chimi-<!-- riga fatta! -->
+              <lb n="237" />che, fisiche e matematiche, ha contribuito a riavvicinare <!-- riga fatta! -->
+              <lb n="238" />l'<settlement>Italia</settlement>, per questi studi, al livello raggiunto dalle altre 
+              <lb n="239" /><settlement ref="#S_NE">nazioni europee</settlement>. Le tracce del suo insegnamento rimangono 
+              <lb n="240" />nelle memorie inserite principalmente negli Atti dell' <orgName ref="#O_AdSdT">Acca</orgName>-
+              <lb n="241" /><orgName ref="#O_AdSdT">demia delle Scienze di Torino</orgName> e nelle Lezioni di Cristallo-
+              <lb n="242" />grafia fatte per la <orgName ref="#O_SdIT">Scuola degli Ingegneri</orgName> in quella città ; i 
+              <lb n="243" />nuovi metodi che sono esposti in questi scritti hanno avuto <!-- riga fatta! -->
+              <lb n="244" />influenza sul progresso di questi studi non solo in <settlement>Italia</settlement> ma 
+              <lb n="245" />anche fuori.* La descrizione dei minerali dà al <persName ref="#P_QS">Sella</persName> argo-
+              <lb n="246" />mento di teoremi geometrici e di ipotesi, mostrando così <!-- riga fatta! -->
+              <lb n="247" />come la scienza applicata non deve rifuggire dalla pura, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> 
+              <lb n="248" />quella dimenticare che da questa discende il suo florido ed <!-- riga fatta! -->
+              <lb n="249" />efficace sviluppo.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo10_La_Mineralogia_in_Italia">
+              <lb n="250" />L'opera del <persName ref="#P_QS">Sella</persName> è ora continuata dallo <persName ref="#P_GS">Struever</persName> ed 
+              <lb n="251" />alla loro scuola appartengono il <persName ref="#P_GG">Grattarola</persName>, il <persName ref="#P_RP">Panebianco</persName>, 
+              <lb n="252" />lo <persName ref="#P_GS1">Spezia</persName>, l'<persName ref="#P_GU">Uzielli</persName> e qualche altro ; tenue schiera invero, 
+              <lb n="253" />se si pensa alla vastità del campo inesplorato che presenta <!-- riga fatta! -->
+              <lb n="254" />l'<settlement>Italia</settlement>, e se si pensa al danno che può venire alla scienza <!-- riga fatta! -->
+              <lb n="255" />e anche alla prosperità del paese quando il numero dei <!-- riga fatta! -->
+              <lb n="256" />cultori di quella nelle sue varie parti non sia bastante (bastate)
+              <lb n="257" />a render possibile fra gli studiosi una reciproca verifica-<!-- riga fatta! -->
+              <lb n="258" />zione delle ricerche, atta a far scuoprire (scoprire) gli errori in cui 
+              <lb n="259" />ciascuno può cadere, e a fermare chi sia per inoltrarsi in <!-- riga fatta! -->
+              <lb n="260" />una falsa via.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo11_La_Mineralogia_in_Italia">
+              <lb n="261" />A scuola diversa appartiene il professor <persName ref="#P_LB">Bombicci</persName>. E ci 
+              <lb n="262" />sia qui lecito esprimere il nostro dispiacere dell' influenza <!-- riga fatta! -->
+              <lb n="263" />esercitata da quel professore, dotto collezionista ed appas-<!-- riga fatta! -->
+              <lb n="264" />sionato insegnante ; ma i di cui metodi fallaci e superficiali <!-- riga fatta! -->
+              <lb n="265" />sparsi in tutte le scuole tecniche, liceali, ed universitarie <!-- riga fatta! -->
+              <lb n="266" />d'<settlement>Italia</settlement> esercitano a nostro avviso, azione nocevolissima e 
+              <lb n="267" />che pur troppo (purtroppo) sarà duratura. ** Tale profonda credenza 
+              <lb n="268" />scusi presso il lettore la nostra vivacità che non potrà cal-<!-- riga fatta! -->
+              <lb n="269" />marsi finché un nuovo manuale inspirato allo spirito scien-<!-- riga fatta! -->
+              <lb n="270" />tifico moderno, non possa mettersi fra le mani dei nostri <!-- riga fatta! -->
+              <lb n="271" />giovani, sia esso originale o traduzione di qualche buon li-<!-- riga fatta! -->
+              <lb n="272" />bro straniero come sarebbero i trattati del <persName ref="#P_JDD">Dana</persName>, del <persName ref="#P_HJB">Brooke</persName> 
+              <lb n="273" />e <persName ref="#P_WHM">Miller</persName>, del <persName ref="#P_PHVG">Groth</persName>, del <persName ref="#P_GACFN">Naumann</persName> e altri esimi scienziati. 
+            </ab>
+            <ab xml:id="Paragrafo12_La_Mineralogia_in_Italia">            
+              <lb n="274" />Peraltro, affine di non essere accusati di critica velata <!-- riga fatta! -->
+              <lb n="275" />dobbiamo schiarire maggiormente il nostro pensiero.<!-- riga fatta! -->
+              <lb n="276" />La Mineralogia teorica è scienza che malgrado i grandi <!-- riga fatta! -->
+              <lb n="277" />progressi che ha fatti, è assai imperfetta in causa delle no-<!-- riga fatta! -->
+              <lb n="278" />stre incomplete cognizioni intorno a molti dei fenomeni <!-- riga fatta! -->
+              <lb n="279" />propri della materia e più particolarmente dei cristalli. La<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo1_piè_di_pagina">
+              <lb n="280" />* Così il <persName ref="#P_WHM">Miller</persName> ampliò, come egli stesso indica, dopo la pubblicazione 
+              <lb n="281" />di alcune memorie del <persName ref="#P_QS">Sella</persName>, il suo Treatise o f Cristallography i cui me-
+              <lb n="282" />todi tendono ogni giorno più a prevalere fra i mineralogisti. <!-- riga fatta! -->
+              <lb n="283" />** <persName ref="#P_LB">Bombicci</persName>, Corso generale di mineralogia. <settlement>Bologna</settlement> 1875, tre vol.
+              <lb n="284" /> in 8° gr.<!-- riga fatta! -->
+            </ab>
+          </div>
+          <div xml:id="img4A">
+            <ab xml:id="Paragrafo13_La_Mineralogia_in_Italia">
+              <lb n="285" />mineralogia, intesa nel suo senso il più generale, implica <!-- riga fatta! -->
+              <lb n="286" />le scienze matematiche meccaniche, fisiche e chimiche, infine <!-- riga fatta! -->
+              <lb n="287" />tutte quelle che si riferiscono al regno inorganico. Essa stu-<!-- riga fatta! -->
+              <lb n="288" />dia prima d'ogni altra cosa le forme poliedriche delle sostan-<!-- riga fatta! -->
+              <lb n="289" />ze cristalline, cioè della materia armonicamente formata, <!-- riga fatta! -->
+              <lb n="290" />quindi le sue forme irregolari cioè, in una parola, la materia <!-- riga fatta! -->
+              <lb n="291" />in tutte le sue manifestazioni. Ma, ammesso anche che di <!-- riga fatta! -->
+              <lb n="292" />questa sia dato conoscere la natura assoluta, fa d'uopo 
+              <lb n="293" />convenire (necessario) che nessuna delle ipotesi enunciate fin qui può 
+              <lb n="294" />essere accettata concordemente dalle diverse scienze; quindi <!-- riga fatta! -->
+              <lb n="295" />non possiamo riconoscere nessuna delle fatte ipotesi come <!-- riga fatta! -->
+              <lb n="296" />la più probabile possibile; così per esempio non può darsi <!-- riga fatta! -->
+              <lb n="297" />una definizione fisico-chimica che abbracci l'individuo cri-<!-- riga fatta! -->
+              <lb n="298" />stallografico e chimico, cioè la forma e la ponderosità della <!-- riga fatta! -->
+              <lb n="299" />materia; eppure queste devono essere connesse intimamente <!-- riga fatta! -->
+              <lb n="300" />fra di loro. Non mancarono in proposito ipotesi di eminenti <!-- riga fatta! -->
+              <lb n="301" />ingegni come il <persName ref="#P_ALC">Cauchy</persName>, l'<persName ref="#P_AMA">Ampère</persName>, il <persName ref="#P_JCM">Maxwell</persName> e cento altri 
+              <lb n="302" />fisici; ma tutte vennero poco alla volta abbandonate come <!-- riga fatta! -->
+              <lb n="303" />definizioni assolutamente generali della materia, a misura che <!-- riga fatta! -->
+              <lb n="304" />nuove esperienze le contraddicevano. Basti citare il <persName ref="#P_JDD">Dana</persName> 
+              <lb n="305" />autore del fondamentale e più esteso trattato di Mineralogia <!-- riga fatta! -->
+              <lb n="306" />che si abbia; nell' ultima edizione egli ha tolto quanto trova-<!-- riga fatta! -->
+              <lb n="307" />vasi nelle prime sull'ipotetica costituzione della materia; <!-- riga fatta! -->
+              <lb n="308" />così invece di voler forzare l' analisi di qualunque corpo a <!-- riga fatta! -->
+              <lb n="309" />inquadrarsi in una formula chimica, ha dato, ove era neces-<!-- riga fatta! -->
+              <lb n="310" />sario, solo i dati quantitativi di varie discrepanti analisi. <!-- riga fatta! -->
+              <lb n="311" />In ciò si mostrava animato da quel medesimo spirito scien-<!-- riga fatta! -->
+              <lb n="312" />tifico che faceva dire così originalmente a <persName>Leonardo da </persName>: 
+              <lb n="313" />«Chi si promette dalla sperienza quel che non è in lei, si 
+              <lb n="314" />discosta dalla ragione.»
+            </ab>
+            <ab xml:id="Paragrafo14_La_Mineralogia_in_Italia">
+              <lb n="315" />Ma pur troppo (purtroppo) è erronea tendenza di molti insegnanti,
+              <lb n="316" />ed in ciò eccede il <persName ref="#P_LB">Bombicci</persName>, l'introdurre a base di un
+              <lb n="317" />metodo didattico, teorie non accettate universalmente, er-<!-- riga fatta! -->
+              <lb n="318" />rore tanto più grande e nocivo quanto più queste teorie<!-- riga fatta! -->
+              <lb n="319" />sono arbitrarie e non comprovate dalle esperienze.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo15_La_Mineralogia_in_Italia">
+              <lb n="320" />È questa, pur troppo, la via seguita dal <persName ref="#P_LB">Bombicci</persName>; quando
+              <lb n="321" />qualche nuova ipotesi appariva in uno dei molteplici rami<!-- riga fatta! -->
+              <lb n="322" />in cui si divide la scienza generale, egli l'introduceva a<!-- riga fatta! -->
+              <lb n="323" />forza in Mineralogia; teoria dinamica del calore, atomicità,<!-- riga fatta! -->
+              <lb n="324" />atavismo, darvinismo; non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> fatti ed esperienze
+              <lb n="325" />ben controllate glie lo (glielo) consigliassero, ed in ciò è memora-
+              <lb n="326" />bile esempio il <persName ref="#P_CD">Darwin</persName> stesso; ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> egli si sentiva
+              <lb n="327" />libero di dar carriera ad una fervida fantasia in un campo<!-- riga fatta! -->
+              <lb n="328" />ove vi è tanto ancora d'oscuro e d'indeterminato, e ove<!-- riga fatta! -->
+              <lb n="329" />non si è trovata una definizione della materia efficacemente<!-- riga fatta! -->
+              <lb n="330" />nuova, considerandola in tutta la generalità delle sue ma-<!-- riga fatta! -->
+              <lb n="331" />nifestazioni, da <persName ref="#P_L">Leucippo</persName> e dall'immaginosa scuola eleatica
+              <lb n="332" />in poi. Nel vagare alla ventura in questo vasto campo,<!-- riga fatta! -->
+              <lb n="333" />quante frasi altisonanti non si possono fare echeggiare nelle<!-- riga fatta! -->
+              <lb n="334" />aule universitarie infette ancora delle arcadiche voci dei no-<!-- riga fatta! -->
+              <lb n="335" />stri più recenti antenati! Come si possono riscuotere facili<!-- riga fatta! -->
+              <lb n="336" />applausi dalla nostra gioventù, disposta piuttosto a spa-<!-- riga fatta! -->
+              <lb n="337" />ziare in vuote tautologie e a sfogliare il dizionario del<!-- riga fatta! -->
+              <lb n="338" /><persName ref="#P_NT">Tommasèo</persName>, piuttosto che tener l'occhio fisso e affaticato so-
+              <lb n="339" />pra il goniometro e il microscopio? E come ciascuno, non<!-- riga fatta! -->
+              <lb n="340" />dando importanza all'esattezza dei calcoli e delle defini-<!-- riga fatta! -->
+              <lb n="341" />zioni, si lascia sedurre volentieri dalla speranza di poter<!-- riga fatta! -->
+              <lb n="342" />un giorno, imitando il maestro, possedere quel ganglio ner-<!-- riga fatta! -->
+              <lb n="343" />voso di cui così discorre il professor <persName ref="#P_LB">Bombicci</persName>: «Infine
+              <lb n="344" />come i fenomeni luminosi non rivelano splendidamente le
+              <lb n="345" />loro leggi che nelle masse limpide e pure, e strutturalmente
+              <lb n="346" />regolari di certi privilegiati cristalli, così il fenomeno del-
+              <lb n="347" />l'intelligenza non perverrebbe al fulgido balenio del genio
+              <lb n="348" />scientifico, letterario, artistico, che in talune privilegiate
+              <lb n="349" />strutture del più perfetto tra ogni ganglio nervoso.*»
+            </ab>
+            <ab xml:id="Paragrafo2_piè_di_pagina">
+              <lb n="350" />* Processo di evoluzione della specie minerale. Discorso inaugurale per<!-- riga fatta! -->
+              <lb n="351" />l'anno scolastico <date>1877-78</date>. <settlement>Bologna</settlement>, <date>1878</date>, p. 25.
+            </ab>
+          </div>
+          <div xml:id="img4B1">
+            <ab xml:id="Paragrafo16_La_Mineralogia_in_Italia">
+              <lb n="352" />Può veramente credere il professor <persName ref="#P_LB">Bombicci</persName> essere ani-
+              <lb n="353" />mato dallo spirito della scienza quando egli ne discorre con<!-- riga fatta! -->
+              <lb n="354" />parole come queste?: «Per essa (la Scienza) come per ogni
+              <lb n="355" />entità infinita, non havvi (abbia) alto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> basso, indietro od avanti;
+              <lb n="356" />dovunque essa incontra il Vero, il Buono, il Bello, di cui il
+              <lb n="357" />Falso, il Cattivo, il Brutto, non sono che le modalità ne-
+              <lb n="358" />gativamente polarizzate. E tutto questo concorre egual-
+              <lb n="359" />mente alla grande storia dell'umano pensiero. Per la scienza
+              <lb n="360" />libera, i cui obiettivi, come pei raggi della luce e per le
+              <lb n="361" />onde sonore, sono in ogni azimuto, Geova e Satana rappresen-
+              <lb n="362" />tano figuratamente i due massimi concetti sintetici delle
+              <lb n="363" />forze vive di segno contrario, il + e il - (il più e il meno); i due poli, a di-
+              <lb n="364" />verso segno di un circuito universale, attivi appunto per-
+              <lb n="365" />chè antagonisti; necessarie e supreme ragioni dei fenomeni,
+              <lb n="366" />vale a dire delle trasformazioni; simboli convenzionali del
+              <lb n="367" />dinamismo vero e universo, del Cosmos che ne consegue.
+              <lb n="368" />L'elemento corporeo dell'umanità li subisce. *»
+            </ab>
+            <ab xml:id="Paragrafo17_La_Mineralogia_in_Italia">
+              <lb n="369" />Con questo linguaggio che nessun filosofo e nessun (nessuno)
+              <lb n="370" />scienziato può giudicare accettabile, il <persName ref="#P_LB">Bombicci</persName> ha rinnuo-
+              <lb n="371" />vato (rinnovato) in Mineralogia i metodi eleatici, e si è fatto iniziatore
+              <lb n="372" />di una scuola estranea all'indirizzo scientifico moderno.<!-- riga fatta! -->
+              <lb n="373" />Due altre scuole invece sono animate da questo ultimo spi-<!-- riga fatta! -->
+              <lb n="374" />rito in <settlement>Italia</settlement>:
+              <lb n="375" />1° Il professor <persName ref="#P_AS">Arcangelo Scacchi</persName>;
+              <lb n="376" />2° La scuola dei <persName ref="#P_S">Senarmont</persName>, dei <persName ref="#P_WHM">Miller</persName> e di numerosis-
+              <lb n="377" />simi tedeschi, della quale <persName ref="#P_QS">Quintino Sella</persName> è stato fra noi
+              <lb n="378" />l'iniziatore e il propagatore, e da cui speriamo il risorgi-<!-- riga fatta! -->
+              <lb n="379" />mento degli studi mineralogici in <settlement>Italia</settlement>. <persName ref="#P_HKL">H.K.L.</persName>
+            </ab>
+          </div>
         </body>      
       </text>
 
 
       <text xml:id="Bibliografia"> <!-- BIBLIOGRAFIA -->
         <body>
-          <ab xml:id="img4B2">
-            <lb n="380" />BIBLIOGRAFIA. (A. metti come abbreviazione di autore)<!-- riga fatta! -->
-            <lb n="381" />STORIA.<!-- riga fatta! -->
-            <lb n="382" /><persName ref="#P_CC">Cesare Cantù</persName>. Manuale di Storia Italiana. — <settlement>Milano</settlement>, <persName ref="#P_UH">Ulrico</persName>
-            <lb n="383" /><persName ref="#P_UH">Hoepli</persName>, <date>1879</date>.
-            <lb n="384" />L'editore Hoepli accogliendo questo Manuale di Storia
-            <lb n="385" />italiana nella sua collezione di libri didattici ha inteso per
-            <lb n="386" />certo di pubblicare un libro scolastico; ma a quali scuole<!-- riga fatta! -->
-            <lb n="387" />e a qual genere di lettori può confarsi questo nuovo com-<!-- riga fatta! -->
-            <lb n="388" />pendio, che in 160 paginette, 20 delle quali sono di tavole<!-- riga fatta! -->
-            <lb n="389" />cronologiche, condensa tutta quanta la storia d'<settlement>Italia</settlement>, dai<!-- riga fatta! -->
-            <lb n="390" />primi abitatori della penisola fino ai nostri ultimissimi<!-- riga fatta! -->
-            <lb n="391" />giorni? Alle scuole primarie no, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> le osservazioni e<!-- riga fatta! -->
-            <lb n="392" />i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto<!-- riga fatta! -->
-            <lb n="393" />il libro in complesso, non si adattano punto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> all'indole,<!-- riga fatta! -->
-            <lb n="394" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> alla capacità intellettuale dei fanciulli; alle secondarie<!-- riga fatta! -->
-            <lb n="395" />nemmeno, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> è troppo scarso di fatti; non può giovare<!-- riga fatta! -->
-            <lb n="396" />ai maestri, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> troppo elementare, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> in generale a nes-<!-- riga fatta! -->
-            <lb n="397" />suna sorta di lettori, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> quelli che sanno la storia non<!-- riga fatta! -->
-            <lb n="398" />leggono siffatti compendi, e d'altronde non avrebbero da<!-- riga fatta! -->
-            <lb n="399" />imparar nulla da questo, e quelli che non la sanno non lo<!-- riga fatta! -->
-            <lb n="400" />possono intendere.<!-- riga fatta! -->
+          <div xml:id="img4B2">
+            <ab xml:id="Paragrafo1_Bibliografia">
+              <lb n="380" />BIBLIOGRAFIA. (A. metti come abbreviazione di autore)<!-- riga fatta! -->
+              <lb n="381" />STORIA.<!-- riga fatta! -->
+              <lb n="382" /><persName ref="#P_CC">Cesare Cantù</persName>. Manuale di Storia Italiana. — <settlement>Milano</settlement>, <persName ref="#P_UH">Ulrico</persName>
+              <lb n="383" /><persName ref="#P_UH">Hoepli</persName>, <date>1879</date>.
+              <lb n="384" />L'editore Hoepli accogliendo questo Manuale di Storia
+              <lb n="385" />italiana nella sua collezione di libri didattici ha inteso per
+              <lb n="386" />certo di pubblicare un libro scolastico; ma a quali scuole<!-- riga fatta! -->
+              <lb n="387" />e a qual genere di lettori può confarsi questo nuovo com-<!-- riga fatta! -->
+              <lb n="388" />pendio, che in 160 paginette, 20 delle quali sono di tavole<!-- riga fatta! -->
+              <lb n="389" />cronologiche, condensa tutta quanta la storia d'<settlement>Italia</settlement>, dai<!-- riga fatta! -->
+              <lb n="390" />primi abitatori della penisola fino ai nostri ultimissimi<!-- riga fatta! -->
+              <lb n="391" />giorni? Alle scuole primarie no, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> le osservazioni e<!-- riga fatta! -->
+              <lb n="392" />i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto<!-- riga fatta! -->
+              <lb n="393" />il libro in complesso, non si adattano punto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> all'indole,<!-- riga fatta! -->
+              <lb n="394" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> alla capacità intellettuale dei fanciulli; alle secondarie<!-- riga fatta! -->
+              <lb n="395" />nemmeno, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> è troppo scarso di fatti; non può giovare<!-- riga fatta! -->
+              <lb n="396" />ai maestri, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> troppo elementare, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> in generale a nes-<!-- riga fatta! -->
+              <lb n="397" />suna sorta di lettori, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> quelli che sanno la storia non<!-- riga fatta! -->
+              <lb n="398" />leggono siffatti compendi, e d'altronde non avrebbero da<!-- riga fatta! -->
+              <lb n="399" />imparar nulla da questo, e quelli che non la sanno non lo<!-- riga fatta! -->
+              <lb n="400" />possono intendere.<!-- riga fatta! -->
+            </ab>
+            <ab xml:id="Paragrafo2_Bibliografia">
+              <lb n="401" />Ma prescindendo da tutto ciò, fosse almeno scevro d'er-<!-- riga fatta! -->
+              <lb n="402" />rori e di quali e quanti errori! Abbondano gli sbagli di cro-<!-- riga fatta! -->
+              <lb n="403" />nologia, e poiché il libro è stampato in generale con bastante<!-- riga fatta! -->
+              <lb n="404" />correttezza, non li possiamo attribuir tutti allo stampatore.<!-- riga fatta! -->
+              <lb n="405" />Ne citiamo alcuni: Dice che <persName>Costantino</persName> riunì l'<settlement ref="#S_IR">Impero</settlement> nel <date>306</date>
+              <lb n="406" />(p. 23); fa eletto <persName ref="#P_AdI">Arduino</persName> re d'Italia nel <date>1004</date> (p. 37) e fu
+              <lb n="407" />nel <date>1002</date>; presa <settlement ref="#S_GI">Gerusalemme</settlement> dai <orgName ref="#O_Crociati">Crociati</orgName> nel <date>1096</date> (p. 39) e
+              <lb n="408" />morto <persName>Enrico VI</persName> nel <date>1198</date> (p. 46), mentre morì l'anno avanti;
+              <lb n="409" />dice che l'imperator <persName ref="#P_AdL">Sigismondo</persName> ottenne si convocasse il
+              <lb n="410" /><orgName ref="#O_CdC">Concilio di Costanza</orgName> nel <date>1418</date> (p. 56) mentre fu convocato
+              <lb n="411" />nel <date>1414</date>, e che <persName ref="#P_AVIII">Amedeo VIII</persName> si lasciò nominar papa nei 1451
+              <lb n="412" />(p. 57), quando il secondo scisma era già finito da due anni.<!-- riga fatta! -->
+              <lb n="413" />Il <date>1451</date> è stato invece l'anno della morte di lui. <persName ref="#P_CIM">Cosimo I</persName> dei
+              <lb n="414" />Medici ottenne il titolo di granduca nel <date>1569</date> non nel <date>1560</date>
+              <lb n="415" />(p. 70). La pace dei <settlement ref="#S_PCM">Pirenei</settlement> non fu conclusa nel <date>1652</date> (p. 86)
+              <lb n="416" />ma nel <date>1659</date>; la battaglia di <settlement ref="#S_SP">Staffarda</settlement> non avvenne nel <date>1691</date>
+            </ab>
+            <ab xml:id="Paragrafo3_piè_di_pagina">
+              <lb n="417" />(* Processo di evoluzione, ec., p. 26.)
+            </ab>
+          </div>  
 
-            <lb n="401" />Ma prescindendo da tutto ciò, fosse almeno scevro d'er-<!-- riga fatta! -->
-            <lb n="402" />rori e di quali e quanti errori! Abbondano gli sbagli di cro-<!-- riga fatta! -->
-            <lb n="403" />nologia, e poiché il libro è stampato in generale con bastante<!-- riga fatta! -->
-            <lb n="404" />correttezza, non li possiamo attribuir tutti allo stampatore.<!-- riga fatta! -->
-            <lb n="405" />Ne citiamo alcuni: Dice che <persName>Costantino</persName> riunì l'<settlement ref="#S_IR">Impero</settlement> nel <date>306</date>
-            <lb n="406" />(p. 23); fa eletto <persName ref="#P_AdI">Arduino</persName> re d'Italia nel <date>1004</date> (p. 37) e fu
-            <lb n="407" />nel <date>1002</date>; presa <settlement ref="#S_GI">Gerusalemme</settlement> dai <orgName ref="#O_Crociati">Crociati</orgName> nel <date>1096</date> (p. 39) e
-            <lb n="408" />morto <persName>Enrico VI</persName> nel <date>1198</date> (p. 46), mentre morì l'anno avanti;
-            <lb n="409" />dice che l'imperator <persName ref="#P_AdL">Sigismondo</persName> ottenne si convocasse il
-            <lb n="410" /><orgName ref="#O_CdC">Concilio di Costanza</orgName> nel <date>1418</date> (p. 56) mentre fu convocato
-            <lb n="411" />nel <date>1414</date>, e che <persName ref="#P_AVIII">Amedeo VIII</persName> si lasciò nominar papa nei 1451
-            <lb n="412" />(p. 57), quando il secondo scisma era già finito da due anni.<!-- riga fatta! -->
-            <lb n="413" />Il <date>1451</date> è stato invece l'anno della morte di lui. <persName ref="#P_CIM">Cosimo I</persName> dei
-            <lb n="414" />Medici ottenne il titolo di granduca nel <date>1569</date> non nel <date>1560</date>
-            <lb n="415" />(p. 70). La pace dei <settlement ref="#S_PCM">Pirenei</settlement> non fu conclusa nel <date>1652</date> (p. 86)
-            <lb n="416" />ma nel <date>1659</date>; la battaglia di <settlement ref="#S_SP">Staffarda</settlement> non avvenne nel <date>1691</date>
-
-            <lb n="417" />(* Processo di evoluzione, ec., p. 26.)
-          </ab>
-          <ab xml:id="img5A">
+          <div xml:id="img5A">
+          <ab xml:id="Paragrafo3_Bibliografia">
             <lb n="418" />ma nel <date>1690</date>, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> la pace di <settlement ref="#S_RPB">Ryswick</settlement> nel <date>1698</date> (p. 90), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
             <lb n="419" />la guerra della successione polacca scoppiò nel <date>1719</date> (p. 92).
             <lb n="420" />Parecchie altre date per esser forse collocate male non rispon-<!-- riga fatta! -->
@@ -1031,7 +1071,8 @@
             <lb n="429" />secondo altri nel <date>915</date>. Accennando a <persName ref="#P_RiG">Roberto Guiscardo</persName> dice
             <lb n="430" />che sottrasse la <settlement>Sicilia</settlement> ai <orgName ref="#O_Saraceni">Saraceni</orgName>, e pone la data <date>1089</date> (p. 45),
             <lb n="431" />quando il <persName ref="#P_RiG">Guiscardo</persName> era già morto da qualche anno.
-
+            </ab>
+            <ab xml:id="Paragrafo4_Bibliografia">
             <lb n="432" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> solamente la cronologia è sbagliata spesso in questo<!-- riga fatta! -->
             <lb n="433" />compendietto, ma vi abbiamo notato errati non pochi fatti e<!-- riga fatta! -->
             <lb n="434" />giudizi che peccano per grande inesattezza. Per esempio:<!-- riga fatta! -->
@@ -1085,7 +1126,9 @@
             <lb n="482" />sogno a riaccendersi che le rattizzasse il figliuolo di <persName>Emanuel</persName>
             <lb n="483" /><persName>Filiberto</persName>. Al contrario egli giudica che la causa italiana fu <!-- Emanuel filiberto va a capo -->
           </ab>
-          <ab xml:id="img5B"> 
+          </div>
+          <div xml:id="img5B"> 
+          <ab xml:id="Paragrafo5_Bibliografia">
             <lb n="484" />sostenuta dai papi (pag. 81). <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> citiamo altro per non di-<!-- riga fatta! -->
             <lb n="485" />stenderci troppo. Del rimanente le opinioni di <persName ref="#P_CC">Cesare Cantù</persName>
             <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di<!-- riga fatta! -->
@@ -1140,7 +1183,8 @@
             <lb n="535" />di ministri, ma col far ciascuno il nostro dovere» (p. 138).
             <lb n="536" />Sante parole, ma troppo poche, per fare di questo manuale<!-- riga fatta! -->
             <lb n="537" />un libro giusto e vero.<!-- riga fatta! -->
-          </ab>
+            </ab>
+          </div>
         </body>
       </text>
 

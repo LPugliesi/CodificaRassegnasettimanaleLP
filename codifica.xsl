@@ -109,10 +109,10 @@
                             </div>
                             <div class="boxtextA">
                                 <xsl:apply-templates select="//tei:div[@xml:id='img3A1']" /><hr />
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img3A2']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img3A2']" />
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img3B']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img3B']" />
                             </div>
                             <hr/>
                         </div>
@@ -124,11 +124,11 @@
                                 <a href='./pages/img4.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr4']" /></a>
                             </div>
                             <div class="boxtextA">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img4A']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img4A']" />
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B1']" /><hr />
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img4B2']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img4B1']" /><hr />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img4B2']" />
                             </div>
                             <hr/>
                         </div>
@@ -140,10 +140,10 @@
                                 <a href='./pages/img5.png' target="_blank"><xsl:apply-templates select="//tei:surface[@xml:id='imgr5']" /></a>
                             </div>
                             <div class="boxtextA">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img5A']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img5A']" />
                             </div>
                             <div class="boxtext">
-                                <xsl:apply-templates select="//tei:ab[@xml:id='img5B']" />
+                                <xsl:apply-templates select="//tei:div[@xml:id='img5B']" />
                             </div>
                             <hr/>
                         </div>
