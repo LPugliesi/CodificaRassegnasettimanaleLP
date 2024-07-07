@@ -187,7 +187,7 @@
                       <persName xml:id="P_UH" ref="https://it.wikipedia.org/wiki/Ulrico_Hoepli">Ulrico Hoepli</persName>
                     </person>
                     <person>
-                      <persName xml:id="P_A">A.</persName>
+                      <persName xml:id="P_A"><abbr>A.</abbr><expan>Autore</expan></persName>
                     </person>
                     <person>
                       <persName xml:id="P_AdI" ref="https://it.wikipedia.org/wiki/Arduino_d%27Ivrea">Arduino d'Ivrea</persName>
@@ -658,7 +658,7 @@
               <lb n="104" />vostro corrispondente.<!-- riga fatta! -->
             </ab>
             <ab xml:id="Paragrafo14_Corrispondenza_artistica_da_Parigi">
-              <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">ecc.</corr></choice>, s'arra- <!-- riga fatta! -->
+              <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP"> ecc.</corr></choice>, s'arra- <!-- riga fatta! -->
               <lb n="106" />battano da anni ed anni per ottenere sempre il medesimo<!-- riga fatta! -->
               <lb n="107" />successo facendo presso a poco il medesimo quadro. Questi <!-- riga fatta! -->
               <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per<!-- riga fatta! -->
@@ -1010,7 +1010,7 @@
         <body>
           <div xml:id="img4B2">
             <ab xml:id="Paragrafo1_Bibliografia">
-              <lb n="380" />BIBLIOGRAFIA. (A. metti come abbreviazione di autore)<!-- riga fatta! -->
+              <lb n="380" />BIBLIOGRAFIA.<!-- riga fatta! -->
               <lb n="381" />STORIA.<!-- riga fatta! -->
               <lb n="382" /><persName ref="#P_CC">Cesare Cantù</persName>. <bibl>Manuale di Storia Italiana</bibl>. — <settlement>Milano</settlement>, <persName ref="#P_UH">Ulrico</persName>
               <lb n="383" /><persName ref="#P_UH">Hoepli</persName>, <date>1879</date>.
@@ -1022,7 +1022,7 @@
               <lb n="389" />cronologiche, condensa tutta quanta la storia d'<settlement>Italia</settlement>, dai<!-- riga fatta! -->
               <lb n="390" />primi abitatori della penisola fino ai nostri ultimissimi<!-- riga fatta! -->
               <lb n="391" />giorni? Alle scuole primarie no, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> le osservazioni e<!-- riga fatta! -->
-              <lb n="392" />i giudizi con cui l'A. coordina e spiega i fatti, anzi, tutto<!-- riga fatta! -->
+              <lb n="392" />i giudizi con cui l'<persName ref="#P_A">A.</persName> coordina e spiega i fatti, anzi, tutto<!-- riga fatta! -->
               <lb n="393" />il libro in complesso, non si adattano punto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> all'indole,<!-- riga fatta! -->
               <lb n="394" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> alla capacità intellettuale dei fanciulli; alle secondarie<!-- riga fatta! -->
               <lb n="395" />nemmeno, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> è troppo scarso di fatti; non può giovare<!-- riga fatta! -->
@@ -1079,7 +1079,7 @@
             <lb n="435" /><quote>«La plebe romana giaceva senza diritti, senza possessi,
             <lb n="436" />sema famiglia »</quote> (pag. 12). Citando a caso <persName ref="#P_Po">Polibio</persName>, e legando
             <lb n="437" />insieme notizie diverse sulle forze militari dei vari popoli<!-- riga fatta! -->
-            <lb n="438" />italici, l'A. dà alla <orgName ref="#O_RR">Repubblica romana</orgName>, al tempo delle
+            <lb n="438" />italici, l'<persName ref="#P_A">A.</persName> dà alla <orgName ref="#O_RR">Repubblica romana</orgName>, al tempo delle
             <lb n="439" />guerre puniche, un esercito di 700,000 fanti e di 70,000<!-- riga fatta! -->
             <lb n="440" />cavalli (pag. 16). Accenna in modo alla caduta dei <orgName ref="#O_Goti">Goti</orgName>, che
             <lb n="441" />par che fosse <persName ref="#P_Bl">Belisario</persName> il loro vincitore e distruttore ultimo
@@ -1137,7 +1137,7 @@
             <lb n="489" />bri delle rivoluzioni moderne. Non è quindi da <choice><sic>maravigliare</sic><corr resp="#LP">meravigliarsi</corr></choice>
             <lb n="490" />se anche in questo dà spesso in giudizi, che, per essergli<!-- riga fatta! -->
             <lb n="491" />cortesi, diremo che sentono troppo del sistematico. Ma dove<!-- riga fatta! -->
-            <lb n="492" />l'A. sfoga più il suo mal animo per tutto ciò che sa di mo-
+            <lb n="492" />l'<persName ref="#P_A">A.</persName> sfoga più il suo mal animo per tutto ciò che sa di mo-
             <lb n="493" />derno rinnovamento politico è nell'<term>età contemporanea</term>. Con
             <lb n="494" />un'arte <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto critica, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto evangelica, e di cui ha<!-- riga fatta! -->
             <lb n="495" />dato un saggio più ampio nella sua <bibl>Cronistoria dell'indipen-
@@ -1155,7 +1155,7 @@
             <lb n="507" />dice che i <emph>veri despoti</emph> d'<settlement>Italia</settlement> tra il <date>48</date> e il <date>59</date> non furono
             <lb n="508" />i nostri oppressori, ma i <choice><sic>fuorusciti</sic><corr resp="#LP">fuoriusciti</corr></choice> e la stampa clandestina
             <lb n="509" />(p. 125). Il ricordo della dichiarazione di guerra all'<settlement>Austria</settlement>
-            <lb n="510" />nel <date>59</date> fa scrivere all'A. queste parole, che avrebbe potuto det-
+            <lb n="510" />nel <date>59</date> fa scrivere all'<persName ref="#P_A">A.</persName> queste parole, che avrebbe potuto det-
             <lb n="511" />tare un ufficiale dello stato maggiore del generale <persName>Giulay</persName>:
             <lb n="512" /><quote>«L'<settlement>Austria</settlement> <emph>dovette</emph> premunirsi, e il <settlement>Piemonte</settlement> gridò all'<settlement>Eu</settlement>-
             <lb n="513" /><settlement>ropa</settlement> d'essere minacciato; armò la <orgName>guardia nazionale</orgName>: <choice><sic>facea</sic><corr resp="#LP">faceva</corr></choice>
