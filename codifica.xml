@@ -524,23 +524,23 @@
         <body>
           <div xml:id="img1B">
             <ab xml:id="Paragrafo1_Corrispondenza_artistica_da_Parigi">
-              <lb n="1" />CORRISPONDENZA ARTISTICA DA <settlement>PARIGI</settlement>. <!-- riga fatta! -->
-              <lb n="2" />La pittura italiana si può considerare da più e diversi <!-- riga fatta! -->
-              <lb n="3" />punti di vista, sia che si voglia determinare il carattere <!-- riga fatta! -->
+              <lb n="1" />CORRISPONDENZA ARTISTICA DA <settlement>PARIGI</settlement>. 
+              <lb n="2" />La pittura italiana si può considerare da più e diversi 
+              <lb n="3" />punti di vista, sia che si voglia determinare il carattere 
               <lb n="4" />spiccatissimo che diversifica <choice><sic>ciascheduna</sic><corr resp="#LP">ciascuna</corr></choice> delle differenti re-<!-- riga fatta! -->
-              <lb n="5" break="no"/>gioni, sia che si voglia dividere fra arte della madre patria <!-- riga fatta! -->
-              <lb n="6" />ed arte delle colonie, sia che le si vogliano adattare le <!-- riga fatta! -->
-              <lb n="7" />distinzioni comuni a tutte le arti di questo mondo, secondo<!-- riga fatta! -->
-              <lb n="8" />le due grandi correnti del passato e dell'avvenire che si<!-- riga fatta! -->
-              <lb n="9" />contendono il tempo presente, l'una in nome della tradi-<!-- riga fatta! -->
-              <lb n="10" break="no"/>zione, l'altra in nome della ricerca del nuovo. Dovendo<!-- riga fatta! -->
-              <lb n="11" />in queste pagine fare non un trattato ma uno schizzo dello<!-- riga fatta! -->
-              <lb n="12" />stato della nostra esposizione di pittura, procureremo di<!-- riga fatta! -->
-              <lb n="13" />toccare tutti questi aspetti sotto i quali essa si presenta.<!-- riga fatta! -->
-              <lb n="14" />Del resto, sia per l'effetto dell'elasticità del nostro carattere<!-- riga fatta! -->
-              <lb n="15" />o per deficienza di vita propriamente nazionale, nessun' arte<!-- riga fatta! -->
-              <lb n="16" />al giorno d'oggi è tanto cosmopolita quanto la nostra.<!-- riga fatta! -->
-              <lb n="17" />Un tempo l' arte italiana era rappresentata all' estero<!-- riga fatta! -->
+              <lb n="5" break="no"/>gioni, sia che si voglia dividere fra arte della madre patria 
+              <lb n="6" />ed arte delle colonie, sia che le si vogliano adattare le 
+              <lb n="7" />distinzioni comuni a tutte le arti di questo mondo, secondo
+              <lb n="8" />le due grandi correnti del passato e dell'avvenire che si
+              <lb n="9" />contendono il tempo presente, l'una in nome della tradi-
+              <lb n="10" break="no"/>zione, l'altra in nome della ricerca del nuovo. Dovendo
+              <lb n="11" />in queste pagine fare non un trattato ma uno schizzo dello
+              <lb n="12" />stato della nostra esposizione di pittura, procureremo di
+              <lb n="13" />toccare tutti questi aspetti sotto i quali essa si presenta.
+              <lb n="14" />Del resto, sia per l'effetto dell'elasticità del nostro carattere
+              <lb n="15" />o per deficienza di vita propriamente nazionale, nessun' arte
+              <lb n="16" />al giorno d'oggi è tanto cosmopolita quanto la nostra.
+              <lb n="17" />Un tempo l' arte italiana era rappresentata all' estero
             </ab>
           </div>
           <div xml:id="img2A">
@@ -658,7 +658,7 @@
               <lb n="104" />vostro corrispondente.<!-- riga fatta! -->
             </ab>
             <ab xml:id="Paragrafo14_Corrispondenza_artistica_da_Parigi">
-              <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">etc</corr></choice>, s'arra- <!-- riga fatta! -->
+              <lb n="105" /><persName ref="#P_CAD">Detti</persName>, <persName>Marchetti</persName>, <persName ref="#P_PJ">Joris</persName>, <persName>Iacovacci</persName>, <persName ref="#P_AV">Vertunni</persName><choice><sic> ec.</sic><corr resp="#LP">ecc.</corr></choice>, s'arra- <!-- riga fatta! -->
               <lb n="106" />battano da anni ed anni per ottenere sempre il medesimo<!-- riga fatta! -->
               <lb n="107" />successo facendo presso a poco il medesimo quadro. Questi <!-- riga fatta! -->
               <lb n="108" />romani derivati dallo spagnuolo <persName ref="#P_MFM">Fortuny</persName> hanno avuto per<!-- riga fatta! -->
@@ -738,7 +738,7 @@
               <lb n="157" />E cosa ripetuta da molti che l'<settlement>Italia</settlement> è povera ; altri in-
               <lb n="158" />vece sostengono che è ricchissima. Finalmente vi è chi la 
               <lb n="159" />stima povera per l'inerzia dei suoi abitanti. Tutte queste 
-              <lb n="160" />affermazioni che corrono nei discorsi e su pei (per) libri ci sem-
+              <lb n="160" />affermazioni che corrono nei discorsi e su <choice><sic>pei</sic><corr resp="#LP">per i</corr></choice> libri ci sem-
               <lb n="161" />brano inesatte come le sentenze troppo assolute ; e vaghe per <!-- riga fatta! -->
               <lb n="162" />le diverse definizioni che si possono dare alla ricchezza.<!-- riga fatta! -->
             </ab>
@@ -755,7 +755,7 @@
               <lb n="170" />Così se paragoniamo l'<settlement>Italia</settlement> all' <settlement>Inghilterra</settlement>, al contrario 
               <lb n="171" />di quanto si osserva in questa, troviamo fra noi, se si eccet-<!-- riga fatta! -->
               <lb n="172" />tua l'<settlement ref="#S_IE">Elba</settlement> per il ferro, la <settlement>Sicilia</settlement> per lo zolfo, la <settlement>Toscana</settlement> 
-              <lb n="173" />per il borace e i marmi, la <settlement>Sardegna</settlement> per il piombo ec. (etc), 
+              <lb n="173" />per il borace e i marmi, la <settlement>Sardegna</settlement> per il piombo <choice><sic>ec.</sic><corr resp="#LP">ecc.</corr></choice>,
               <lb n="174" />miniere numerosissime, ma di piccola estensione, e quindi <!-- riga fatta! -->
               <lb n="175" />di rendita passeggera, nulla, o negativa.<!-- riga fatta! -->
             </ab>
@@ -764,26 +764,26 @@
               <lb n="177" />ricercarsi in questa loro piccola estensione, dovuta a cause <!-- riga fatta! -->
               <lb n="178" />generali geologiche che hanno reso variabilissime, a brevi <!-- riga fatta! -->
               <lb n="179" />distanze, le condizioni stratigrafiche del nostro suolo, e <!-- riga fatta! -->
-              <lb n="180" />nella debolezza finanziaria delle Società o individui utima-
-              <lb n="181" />tori, non è men vero però che altre miniere possono esi-
+              <lb n="180" />nella debolezza finanziaria delle Società o individui <choice><sic>utimatori,</sic><corr resp="#LP">ultimatori,</corr></choice>
+              <lb n="181" />non è men vero però che altre miniere possono esi-
               <lb n="182" />stere in <settlement>Italia</settlement> produttive quanto quelle delle località so-
-              <lb n="183" />prannominate, e che possono scuoprirsene (scoprirsene) delle ricche come 
-              <lb n="184" />quella di cinabro da pochi anni trovata e utimata in <settlement>To</settlement>-
+              <lb n="183" />prannominate, e che possono <choice><sic>scuoprirsene</sic><corr resp="#LP">scoprirsene</corr></choice> delle ricche come 
+              <lb n="184" />quella di cinabro da pochi anni trovata e <choice><sic>utimata</sic><corr resp="#LP">ultimata</corr></choice> in <settlement>To</settlement>-
               <lb n="185" /><settlement>scana</settlement> presso il <settlement ref="#S_MA">Monte Amiata</settlement>.
             </ab>
             <ab xml:id="Paragrafo5_La_Mineralogia_in_Italia">
               <lb n="186" />E qui conviene veramente rimproverare al nostro paese <!-- riga fatta! -->
               <lb n="187" />il cattivo indirizzo degli studi mineralogici teorici e pra-<!-- riga fatta! -->
               <lb n="188" />tici. Riguardo a questi ultimi, per esempio, mentre tutti i <!-- riga fatta! -->
-              <lb n="189" />principali paesi di <settlement>Europa</settlement>, hanno opere sufficentemente (sufficientemente) 
+              <lb n="189" />principali paesi di <settlement>Europa</settlement>, hanno opere <choice><sic>sufficentemente</sic><corr resp="#LP">sufficientemente</corr></choice>
               <lb n="190" />buone che ne fanno conoscere la ricchezza mineraria, in <!-- riga fatta! -->
               <lb n="191" /><settlement>Italia</settlement>, tolti alcuni scritti speciali (raramente eccellenti 
               <lb n="192" />come quelli dello <persName ref="#P_GS">Struever</persName> sui minerali del <settlement>Lazio</settlement> e compi-
               <lb n="193" />lati bene come quelli del di <persName ref="#P_GdA">Achiardi</persName> sui minerali della <settlement>To</settlement>-
               <lb n="194" /><settlement>scana</settlement>) non vi è quasi che il libro del <persName ref="#P_GJ">Jervis</persName>, in cui il difetto 
               <lb n="195" />sostanziale si è quello di essere compilato, non invero, per<!-- riga fatta! -->
-              <lb n="196" />colpa dell' autore, con materiali insufficenti (insufficienti) o non bastante-
-              <lb n="197" />mente (sufficientemente) esatti. Prima di fare un' opera complessiva come quella 
+              <lb n="196" />colpa dell' autore, con materiali <choice><sic>insufficenti</sic><corr resp="#LP">insufficienti</corr></choice> o non
+              <lb n="197" /><choice><sic>bastantemente</sic><corr resp="#LP">sufficientemente</corr></choice>esatti. Prima di fare un' opera complessiva come quella 
               <lb n="198" />tentata dal <persName ref="#P_GJ">Jervis</persName>, e che è solo ora un utile scartafaccio, è 
               <lb n="199" />necessario che si moltiplichino i lavori speciali, che si siano <!-- riga fatta! -->
               <lb n="200" />eseguite le analisi chimiche e le descrizioni dei minerali <!-- riga fatta! -->
@@ -829,7 +829,7 @@
               <lb n="230" />ed acute non ha avuta immediata azione su tale stato di <!-- riga fatta! -->
               <lb n="231" />cose; poiché egli, rimanendo nella sfera elevata della scienza <!-- riga fatta! -->
               <lb n="232" />pura, chimico distinto e mineralogista di prim' ordine, non <!-- riga fatta! -->
-              <lb n="233" />si è curato di fare allievi. Il <persName ref="#P_QS">Sella</persName> è veramento (veramente) quello che ha 
+              <lb n="233" />si è curato di fare allievi. Il <persName ref="#P_QS">Sella</persName> è <choice><sic>veramento</sic><corr resp="#LP">veramente</corr></choice> quello che ha 
               <lb n="234" />richiamato a nuova vita in <settlement>Italia</settlement> lo studio della minera-
               <lb n="235" />logia, sostituendo a vane parole, osservazioni e accurate <!-- riga fatta! -->
               <lb n="236" />misure ; e fondando quella scienza sopra cognizioni chimi-<!-- riga fatta! -->
@@ -854,9 +854,9 @@
               <lb n="253" />se si pensa alla vastità del campo inesplorato che presenta <!-- riga fatta! -->
               <lb n="254" />l'<settlement>Italia</settlement>, e se si pensa al danno che può venire alla scienza <!-- riga fatta! -->
               <lb n="255" />e anche alla prosperità del paese quando il numero dei <!-- riga fatta! -->
-              <lb n="256" />cultori di quella nelle sue varie parti non sia bastante (bastate)
+              <lb n="256" />cultori di quella nelle sue varie parti non sia <choice><sic>bastante</sic><corr resp="#LP">bastato</corr></choice>
               <lb n="257" />a render possibile fra gli studiosi una reciproca verifica-<!-- riga fatta! -->
-              <lb n="258" />zione delle ricerche, atta a far scuoprire (scoprire) gli errori in cui 
+              <lb n="258" />zione delle ricerche, atta a far <choice><sic>scuoprire</sic><corr resp="#LP">scoprire</corr></choice> gli errori in cui 
               <lb n="259" />ciascuno può cadere, e a fermare chi sia per inoltrarsi in <!-- riga fatta! -->
               <lb n="260" />una falsa via.<!-- riga fatta! -->
             </ab>
@@ -867,7 +867,7 @@
               <lb n="264" />sionato insegnante ; ma i di cui metodi fallaci e superficiali <!-- riga fatta! -->
               <lb n="265" />sparsi in tutte le scuole tecniche, liceali, ed universitarie <!-- riga fatta! -->
               <lb n="266" />d'<settlement>Italia</settlement> esercitano a nostro avviso, azione nocevolissima e 
-              <lb n="267" />che pur troppo (purtroppo) sarà duratura. ** Tale profonda credenza 
+              <lb n="267" />che <choice><sic>pur troppo</sic><corr resp="#LP">purtroppo</corr></choice> sarà duratura. ** Tale profonda credenza 
               <lb n="268" />scusi presso il lettore la nostra vivacità che non potrà cal-<!-- riga fatta! -->
               <lb n="269" />marsi finché un nuovo manuale inspirato allo spirito scien-<!-- riga fatta! -->
               <lb n="270" />tifico moderno, non possa mettersi fra le mani dei nostri <!-- riga fatta! -->
@@ -900,8 +900,8 @@
               <lb n="289" />ze cristalline, cioè della materia armonicamente formata, <!-- riga fatta! -->
               <lb n="290" />quindi le sue forme irregolari cioè, in una parola, la materia <!-- riga fatta! -->
               <lb n="291" />in tutte le sue manifestazioni. Ma, ammesso anche che di <!-- riga fatta! -->
-              <lb n="292" />questa sia dato conoscere la natura assoluta, fa d'uopo 
-              <lb n="293" />convenire (necessario) che nessuna delle ipotesi enunciate fin qui può 
+              <lb n="292" />questa sia dato conoscere la natura assoluta, fa 
+              <lb n="293" /><choice><sic>d'uopo convenire</sic><corr resp="#LP">necessario</corr></choice>che nessuna delle ipotesi enunciate fin qui può 
               <lb n="294" />essere accettata concordemente dalle diverse scienze; quindi <!-- riga fatta! -->
               <lb n="295" />non possiamo riconoscere nessuna delle fatte ipotesi come <!-- riga fatta! -->
               <lb n="296" />la più probabile possibile; così per esempio non può darsi <!-- riga fatta! -->
@@ -925,19 +925,19 @@
               <lb n="314" />discosta dalla ragione.»
             </ab>
             <ab xml:id="Paragrafo14_La_Mineralogia_in_Italia">
-              <lb n="315" />Ma pur troppo (purtroppo) è erronea tendenza di molti insegnanti,
+              <lb n="315" />Ma <choice><sic>pur troppo</sic><corr resp="#LP">purtroppo</corr></choice> è erronea tendenza di molti insegnanti,
               <lb n="316" />ed in ciò eccede il <persName ref="#P_LB">Bombicci</persName>, l'introdurre a base di un
               <lb n="317" />metodo didattico, teorie non accettate universalmente, er-<!-- riga fatta! -->
               <lb n="318" />rore tanto più grande e nocivo quanto più queste teorie<!-- riga fatta! -->
               <lb n="319" />sono arbitrarie e non comprovate dalle esperienze.<!-- riga fatta! -->
             </ab>
             <ab xml:id="Paragrafo15_La_Mineralogia_in_Italia">
-              <lb n="320" />È questa, pur troppo, la via seguita dal <persName ref="#P_LB">Bombicci</persName>; quando
+              <lb n="320" />È questa, <choice><sic>pur troppo</sic><corr resp="#LP">purtroppo</corr></choice>, la via seguita dal <persName ref="#P_LB">Bombicci</persName>; quando
               <lb n="321" />qualche nuova ipotesi appariva in uno dei molteplici rami<!-- riga fatta! -->
               <lb n="322" />in cui si divide la scienza generale, egli l'introduceva a<!-- riga fatta! -->
               <lb n="323" />forza in Mineralogia; teoria dinamica del calore, atomicità,<!-- riga fatta! -->
               <lb n="324" />atavismo, darvinismo; non già <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> fatti ed esperienze
-              <lb n="325" />ben controllate glie lo (glielo) consigliassero, ed in ciò è memora-
+              <lb n="325" />ben controllate <choice><sic>glie lo</sic><corr resp="#LP">glielo</corr></choice> consigliassero, ed in ciò è memora-
               <lb n="326" />bile esempio il <persName ref="#P_CD">Darwin</persName> stesso; ma <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> egli si sentiva
               <lb n="327" />libero di dar carriera ad una fervida fantasia in un campo<!-- riga fatta! -->
               <lb n="328" />ove vi è tanto ancora d'oscuro e d'indeterminato, e ove<!-- riga fatta! -->
@@ -973,7 +973,7 @@
               <lb n="352" />Può veramente credere il professor <persName ref="#P_LB">Bombicci</persName> essere ani-
               <lb n="353" />mato dallo spirito della scienza quando egli ne discorre con<!-- riga fatta! -->
               <lb n="354" />parole come queste?: «Per essa (la Scienza) come per ogni
-              <lb n="355" />entità infinita, non havvi (abbia) alto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> basso, indietro od avanti;
+              <lb n="355" />entità infinita, non <choice><sic>havvi</sic><corr resp="#LP">abbia</corr></choice> alto <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> basso, indietro od avanti;
               <lb n="356" />dovunque essa incontra il Vero, il Buono, il Bello, di cui il
               <lb n="357" />Falso, il Cattivo, il Brutto, non sono che le modalità ne-
               <lb n="358" />gativamente polarizzate. E tutto questo concorre egual-
@@ -981,7 +981,7 @@
               <lb n="360" />libera, i cui obiettivi, come pei raggi della luce e per le
               <lb n="361" />onde sonore, sono in ogni azimuto, Geova e Satana rappresen-
               <lb n="362" />tano figuratamente i due massimi concetti sintetici delle
-              <lb n="363" />forze vive di segno contrario, il + e il - (il più e il meno); i due poli, a di-
+              <lb n="363" />forze vive di segno contrario, <choice><sic>il + e il -</sic><corr resp="#LP">il più e il meno</corr></choice>; i due poli, a di-
               <lb n="364" />verso segno di un circuito universale, attivi appunto per-
               <lb n="365" />chè antagonisti; necessarie e supreme ragioni dei fenomeni,
               <lb n="366" />vale a dire delle trasformazioni; simboli convenzionali del
@@ -989,9 +989,9 @@
               <lb n="368" />L'elemento corporeo dell'umanità li subisce. *»
             </ab>
             <ab xml:id="Paragrafo17_La_Mineralogia_in_Italia">
-              <lb n="369" />Con questo linguaggio che nessun filosofo e nessun (nessuno)
-              <lb n="370" />scienziato può giudicare accettabile, il <persName ref="#P_LB">Bombicci</persName> ha rinnuo-
-              <lb n="371" />vato (rinnovato) in Mineralogia i metodi eleatici, e si è fatto iniziatore
+              <lb n="369" />Con questo linguaggio che nessun filosofo e <choice><sic>nessun</sic><corr resp="#LP">nessuno</corr></choice>
+              <lb n="370" />scienziato può giudicare accettabile, il <persName ref="#P_LB">Bombicci</persName> ha
+              <lb n="371" /><choice><sic>rinnuovato</sic><corr resp="#LP">rinnovato</corr></choice>in Mineralogia i metodi eleatici, e si è fatto iniziatore
               <lb n="372" />di una scuola estranea all'indirizzo scientifico moderno.<!-- riga fatta! -->
               <lb n="373" />Due altre scuole invece sono animate da questo ultimo spi-<!-- riga fatta! -->
               <lb n="374" />rito in <settlement>Italia</settlement>:
@@ -1051,7 +1051,7 @@
               <lb n="416" />ma nel <date>1659</date>; la battaglia di <settlement ref="#S_SP">Staffarda</settlement> non avvenne nel <date>1691</date>
             </ab>
             <ab xml:id="Paragrafo3_piè_di_pagina">
-              <lb n="417" />(* Processo di evoluzione, ec., p. 26.)
+              <lb n="417" />(* Processo di evoluzione, <choice><sic>ec.</sic><corr resp="#LP">ecc.</corr></choice>, p. 26.)
             </ab>
           </div>  
 
@@ -1096,7 +1096,7 @@
             <lb n="452" />gneremo, ma che questi fossero « meno avidi di guadagno »
             <lb n="453" />(pag. 39), le ricchezze accumulate dal clero nei più bui<!-- riga fatta! -->
             <lb n="454" />secoli del medio evo lo mostrano. Dei <orgName ref="#O_Guelfi">Guelfi</orgName> e dei <orgName ref="#O_Ghibel">Ghibel</orgName>-
-            <lb n="455" /><orgName ref="#O_Ghibel">lini</orgName> dà il solito giudizio dei neoguelfi, pei quali (per i quali) furono i
+            <lb n="455" /><orgName ref="#O_Ghibel">lini</orgName> dà il solito giudizio dei neoguelfi, <choice><sic>pei quali</sic><corr resp="#LP">per i quali</corr></choice> furono i
             <lb n="456" />soli <orgName ref="#O_Guelfi">Guelfi</orgName> a volere l'indipendenza e per essa la libertà
             <lb n="457" />(pag. 42). Anticipa a <persName>Federico II</persName> il disegno di abbattere i
             <lb n="458" />Comuni italiani, vivente, anzi regnante-<persName>Ottone IV</persName>, quando
@@ -1133,8 +1133,8 @@
             <lb n="485" />stenderci troppo. Del rimanente le opinioni di <persName ref="#P_CC">Cesare Cantù</persName>
             <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di<!-- riga fatta! -->
             <lb n="487" />ribatterle qui. È nota la sua fanatica ammirazione per il<!-- riga fatta! -->
-            <lb n="488" />Medio evo, e l'acrimonia con cui parla nei molti suoi li-
-            <lb n="489" />bri delle rivoluzioni moderne. Non è quindi da maravigliare (meravigliarsi)
+            <lb n="488" /><choice><sic>Medio evo</sic><corr resp="#LP">Medioevo</corr></choice>, e l'acrimonia con cui parla nei molti suoi li-
+            <lb n="489" />bri delle rivoluzioni moderne. Non è quindi da <choice><sic>maravigliare</sic><corr resp="#LP">meravigliarsi</corr></choice>
             <lb n="490" />se anche in questo dà spesso in giudizi, che, per essergli<!-- riga fatta! -->
             <lb n="491" />cortesi, diremo che sentono troppo del sistematico. Ma dove<!-- riga fatta! -->
             <lb n="492" />l'A. sfoga più il suo mal animo per tutto ciò che sa di mo-
@@ -1148,17 +1148,17 @@
             <lb n="500" />come principi non ad altro intesi che al pubblico bene, che<!-- riga fatta! -->
             <lb n="501" />non poterono sempre fare, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> impediti dalle scapestre-<!-- riga fatta! -->
             <lb n="502" />rie e dall'empietà dei rivoluzionari. <persName>Cavour</persName> seppe cogliere le
-            <lb n="503" />occasioni, «usar degli uomini come istromenti (strumenti), sprezzare (disprezzare) le
+            <lb n="503" />occasioni, «usar degli uomini come <choice><sic>istromenti</sic><corr resp="#LP">strumenti</corr></choice>, <choice><sic>sprezzare</sic><corr resp="#LP">disprezzare</corr></choice> le
             <lb n="504" />plebi, comprare gli arruffoni» (p. 124), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del grande uomo
             <lb n="505" />di Stato ci sa dir altro. Mette i liberali in un fascio coi bri-
             <lb n="506" />ganti a scalzare il Napoletano (p. 124), e forzando la nota,
             <lb n="507" />dice che i veri despoti d'<settlement>Italia</settlement> tra il <date>48</date> e il <date>59</date> non furono
-            <lb n="508" />i nostri oppressori, ma i fuorusciti (fuoriusciti) e la stampa clandestina
+            <lb n="508" />i nostri oppressori, ma i <choice><sic>fuorusciti</sic><corr resp="#LP">fuoriusciti</corr></choice> e la stampa clandestina
             <lb n="509" />(p. 125). Il ricordo della dichiarazione di guerra all'<settlement>Austria</settlement>
             <lb n="510" />nel <date>59</date> fa scrivere all'A. queste parole, che avrebbe potuto det-
             <lb n="511" />tare un ufficiale dello stato maggiore del generale <persName>Giulay</persName>:
             <lb n="512" />«L'<settlement>Austria</settlement> dovette premunirsi, e il <settlement>Piemonte</settlement> gridò all'<settlement>Eu</settlement>-
-            <lb n="513" /><settlement>ropa</settlement> d'essere minacciato; armò la <orgName>guardia nazionale</orgName>: facea (faceva)
+            <lb n="513" /><settlement>ropa</settlement> d'essere minacciato; armò la <orgName>guardia nazionale</orgName>: <choice><sic>facea</sic><corr resp="#LP">faceva</corr></choice>
             <lb n="514" />che i giovani coscritti di <settlement>Lombardia</settlement> fuggissero in <settlement>Piemonte</settlement>,
             <lb n="515" />sempre parlando di pace, e protestando di non fare che difen-
             <lb n="516" />dersi. L'<settlement>Austria</settlement> non potè reggervi, e intimata guerra, passò
@@ -1166,7 +1166,7 @@
             <lb n="518" />sopra <settlement>Torino</settlement> e <settlement>Genova</settlement>» (p. 126-27). <persName>Cavour</persName>, dopo <settlement ref="#S_VF">Villa</settlement>-
             <lb n="519" /><settlement ref="#S_VF">franca</settlement>, rinunziò al portafoglio, «ma subito tornò a cospi-
             <lb n="520" />rare» (p. 127). La <settlement>Toscana</settlement>, il <settlement>Parmigiano</settlement>, il <settlement>Modenese</settlement>, si
-            <lb n="521" />dichiararono parte integrale (integrante) del <settlement ref="#S_RdI">Regno d'Italia</settlement> cogli imman-
+            <lb n="521" />dichiararono parte <choice><sic>integrale</sic><corr resp="#LP">integrante</corr></choice> del <settlement ref="#S_RdI">Regno d'Italia</settlement> cogli imman-
             <lb n="522" />cabili plebisciti (p. 128) e l'<settlement>Emilia</settlement> si annesse al <settlement ref="#S_RdI">Regno</settlement> colle
             <lb n="523" />solite formule. Eppure, dopo tutto questo, e più altro an-
             <lb n="524" />cora che per brevità tralasciamo, noi vogliamo essere<!-- riga fatta! -->
@@ -1174,10 +1174,10 @@
             <lb n="526" />morti e coi vivi. Nelle ultime pagine del suo libro ci si<!-- riga fatta! -->
             <lb n="527" />sente l'uomo che non condanna poi tanto questa <settlement>Italia</settlement>
             <lb n="528" />quale è venuta fuori dalle cospirazioni, dal senno e dal co-<!-- riga fatta! -->
-            <lb n="529" />raggio degli uomini e dai plebisciti. E benché per lui «sieno (siano)
+            <lb n="529" />raggio degli uomini e dai plebisciti. E benché per lui «<choice><sic>sieno</sic><corr resp="#LP">siano</corr></choice>
             <lb n="530" />frasi la sovranità nazionale, il suffragio universale, la libera
             <lb n="531" />Chiesa, la democrazia scientifica, ed altre panacee da caf-
-            <lb n="532" />fè» (p. 137), conchiude (conclude) col riconoscere che poichè «questo
+            <lb n="532" />fè» (p. 137), <choice><sic>conchiude</sic><corr resp="#LP">conclude</corr></choice> col riconoscere che poichè «questo
             <lb n="533" />governo è fatto da noi elettori, sta in noi il migliorarlo,
             <lb n="534" />non con sovvertimenti e scioperi e triennali avvicendamenti
             <lb n="535" />di ministri, ma col far ciascuno il nostro dovere» (p. 138).
