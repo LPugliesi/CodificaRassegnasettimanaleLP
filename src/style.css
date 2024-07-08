@@ -329,14 +329,18 @@ footer {
     background-color:  #2e2384;
 }
 
-/* #correzioni {
-    background-color: #ffffff;
-}
-
-.highlight_corr {
-    color: #ff0000
-} */
-
 .bottoni_fenomeni button:hover {
     opacity: 0.8;
+}
+
+.corretto {
+    display: inline-block;
+}
+
+.sbagliato { 
+    color: red;
+}
+
+.nascosto {
+    display: none; 
 }

@@ -99,16 +99,30 @@ $(document).ready(function () {
         $("foreign").addClass("highlight_f");
     }
   });  
+ 
+    // bottone lingue correzioni
+  // $("#correzioni").click(function () {
+  //   if ($(document.querySelectorAll('span.nascosto')).hasClass("nascosto")) {
+  //       $(document.querySelectorAll('span.nascosto')).removeClass("nascosto").addClass("sbagliato");
+  //   } else {
+  //       $(document.querySelectorAll('span.nascosto')).addClass("nascosto");
+  //   }
+  // });
 
-/* bottone correzioni
-$("#correzioni").click(function () {
-  if ($("corr").hasClass("highlight_corr")) {
-      $("corr").removeClass("highlight_corr");
-  } else {
-      $("corr").addClass("highlight_corr");
-  }
+  $("#correzioni").click(function () {
+    var $spanCorretto = $('span.spanCorretto');
+    var $spanSbagliato = $('span.spanSbagliato');
+
+    if ($spanCorretto.hasClass("corretto")) {
+        // Se spanCorretto è nascosto, lo mostriamo e nascondiamo spanSbagliato
+        $spanCorretto.removeClass("nascosto").addClass("corretto");
+        $spanSbagliato.addClass("nascosto").removeClass("sbagliato");
+    } else {
+        // Altrimenti, nascondiamo spanCorretto e mostriamo spanSbagliato
+        $spanCorretto.addClass("nascosto").removeClass("corretto");
+        $spanSbagliato.removeClass("nascosto").addClass("sbagliato");
+    }
 });
-*/
 
 
 });

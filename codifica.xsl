@@ -52,25 +52,22 @@
                         <xsl:apply-templates select="//tei:objectDesc"/>
                     </div>
                 </div>
-
-                        <div id="fenomeni">
-                            <ul class='bottoni_fenomeni'>
-                                <button type="button" id="persone">Persone Reali</button>
-                                <button type="button" id="epithet">Epithet</button>
-                                <button type="button" id="luoghi">Luoghi</button>
-                                <button type="button" id="date">Date</button>
-                                <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
-                                <button type="button" id="citazioni">Citazioni</button>
-                                <button type="button" id="opere">Opere</button>
-                                <button type="button" id="casaeditrice">Casa Editrice</button>
-                                <button type="button" id="correntiletterarie">Correnti Letterarie</button>
-                                <button type="button" id="verbum">Verbum</button>
-                                <button type="button" id="foreign">Lingue Straniere</button>
-                                <button type="button" id="correzioni">Correzioni</button>
-                            </ul>
-                        </div>
-
-
+                <div id="fenomeni">
+                    <ul class='bottoni_fenomeni'>
+                        <button type="button" id="persone">Persone Reali</button>
+                        <button type="button" id="epithet">Epithet</button>
+                        <button type="button" id="luoghi">Luoghi</button>
+                        <button type="button" id="date">Date</button>
+                        <button type="button" id="organizzazioni">Nomi di Organizzazioni</button>
+                        <button type="button" id="citazioni">Citazioni</button>
+                        <button type="button" id="opere">Opere</button>
+                        <button type="button" id="casaeditrice">Casa Editrice</button>
+                        <button type="button" id="correntiletterarie">Correnti Letterarie</button>
+                        <button type="button" id="verbum">Verbum</button>
+                        <button type="button" id="foreign">Lingue Straniere</button>
+                        <button type="button" id="correzioni">Correzioni</button>
+                    </ul>
+                </div>
                 <div class="text">
                     <h2 id="Pag1">Pagina 1:</h2>
                     <div id="img1">
@@ -243,116 +240,111 @@
         </div>
     </xsl:template>
 
-        <!-- Template immagini -->
-            <xsl:template match="tei:surface">
-                <xsl:element name="img">
-                    <xsl:attribute name="src"><xsl:value-of select="current()[@xml:id]//tei:graphic/@url"/></xsl:attribute>
-                    <xsl:attribute name="usemap">#<xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+    <!-- Template immagini -->
+    <xsl:template match="tei:surface">
+        <xsl:element name="img">
+            <xsl:attribute name="src"><xsl:value-of select="current()[@xml:id]//tei:graphic/@url"/></xsl:attribute>
+            <xsl:attribute name="usemap">#<xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+        </xsl:element>
+        <xsl:element name="map">
+            <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+            <xsl:apply-templates select="./tei:zone" />
+        </xsl:element>
+    </xsl:template>
+
+    <!-- Template zone immagini -->
+    <xsl:template match="tei:zone">
+        <xsl:for-each select="current()">
+            <xsl:element name="area">
+                <xsl:attribute name="coords"><xsl:value-of select="current()/@ulx" />,<xsl:value-of select="current()/@uly" />,<xsl:value-of select="current()/@lrx" />,<xsl:value-of select="current()/@lry" /></xsl:attribute>
+                <xsl:attribute name="style">cursor: help</xsl:attribute>
+                <xsl:attribute name="title"><xsl:value-of select="current()/@corresp" /></xsl:attribute>
+                <xsl:attribute name="shape">rect</xsl:attribute>
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
+
+    <!--template per evidenziare i fenomeni notevoli-->
+    <xsl:template match="tei:persName">
+            <persname>
+                <xsl:apply-templates />
+            </persname>
+    </xsl:template>
+
+    <xsl:template match="tei:addName">
+            <addName>
+                <xsl:apply-templates />
+            </addName>
+    </xsl:template>
+
+    <xsl:template match="tei:settlement">
+            <settlement>
+                <xsl:apply-templates />
+            </settlement>
+    </xsl:template>
+
+    <xsl:template match="tei:date">
+            <date>
+                <xsl:apply-templates />
+            </date>
+    </xsl:template>    
+
+    <xsl:template match="tei:orgName">
+            <orgName>
+                <xsl:apply-templates />
+            </orgName>
+    </xsl:template>
+
+    <xsl:template match="tei:quote">
+            <quote>
+                <xsl:apply-templates />
+            </quote>
+    </xsl:template>
+
+    <xsl:template match="tei:bibl">
+            <bibl>
+                <xsl:apply-templates />
+            </bibl>
+    </xsl:template>
+
+    <xsl:template match="tei:publisher">
+            <publisher>
+                <xsl:apply-templates />
+            </publisher>
+    </xsl:template>
+
+    <xsl:template match="tei:term">
+            <term>
+                <xsl:apply-templates />
+            </term>
+    </xsl:template>
+
+    <xsl:template match="tei:emph">
+            <emph>
+                <xsl:apply-templates />
+            </emph>
+    </xsl:template>
+
+    <xsl:template match="tei:foreign">
+            <foreign>
+                <xsl:apply-templates />
+            </foreign>
+    </xsl:template>
+
+    <xsl:template match="//tei:choice">
+        <xsl:for-each select="current()">
+            <xsl:if test="tei:sic">
+                <xsl:element name="span">
+                    <xsl:attribute name="class">corretto</xsl:attribute>
+                    <xsl:value-of select="tei:corr" />
                 </xsl:element>
-                <xsl:element name="map">
-                    <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id" /></xsl:attribute>
-                    <xsl:apply-templates select="./tei:zone" />
+                <xsl:element name="span">
+                    <xsl:attribute name="class">sbagliato</xsl:attribute>
+                    <xsl:value-of select="tei:sic" />
                 </xsl:element>
-            </xsl:template>
-
-        <!-- Template zone immagini -->
-            <xsl:template match="tei:zone">
-                <xsl:for-each select="current()">
-                    <xsl:element name="area">
-                        <xsl:attribute name="coords"><xsl:value-of select="current()/@ulx" />,<xsl:value-of select="current()/@uly" />,<xsl:value-of select="current()/@lrx" />,<xsl:value-of select="current()/@lry" /></xsl:attribute>
-                        <xsl:attribute name="style">cursor: help</xsl:attribute>
-                        <xsl:attribute name="title"><xsl:value-of select="current()/@corresp" /></xsl:attribute>
-                        <xsl:attribute name="shape">rect</xsl:attribute>
-                    </xsl:element>
-                </xsl:for-each>
-            </xsl:template>
-
-<!--template per evidenziare -->
-<xsl:template match="tei:persName">
-        <persname>
-            <xsl:apply-templates />
-        </persname>
-</xsl:template>
-
-<xsl:template match="tei:addName">
-        <addName>
-            <xsl:apply-templates />
-        </addName>
-</xsl:template>
-
-<xsl:template match="tei:settlement">
-        <settlement>
-            <xsl:apply-templates />
-        </settlement>
-</xsl:template>
-
-<xsl:template match="tei:date">
-        <date>
-            <xsl:apply-templates />
-        </date>
-</xsl:template>    
-
-<xsl:template match="tei:orgName">
-        <orgName>
-            <xsl:apply-templates />
-        </orgName>
-</xsl:template>
-
-<xsl:template match="tei:quote">
-        <quote>
-            <xsl:apply-templates />
-        </quote>
-</xsl:template>
-
-<xsl:template match="tei:bibl">
-        <bibl>
-            <xsl:apply-templates />
-        </bibl>
-</xsl:template>
-
-<xsl:template match="tei:publisher">
-        <publisher>
-            <xsl:apply-templates />
-        </publisher>
-</xsl:template>
-
-<xsl:template match="tei:term">
-        <term>
-            <xsl:apply-templates />
-        </term>
-</xsl:template>
-
-<xsl:template match="tei:emph">
-        <emph>
-            <xsl:apply-templates />
-        </emph>
-</xsl:template>
-
-<xsl:template match="tei:foreign">
-        <foreign>
-            <xsl:apply-templates />
-        </foreign>
-</xsl:template>
-
-
-            <xsl:template match="//tei:choice">
-                <xsl:for-each select="current()">
-                        <xsl:if test="tei:sic">
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">correction zone</xsl:attribute>
-                            <xsl:attribute name="style">display: inline-block</xsl:attribute>
-                            <xsl:attribute name="id"><xsl:value-of select="[@xml:id]" /></xsl:attribute>
-                            <xsl:value-of select="tei:corr" />
-                        </xsl:element>
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">thus</xsl:attribute>
-                            <xsl:attribute name="style">display: none; color: red</xsl:attribute>
-                            <xsl:value-of select="tei:sic" />
-                        </xsl:element>
-                    </xsl:if>
-                </xsl:for-each>
-            </xsl:template>            
-
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
 
 </xsl:stylesheet>
 
