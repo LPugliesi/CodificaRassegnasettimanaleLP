@@ -329,13 +329,13 @@ footer {
     background-color:  #2e2384;
 }
 
-#correzioni {
+/* #correzioni {
     background-color: #ffffff;
 }
 
 .highlight_corr {
     color: #ff0000
-}
+} */
 
 .bottoni_fenomeni button:hover {
     opacity: 0.8;

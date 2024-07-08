@@ -13,7 +13,7 @@
         <funder><persName xml:id="P_LF">Leopoldo Franchetti</persName> e <persName xml:id="P_SS">Sidney Sonnino</persName></funder>
       </titleStmt>
 
-      <!-- EDITION -->
+      <!-- EDITION (dichiarazione sull'edizione) raggruppa le informazioni riguardo una edizione di un testo. -->
       <editionStmt>
         <edition> Edizione Digitale - <date when="06-2024"> Luglio 2024 </date></edition>
         <respStmt>
@@ -30,7 +30,7 @@
         <measure unit="pages" quantity="6">Pagine 237, 238, 239, 240, 241 e 244 </measure>
       </extent>
 
-      <!-- PUBBLICATION -->
+      <!-- PUBBLICATION (dichiarazione sulla pubblicazione) raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua. -->
       <publicationStmt>
         <publisher> Università di Pisa </publisher>
           <pubPlace>Pisa</pubPlace>
@@ -404,11 +404,11 @@
                       <supportDesc material="paper" source="https://rassegnasettimanale.animi.it/rassegna/fascicolo-40-volume-2-1878-semestre-2-trimestre-2/">
                           <support>Fogli di <material>carta</material></support>
                           <condition>
-                              <p>Pagine interamente integre, qualche piccola macchia di inchiostro sul testo e sui bordi, il testo è facilmente leggibile.</p>
+                              <p>Le pagine sono completamente integre, con qualche piccola macchia di inchiostro sul testo e sui bordi; il testo rimane facilmente leggibile.</p>
                           </condition>
                       </supportDesc>
                       <layoutDesc>
-                          <layout>Le pagine sono divise in due colonne con in media 67 righe ciascuna, per un totale di circa 135 righe per pagina. Nelle pagine di numero pari (che non siano la pagina di copertina) la numerazione si presenta al lato sinistro della pagina mentre le informazioni sul volume e sul fascicolo sono sulla destra. Nelle pagine di numerazione dispari, invece, troviamo la data al lato sinistro e il numero di pagina al lato destro. In ogni pagina, al centro, troviamo sempre la scritta "LA RASSEGNA SETTIMANALE.".</layout>
+                          <layout>Le pagine sono divise in due colonne, ciascuna con una media di 67 righe, per un totale di circa 135 righe per pagina. Nelle pagine pari (esclusa la pagina di copertina), la numerazione è posizionata sul lato sinistro, mentre le informazioni sul volume e sul fascicolo sono sulla destra. Nelle pagine dispari, invece, la data è al lato sinistro e il numero di pagina è al lato destro. Al centro di ogni pagina è presente la scritta 'LA RASSEGNA SETTIMANALE.'.</layout>
                       </layoutDesc>
                   </objectDesc>
               </physDesc>
@@ -419,7 +419,7 @@
     <!-- ENCODING (descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
       <encodingDesc>
         <projectDesc>
-          <p>Codifica di 4 sezioni della rivista: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
+          <p>Mi sono occupata della codifica di quattro sezioni della rivista settimanale, garantendo l'organizzazione e la corretta indicizzazione dei contenuti: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
         </projectDesc>
       </encodingDesc>
 
@@ -517,7 +517,6 @@
     </surface>
   </facsimile>
 
-<!-- TESTO CODIFICATO   -->
 <text xml:lang="it">
   <group>
       <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
@@ -1005,7 +1004,6 @@
         </body>      
       </text>
 
-
       <text xml:id="Bibliografia"> <!-- BIBLIOGRAFIA -->
         <body>
           <div xml:id="img4B2">
@@ -1056,133 +1054,133 @@
           </div>  
 
           <div xml:id="img5A">
-          <ab xml:id="Paragrafo3_Bibliografia">
-            <lb n="418" />ma nel <date>1690</date>, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> la pace di <settlement ref="#S_RPB">Ryswick</settlement> nel <date>1698</date> (p. 90), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
-            <lb n="419" />la guerra della successione polacca scoppiò nel <date>1719</date> (p. 92).
-            <lb n="420" />Parecchie altre date per esser forse collocate male non rispon- 
-            <lb n="421" break="no"/>dono esattamente ai fatti, a cui sembrano riferirsi, come là 
-            <lb n="422" />dove, per esempio, non accennando che ad una sola delle 
-            <lb n="423" />discese di <persName>Pipino<addName type="epithet"> il Breve</addName></persName> in <settlement>Italia</settlement>, assegna ad essa l'an-
-            <lb n="424" break="no"/>no <date>754</date>, mentre in quel luogo (p. 35) sarebbe stato più ragio-
-            <lb n="425" break="no"/>nevole indicar l'anno della seconda discesa e della disfatta 
-            <lb n="426" />definitiva <persName>d'Astolfo</persName>. Così a pag. 36 non si sa se colla
-            <lb n="427" />data <date>888</date> voglia ricordare l'elezione di <persName ref="#P_BdF">Berengario</persName> a re
-            <lb n="428" />d'<settlement>Italia</settlement> o la sua incoronazione imperiale, che fu nel <date>916</date> e
-            <lb n="429" />secondo altri nel <date>915</date>. Accennando a <persName ref="#P_RiG">Roberto Guiscardo</persName> dice
-            <lb n="430" />che <emph>sottrasse</emph> la <settlement>Sicilia</settlement> ai <orgName ref="#O_Saraceni">Saraceni</orgName>, e pone la data <date>1089</date> (p. 45),
-            <lb n="431" />quando il <persName ref="#P_RiG">Guiscardo</persName> era già morto da qualche anno.
+            <ab xml:id="Paragrafo3_Bibliografia">
+              <lb n="418" />ma nel <date>1690</date>, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> la pace di <settlement ref="#S_RPB">Ryswick</settlement> nel <date>1698</date> (p. 90), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice>
+              <lb n="419" />la guerra della successione polacca scoppiò nel <date>1719</date> (p. 92).
+              <lb n="420" />Parecchie altre date per esser forse collocate male non rispon- 
+              <lb n="421" break="no"/>dono esattamente ai fatti, a cui sembrano riferirsi, come là 
+              <lb n="422" />dove, per esempio, non accennando che ad una sola delle 
+              <lb n="423" />discese di <persName>Pipino<addName type="epithet"> il Breve</addName></persName> in <settlement>Italia</settlement>, assegna ad essa l'an-
+              <lb n="424" break="no"/>no <date>754</date>, mentre in quel luogo (p. 35) sarebbe stato più ragio-
+              <lb n="425" break="no"/>nevole indicar l'anno della seconda discesa e della disfatta 
+              <lb n="426" />definitiva <persName>d'Astolfo</persName>. Così a pag. 36 non si sa se colla
+              <lb n="427" />data <date>888</date> voglia ricordare l'elezione di <persName ref="#P_BdF">Berengario</persName> a re
+              <lb n="428" />d'<settlement>Italia</settlement> o la sua incoronazione imperiale, che fu nel <date>916</date> e
+              <lb n="429" />secondo altri nel <date>915</date>. Accennando a <persName ref="#P_RiG">Roberto Guiscardo</persName> dice
+              <lb n="430" />che <emph>sottrasse</emph> la <settlement>Sicilia</settlement> ai <orgName ref="#O_Saraceni">Saraceni</orgName>, e pone la data <date>1089</date> (p. 45),
+              <lb n="431" />quando il <persName ref="#P_RiG">Guiscardo</persName> era già morto da qualche anno.
             </ab>
             <ab xml:id="Paragrafo4_Bibliografia">
-            <lb n="432" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> solamente la cronologia è sbagliata spesso in questo 
-            <lb n="433" />compendietto, ma vi abbiamo notato errati non pochi fatti e 
-            <lb n="434" />giudizi che peccano per grande inesattezza. Per esempio: 
-            <lb n="435" /><quote>«La plebe romana giaceva senza diritti, senza possessi,
-            <lb n="436" />sema famiglia »</quote> (pag. 12). Citando a caso <persName ref="#P_Po">Polibio</persName>, e legando
-            <lb n="437" />insieme notizie diverse sulle forze militari dei vari popoli 
-            <lb n="438" />italici, l'<persName ref="#P_A">A.</persName> dà alla <orgName ref="#O_RR">Repubblica romana</orgName>, al tempo delle
-            <lb n="439" />guerre puniche, un esercito di 700,000 fanti e di 70,000 
-            <lb n="440" />cavalli (pag. 16). Accenna in modo alla caduta dei <orgName ref="#O_Goti">Goti</orgName>, che
-            <lb n="441" />par che fosse <persName ref="#P_Bl">Belisario</persName> il loro vincitore e distruttore ultimo
-            <lb n="442" />(pag. 34). Non rammentando che l'<settlement>Italia</settlement> fu unita sotto
-            <lb n="443" /><persName>Odoacre</persName> e sotto gli <orgName ref="#O_Ogori">Ostrogoti</orgName>, dice che i <orgName ref="#O_Longo">Longobardi</orgName> fu- <!-- Id O_OGORI con la r è corretto -->
-            <lb n="444" break="no"/>rono i <emph>primi</emph> che idearono l'<settlement>Italia</settlement> una (pag. 34), e di essi
-            <lb n="445" />ripete le solite accuse, ormai rigettate dai migliori critici, 
-            <lb n="446" />e che gli Italiani sotto il dominio longobardo <quote>« erano stati
-            <lb n="447" />tenuti poco meno che da schiavi »</quote> (pag. 36). Non è vero
-            <lb n="448" />che nei primi secoli i pontefici fossero eletti dai vescovi, 
-            <lb n="449" />questi dai preti e i preti dalle plebi (pag. 27). Anzi le ele- 
-            <lb n="450" break="no"/>zioni ecclesiastiche non si fecero mai così. Che i servi della 
-            <lb n="451" />gleba stessero meglio sotto gli ecclesiastici non lo impu- 
-            <lb n="452" break="no"/>gneremo, ma che questi fossero <quote>« meno avidi di guadagno »</quote>
-            <lb n="453" />(pag. 39), le ricchezze accumulate dal clero nei più bui 
-            <lb n="454" />secoli del medio evo lo mostrano. Dei <orgName ref="#O_Guelfi">Guelfi</orgName> e dei <orgName ref="#O_Ghibel">Ghibel-
-            <lb n="455" break="no"/>lini</orgName> dà il solito giudizio dei neoguelfi, <choice><sic>pei quali</sic><corr resp="#LP">per i quali</corr></choice> furono i
-            <lb n="456" />soli <orgName ref="#O_Guelfi">Guelfi</orgName> a volere l'indipendenza e per essa la libertà
-            <lb n="457" />(pag. 42). Anticipa a <persName>Federico II</persName> il disegno di abbattere i
-            <lb n="458" />Comuni italiani, vivente, anzi regnante-<persName>Ottone IV</persName>, quando
-            <lb n="459" />lo Svevo era ancora giovanetto e favorito da <persName>Innocenzo III</persName>
-            <lb n="460" />(pag. 46), e la <orgName>Lega lombarda</orgName>, rinnovatasi nel <date>1226</date>, pare,
-            <lb n="461" />dal modo come la ricorda, che fosse fatta quando ancora vi- 
-            <lb n="462" break="no"/>veva <persName>Ottone</persName>, il quale morì nel <date>1218</date>. Afferma che nella guerra
-            <lb n="463" />tra i Papi e gli <orgName ref="#O_Svevi">Svevi</orgName>, la <orgName>Chiesa</orgName> non adoperò che i frati, le
-            <lb n="464" />prediche e le scomuniche (pag. 47). Fa <persName ref="#P_GDB">Giano della Bella</persName>
-            <lb n="465" />signore di <settlement>Firenze</settlement> alla pari del <persName ref=""><addName type="epithet">duca</addName></persName> D'<settlement>Atene</settlement> (pag. 49);
-            <lb n="466" /><persName>Dante</persName> diventar ghibellino per <emph>dispetto</emph> (pag. 52); e fa <persName>Carlo
-            <lb n="467" />VIII</persName> re di <settlement>Francia</settlement> della casa d'Angiò (pag. 66). Attribuisce
-            <lb n="468" />alla pace di <settlement>Barcellona</settlement> anche quel che fu stipulato nei trat-
-            <lb n="469" break="no"/>tati di <settlement ref="#S_CF">Cambrai</settlement> e di <settlement>Bologna</settlement> (pag. 69). Dice che l'<persName>Ariosto</persName>
-            <lb n="470" />ebbe mirabile istinto dell'arte, <emph>con poca fantasia</emph>, e che <quote>«non
-            <lb n="471" />conobbe <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> moralità, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> patriottismo, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> dignità, celiando per
-            <lb n="472" />celiare»</quote> (pag. 78), le quali ultime due parole sono del <bibl>Som-
-            <lb n="473" />mario</bibl> del <persName ref="#P_CB">Balbo</persName>. I <orgName ref="#O_RdS">Reali di Savoia</orgName> non sono nelle grazie del
-            <lb n="474" />signor <persName ref="#P_CC">Cantù</persName>, e della loro politica, che, quantunque interes-
-            <lb n="475" break="no"/>sata, riuscì in sostanza di tanto profitto all'<settlement>Italia</settlement>, e fu la
-            <lb n="476" />sola vigorosa durante i secoli delle nostre vergogne, non 
-            <lb n="477" />sa dir altro che <quote>«consistette nel muoversi sempre»</quote> (pag. 82),
-            <lb n="478" />e asserisce che <persName>Carlo Emanuele I</persName>, <quote>«col voler liberare l'<settlement>Ita-
-            <lb n="479" break="no"/>lia</settlement> dagli stranieri, ve li trasse a devastarla»</quote> (pag. 85),
-            <lb n="480" />come se le rivalità tra la <orgName ref="#O_CdA">Casa d'Austria</orgName> e la <settlement>Francia</settlement> sotto
-            <lb n="481" /><persName>Enrico IV</persName>, la Reggenza e il <foreign xml:lang="fr">Richelieu</foreign>, avessero avuto bi-
-            <lb n="482" break="no"/>sogno a riaccendersi che le rattizzasse il figliuolo di <persName>Emanuel</persName>
-            <lb n="483" /><persName>Filiberto</persName>. Al contrario egli giudica che la causa italiana fu <!-- Emanuel filiberto va a capo -->
-          </ab>
+              <lb n="432" /><choice><sic>nè</sic><corr resp="#LP">né</corr></choice> solamente la cronologia è sbagliata spesso in questo 
+              <lb n="433" />compendietto, ma vi abbiamo notato errati non pochi fatti e 
+              <lb n="434" />giudizi che peccano per grande inesattezza. Per esempio: 
+              <lb n="435" /><quote>«La plebe romana giaceva senza diritti, senza possessi,
+              <lb n="436" />sema famiglia »</quote> (pag. 12). Citando a caso <persName ref="#P_Po">Polibio</persName>, e legando
+              <lb n="437" />insieme notizie diverse sulle forze militari dei vari popoli 
+              <lb n="438" />italici, l'<persName ref="#P_A">A.</persName> dà alla <orgName ref="#O_RR">Repubblica romana</orgName>, al tempo delle
+              <lb n="439" />guerre puniche, un esercito di 700,000 fanti e di 70,000 
+              <lb n="440" />cavalli (pag. 16). Accenna in modo alla caduta dei <orgName ref="#O_Goti">Goti</orgName>, che
+              <lb n="441" />par che fosse <persName ref="#P_Bl">Belisario</persName> il loro vincitore e distruttore ultimo
+              <lb n="442" />(pag. 34). Non rammentando che l'<settlement>Italia</settlement> fu unita sotto
+              <lb n="443" /><persName>Odoacre</persName> e sotto gli <orgName ref="#O_Ogori">Ostrogoti</orgName>, dice che i <orgName ref="#O_Longo">Longobardi</orgName> fu- <!-- Id O_OGORI con la r è corretto -->
+              <lb n="444" break="no"/>rono i <emph>primi</emph> che idearono l'<settlement>Italia</settlement> una (pag. 34), e di essi
+              <lb n="445" />ripete le solite accuse, ormai rigettate dai migliori critici, 
+              <lb n="446" />e che gli Italiani sotto il dominio longobardo <quote>« erano stati
+              <lb n="447" />tenuti poco meno che da schiavi »</quote> (pag. 36). Non è vero
+              <lb n="448" />che nei primi secoli i pontefici fossero eletti dai vescovi, 
+              <lb n="449" />questi dai preti e i preti dalle plebi (pag. 27). Anzi le ele- 
+              <lb n="450" break="no"/>zioni ecclesiastiche non si fecero mai così. Che i servi della 
+              <lb n="451" />gleba stessero meglio sotto gli ecclesiastici non lo impu- 
+              <lb n="452" break="no"/>gneremo, ma che questi fossero <quote>« meno avidi di guadagno »</quote>
+              <lb n="453" />(pag. 39), le ricchezze accumulate dal clero nei più bui 
+              <lb n="454" />secoli del medio evo lo mostrano. Dei <orgName ref="#O_Guelfi">Guelfi</orgName> e dei <orgName ref="#O_Ghibel">Ghibel-
+              <lb n="455" break="no"/>lini</orgName> dà il solito giudizio dei neoguelfi, <choice><sic>pei quali</sic><corr resp="#LP">per i quali</corr></choice> furono i
+              <lb n="456" />soli <orgName ref="#O_Guelfi">Guelfi</orgName> a volere l'indipendenza e per essa la libertà
+              <lb n="457" />(pag. 42). Anticipa a <persName>Federico II</persName> il disegno di abbattere i
+              <lb n="458" />Comuni italiani, vivente, anzi regnante-<persName>Ottone IV</persName>, quando
+              <lb n="459" />lo Svevo era ancora giovanetto e favorito da <persName>Innocenzo III</persName>
+              <lb n="460" />(pag. 46), e la <orgName>Lega lombarda</orgName>, rinnovatasi nel <date>1226</date>, pare,
+              <lb n="461" />dal modo come la ricorda, che fosse fatta quando ancora vi- 
+              <lb n="462" break="no"/>veva <persName>Ottone</persName>, il quale morì nel <date>1218</date>. Afferma che nella guerra
+              <lb n="463" />tra i Papi e gli <orgName ref="#O_Svevi">Svevi</orgName>, la <orgName>Chiesa</orgName> non adoperò che i frati, le
+              <lb n="464" />prediche e le scomuniche (pag. 47). Fa <persName ref="#P_GDB">Giano della Bella</persName>
+              <lb n="465" />signore di <settlement>Firenze</settlement> alla pari del <persName ref=""><addName type="epithet">duca</addName></persName> D'<settlement>Atene</settlement> (pag. 49);
+              <lb n="466" /><persName>Dante</persName> diventar ghibellino per <emph>dispetto</emph> (pag. 52); e fa <persName>Carlo
+              <lb n="467" />VIII</persName> re di <settlement>Francia</settlement> della casa d'Angiò (pag. 66). Attribuisce
+              <lb n="468" />alla pace di <settlement>Barcellona</settlement> anche quel che fu stipulato nei trat-
+              <lb n="469" break="no"/>tati di <settlement ref="#S_CF">Cambrai</settlement> e di <settlement>Bologna</settlement> (pag. 69). Dice che l'<persName>Ariosto</persName>
+              <lb n="470" />ebbe mirabile istinto dell'arte, <emph>con poca fantasia</emph>, e che <quote>«non
+              <lb n="471" />conobbe <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> moralità, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> patriottismo, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> dignità, celiando per
+              <lb n="472" />celiare»</quote> (pag. 78), le quali ultime due parole sono del <bibl>Som-
+              <lb n="473" />mario</bibl> del <persName ref="#P_CB">Balbo</persName>. I <orgName ref="#O_RdS">Reali di Savoia</orgName> non sono nelle grazie del
+              <lb n="474" />signor <persName ref="#P_CC">Cantù</persName>, e della loro politica, che, quantunque interes-
+              <lb n="475" break="no"/>sata, riuscì in sostanza di tanto profitto all'<settlement>Italia</settlement>, e fu la
+              <lb n="476" />sola vigorosa durante i secoli delle nostre vergogne, non 
+              <lb n="477" />sa dir altro che <quote>«consistette nel muoversi sempre»</quote> (pag. 82),
+              <lb n="478" />e asserisce che <persName>Carlo Emanuele I</persName>, <quote>«col voler liberare l'<settlement>Ita-
+              <lb n="479" break="no"/>lia</settlement> dagli stranieri, ve li trasse a devastarla»</quote> (pag. 85),
+              <lb n="480" />come se le rivalità tra la <orgName ref="#O_CdA">Casa d'Austria</orgName> e la <settlement>Francia</settlement> sotto
+              <lb n="481" /><persName>Enrico IV</persName>, la Reggenza e il <foreign xml:lang="fr">Richelieu</foreign>, avessero avuto bi-
+              <lb n="482" break="no"/>sogno a riaccendersi che le rattizzasse il figliuolo di <persName>Emanuel</persName>
+              <lb n="483" /><persName>Filiberto</persName>. Al contrario egli giudica che la causa italiana fu <!-- Emanuel filiberto va a capo -->
+            </ab>
           </div>
           <div xml:id="img5B"> 
-          <ab xml:id="Paragrafo5_Bibliografia">
-            <lb n="484" />sostenuta dai papi (pag. 81). <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> citiamo altro per non di- 
-            <lb n="485" break="no"/>stenderci troppo. Del rimanente le opinioni di <persName ref="#P_CC">Cesare Cantù</persName>
-            <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di 
-            <lb n="487" />ribatterle qui. È nota la sua fanatica ammirazione per il 
-            <lb n="488" /><choice><sic>Medio evo</sic><corr resp="#LP">Medioevo</corr></choice>, e l'acrimonia con cui parla nei molti suoi li-
-            <lb n="489" break="no"/>bri delle rivoluzioni moderne. Non è quindi da <choice><sic>maravigliare</sic><corr resp="#LP">meravigliarsi</corr></choice>
-            <lb n="490" />se anche in questo dà spesso in giudizi, che, per essergli 
-            <lb n="491" />cortesi, diremo che sentono troppo del sistematico. Ma dove 
-            <lb n="492" />l'<persName ref="#P_A">A.</persName> sfoga più il suo mal animo per tutto ciò che sa di mo-
-            <lb n="493" break="no"/>derno rinnovamento politico è nell'<term>età contemporanea</term>. Con
-            <lb n="494" />un'arte <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto critica, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto evangelica, e di cui ha 
-            <lb n="495" />dato un saggio più ampio nella sua <bibl>Cronistoria dell'indipen-
-            <lb n="496" break="no"/>denza italiana</bibl>, mette da un lato tutto quel po' di bene che può
-            <lb n="497" />dirsi dei cessati governi, tacendone il molto male, ed esa- 
-            <lb n="498" break="no"/>gerando dall'altro gli errori e le colpe dei patriotti. Rap-
-            <lb n="499" break="no"/>presenta il <persName>Borbone</persName>, il <persName>Duca di Modena</persName>, <persName>Gregorio XVI</persName>
-            <lb n="500" />come principi non ad altro intesi che al pubblico bene, che 
-            <lb n="501" />non poterono sempre fare, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> impediti dalle scapestre- 
-            <lb n="502" break="no"/>rie e dall'empietà dei rivoluzionari. <persName>Cavour</persName> seppe cogliere le
-            <lb n="503" />occasioni, <quote>«usar degli uomini come <choice><sic>istromenti</sic><corr resp="#LP">strumenti</corr></choice>, <choice><sic>sprezzare</sic><corr resp="#LP">disprezzare</corr></choice> le
-            <lb n="504" />plebi, comprare gli arruffoni»</quote> (p. 124), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del grande uomo
-            <lb n="505" />di Stato ci sa dir altro. Mette i liberali in un fascio coi bri-
-            <lb n="506" break="no"/>ganti a scalzare il <persName ref=""> <addName type="epithet">Napoletano</addName> </persName> (p. 124), e forzando la nota,
-            <lb n="507" />dice che i <emph>veri despoti</emph> d'<settlement>Italia</settlement> tra il <date>48</date> e il <date>59</date> non furono
-            <lb n="508" />i nostri oppressori, ma i <choice><sic>fuorusciti</sic><corr resp="#LP">fuoriusciti</corr></choice> e la stampa clandestina
-            <lb n="509" />(p. 125). Il ricordo della dichiarazione di guerra all'<settlement>Austria</settlement>
-            <lb n="510" />nel <date>59</date> fa scrivere all'<persName ref="#P_A">A.</persName> queste parole, che avrebbe potuto det-
-            <lb n="511" break="no"/>tare un ufficiale dello stato maggiore del generale <persName>Giulay</persName>:
-            <lb n="512" /><quote>«L'<settlement>Austria</settlement> <emph>dovette</emph> premunirsi, e il <settlement>Piemonte</settlement> gridò all'<settlement>Eu-
-            <lb n="513" break="no"/>ropa</settlement> d'essere minacciato; armò la <orgName>guardia nazionale</orgName>: <choice><sic>facea</sic><corr resp="#LP">faceva</corr></choice>
-            <lb n="514" />che i giovani coscritti di <settlement>Lombardia</settlement> fuggissero in <settlement>Piemonte</settlement>,
-            <lb n="515" />sempre parlando di pace, e protestando di non fare che difen-
-            <lb n="516" break="no"/>dersi. L'<settlement>Austria</settlement> non potè reggervi, e intimata guerra, passò
-            <lb n="517" />il <settlement ref="#S_TF">Ticino</settlement>. Avrebbe dovuto farlo assai prima, e allora difilarsi
-            <lb n="518" />sopra <settlement>Torino</settlement> e <settlement>Genova</settlement>»</quote> (p. 126-27). <persName>Cavour</persName>, dopo <settlement ref="#S_VF">Villa-
-            <lb n="519" break="no"/>franca</settlement>, rinunziò al portafoglio, <quote>«ma subito tornò a cospi-
-            <lb n="520" break="no"/>rare»</quote> (p. 127). La <settlement>Toscana</settlement>, il <settlement>Parmigiano</settlement>, il <settlement>Modenese</settlement>, si
-            <lb n="521" />dichiararono parte <choice><sic>integrale</sic><corr resp="#LP">integrante</corr></choice> del <settlement ref="#S_RdI">Regno d'Italia</settlement> <emph>cogli imman-
-            <lb n="522" break="no"/>cabili plebisciti</emph> (p. 128) e l'<settlement>Emilia</settlement> si annesse al <settlement ref="#S_RdI">Regno</settlement> <emph>con le
-            <lb n="523" />solite formule</emph>. Eppure, dopo tutto questo, e più altro an-
-            <lb n="524" break="no"/>cora che per brevità tralasciamo, noi vogliamo essere 
-            <lb n="525" />col signor Cantù più giusti di quel che egli non sia coi
-            <lb n="526" />morti e coi vivi. Nelle ultime pagine del suo libro ci si 
-            <lb n="527" />sente l'uomo che non condanna poi tanto questa <settlement>Italia</settlement>
-            <lb n="528" />quale è venuta fuori dalle cospirazioni, dal senno e dal co- 
-            <lb n="529" break="no"/>raggio degli uomini e dai plebisciti. E benché per lui <quote>«<choice><sic>sieno</sic><corr resp="#LP">siano</corr></choice>
-            <lb n="530" />frasi la sovranità nazionale, il suffragio universale, la libera
-            <lb n="531" />Chiesa, la democrazia scientifica, ed altre panacee da caf-
-            <lb n="532" break="no"/>fè»</quote> (p. 137), <choice><sic>conchiude</sic><corr resp="#LP">conclude</corr></choice> col riconoscere che poichè <quote>«questo
-            <lb n="533" />governo è fatto da noi elettori, sta in noi il migliorarlo,
-            <lb n="534" />non con sovvertimenti e scioperi e triennali avvicendamenti
-            <lb n="535" />di ministri, ma col far ciascuno il nostro dovere»</quote> (p. 138).
-            <lb n="536" />Sante parole, ma troppo poche, per fare di questo manuale 
-            <lb n="537" />un libro giusto e vero. 
+            <ab xml:id="Paragrafo5_Bibliografia">
+              <lb n="484" />sostenuta dai papi (pag. 81). <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> citiamo altro per non di- 
+              <lb n="485" break="no"/>stenderci troppo. Del rimanente le opinioni di <persName ref="#P_CC">Cesare Cantù</persName>
+              <lb n="486" />sono note abbastanza, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> noi non ci sentiamo la voglia di 
+              <lb n="487" />ribatterle qui. È nota la sua fanatica ammirazione per il 
+              <lb n="488" /><choice><sic>Medio evo</sic><corr resp="#LP">Medioevo</corr></choice>, e l'acrimonia con cui parla nei molti suoi li-
+              <lb n="489" break="no"/>bri delle rivoluzioni moderne. Non è quindi da <choice><sic>maravigliare</sic><corr resp="#LP">meravigliarsi</corr></choice>
+              <lb n="490" />se anche in questo dà spesso in giudizi, che, per essergli 
+              <lb n="491" />cortesi, diremo che sentono troppo del sistematico. Ma dove 
+              <lb n="492" />l'<persName ref="#P_A">A.</persName> sfoga più il suo mal animo per tutto ciò che sa di mo-
+              <lb n="493" break="no"/>derno rinnovamento politico è nell'<term>età contemporanea</term>. Con
+              <lb n="494" />un'arte <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto critica, <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> punto evangelica, e di cui ha 
+              <lb n="495" />dato un saggio più ampio nella sua <bibl>Cronistoria dell'indipen-
+              <lb n="496" break="no"/>denza italiana</bibl>, mette da un lato tutto quel po' di bene che può
+              <lb n="497" />dirsi dei cessati governi, tacendone il molto male, ed esa- 
+              <lb n="498" break="no"/>gerando dall'altro gli errori e le colpe dei patriotti. Rap-
+              <lb n="499" break="no"/>presenta il <persName>Borbone</persName>, il <persName>Duca di Modena</persName>, <persName>Gregorio XVI</persName>
+              <lb n="500" />come principi non ad altro intesi che al pubblico bene, che 
+              <lb n="501" />non poterono sempre fare, <choice><sic>perchè</sic><corr resp="#LP">perché</corr></choice> impediti dalle scapestre- 
+              <lb n="502" break="no"/>rie e dall'empietà dei rivoluzionari. <persName>Cavour</persName> seppe cogliere le
+              <lb n="503" />occasioni, <quote>«usar degli uomini come <choice><sic>istromenti</sic><corr resp="#LP">strumenti</corr></choice>, <choice><sic>sprezzare</sic><corr resp="#LP">disprezzare</corr></choice> le
+              <lb n="504" />plebi, comprare gli arruffoni»</quote> (p. 124), <choice><sic>nè</sic><corr resp="#LP">né</corr></choice> del grande uomo
+              <lb n="505" />di Stato ci sa dir altro. Mette i liberali in un fascio coi bri-
+              <lb n="506" break="no"/>ganti a scalzare il <persName ref=""> <addName type="epithet">Napoletano</addName> </persName> (p. 124), e forzando la nota,
+              <lb n="507" />dice che i <emph>veri despoti</emph> d'<settlement>Italia</settlement> tra il <date>48</date> e il <date>59</date> non furono
+              <lb n="508" />i nostri oppressori, ma i <choice><sic>fuorusciti</sic><corr resp="#LP">fuoriusciti</corr></choice> e la stampa clandestina
+              <lb n="509" />(p. 125). Il ricordo della dichiarazione di guerra all'<settlement>Austria</settlement>
+              <lb n="510" />nel <date>59</date> fa scrivere all'<persName ref="#P_A">A.</persName> queste parole, che avrebbe potuto det-
+              <lb n="511" break="no"/>tare un ufficiale dello stato maggiore del generale <persName>Giulay</persName>:
+              <lb n="512" /><quote>«L'<settlement>Austria</settlement> <emph>dovette</emph> premunirsi, e il <settlement>Piemonte</settlement> gridò all'<settlement>Eu-
+              <lb n="513" break="no"/>ropa</settlement> d'essere minacciato; armò la <orgName>guardia nazionale</orgName>: <choice><sic>facea</sic><corr resp="#LP">faceva</corr></choice>
+              <lb n="514" />che i giovani coscritti di <settlement>Lombardia</settlement> fuggissero in <settlement>Piemonte</settlement>,
+              <lb n="515" />sempre parlando di pace, e protestando di non fare che difen-
+              <lb n="516" break="no"/>dersi. L'<settlement>Austria</settlement> non potè reggervi, e intimata guerra, passò
+              <lb n="517" />il <settlement ref="#S_TF">Ticino</settlement>. Avrebbe dovuto farlo assai prima, e allora difilarsi
+              <lb n="518" />sopra <settlement>Torino</settlement> e <settlement>Genova</settlement>»</quote> (p. 126-27). <persName>Cavour</persName>, dopo <settlement ref="#S_VF">Villa-
+              <lb n="519" break="no"/>franca</settlement>, rinunziò al portafoglio, <quote>«ma subito tornò a cospi-
+              <lb n="520" break="no"/>rare»</quote> (p. 127). La <settlement>Toscana</settlement>, il <settlement>Parmigiano</settlement>, il <settlement>Modenese</settlement>, si
+              <lb n="521" />dichiararono parte <choice><sic>integrale</sic><corr resp="#LP">integrante</corr></choice> del <settlement ref="#S_RdI">Regno d'Italia</settlement> <emph>cogli imman-
+              <lb n="522" break="no"/>cabili plebisciti</emph> (p. 128) e l'<settlement>Emilia</settlement> si annesse al <settlement ref="#S_RdI">Regno</settlement> <emph>con le
+              <lb n="523" />solite formule</emph>. Eppure, dopo tutto questo, e più altro an-
+              <lb n="524" break="no"/>cora che per brevità tralasciamo, noi vogliamo essere 
+              <lb n="525" />col signor Cantù più giusti di quel che egli non sia coi
+              <lb n="526" />morti e coi vivi. Nelle ultime pagine del suo libro ci si 
+              <lb n="527" />sente l'uomo che non condanna poi tanto questa <settlement>Italia</settlement>
+              <lb n="528" />quale è venuta fuori dalle cospirazioni, dal senno e dal co- 
+              <lb n="529" break="no"/>raggio degli uomini e dai plebisciti. E benché per lui <quote>«<choice><sic>sieno</sic><corr resp="#LP">siano</corr></choice>
+              <lb n="530" />frasi la sovranità nazionale, il suffragio universale, la libera
+              <lb n="531" />Chiesa, la democrazia scientifica, ed altre panacee da caf-
+              <lb n="532" break="no"/>fè»</quote> (p. 137), <choice><sic>conchiude</sic><corr resp="#LP">conclude</corr></choice> col riconoscere che poichè <quote>«questo
+              <lb n="533" />governo è fatto da noi elettori, sta in noi il migliorarlo,
+              <lb n="534" />non con sovvertimenti e scioperi e triennali avvicendamenti
+              <lb n="535" />di ministri, ma col far ciascuno il nostro dovere»</quote> (p. 138).
+              <lb n="536" />Sante parole, ma troppo poche, per fare di questo manuale 
+              <lb n="537" />un libro giusto e vero. 
             </ab>
           </div>
         </body>
@@ -1229,7 +1227,3 @@
     </group>
   </text>
 </TEI>
-
- <!-- comando Xerces
-  java -cp .\tools\Xerces-J-bin.2.12.1\xerces-2_12_1\* dom.Counter -v .\codifica.xml
- -->
