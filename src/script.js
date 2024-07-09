@@ -100,29 +100,19 @@ $(document).ready(function () {
     }
   });  
  
-    // bottone lingue correzioni
-  // $("#correzioni").click(function () {
-  //   if ($(document.querySelectorAll('span.nascosto')).hasClass("nascosto")) {
-  //       $(document.querySelectorAll('span.nascosto')).removeClass("nascosto").addClass("sbagliato");
-  //   } else {
-  //       $(document.querySelectorAll('span.nascosto')).addClass("nascosto");
-  //   }
-  // });
-
   $("#correzioni").click(function () {
-    var $spanCorretto = $('span.spanCorretto');
-    var $spanSbagliato = $('span.spanSbagliato');
+    var $spanCorretto = $('span.corretto');
+    var $spanSbagliato = $('span.nascosto');
 
-    if ($spanCorretto.hasClass("corretto")) {
-        // Se spanCorretto è nascosto, lo mostriamo e nascondiamo spanSbagliato
-        $spanCorretto.removeClass("nascosto").addClass("corretto");
-        $spanSbagliato.addClass("nascosto").removeClass("sbagliato");
+    if ($spanCorretto.hasClass("nascosto")) {
+        // Se la parola corretta è nascosta, la mostriamo e nascondiamo la parola sbagliata
+        $spanCorretto.removeClass("nascosto");
+        $spanSbagliato.addClass("nascosto");
     } else {
-        // Altrimenti, nascondiamo spanCorretto e mostriamo spanSbagliato
-        $spanCorretto.addClass("nascosto").removeClass("corretto");
-        $spanSbagliato.removeClass("nascosto").addClass("sbagliato");
+        // Altrimenti, nascondiamo la parola corretta e mostriamo la parola sbagliata
+        $spanCorretto.addClass("nascosto");
+        $spanSbagliato.removeClass("nascosto");
     }
-});
-
+  });
 
 });

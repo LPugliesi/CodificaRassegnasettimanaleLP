@@ -339,7 +339,8 @@
                     <xsl:value-of select="tei:corr" />
                 </xsl:element>
                 <xsl:element name="span">
-                    <xsl:attribute name="class">sbagliato</xsl:attribute>
+                    <xsl:attribute name="class">nascosto</xsl:attribute>
+                    <xsl:attribute name="style">color: red;</xsl:attribute>
                     <xsl:value-of select="tei:sic" />
                 </xsl:element>
             </xsl:if>
