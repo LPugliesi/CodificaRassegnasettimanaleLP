@@ -42,7 +42,7 @@
                 <div class="logo">
                 <a href='https://rassegnasettimanale.animi.it/' target="_blank"><img src="Logo.png" alt="La rassegna settimanale di politica"/></a>
                 </div>
-                <div class="section">        
+                <div class="desc">        
                     <div>
                         <h2>Descrizione della Fonte:</h2>
                         <xsl:apply-templates select="//tei:imprint"/>

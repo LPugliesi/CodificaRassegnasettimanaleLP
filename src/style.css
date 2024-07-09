@@ -30,8 +30,12 @@ body {
     float: center;
 }
 
-.section {
+.desc {
     font-family: "Chivo Mono", monospace;
+    background-color: #fdfeab;
+    border: 5px double #000;
+    border-radius: 15px;
+    padding: 20px;
     margin-top: 2%;
     margin-right: 10%;
     margin-left: 10%;
