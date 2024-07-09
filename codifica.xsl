@@ -278,69 +278,113 @@
 
     <!--template per evidenziare i fenomeni notevoli-->
     <xsl:template match="tei:persName">
-            <persname>
-                <xsl:apply-templates />
-            </persname>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">persName</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:persName" />
+            </xsl:element>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template match="tei:addName">
-            <addName>
-                <xsl:apply-templates />
-            </addName>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">addName</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:addName" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>          
 
     <xsl:template match="tei:settlement">
-            <settlement>
-                <xsl:apply-templates />
-            </settlement>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">settlement</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:settlement" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>     
 
     <xsl:template match="tei:date">
-            <date>
-                <xsl:apply-templates />
-            </date>
-    </xsl:template>    
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">date</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:date" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template> 
 
     <xsl:template match="tei:orgName">
-            <orgName>
-                <xsl:apply-templates />
-            </orgName>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">orgName</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:orgName" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template> 
 
     <xsl:template match="tei:quote">
-            <quote>
-                <xsl:apply-templates />
-            </quote>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">quote</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:quote" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template> 
 
     <xsl:template match="tei:bibl">
-            <bibl>
-                <xsl:apply-templates />
-            </bibl>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">bibl</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:bibl" />
+            </xsl:element>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template match="tei:publisher">
-            <publisher>
-                <xsl:apply-templates />
-            </publisher>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">publisher</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:publisher" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template> 
 
     <xsl:template match="tei:term">
-            <term>
-                <xsl:apply-templates />
-            </term>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">term</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:term" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>          
 
     <xsl:template match="tei:emph">
-            <emph>
-                <xsl:apply-templates />
-            </emph>
-    </xsl:template>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">emph</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:emph" />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>    
 
     <xsl:template match="tei:foreign">
-            <foreign>
-                <xsl:apply-templates />
-            </foreign>
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+             <xsl:attribute name="class">foreign</xsl:attribute>
+             <xsl:apply-templates />
+                <xsl:value-of select="tei:foreign" />
+            </xsl:element>
+        </xsl:for-each>
     </xsl:template>
 
     <!--template per i sic e corr-->
