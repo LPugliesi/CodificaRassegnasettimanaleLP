@@ -16,18 +16,23 @@ header {
 
 body {
     height: 100%;
-    background-color: #e0f77a;
+    background-color: #fff372;
 }
 
 .logo {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 15px;
     text-align: center;
 }
 
+.logo img {
+    width: 60%; 
+    float: center;
+}
+
 .section {
     font-family: "Chivo Mono", monospace;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 3%;
@@ -79,7 +84,7 @@ body {
 .navbar a {
     float: left;
     font-size: 16px;
-    color: #e0f77a;
+    color: #fff372;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -101,7 +106,7 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #e0f77a;
+    color: #fff372;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -117,7 +122,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #e9f9a1;
+    background-color: #fff8b1;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -151,7 +156,7 @@ body {
 
 /* Barra base */
 ::-webkit-scrollbar-track {
-    background: #e0f77a;
+    background: #fff372;
 }
 
 /* Barra di scorrimento */
@@ -171,7 +176,7 @@ footer {
     font-family: "Chivo Mono", monospace;
     padding: 50px;
     background-color: #000000;
-    color: #e0f77a;
+    color: #fff372;
     margin-left: -8px;
     margin-right: -8px;
 }

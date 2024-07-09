@@ -419,7 +419,8 @@
     <!-- ENCODING (descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
       <encodingDesc>
         <projectDesc>
-          <p>Mi sono occupata della codifica di quattro sezioni della rivista settimanale, garantendo l'organizzazione e la corretta indicizzazione dei contenuti: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
+          <p>Mi sono occupata della codifica di quattro sezioni della rivista settimanale, garantendo l'organizzazione e la corretta indicizzazione dei contenuti. </p>
+          <p>Gli articoli selezionati sono: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
         </projectDesc>
       </encodingDesc>
 

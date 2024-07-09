@@ -20,7 +20,7 @@
                 <header>
                     <nav>
                         <div class="navbar">
-                            <a class="nameproject">Codifica di Testi</a>
+                            <a class="nameproject" href='https://github.com/angelodel80/corsoCodifica'>Codifica di Testi</a>
                             <a href="#">Home</a>
                             <div class="dropdown">
                                 <button class="dropbtn">Pagine
@@ -40,7 +40,7 @@
                     </nav>
                 </header>
                 <div class="logo">
-                <img src="Logo.png" alt="La rassegna settimanale di politica" style=" height: 85%; float: center;"/>
+                <a href='https://rassegnasettimanale.animi.it/' target="_blank"><img src="Logo.png" alt="La rassegna settimanale di politica"/></a>
                 </div>
                 <div class="section">        
                     <div>
@@ -51,6 +51,11 @@
                     <div>
                         <h2>Descrizione del Manoscritto:</h2>
                         <xsl:apply-templates select="//tei:objectDesc"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <h2>Descrizione della Codifica:</h2>
+                        <xsl:apply-templates select="//tei:projectDesc"/>
                     </div>
                 </div>
                 <div id="fenomeni">
@@ -218,6 +223,12 @@
     <xsl:template match="tei:layoutDesc/tei:layout">
         <div>
             <p><strong>Layout:</strong> <xsl:value-of select="."/></p>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:encodingDesc">
+        <div>
+            <p><xsl:apply-templates/></p>
         </div>
     </xsl:template>
 
