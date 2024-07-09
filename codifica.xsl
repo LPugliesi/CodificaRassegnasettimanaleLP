@@ -343,6 +343,7 @@
             </foreign>
     </xsl:template>
 
+    <!--template per i sic e corr-->
     <xsl:template match="//tei:choice">
         <xsl:for-each select="current()">
             <xsl:if test="tei:sic">
@@ -360,9 +361,3 @@
     </xsl:template>
 
 </xsl:stylesheet>
-
-
-
-<!-- 
-java -jar "./tools/SaxonHE10-3J/saxon-he-10.3.jar" -s:codifica.xml -xsl:codifica.xsl -o:progetto.html 
--->

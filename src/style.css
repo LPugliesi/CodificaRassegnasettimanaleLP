@@ -49,7 +49,7 @@ body {
 .text {
     font-family: "Noto Serif", serif;
     margin-left: 2%;
-    font-size: 10px;
+    font-size: 11px;
     text-align: left;
 }
 
@@ -246,11 +246,11 @@ footer {
 }
 
 #persone {
-    background-color: #dafc33; 
+    background-color: #fceb33; 
 }
 
 .highlight_p {
-    background-color: #dafc33; 
+    background-color: #fceb33; 
 }
 
 #epithet {
@@ -286,11 +286,11 @@ footer {
 }
 
 #citazioni {
-    background-color: #ffbf2a;
+    background-color: #ff982a;
 }
 
 .highlight_c{
-    background-color:  #ffbf2a 
+    background-color:  #ff982a;
 }
 
 #opere {

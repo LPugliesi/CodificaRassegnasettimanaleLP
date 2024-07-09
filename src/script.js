@@ -1,6 +1,5 @@
 $(document).ready(function () { 
 
-
   // bottone persone
   $("#persone").click(function () {
     if ($("persName").hasClass("highlight_p")) {
@@ -100,6 +99,7 @@ $(document).ready(function () {
     }
   });  
  
+  // bottone correzioni
   $("#correzioni").click(function () {
     var $spanCorretto = $('span.corretto');
     var $spanSbagliato = $('span.nascosto');
