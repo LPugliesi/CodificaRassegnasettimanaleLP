@@ -103,19 +103,34 @@ $(document).ready(function () {
   $("#correzioni").click(function () {
     var $spanCorretto = $('span.corretto');
     var $spanSbagliato = $('span.nascosto');
-    console.log("Sbagliato: " + $spanSbagliato.class + "\nCorretto: " + $spanCorretto.class)
 
     if ($spanCorretto.hasClass("nascosto")) {
         // Se la parola corretta è nascosta, la mostriamo e nascondiamo la parola sbagliata
-        console.log("IF Sbagliato: " + $spanSbagliato.class + "\nCorretto: " + $spanCorretto.class)
-        $spanCorretto.removeClass("nascosto");
-        $spanSbagliato.addClass("nascosto");
+        $spanCorretto.removeClass("nascosto").addClass("corretto");
+        $spanSbagliato.addClass("nascosto").removeClass("corretto");
     } else {
         // Altrimenti, nascondiamo la parola corretta e mostriamo la parola sbagliata
-        console.log("ELSE Sbagliato: " + $spanSbagliato.class + "\nCorretto: " + $spanCorretto.class)
-        $spanCorretto.addClass("nascosto");
-        $spanSbagliato.removeClass("nascosto");
+        $spanCorretto.addClass("nascosto").removeClass("corretto");
+        $spanSbagliato.removeClass("nascosto").addClass("corretto");
     }
   });
+
+  $("area").hover(
+    function() {
+      var idArea = $(this).attr("title").replace("#", "");
+      var $zoneElement = $("#" + idArea);
+      if ($zoneElement.length) {
+        $zoneElement.data("prevFontWeight", $zoneElement.css("font-weight"));
+        $zoneElement.css("font-weight", "bold");
+      }
+    },
+    function() {
+      var idArea = $(this).attr("title").replace("#", "");
+      var $zoneElement = $("#" + idArea);
+      if ($zoneElement.length) {
+        $zoneElement.css("font-weight", $zoneElement.data("prevFontWeight"));
+      }
+    }
+  );
   
 });

@@ -194,6 +194,16 @@
         <br />
     </xsl:template>
 
+<!-- Template aggiunta id per paragrafi -->
+    <xsl:template match="//tei:div/tei:ab">
+        <xsl:for-each select="current()">
+            <xsl:element name="span">
+                <xsl:attribute name="class">zone</xsl:attribute>
+                <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id" /></xsl:attribute>
+                <xsl:apply-templates />
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
 
     <!-- Template descrizione documento e fonte -->
     <xsl:template match="tei:imprint">
