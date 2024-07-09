@@ -39,14 +39,15 @@
                         </div>
                     </nav>
                 </header>
-                <div class="title">
-                    <h1><xsl:value-of select="//tei:title[@xml:id='title']"/></h1>
+                <div class="logo">
+                <img src="Logo.png" alt="La rassegna settimanale di politica" style=" height: 85%; float: center;"/>
                 </div>
                 <div class="section">        
                     <div>
                         <h2>Descrizione della Fonte:</h2>
                         <xsl:apply-templates select="//tei:imprint"/>
                     </div>
+                    <br/>
                     <div>
                         <h2>Descrizione del Manoscritto:</h2>
                         <xsl:apply-templates select="//tei:objectDesc"/>

@@ -19,8 +19,7 @@ body {
     background-color: #e0f77a;
 }
 
-.title {
-    font-family: "Chivo Mono", monospace;
+.logo {
     margin-top: 10%;
     font-size: 15px;
     text-align: center;
