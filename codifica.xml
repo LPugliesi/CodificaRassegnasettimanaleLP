@@ -5,15 +5,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="it">
     <fileDesc>
-
       <!-- TITLE -->
       <titleStmt>
         <title level="j" type="main"> La rassegna settimanale</title>
         <title level="j" type="sub"> di politica, scienze, lettere ed arti</title>
         <funder><persName xml:id="P_LF">Leopoldo Franchetti</persName> e <persName xml:id="P_SS">Sidney Sonnino</persName></funder>
       </titleStmt>
-
-      <!-- EDITION (dichiarazione sull'edizione) raggruppa le informazioni riguardo una edizione di un testo. -->
+      <!-- EDITION raggruppa le informazioni riguardo una edizione di un testo. -->
       <editionStmt>
         <edition> Edizione Digitale - <date when="06-2024"> Luglio 2024 </date></edition>
         <respStmt>
@@ -24,13 +22,11 @@
           <name xml:id="LP"> Lavinia Pugliesi </name>
         </respStmt>
       </editionStmt>
-
-      <!-- EXTENT descrive la grandezza approssimativa di un documento elettronico così come immagazzinata su supporto, secondo una qualsiasi unità funzionale. -->
+      <!-- EXTENT descrive la grandezza approssimativa di un documento elettronico. -->
       <extent>
         <measure unit="pages" quantity="6">Pagine 237, 238, 239, 240, 241 e 244 </measure>
       </extent>
-
-      <!-- PUBBLICATION (dichiarazione sulla pubblicazione) raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua. -->
+      <!-- PUBBLICATION raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua. -->
       <publicationStmt>
         <publisher> Università di Pisa </publisher>
           <pubPlace>Pisa</pubPlace>
@@ -39,8 +35,7 @@
           </availability>
           <date when="2024"> 2024</date>
       </publicationStmt>
-
-      <!-- SERIE (dichiarazione sulla serie) raggruppa le informazioni circa la serie alla quale eventualmente la pubblicazione appartiene. -->
+      <!-- SERIE raggruppa le informazioni circa la serie alla quale eventualmente la pubblicazione appartiene. -->
       <seriesStmt>
         <title xml:id="title">La rassegna settimanale di politica, scienze, lettere ed arti</title>
         <respStmt>
@@ -50,8 +45,7 @@
         <biblScope unit="volume">2</biblScope>
         <biblScope unit="chapter">14</biblScope>
       </seriesStmt>
-
-      <!-- NOTE (dichiarazione sulle note) raggruppa tutte le note sul testo in aggiunta a quelle registrate nelle altre parti della descrizione bibliografica. -->
+      <!-- NOTE raggruppa tutte le note sul testo in aggiunta a quelle registrate nelle altre parti della descrizione bibliografica. -->
       <notesStmt>
           <noteGrp>
 
@@ -377,8 +371,7 @@
 
           </noteGrp>
       </notesStmt>
-   
-      <!-- SOURCE (descrizione della fonte) fornisce una descrizione relativa alla o alle fonti da cui è derivato o generato un documento elettronico. -->
+      <!-- SOURCE fornisce una descrizione relativa alla o alle fonti da cui è derivato o generato un documento elettronico. -->
       <sourceDesc>
           <biblStruct xml:lang="it">
               <monogr>
@@ -415,16 +408,14 @@
           </msDesc>
       </sourceDesc>
     </fileDesc>
-
-    <!-- ENCODING (descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
+    <!-- ENCODING -->
       <encodingDesc>
         <projectDesc>
           <p>Mi sono occupata della codifica di quattro sezioni della rivista settimanale, garantendo l'organizzazione e la corretta indicizzazione dei contenuti. </p>
           <p>Gli articoli selezionati sono: <title level="j" type="sub" ref="#CorrParigi">Corrispondeza artistica da Parigi</title>, <title level="j" type="sub" ref="#Mineralogia" >La mineralogia in Italia</title>, <title level="j" type="sub" ref="#Bibliografia" >Bibliografia</title> e <title level="j" type="sub" ref="#Notizie" >Notizie</title>.</p>
         </projectDesc>
       </encodingDesc>
-
-    <!-- PROFILE (descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione -->
+    <!-- PROFILE fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione -->
       <profileDesc>
         <langUsage>
           <language ident="it">Italiano</language>
@@ -442,7 +433,6 @@
         </textDesc>
       </profileDesc>
   </teiHeader>
-
 <!-- FACSSIMILE -->
   <facsimile>
     <surface xml:id="imgr1">
@@ -517,7 +507,6 @@
       <zone ulx="247" uly="623" lrx="458" lry="666" corresp="#Paragrafo_Referenze"/>
     </surface>
   </facsimile>
-
 <text xml:lang="it">
   <group>
       <text xml:id="CorrParigi"> <!-- CORRISPONDENZA ARTISTICA DA PARIGI -->
@@ -729,7 +718,6 @@
           </div>
         </body>
       </text>
-
       <text xml:id="Mineralogia"> <!-- LA MINERALOGIA IN ITALIA -->
         <body>
           <div xml:id="img3A2">
@@ -1004,7 +992,6 @@
           </div>
         </body>      
       </text>
-
       <text xml:id="Bibliografia"> <!-- BIBLIOGRAFIA -->
         <body>
           <div xml:id="img4B2">
@@ -1186,7 +1173,6 @@
           </div>
         </body>
       </text>
-
       <text xml:id="Notizie"> <!-- NOTIZIE -->
         <body>
           <div xml:id="img6B">
