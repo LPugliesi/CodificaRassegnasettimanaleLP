@@ -194,13 +194,13 @@
         <br />
     </xsl:template>
 
-<!-- Template aggiunta id per paragrafi -->
+    <!-- Template aggiunta id per paragrafi -->
     <xsl:template match="//tei:div/tei:ab">
         <xsl:for-each select="current()">
             <xsl:element name="span">
                 <xsl:attribute name="class">zone</xsl:attribute>
                 <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id" /></xsl:attribute>
-                <xsl:apply-templates />
+                    <xsl:apply-templates />
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
@@ -286,7 +286,7 @@
         </xsl:for-each>
     </xsl:template>
 
-    <!--template per evidenziare i fenomeni notevoli-->
+    <!-- Template per i fenomeni notevoli -->
     <xsl:template match="tei:persName">
         <xsl:for-each select="current()">
             <xsl:element name="span">

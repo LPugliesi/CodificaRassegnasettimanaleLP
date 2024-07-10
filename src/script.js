@@ -1,6 +1,6 @@
 $(document).ready(function () { 
 
-  // bottone persone
+  // Funzione per bottone persone
   $("#persone").click(function () {
     if ($('span.persName').hasClass("highlight_p")) {
         $('span.persName').removeClass("highlight_p");
@@ -9,7 +9,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone epithet
+  // Funzione per bottone epithet
   $("#epithet").click(function () {
     if ($('span.addName').hasClass("highlight_ep")) {
         $('span.addName').removeClass("highlight_ep");
@@ -18,7 +18,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone luoghi
+  // Funzione per bottone luoghi
   $("#luoghi").click(function () {
     if ($('span.settlement').hasClass("highlight_l")) {
         $('span.settlement').removeClass("highlight_l");
@@ -27,7 +27,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone date
+  // Funzione per bottone date
   $("#date").click(function () {
     if ($('span.date').hasClass("highlight_d")) {
         $('span.date').removeClass("highlight_d");
@@ -36,7 +36,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone organizzazioni
+  // Funzione per bottone organizzazioni
   $("#organizzazioni").click(function () {
     if ($('span.orgName').hasClass("highlight_o")) {
         $('span.orgName').removeClass("highlight_o");
@@ -45,7 +45,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone citazioni
+  // Funzione per bottone citazioni
   $("#citazioni").click(function () {
     if ($('span.quote').hasClass("highlight_c")) {
         $('span.quote').removeClass("highlight_c");
@@ -54,7 +54,7 @@ $(document).ready(function () {
     }
   });   
   
-  // bottone opere
+  // Funzione per bottone opere
   $("#opere").click(function () {
     if ($('span.bibl').hasClass("highlight_op")) {
         $('span.bibl').removeClass("highlight_op");
@@ -63,7 +63,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone casa editrice
+  // Funzione per bottone casa editrice
   $("#casaeditrice").click(function () {
     if ($('span.publisher').hasClass("highlight_ce")) {
         $('span.publisher').removeClass("highlight_ce");
@@ -72,7 +72,7 @@ $(document).ready(function () {
     }
   });   
  
-  // bottone correnti letterarie
+  // Funzione per bottone correnti letterarie
   $("#correntiletterarie").click(function () {
     if ($('span.term').hasClass("highlight_cl")) {
         $('span.term').removeClass("highlight_cl");
@@ -81,7 +81,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone verbum
+  // Funzione per bottone verbum
   $("#verbum").click(function () {
     if ($('span.emph').hasClass("highlight_vr")) {
         $('span.emph').removeClass("highlight_vr");
@@ -90,7 +90,7 @@ $(document).ready(function () {
     }
   });
 
-  // bottone lingue straniere
+  // Funzione per bottone lingue straniere
   $("#foreign").click(function () {
     if ($('span.foreign').hasClass("highlight_f")) {
         $('span.foreign').removeClass("highlight_f");
@@ -99,7 +99,7 @@ $(document).ready(function () {
     }
   });  
  
-  // bottone correzioni
+  // Funzione per la gestione delle correzioni
   $("#correzioni").click(function () {
     var $spanCorretto = $('span.corretto');
     var $spanSbagliato = $('span.nascosto');
@@ -115,6 +115,7 @@ $(document).ready(function () {
     }
   });
 
+  // Funzione per la gestione del hover sulle immagini per il grassetto sul testo collegato ad esso
   $("area").hover(
     function() {
       var idArea = $(this).attr("title").replace("#", "");

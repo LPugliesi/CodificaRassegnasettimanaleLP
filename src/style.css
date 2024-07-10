@@ -44,6 +44,7 @@ body {
     text-align: left;
 }
 
+/* Stile per il text */
 .text h2{
     font-family: "Chivo Mono", monospace;
     font-size: 20px;
@@ -170,11 +171,10 @@ body {
 
 /* Colore barra se usata */
 ::-webkit-scrollbar-thumb:hover {
-    background: #414b15;
+    background: #605c1d;
 }
 
 /* Footer e About */
-
 footer {
     text-align: left;
     font-family: "Chivo Mono", monospace;
@@ -220,8 +220,7 @@ footer {
 }
 
 
-/* FENOMENI */
-
+/* Stile fenomeni */
 #fenomeni {
     text-align: center;
     background-color:#333;
