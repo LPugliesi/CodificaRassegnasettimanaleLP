@@ -397,7 +397,7 @@
         </xsl:for-each>
     </xsl:template>
 
-    <!--template per i sic e corr-->
+    <!--Template per i sic e corr-->
     <xsl:template match="//tei:choice">
         <xsl:for-each select="current()">
             <xsl:if test="tei:sic">
